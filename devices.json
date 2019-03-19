@@ -8,9 +8,23 @@
             "version_code":"pie",
             "version_name":"Pie",
             "maintainer_name":"Joey Huab (Stallix)",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=4936496",
+            "xda_thread":""
+         }
+      ]
+   },
+   {
+      "name":"Redmi Note 5",
+      "brand":"Xiaomi",
+      "codename":"whyred",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Zeeshan",
             "maintainer_url":"",
             "xda_thread":""
-         },
+         }
       ]
    }
 ]
