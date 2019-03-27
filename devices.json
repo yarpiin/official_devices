@@ -28,3 +28,19 @@
       ]
    }
 ]
+},
+   {
+      "name":"Redmi 6 Pro",
+      "brand":"Xiaomi",
+      "codename":"sakura",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Zinadin Zidan",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=9782219",
+            "xda_thread":"https://forum.xda-developers.com/redmi-6-pro/development/rom-evolution-x-t3914140"
+         }
+      ]
+   }
+]
