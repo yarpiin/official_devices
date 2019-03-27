@@ -1,0 +1,16 @@
+[
+   {
+      "name":"Mi A1",
+      "brand":"Xiaomi",
+      "codename":"tissot",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Joey Huab (Stallix)",
+            "maintainer_url":"",
+            "xda_thread":""
+         },
+      ]
+   }
+]
