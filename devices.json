@@ -26,6 +26,20 @@
             "xda_thread":""
          }
       ]
+   },
+   {
+      "name":"OnePlus 6",
+      "brand":"OnePlus",
+      "codename":"enchilada",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Yash(rdjr5)",
+            "maintainer_url":"https://forum.xda-developers.com/member.php?u=8531692",
+            "xda_thread":""
+         }
+      ]
    }
 ]
 },
