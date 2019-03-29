@@ -40,9 +40,7 @@
             "xda_thread":""
          }
       ]
-   }
-]
-},
+   },
    {
       "name":"Redmi 6 Pro",
       "brand":"Xiaomi",
@@ -56,9 +54,7 @@
             "xda_thread":"https://forum.xda-developers.com/redmi-6-pro/development/rom-evolution-x-t3914140"
          }
       ]
-   }
-]
-},
+   },
    {
       "name":"Redmi 4X",
       "brand":"Xiaomi",
@@ -71,7 +67,20 @@
             "maintainer_url":"https://t.me/ErrorNetwork28",
             "xda_thread":""
          }
-      }
+      ]
+   },
+   {
+            "name":"Redmi 5 Plus",
+            "brand":"Xiaomi",
+            "codename":"vince",
+            "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"waiser",
+            "maintainer_url":"https://t.me/waiser_hm",
+            "xda_thread":""
+         }
+      ]
    }
 ]
-          
