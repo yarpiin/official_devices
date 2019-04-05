@@ -1,16 +1,16 @@
 {
          "error":false,
-         "filename":"",
-         "datetime":,
-         "size":,
-         "url":"",
-         "filehash":"",
+         "filename":"EvolutionX_tissot-9.0-20190405-1320-OFFICIAL.zip",
+         "datetime": 1554470407,
+         "size": 985459747,
+         "url":"https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_tissot-9.0-20190405-1320-OFFICIAL.zip/download",
+         "filehash":"c360062b514596537902aa6fe0f4f620",
          "version":"Pie",
-         "id":"",
+         "id":"c5b5cfb85179ee997ecd3e54ea42d633ba7571813f054bad3282ec37dd5d5b76",
          "website_url":"https://evolutionx.ml",
          "news_url":"https://t.me/EvolutionXNews",
          "donate_url":"https://Paypal.me/joeyhuab",
          "maintainer":"Joey Huab (Stallix)",
-         "maintainer_url":"",
-         "forum_url":""
+         "maintainer_url":"https://forum.xda-developers.com/member.php?u=4936496",
+         "forum_url":"https://forum.xda-developers.com/mi-a1/development/rom-pe-evolution-t3901369"
 }

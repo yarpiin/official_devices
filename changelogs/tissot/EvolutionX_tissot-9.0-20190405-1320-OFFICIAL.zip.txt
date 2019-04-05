@@ -1,0 +1,25 @@
+Upstream kernel to 4.9.167
+Update vendor blobs from V10.0.7.0.PDHMIXM
+Update to April security patch
+Add Status bar Clock/Date customization
+Add Status bar brightness control
+Add ability to Hide arrows in network traffic indicators
+Add Recents Panel clear all button tweaks
+Add ability to permanently hide apps from recents panel
+Add ability to switch between different Recents panel styles
+Add Immersive Recents panel options
+Add Memory bar to Recents panel options
+Add time/date to full screen recents panel
+Add missing lockscreen fonts
+Add accent tint and grayscaled/blurred out LS filter options
+Add Wakelock blocker
+Add Alarms blocker
+Add Default USB config to General Tweaks
+Add ability to hide multiuser icon on keyguard
+Fix missing custom fonts app
+Fix screen pinning unlock with hwkeys 
+Intensify lockscreen blur
+Improve dark theme
+Remove smart clock
+Move wake on plug to General Tweaks
+Various translations update
