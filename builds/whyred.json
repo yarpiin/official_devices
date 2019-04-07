@@ -1,16 +1,16 @@
 {
          "error":false,
-         "filename":"",
-         "datetime":,
-         "size":,
-         "url":"",
-         "filehash":"",
+         "filename":"EvolutionX_whyred-9.0-20190407-1134-OFFICIAL.zip",
+         "datetime":1554636794,
+         "size":1099494219
+         "url":"https://sourceforge.net/projects/evolution-x/files/whyred/EvolutionX_whyred-9.0-20190407-1134-OFFICIAL.zip/download",
+         "filehash":"1b400553b6c0278cab50318c3af4fb7c",
          "version":"Pie",
-         "id":"",
+         "id":"448bac78113f08c1c03b44d852c1b16410162a3c6b975cd98a4f1bdd82edfd5b",
          "website_url":"https://evolutionx.ml",
          "news_url":"https://t.me/EvolutionXNews",
          "donate_url":"https://Paypal.me/joeyhuab",
-         "maintainer":"Joey Huab (Stallix)",
-         "maintainer_url":"",
-         "forum_url":""
+         "maintainer":"Zeeshan Ahmed",
+         "maintainer_url":"https://forum.xda-developers.com/member.php?u=9639507",
+         "forum_url":"https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-t3919089"
 }
