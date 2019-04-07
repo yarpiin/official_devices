@@ -93,7 +93,21 @@
             "version_name":"Pie",
             "maintainer_name":"Genkzsz11",
             "maintainer_url":"https://forum.xda-developers.com/member.php?u=9239548",
-            "xda_thread":""            
+            "xda_thread":""
+         }
+      ]
+   },
+   {
+            "name":"Redmi 4A",
+            "brand":"Xiaomi",
+            "codename":"rolex",
+            "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Pratik Goswami PM",
+            "maintainer_url":"https://GitHub.com/puribapu9141",
+            "xda_thread":""
          }
       ]
    }
