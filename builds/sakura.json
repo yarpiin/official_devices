@@ -1,16 +1,16 @@
 {
          "error":false,
-         "filename":"EvolutionX_sakura-9.0-20190404-0641-OFFICIAL.zip",
-         "datetime": 1554360056,
-         "size": 978181665,
-         "url":"https://sourceforge.net/projects/evolution-x/files/sakura/",
-         "filehash":"2cc41ee26cfbb504a3b9e463cabeda74",
+         "filename":"EvolutionX_sakura-9.0-20190408-1129-OFFICIAL.zip",
+         "datetime": 1554722975,
+         "size": 979888796,
+         "url":"https://sourceforge.net/projects/evolution-x/files/sakura/EvolutionX_sakura-9.0-20190408-1129-OFFICIAL.zip/download",
+         "filehash":"da1ccf865fc153f39bd02fe077e5175c",
          "version":"Pie",
-         "id":"956daa0fd7109ed24fe07ea6a4a183fb13a99707fc732b8095bb4a7ff5f2ea7d",
+         "id":"6811f47bfb3c182b05b78cf7a325700630ca14144e6cb5c309da0dfc01b56135",
          "website_url":"https://evolutionx.ml",
          "news_url":"https://t.me/EvolutionXNews",
          "donate_url":"https://Paypal.me/joeyhuab",
-         "maintainer":"Joey Huab (Stallix)",
+         "maintainer":"Zinadin Zidan",
          "maintainer_url":"https://forum.xda-developers.com/member.php?u=9782219",
          "forum_url":"https://forum.xda-developers.com/redmi-6-pro/development/rom-evolution-x-t3914140"
 }
