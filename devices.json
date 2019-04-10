@@ -110,5 +110,19 @@
             "xda_thread":""
          }
       ]
+   },
+   {
+            "name":"Mi Note 3",
+            "brand":"Xiaomi",
+            "codename":"jason",
+            "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Dusan Uveric (Uvera)",
+            "maintainer_url":"http://t.me/uvera",
+            "xda_thread":""
+         }
+      ]
    }
 ]
