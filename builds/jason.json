@@ -1,16 +1,17 @@
 {
          "error":false,
-         "filename":"EvolutionX_jason-9.0-20190410-1639-OFFICIAL.zip",
-         "datetime":1554916981,
-         "size":966036096,
-         "url":"https://sourceforge.net/projects/evox-jason/files/EvolutionX_jason-9.0-20190410-1639-OFFICIAL.zip",
-         "filehash":"1f2c310f1dde77ec0a83d5c283f04255",
+         "filename":"EvolutionX_jason-9.0-20190415-0023-OFFICIAL.zip",
+         "datetime":1555288578,
+         "size":1040855383,
+         "url":"https://sourceforge.net/projects/evox-jason/files/EvolutionX_jason-9.0-20190415-0023-OFFICIAL.zip",
+         "filehash":"14030b756a276605ab8773f79a5a9c60",
          "version":"Pie",
-         "id":"7d7a8910c259be6521373c40cd6356034df2046c8d482a2a6312e0d3c93622e3",
+         "id":"8871ce87fecdf21d33dc114444c8885ce96afda60a072ca62c9ccab833c49a6e",
          "website_url":"https://evolutionx.ml",
          "news_url":"https://t.me/EvolutionXNews",
-         "donate_url":"http://paypal.me/uvera609",
+         "donate_url":"https://www.paypal.me/uvera609",
          "maintainer":"Dusan Uveric (Uvera)",
-         "maintainer_url":"",
-         "forum_url":""
+         "maintainer_url":"https://t.me/uvera",
+         "forum_url":"https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
 }
+
