@@ -48,7 +48,7 @@ echo -e "${RED}         \x22news_url\x22${NC}:${BLUE}\x22https://t.me/EvolutionX
 echo -e "${RED}         \x22donate_url\x22${NC}:${BLUE}\x22${PAYPAL}\x22,";
 echo -e "${RED}         \x22maintainer\x22${NC}:${BLUE}\x22${MAINTAINER}\x22,";
 echo -e "${RED}         \x22maintainer_url\x22${NC}:${BLUE}\x22${MAINTAINER_URL}\x22,";
-echo -e "${RED}         \x22forum_url\x22${NC}:${BLUE}\x22${FORUM_URL}\x22,";
+echo -e "${RED}         \x22forum_url\x22${NC}:${BLUE}\x22${FORUM_URL}\x22";
 echo -e "${RED}}";
 echo -e "";
 if [[ $2 == *"h"* ]]; then
