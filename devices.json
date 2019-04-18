@@ -98,6 +98,20 @@
       ]
    },
    {
+            "name":"Zenfone Max Pro M2",
+            "brand":"asus",
+            "codename":"X01BD",
+            "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Sonal Singh (Sksbss)",
+            "maintainer_url":"https://github.com/Sksbss",
+            "xda_thread":"https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
+         }
+      ]
+   },
+   {
             "name":"Redmi 4A",
             "brand":"Xiaomi",
             "codename":"rolex",
