@@ -1,16 +1,16 @@
 {
          "error":false,
-         "filename":"EvolutionX_santoni-9.0-20190413-1823-OFFICIAL.zip",
-         "datetime":1555179692,
-         "size":1036031754,
-         "url":"https://sourceforge.net/projects/evolution-x/files/santoni/EvolutionX_santoni-9.0-20190413-1823-OFFICIAL.zip/download",
-         "filehash":"c77b2c45a0fdbd6511aaf2cab4cbc95b",
+         "filename":"EvolutionX_santoni-9.0-20190418-1726-OFFICIAL.zip",
+         "datetime":1555608165,
+         "size":1041007489,
+         "url":"https://sourceforge.net/projects/evolution-x/files/santoni/EvolutionX_santoni-9.0-20190418-1726-OFFICIAL.zip/download",
+         "filehash":"0174be634a7f2c34e39c7a10c2ea29d4"
          "version":"Pie",
-         "id":"c77b2c45a0fdbd6511aaf2cab4cbc95b",
+         "id":"2488d29d919279a0d8bafe64c04083c6b0e0c06bfdd095088df56e730b45d1d6",
          "website_url":"https://evolutionx.ml",
          "news_url":"https://t.me/EvolutionXNews",
          "donate_url":"https://Paypal.me/joeyhuab",
          "maintainer":"Error Network 28",
          "maintainer_url":"https://t.me/ErrorNetwork28",
-         "forum_url":""
+         "forum_url":"https://forum.xda-developers.com/xiaomi-redmi-4x/development/evolution-x-xiaomi-redmi-4x-santoni-t3922340"
 }
