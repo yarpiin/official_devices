@@ -32,6 +32,7 @@ id=$(sha256sum $1 | cut -d " " -f 1)
 filehash=$(md5sum $1 | cut -d " " -f 1)
 size=$(cat $1 | wc -c)
 device=$(sed 's/.*EvolutionX_\(.*\)-9.*/\1/' <<< "${name}")
+subname="$device/$name"
 
 echo -e "";
 echo -e "${RED}{";
@@ -39,7 +40,7 @@ echo -e "${RED}         \x22error\x22${NC}:${BLUE}false,"
 echo -e "${RED}         \x22filename\x22${NC}:${BLUE}\x22${name}\x22,";
 echo -e "${RED}         \x22datetime\x22${NC}:${BLUE}${timestamp},";
 echo -e "${RED}         \x22size\x22${NC}:${BLUE}${size},";
-echo -e "${RED}         \x22url\x22${NC}:${BLUE}\x22https://sourceforge.net/projects/${PROJECTPATH}/files/${name}\x22,";
+echo -e "${RED}         \x22url\x22${NC}:${BLUE}\x22https://sourceforge.net/projects/${PROJECTPATH}/files/${subname}\x22,";
 echo -e "${RED}         \x22filehash\x22${NC}:${BLUE}\x22${filehash}\x22,";
 echo -e "${RED}         \x22version\x22${NC}:${BLUE}\x22Pie\x22,";
 echo -e "${RED}         \x22id\x22${NC}:${BLUE}\x22${id}\x22,";
@@ -50,8 +51,8 @@ echo -e "${RED}         \x22maintainer\x22${NC}:${BLUE}\x22${MAINTAINER}\x22,";
 echo -e "${RED}         \x22maintainer_url\x22${NC}:${BLUE}\x22${MAINTAINER_URL}\x22,";
 echo -e "${RED}         \x22forum_url\x22${NC}:${BLUE}\x22${FORUM_URL}\x22";
 echo -e "${RED}}";
-echo -e "";
+echo -e "${NC}";
 if [[ $2 == *"h"* ]]; then
 echo -e "${RED}${BOLD}Pull latest official_devices repo,\npaste this output into official/devices/builds/${device}.json,\ncopy the changelog file out/target/product/${device}/${name}.txt to official_devices/changelogs/${device}/,\ncommit and PR";
-echo -e "";
+echo -e "${NC}";
 fi
