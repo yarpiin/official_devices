@@ -138,5 +138,19 @@
             "xda_thread":""
          }
       ]
+   },
+   {
+      "name":"POCO F1",
+      "brand":"Xiaomi",
+      "codename":"beryllium",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Ninad Patil (REIGNZ)",
+            "maintainer_url":"https://t.me/Reignz3",
+            "xda_thread":"https://forum.xda-developers.com/member.php?u=6549853"
+         }
+      ]
    }
 ]
