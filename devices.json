@@ -154,6 +154,20 @@
       ]
    },
    {
+      "name":"Redmi Note 4X",
+      "brand":"Xiaomi",
+      "codename":"mido",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Himanshu Naamdev",
+            "maintainer_url":"https://t.me/hnaamdev41",
+            "xda_thread":""
+         }
+      ]
+   },
+   {
       "name":"Moto G5s Plus",
       "brand":"Motorola",
       "codename":"sanders",
