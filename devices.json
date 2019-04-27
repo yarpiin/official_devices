@@ -70,6 +70,20 @@
       ]
    },
    {
+      "name":"Redmi 3S/3X",
+      "brand":"Xiaomi",
+      "codename":"land",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Anshuman Pathak (anshumanxda)",
+            "maintainer_url":"https://t.me/anshumanpathak",
+            "xda_thread":"https://forum.xda-developers.com/xiaomi-redmi-3s/development/rom-evolution-x-t3925266"
+         }
+      ]
+   },
+   {
             "name":"Redmi 5 Plus",
             "brand":"Xiaomi",
             "codename":"vince",
