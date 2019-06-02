@@ -53,3 +53,5 @@ Before you open a pull request to add your device into our list of official devi
 | filehash | Build file (.zip) md5 hash | Yes |
 | datetime | Build file (.zip) time | Yes |
 | id | Build file (.zip)  hash | Yes |
+| forum_url | XDA Thread | Yes |
+| telegram_username | Your telegram usrname | Yes |
