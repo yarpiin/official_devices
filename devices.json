@@ -224,7 +224,7 @@
       ]
    },
    {
-      "name":"Xiaomi MI 8",
+      "name":"Mi 8",
       "brand":"Xiaomi",
       "codename":"dipper",
       "supported_versions":[
@@ -234,6 +234,20 @@
             "maintainer_name":"Chachi Desuasido (engr.chachi)",
             "maintainer_url":"https://t.me/chachinito",
             "xda_thread":"https://forum.xda-developers.com/mi-8/development/rom-evolution-x-t3928301"
+         }
+      ]
+   },
+   {
+      "name":"Redmi 5A",
+      "brand":"Xiaomi",
+      "codename":"riva",
+      "supported_versions":[
+         {
+            "version_code":"pie",
+            "version_name":"Pie",
+            "maintainer_name":"Nikhil",
+            "maintainer_url":"https://t.me/nick_00007",
+            "xda_thread":""
          }
       ]
    }
