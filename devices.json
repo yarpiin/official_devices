@@ -400,7 +400,8 @@
             "version_name":"Pie",
             "maintainer_name":"Nikhil Gupta",
             "maintainer_url":"https://forum.xda-developers.com/member.php?u=8785686",
-            "xda_thread": "https://www.google.com"
+            "xda_thread": "",
+            "deprecated": true
          }
       ]
    },
