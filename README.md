@@ -11,11 +11,11 @@ Before you submit a pull request to add your device to our list of official devi
 
 1.3 - Applicants that physically own the device, will have the preference on receiving maintainship.
 
-1.4 - You must have knowledge of git.
+1.4 - You MUST have knowledge of git.
 
-1.5 - You must compile an unofficial build and make the device stable for daily usage before applying.
+1.5 - You MUST compile an unofficial build and make the device stable for daily usage before applying.
 
-1.6 - You should have your device sources publicly available for us take a look at.
+1.6 - You MUST have your device sources publicly available for us take a look at.
 
 1.7 - You mustn't be a placeholder of another maintainer that was removed. Pull request's considered of that nature won't be accepted.
 
@@ -29,29 +29,41 @@ Before you submit a pull request to add your device to our list of official devi
 
 2.4 - Relationships fights can be done in PM on Telegram or XDA. 
 
-2.5 - Maintainers also need to add/execute 'export CUSTOM_BUILD_TYPE=OFFICIAL' in/to their build environment in order to compile as official with OTA application.
+2.5 - Maintainers also need to Add/Execute 'export CUSTOM_BUILD_TYPE=OFFICIAL' In/Against their build environment in order to compile as official with OTA Updater.
 
-### 3. JSON params
+### 3. JSON Parameters
 
 ##### devices.json
 | Param | Description | Required |
 |--|--|--|
 | name | Device name | Yes |
 | brand | Device manufacturer | Yes |
-| codename | Device codename, eg: falcon | Yes |
-| version_code | Version code, lowercase, eg: oreo | Yes |
-| version_name | Version name, will be shown on download portal, eg: Oreo | Yes |
+| codename | Device codename, eg: tissot | Yes |
+| version_code | Version code, lowercase, eg: pie | Yes |
+| version_name | Version name, will be shown on download portal, eg: pie | Yes |
 | maintainer_name | Your name | Yes |
 | maintainer_url | Your personal URL, eg: https://github.com/stallix or https://forum.xda-developers.com/member.php?u=4936496 | No  |4936496
 | xda_thread | XDA thread URL, eg: https://forum.xda-developers.com/mi-a1/development/rom-pe-evolution-t3901369 | No |
 
-##### builds/your_device_codename.json
-| Param | Description | Required |
-|--|--|--|
-| filename | Build file (.zip) name | Yes |
-| filesize | Build file (.zip) size (in bytes) | Yes |
-| filehash | Build file (.zip) md5 hash | Yes |
-| datetime | Build file (.zip) time | Yes |
-| id | Build file (.zip)  hash | Yes |
-| forum_url | XDA Thread | Yes |
-| telegram_username | Your telegram usrname | Yes |
+#### Example
+
+```
+
+{
+         "error":false,
+         "filename":"EvolutionX_tissot-9.0-20190709-0928-OFFICIAL.zip",
+         "datetime": 1562664466,
+         "size": 858320382,
+         "url":"https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_tissot-9.0-20190709-0928-OFFICIAL.zip/download",
+         "filehash":"084da69fc53c0aa1625c1775d947b615",
+         "version":"Pie",
+         "id":"6f4b6cdc954d878fe4f2e80628bddd19713346f57a484b43a9ff6dcc55ae2419",
+         "website_url":"https://evolutionx.ml",
+         "news_url":"https://t.me/EvolutionXNews",
+         "donate_url":"https://www.paypal.me/joeyhuab",
+         "maintainer":"Joey Huab (Stallix)",
+         "maintainer_url":"https://forum.xda-developers.com/member.php?u=4936496",
+         "telegram_username":"Stallix",
+         "forum_url":"https://forum.xda-developers.com/mi-a1/development/rom-pe-evolution-t3901369"
+}
+```
