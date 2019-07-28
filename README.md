@@ -1,7 +1,5 @@
 ![Evolution X](https://github.com/Evolution-X/platform_manifest/raw/pie/BannerLight.png)
 
-# Evolution X #
-
 [![Download Evolution X](https://img.shields.io/sourceforge/dt/evolution-x.svg)](https://sourceforge.net/projects/evolution-x/files/latest/download)
 
 ## Official Support Guidelines & Rules
@@ -28,13 +26,15 @@ Before you submit a pull request to add your device to our list of official devi
 
 2.1 - Maintainers MUST import their trees to https://github.com/Evolution-X-Devices
 
-2.2 - Maintainers MUST test every update before uploading/Pushing OTA.
+2.2 - Maintainers MUST test EVERY update before uploading/Pushing OTA.
 
 2.3 - Maintainers MUST keep the authorship of Git commits, even if it's their device tree, kernel or vendor source. Lots of git commit --amend and force-push are acceptable.
 
 2.4 - Relationship fights can be done via pm through Telegram or XDA.
 
 2.5 - Maintainers will need to add/execute 'export CUSTOM_BUILD_TYPE=OFFICIAL' in/against their build environment in order to compile as OFFICIAL with OTA Updater.
+
+2.6 - ROM source must not be modified in any way when releasing builds as OFFICIAL. If caught doing so, maintainership will be revoked without warning.
 
 ### 3. JSON Parameters
 
@@ -63,4 +63,4 @@ Before you submit a pull request to add your device to our list of official devi
 | news_url | https://t.me/EvolutionXOfficial | Yes |
 | website_url | https://evolution-x.org | Yes |
 | forum_url | XDA Thread | Yes |
-| telegram_username | Your telegram usrname | Yes |
+| telegram_username | Your telegram username | Yes |
