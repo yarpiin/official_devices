@@ -10,8 +10,12 @@ indents = 3
 
 def main():
 	if len(sys.argv) > 1:
-		formatter('builds/'+sys.argv[1]+".json")
-		exit()
+		if sys.argv[1] == "example":
+			print("Not formatting example.json. QUITTING THE SCRIPT! [This is normal behavior]]")
+			exit()
+		else:
+			formatter('builds/'+sys.argv[1]+".json")
+			exit()
 
 	for path in paths:
 		if os.path.isdir(path):
