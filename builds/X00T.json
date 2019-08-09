@@ -1,18 +1,17 @@
 {
-         "error":false,
-         "filename":"EvolutionX_X00T-9.0-20190727-1122-OFFICIAL.zip",
-         "datetime": 1564226555,
-         "size": 973747578,
-         "url":"https://sourceforge.net/projects/evolution-x/files/X00T/EvolutionX_X00T-9.0-20190727-1122-OFFICIAL.zip/download",
-         "filehash":"be6b8a7b702568b0570cb3026417782b",
-         "version":"Pie",
-         "id":"cd7d36f3002071bd65be7b565eee860b097ef40dea27bbdf605b3ae2be1882ea",
-         "website_url":"https://evolution-x.org",
-         "news_url":"https://t.me/EvolutionXOfficial",
-         "donate_url":"https://Paypal.me/pranavkapoor001",
-         "maintainer":"Pranavkpr",
-         "maintainer_url":"https://forum.xda-developers.com/member.php?u=9434189",
-         "telegram_username":"pk965",
-         "forum_url":"https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/evolution-x-t3947428"
+   "error": false,
+   "filename": "EvolutionX_X00T-9.0-20190727-1122-OFFICIAL.zip",
+   "datetime": 1564226555,
+   "size": 973747578,
+   "url": "https://sourceforge.net/projects/evolution-x/files/X00T/EvolutionX_X00T-9.0-20190727-1122-OFFICIAL.zip/download",
+   "filehash": "be6b8a7b702568b0570cb3026417782b",
+   "version": "Pie",
+   "id": "cd7d36f3002071bd65be7b565eee860b097ef40dea27bbdf605b3ae2be1882ea",
+   "website_url": "https://evolution-x.org",
+   "news_url": "https://t.me/EvolutionXOfficial",
+   "donate_url": "https://Paypal.me/pranavkapoor001",
+   "maintainer": "Pranavkpr",
+   "maintainer_url": "https://forum.xda-developers.com/member.php?u=9434189",
+   "telegram_username": "pk965",
+   "forum_url": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/evolution-x-t3947428"
 }
-

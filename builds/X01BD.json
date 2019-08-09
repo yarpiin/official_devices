@@ -1,18 +1,17 @@
 {
-         "error":false,
-         "filename":"EvolutionX_2.0_X01BD-9.0-20190808-0918-OFFICIAL.zip",
-         "datetime":1565255778,
-         "size":1012111745,
-         "url":"https://sourceforge.net/projects/evolution-x/files/X01BD/EvolutionX_2.0_X01BD-9.0-20190808-0918-OFFICIAL.zip/download",
-         "filehash":"5302fe0a2b04b3b8fc3d10feb9fb23bd",
-         "version":"Pie",
-         "id":"a24d467b6f88a3e9a7205ea6c5a3dcbb729ec04f836674bcb66e519f8971fcc9",
-         "website_url":"https://evolution-x.org",
-         "news_url":"https://t.me/EvolutionXOfficial",
-         "donate_url":"https://www.paypal.me/ashokvarma32",
-         "maintainer":"Ashok_Varma",
-         "maintainer_url":"https://github.com/ashokmini",
-         "telegram_username":"TheAshokVarma",
-         "forum_url":"https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
+   "error": false,
+   "filename": "EvolutionX_2.0_X01BD-9.0-20190808-0918-OFFICIAL.zip",
+   "datetime": 1565255778,
+   "size": 1012111745,
+   "url": "https://sourceforge.net/projects/evolution-x/files/X01BD/EvolutionX_2.0_X01BD-9.0-20190808-0918-OFFICIAL.zip/download",
+   "filehash": "5302fe0a2b04b3b8fc3d10feb9fb23bd",
+   "version": "Pie",
+   "id": "a24d467b6f88a3e9a7205ea6c5a3dcbb729ec04f836674bcb66e519f8971fcc9",
+   "website_url": "https://evolution-x.org",
+   "news_url": "https://t.me/EvolutionXOfficial",
+   "donate_url": "https://www.paypal.me/ashokvarma32",
+   "maintainer": "Ashok_Varma",
+   "maintainer_url": "https://github.com/ashokmini",
+   "telegram_username": "TheAshokVarma",
+   "forum_url": "https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
 }
-

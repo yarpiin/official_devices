@@ -1,18 +1,17 @@
 {
-         "error":false,
-         "filename":"EvolutionX_jason-9.0-20190505-1448-OFFICIAL.zip",
-         "datetime":1557068331,
-         "size":887616763,
-         "url":"https://sourceforge.net/projects/evolution-x/files/jason/EvolutionX_jason-9.0-20190505-1448-OFFICIAL.zip",
-         "filehash":"5a30def72e8db0dee05f20872620ee17",
-         "version":"Pie",
-         "id":"4d86556872e38b5619acc63baa837bcfb12678f09bbe9ed4359ca7f28e61e914",
-         "website_url":"https://evolution-x.org",
-         "news_url":"https://t.me/EvolutionXOfficial",
-         "donate_url":"https://www.paypal.me/uvera609",
-         "maintainer":"Dusan Uveric (Uvera)",
-         "maintainer_url":"https://t.me/uvera",
-         "telegram_username":"uvera",
-         "forum_url":"https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
+   "error": false,
+   "filename": "EvolutionX_jason-9.0-20190505-1448-OFFICIAL.zip",
+   "datetime": 1557068331,
+   "size": 887616763,
+   "url": "https://sourceforge.net/projects/evolution-x/files/jason/EvolutionX_jason-9.0-20190505-1448-OFFICIAL.zip",
+   "filehash": "5a30def72e8db0dee05f20872620ee17",
+   "version": "Pie",
+   "id": "4d86556872e38b5619acc63baa837bcfb12678f09bbe9ed4359ca7f28e61e914",
+   "website_url": "https://evolution-x.org",
+   "news_url": "https://t.me/EvolutionXOfficial",
+   "donate_url": "https://www.paypal.me/uvera609",
+   "maintainer": "Dusan Uveric (Uvera)",
+   "maintainer_url": "https://t.me/uvera",
+   "telegram_username": "uvera",
+   "forum_url": "https://forum.xda-developers.com/mi-note-3/development/rom-evolution-x-t3920304"
 }
-
