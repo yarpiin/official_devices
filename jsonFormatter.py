@@ -22,7 +22,7 @@ def main():
 			for file in os.listdir(path):
 				pathfile = f"{path}/{file}"
 				if "builds/example.json" == pathfile:
-					print("Not formatting example.json. [This is normal behavior]]")
+					print("Not formatting example.json. [This is normal behavior]")
 				else:
 					formatter(path+'/'+file)
 		elif os.path.isfile(path):
