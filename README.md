@@ -4,7 +4,7 @@
 
 ## Official Support Guidelines & Rules
 
-[Official Support Application](https://docs.google.com/forms/d/e/1FAIpQLSe6InJeF09OMKV1G6-o9z0qhSebqvPAv4xyAuF2Ex8g7zJhiA/viewform) | [XDA Thread Template](https://pastebin.com/6F2Zgf3Z) | [Devices Repository](https://github.com/Evolution-X-Devices)
+[Official Support Application](https://docs.google.com/forms/d/e/1FAIpQLSe6InJeF09OMKV1G6-o9z0qhSebqvPAv4xyAuF2Ex8g7zJhiA/viewform) | [XDA Thread Template](https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_template.txt) | [Devices Repository](https://github.com/Evolution-X-Devices)
 
 Before you submit a pull request to add your device to our list of official devices, you should know a few simple things:
 
