@@ -12,12 +12,13 @@
 - Extra Button Customization
 - One-Handed Mode
 - Navigation Gestures
-- Portrait/Landscape Hight/Width Configurations
+- Portrait Height/Landscape Width Configurations
 - Pulse (Navbar Audio Visualization)
 [SIZE="2"][U][I][COLOR="DarkOrange"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
 - QS Rows & Columns Customization
 - Tile Titles Toggle
 - Gaming Mode QS Tile
+- OOS Screen Recorder QS Tile
 - QS Panel Color's (RGB picker)
 - QS Panel Opacity Selector
 - Quick Pulldown (Right/Left)
@@ -55,6 +56,7 @@
 - Call Vibrations
 - Q Style Seek Bar
 [SIZE="2"][U][I][COLOR="orange"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
+- Extended Screenshot
 - Smart Charging
 - Doze Settings & Profiles
 - Wakelock Blocker
