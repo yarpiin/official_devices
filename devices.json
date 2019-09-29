@@ -1,5 +1,19 @@
 [
    {
+      "name": "Mi 9T Pro",
+      "brand": "Xiaomi",
+      "codename": "raphael",
+      "supported_versions": [
+         {
+            "version_code": "pie",
+            "version_name": "Pie",
+            "maintainer_name": "Joey Huab (Stallix)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
+            "xda_thread": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-2-2-t3975157"
+         }
+      ]
+   },
+   {
       "name": "Mi A1",
       "brand": "Xiaomi",
       "codename": "tissot",
