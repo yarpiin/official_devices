@@ -14,6 +14,7 @@ function arrayRemove(originalArray, regex) {
 var files = glob.sync("**/*.json", { cwd: "." });
 var result = arrayRemove(files, new RegExp("package-lock.json"));
 result = arrayRemove(result, new RegExp("node_modules"));
+result = arrayRemove(result, new RegExp("builds/example.json"));
 
 result.forEach(function (item, index) {
   try {
