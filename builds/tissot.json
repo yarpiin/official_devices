@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_2.1_tissot-9.0-20190913-1237-OFFICIAL.zip",
-   "datetime": 1568378035,
-   "size": 898587583,
-   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_2.1_tissot-9.0-20190913-1237-OFFICIAL.zip/download",
-   "filehash": "0fc42d6f45f549d42d9ae7c6fbdc2172",
-   "version": "Pie",
-   "id": "1846bf8f282ed88da6785e914117642927bcdbeb7fdc0fde1bd72fb1bc270cab",
+   "filename": "EvolutionX_3.0_tissot-10.0-20191007-1649-OFFICIAL.zip",
+   "datetime": 1570466935,
+   "size": 938887237,
+   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_3.0_tissot-10.0-20191007-1649-OFFICIAL.zip/download",
+   "filehash": "d64e84f00780441dbf10b6c9516cd5ee",
+   "version": "Ten",
+   "id": "39295a1029ea23fd792408a67c53829c7062b057b5f5d744fa78e784c808052b",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/joeyhuab",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
    "telegram_username": "Stallix",
-   "forum_url": "https://forum.xda-developers.com/mi-a1/development/rom-pe-evolution-t3901369"
+   "forum_url": "https://forum.xda-developers.com/mi-a1/development/rom-evolution-x-3-0-t3979401"
 }
