@@ -232,20 +232,6 @@
       ]
    },
    {
-      "name": "PH-1",
-      "brand": "Essential",
-      "codename": "mata",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
-            "xda_thread": "https://forum.xda-developers.com/essential-phone/development/rom-evolution-x-2-0-t3945282"
-         }
-      ]
-   },
-   {
       "name": "Redmi 6 Pro",
       "brand": "Xiaomi",
       "codename": "sakura",
