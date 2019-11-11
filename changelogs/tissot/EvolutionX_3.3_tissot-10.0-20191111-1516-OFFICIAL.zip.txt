@@ -1,0 +1,8 @@
+- Add 4G instead of LTE icon switch
+- Add kill app button to notification guts
+- Add option to dismiss notifications using FP swipe
+- Add option to hide status bar on lockscreen
+- Add proper VoLTE icon toggle
+- Align suggestion cards with search bar
+- Bring back some accent colors from Pie (Discord Purple, Golden Shower, Jollibee Crimson, OnePlus Red, Paranoid Green, Pepsi Blue, Xbox Green, Xiaomi Orange)
+- Remove duplicates in Status bar icons options
