@@ -1,17 +1,17 @@
 {
    "error": false,
-   "filename": "EvolutionX_2.3_raphael-9.0-20191019-1630-OFFICIAL.zip",
-   "datetime": 1571502603,
-   "size": 1100226966,
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_2.3_raphael-9.0-20191019-1630-OFFICIAL.zip/download",
-   "filehash": "c4f3f992b0762580216e50127c6b0235",
-   "version": "Pie",
-   "id": "a8e2dda8746d968526475e8653313cad01750e836f4ff8f5ccd43d9c584db4e0",
+   "filename": "EvolutionX_3.3_raphael-10.0-20191113-1519-OFFICIAL.zip",
+   "datetime": 1573658321,
+   "size": 1312663571,
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_3.3_raphael-10.0-20191113-1519-OFFICIAL.zip/download",
+   "filehash": "1268fe62c798a99a156de4d9371c5d44",
+   "version": "Ten",
+   "id": "54bb724482d3497f4ed509137af55ae1e6bd3da9dd1db36b645ebdce524a2387",
    "website_url": "https://evolution-x.org",
    "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/joeyhuab",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
    "telegram_username": "Stallix",
-   "forum_url": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-2-2-t3975157"
+   "forum_url": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-3-3-t4002669"
 }

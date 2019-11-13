@@ -1,0 +1,3 @@
+- Initial Ten build for Raphael
+- All current source inclusions
+- Bugs to be fixed in updates: BT audio, NFC
