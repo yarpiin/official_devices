@@ -526,6 +526,13 @@
       "codename": "jasmine_sprout",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Harun",
+            "maintainer_url": "https://github.com/WiZaRd981",
+            "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-3-3-t4002005"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "azrim",
