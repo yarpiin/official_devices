@@ -1,42 +1,42 @@
 [CENTER]
 [IMG]https://github.com/Evolution-X/platform_manifest/raw/pie/EvoBanner.png[/IMG]
-[SIZE="5"][b][color=#FFDF00]Evolution X 3.3 for the Xiaomi Mi A1 [tissot][/color][/b][/SIZE]
+[SIZE="5"][b][color=#0060FF]Evolution X 3.3 for the Xiaomi Mi A1 [tissot][/color][/b][/SIZE]
  
-[img]https://i.imgur.com/zBswibh.jpg[/img]
+[img]https://i.imgur.com/qE4kqsj.png[/img]
 [SIZE="3"]Pixel UI, Customization and More. We Are Evolution X![/SIZE]
  
-[img]https://i.imgur.com/Bn90eTG.jpg[/img]
+[img]https://i.imgur.com/RgqrlpK.png[/img]
  
 [HIDE]
-[SIZE="2"][U][I][COLOR="orange"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
 - Pixel Theme Picker
 - 20 Accent Colors
 - 5 LS Clock Styles
 - Pixel 2019 Wallpapers
-[SIZE="2"][U][I][COLOR="Orange"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
 - VoLTE Toggle
 - 4G/LTE Icon Toggle
 - Brightness Control
 - Network Traffic Activity
-[SIZE="2"][U][I][COLOR="orange"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
 - Force Close Notifications
 - Notification light Config
 - Kill App Button
 - In Call Vibrations
-[SIZE="2"][U][I][COLOR="DarkOrange"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
 - QS Rows & Columns Customization
 - Tile Titles Toggle
 - Gaming Mode QS Tile
 - Quick Pulldown (Left/Right)
 - Bottom Brightness Slider Toggle
-[SIZE="2"][U][I][COLOR="orange"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
 - AOSP Gestures
 - Back Gesture Height Config
 - Swipe To Screenshot
 - Screen Off Power Button Torch
 - Double Tap To Sleep Status Bar
 - Double Tap to Sleep Lockscreen
-[SIZE="2"][U][I][COLOR="orange"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
 - Pocket Detection
 - Status bar visibility toggle
 - FP Authentication Vibration Toggle
@@ -44,27 +44,25 @@
 - LS Charging Info
 - Media Artwork Toggle
 - LS Music Visualizer
-[SIZE="2"][U][I][COLOR="Orange"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
 - Invert Layout
-[SIZE="2"][U][I][COLOR="orange"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
 - Power Menu Customization
 - Volume Rocker Cursor Control
 - Volume Rocker Playback Control
 - Volume Rocker Wake
-[SIZE="2"][U][I][COLOR="orange"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="2"][U][I][COLOR="#0060FF"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
 - Default USB Config
 - Wake On Charge
 - Alarm Blocker
-- Wakelcok Blocker[/HIDE]
+- Wakelock Blocker[/HIDE]
 
-[URL="https://imgur.com/a/FTOPUyE"][img]https://i.imgur.com/28T3wbY.jpg[/img][/URL]
- 
-[SIZE="4"][b][color=#FFDF00]Known issues[/color][/b][/SIZE]
-[SIZE="3"]You Tell Me[/SIZE]
+[img]https://i.imgur.com/n6b8AXD.png[/img]
+[SIZE="3"]You tell me.[/SIZE]
  
 [SIZE="3"][B]DON'T FLASH GAPPS, ALREADY INCLUDED[/B][/SIZE]
  
-[img]https://i.imgur.com/SfP3h9b.jpg[/img]
+[img]https://i.imgur.com/YtvYmxb.png[/img]
 Reboot to recovery
 Download the proper zip for the device
 Wipe data/cache/system when coming from ROMs that are not AOSP based
@@ -75,17 +73,12 @@ Reboot to recovery
 Flash Magisk
 Reboot to system
  
-[URL="https://sourceforge.net/projects/evolution-x/files/tissot"][img]https://i.imgur.com/IFPK0wl.jpg[/img][/URL]
-[SIZE="3"][url="https://sourceforge.net/projects/evolution-x/files/tissot/"][b][color=#FFDF00][u]DOWNLOAD[/u][/color][/b][/url][/SIZE]
+[URL="https://imgur.com/a/6l0dMag"][img]https://i.imgur.com/3EYXY4z.png[/img][/URL]
+[URL="https://sourceforge.net/projects/evolution-x/files/tissot"][img]https://i.imgur.com/UfrpkUs.png[/img][/URL] 
+
+[URL="Paypal.me/joeyhuab"][img]https://i.imgur.com/nkJHit6.png[/img][/URL][URL="https://t.me/EvolutionX"][img]https://i.imgur.com/AteOLUU.png[/img][/URL][URL="https://t.me/EvolutionTissot"][img]https://i.imgur.com/8cQbEUV.png[/img][/URL]
  
-[URL="https://www.paypal.me/joeyhuab"][img]https://i.imgur.com/WmGQFq7.jpg[/img][/URL]
-[SIZE="3"][url="https://www.paypal.me/joeyhuab"][b][color=#FFDF00][u]Liked my work? Please donate. Thanks![/u][/color][/b][/url][/SIZE]
- 
-[SIZE="4"][b][color=#FFDF00]Telegram channel[/color][/b][/SIZE]
-[SIZE="3"][url="https://t.me/EvolutionX"][b][color=#FFDF00][u]Join our telegram channel for more[/u][/color][/b][/url][/SIZE]
- 
- 
-[img]https://i.imgur.com/lsPaX5X.jpg[/img][/CENTER]
+[img]https://i.imgur.com/LU9gsrQ.png[/img][/CENTER]
 [LEFT][SIZE="3"][list]
 [*][b]Android OS version:[/b] 10.0_r14
 [*][b]Security patch level:[/b] November 2019
