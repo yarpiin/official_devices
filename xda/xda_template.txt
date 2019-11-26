@@ -1,5 +1,5 @@
 [CENTER]
-[IMG]https://github.com/Evolution-X/platform_manifest/raw/pie/EvoBanner.png[/IMG]
+[IMG]https://github.com/Evolution-X/manifest/raw/ten/EvoBanner.png[/IMG]
 [SIZE="5"][b][color=#0060FF]Evolution X 3.3 for the Xiaomi Mi A1 [tissot][/color][/b][/SIZE]
  
 [img]https://i.imgur.com/qE4kqsj.png[/img]
@@ -83,7 +83,7 @@ Reboot to system
 [*][b]Android OS version:[/b] 10.0_r14
 [*][b]Security patch level:[/b] November 2019
 [*][b]Build author:[/b] [url=https://forum.xda-developers.com/member.php?u=4936496]joeyhuab[/url]
-[*][b]Source code:[/b] [url=https://github.com/EvoX-Temp][url]https://github.com/EvoX-Temp[/url][/url]
+[*][b]Source code:[/b] [url=https://github.com/Evolution-X][url]https://github.com/Evolution-X[/url][/url]
 [*][b]Kernel Source code:[/b] [url=https://github.com/Evolution-X-Devices/kernel_xiaomi_msm8953][url]https://github.com/Evolution-X-Devices/kernelxiaomimsm8953[/url][/url]
 [*][b]ROM Developer:[/b] [url=https://forum.xda-developers.com/member.php?u=4936496]joeyhuab[/url]
 [/list][/SIZE][/LEFT]
