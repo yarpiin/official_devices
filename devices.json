@@ -444,20 +444,6 @@
       ]
    },
    {
-      "name": "Nextbit Robin",
-      "brand": "Nextbit",
-      "codename": "ether",
-      "supported_versions": [
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://t.me/AnierinB",
-            "xda_thread": "https://forum.xda-developers.com/nextbit-robin/development/rom-evolution-x-t3927148"
-         }
-      ]
-   },
-   {
       "name": "Redmi Note 4X",
       "brand": "Xiaomi",
       "codename": "mido",
