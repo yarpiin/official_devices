@@ -104,6 +104,13 @@
       "codename": "davinci",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Akito Mizukito",
+            "maintainer_url": "https://github.com/RealAkito",
+            "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-3-3-mi-9t-redmi-k20-davinci-t4010493"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Akito Mizukito",
