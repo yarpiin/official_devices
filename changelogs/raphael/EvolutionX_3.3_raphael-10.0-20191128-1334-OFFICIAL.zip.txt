@@ -1,0 +1,13 @@
+- Add Aggressive Battery options
+- Add back developer setting to set the default GPU renderer
+- Add QCom BoostFramework support
+- Add QS panel opacity options
+- Add Screen off animations
+- Bring back Gaming mode preferences (in Misc settings)
+- Fix brightness slider padding
+- Fix Evo > Lockscreen settings crash for some devices
+- Move animations into it's own category
+- Move brightness control to Gestures category
+- Re-arrange statusbar option categories
+- Remove unnecessary recent apps transition
+- Set Skia Vulkan as default GPU renderer
