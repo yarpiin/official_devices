@@ -1,0 +1,9 @@
+- Add AOKP system animations
+- Add battery styles and customizations
+- Add option to disable auto brightness icon in brightness slider
+- Add option to show battery percent & estimate together
+- Add option to show/hide battery icon in QS Header
+- Add Privacy Indicator toggle in Settings app
+- Add Smart charging to battery settings
+- Allow setting a custom symbol near text on charging
+- More QCom BoostFramework additions
