@@ -1,0 +1,9 @@
+- Allow to switch back to pre P mobile type icon style
+- Always show date in QS header
+- Bring back BatteryDetail from Battery Saver QS tile
+- Disable native screen recorder QS tile
+- Fix status bar battery icon padding
+- FOD: Enable burn-in protection even when not in AOD
+- Remove redundant battery percentage tuner in Statusbar items options
+- Remove Privacy Indicator option and toggles (overlaps with qs header network traffic)
+- Try to fix setting custom symbol near text on charging
