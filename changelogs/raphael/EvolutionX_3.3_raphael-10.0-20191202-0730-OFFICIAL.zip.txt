@@ -1,0 +1,14 @@
+- Add a toggle for QS footer text
+- Add auto-hide status bar clock feature
+- Allow to customize QS footer text
+- Bring back battery estimates in QS
+- Enable QS Quickbar columns editing
+- Enable VoLTE icon by default
+- Fix ro.build.description for Mi 9T Pro Global
+- FOD: Move FOD_STATUS_ON method to onPress (improves FOD)
+- Overlay: Import CarrierConfig for better VoLTE support
+- Re-arrange quicksettings options
+- Remove broken battery styles
+- Remove Privacy Indicator option and toggles (overlaps with qs header network traffic)
+- Set default status bar clock font to Google Sans
+- Update ro.build.description for Redmi K20 Pro CN
