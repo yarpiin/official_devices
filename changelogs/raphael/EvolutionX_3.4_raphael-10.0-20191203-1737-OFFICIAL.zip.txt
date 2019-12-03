@@ -1,0 +1,14 @@
+- Add Increasing Ring support to Sounds
+- Add missing summaries to carrier label & clock font styles settings
+- Bring back/keep Pocket lock support
+- Fix FOD issues
+- Fix FP auth vibration option not working
+- Fix issues with booting while ENCRYPTED
+- Merge December security patch
+- Remove BT SBC HD support (could possibly fix remaining bluetooth issues)
+- Remove LOS recorder app
+- Remove screen off animations
+- Set status bar clock & carrier label font to Google Sans by default
+- Update default Google Play services to latest version (fixes 2 factor SMS auth)
+- Update Evo version from 3.3 Wicked to 3.4 Storm
+- Use latest version of Immensity kernel
