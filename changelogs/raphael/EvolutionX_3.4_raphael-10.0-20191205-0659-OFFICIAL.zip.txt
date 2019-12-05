@@ -1,0 +1,6 @@
+- Add Ambient edge pulse notifications
+- Import vibration patterns from Pixel 2
+- Fix alarm issues caused by Dec patch mismerge
+- Fix missing ambient notifications (thanks to RevengeOS)
+- Fix SOD issues caused by wrong code after Dec sec patch merge
+- Use Safailnet method by Jhenrique (Bypass safetynet even if we have permissive selinux)
