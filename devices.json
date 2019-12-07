@@ -534,11 +534,11 @@
       "codename": "wayne",
       "supported_versions": [
          {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "rebenok90x",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9818233",
-            "xda_thread": "https://forum.xda-developers.com/mi-a2/xiaomi-6x-wayne/rom-evolution-x-2-0-t3938007"
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "DarkAmy",
+            "maintainer_url": "https://github.com/DarkAmy",
+            "xda_thread": "https://forum.xda-developers.com/mi-a2/xiaomi-6x-wayne/rom-evolution-x-3-1-t3990671"
          }
       ]
    },
