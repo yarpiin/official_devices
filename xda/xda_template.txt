@@ -1,43 +1,51 @@
 [CENTER]
-[IMG]https://github.com/Evolution-X/manifest/raw/ten/EvoBanner.png[/IMG]
-[SIZE="5"][b][color=#0060FF]Evolution X 3.3 for the Xiaomi Mi A1 [tissot][/color][/b][/SIZE]
- 
+[IMG]https://raw.githubusercontent.com/Evolution-X/platform_manifest/pie/EvoBanner.png[/IMG]
+[SIZE="5"][b][color=#0060FF]Evolution-X 3.4 for the OnePlus 6T [Fajita][/color][/b][/SIZE]
+
 [img]https://i.imgur.com/qE4kqsj.png[/img]
-[SIZE="3"]Pixel UI, Customization and More. We Are Evolution X![/SIZE]
- 
+[CENTER][SIZE="5"][COLOR="#0060FF"][B]Living, Breaking, Keep Evolving. [/B][/COLOR][/SIZE]
+[SIZE="3"]Pixel UI, Customization & More. We Are Evolution X!
+
+[B][color=#0060FF]- Team Evolution X -[/color][/B]
+@[URL="https://forum.xda-developers.com/member.php?u=4936496"]Joeyhuab[/URL]
+@[URL="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/URL]
+@[URL="https://forum.xda-developers.com/member.php?u=9008281"]peaktogoo[/URL]
+@[URL="https://forum.xda-developers.com/member.php?u=7665334"]Hugwalk[/URL]
+
+[I]Reach us on Twitter! [URL="https://twitter.com/EvolutionXROM"]@EvolutionXROM[/URL][/I][/SIZE][/CENTER]
+
 [img]https://i.imgur.com/RgqrlpK.png[/img]
- 
 [HIDE]
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
 - 20 Accent Colors
 - 8 Custom Fonts
 - 5 Lock Screen Clock Styles
 - Pixel 2019 Wallpapers
 - Pixel Theme Picker
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
 - 4G/LTE Icon Toggle
 - VoLTE Toggle
 - Brightness Control
 - Network Traffic Activity
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
 - Force Close Notifications
 - In Call Vibrations
 - Kill App Button
 - Notification light Config
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
 - Bottom Brightness Slider Toggle
 - Gaming Mode Quick Settings Tile
 - Quick Pulldown (Left/Right)
 - Quick Settings Rows & Columns Customization
 - Tile Titles Toggle
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
 - AOSP Gestures
 - Back Gesture Height Config
 - Double Tap to Sleep Lockscreen
 - Double Tap To Sleep Status Bar
 - Screen Off Power Button Torch
 - Swipe To Screenshot
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
 - Fingerprint Authentication Vibration Toggle
 - Lock Screen Charging Info
 - Lock Screen Music Visualizer
@@ -45,20 +53,20 @@
 - Media Artwork Toggle
 - Pocket Detection
 - Status bar visibility toggle
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
 - Power Menu Customization
 - Volume Rocker Cursor Control
 - Volume Rocker Playback Control
 - Volume Rocker Wake
-[SIZE="2"][U][I][COLOR="#0060FF"][B] Animations[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B] Animations[/B][/COLOR][/I][/U][/SIZE]
 - Disable Transition Animations
 - Screen Off Animations
-- Custom animation configs
+- System Animation Configs
 - QS Tile Animations (Flip/Rotate)
 - QS Tile Animation Duration & Interpolator configs 
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
 - Invert Layout
-[SIZE="2"][U][I][COLOR="#0060FF"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
+[SIZE="3"][U][I][COLOR="#0060FF"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
 - Alarm Blocker
 - Default USB Config
 - Gaming Mode
@@ -67,52 +75,45 @@
 - Wake On Charge[/HIDE]
 
 [img]https://i.imgur.com/n6b8AXD.png[/img]
-[SIZE="3"]You tell me.[/SIZE]
+[SIZE="3"]You tell me[/SIZE]
  
-[SIZE="3"][B]DON'T FLASH GAPPS, ALREADY INCLUDED[/B][/SIZE]
- 
-[img]https://i.imgur.com/YtvYmxb.png[/img]
-Reboot to recovery
-Download the proper zip for the device
-Wipe data/cache/system when coming from ROMs that are not AOSP based
-Flash the latest build
-Flash TWRP Installer ZIP
-Reboot to system
-Reboot to recovery
-Flash Magisk
-Reboot to system
- 
-[URL="https://imgur.com/a/6l0dMag"][img]https://i.imgur.com/3EYXY4z.png[/img][/URL]
-[URL="https://sourceforge.net/projects/evolution-x/files/tissot"][img]https://i.imgur.com/UfrpkUs.png[/img][/URL] 
+[SIZE="3"][B][color=red]DO NOT FLASH GAPPS, ALREADY INCLUDED[/COLOR][/B][/SIZE]
 
-[URL="Paypal.me/joeyhuab"][img]https://i.imgur.com/nkJHit6.png[/img][/URL][URL="https://t.me/EvolutionX"][img]https://i.imgur.com/AteOLUU.png[/img][/URL][URL="https://t.me/EvolutionTissot"][img]https://i.imgur.com/8cQbEUV.png[/img][/URL]
- 
+[img]https://i.imgur.com/u5tIlfT.png[/img]
+[SIZE="5"][B][color=#0060FF]First Time Install / Clean Flash[/COLOR][/B][/SIZE]
+[SIZE="3"]- [COLOR="red"]Be on 9.0.17 FW![/COLOR]
+- Make sure you're running the latest TWRP
+- Boot into recovery
+- Flash  BUILD.zip
+- Flash TWRP.zip
+- Wipe Cache
+- Wipe data
+- Reboot to recovery
+- Flash Magisk.zip
+- Reboot to system & [COLOR="#0060FF"]#KeepEvolving[/COLOR][/SIZE]
+
+[SIZE="5"][B][color=#0060FF]Update / Dirty Flash[/COLOR][/B][/SIZE]
+[SIZE="3"]- Boot into recovery
+- Flash  BUILD.zip
+- Flash TWRP.zip
+- Wipe Cache
+- Reboot to system & [COLOR="#0060FF"]#KeepEvolving[/COLOR][/SIZE]
+
+[URL="https://imgur.com/gallery/SvmdfPb"][img]https://i.imgur.com/oDZONpB.png[/img][/URL][URL="https://imgur.com/gallery/c3QKAdp"][img]https://i.imgur.com/fmAkMrL.png[/img][/URL][URL="https://sourceforge.net/projects/evolution-x/files/fajita"][img]https://i.imgur.com/F2WF8Mx.png[/img][/URL]
+[URL="https://paypal.me/anierinb"][img]https://i.imgur.com/JBON20U.png[/img][/URL][URL="https://t.me/EvolutionX"][img]https://i.imgur.com/9dKRGuj.png[/img][/URL][URL="https://t.me/EvolutionXFajita"][img]https://i.imgur.com/PZ6h5NN.png[/img][/URL]
+
+[SIZE="3"][URL="https://imgur.com/gallery/SvmdfPb"]Light Screenshots[/URL] / [URL="https://imgur.com/gallery/c3QKAdp"]Dark Screenshots[/URL] / [URL="https://sourceforge.net/projects/evolution-x/files/fajita"]Download[/URL]
+[URL="https://paypal.me/anierinb"]Donate me![/URL] / [URL="https://t.me/EvolutionX"]Official Chat[/URL] / [URL="https://t.me/EvolutionXFajita"]Device Support[/URL][/SIZE]
+
+[hr][/hr]
+
 [img]https://i.imgur.com/LU9gsrQ.png[/img][/CENTER]
 [LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 10.0_r14
-[*][b]Security patch level:[/b] November 2019
-[*][b]Build author:[/b] [url=https://forum.xda-developers.com/member.php?u=4936496]joeyhuab[/url]
-[*][b]Source code:[/b] [url=https://github.com/Evolution-X][url]https://github.com/Evolution-X[/url][/url]
-[*][b]Kernel Source code:[/b] [url=https://github.com/Evolution-X-Devices/kernel_xiaomi_msm8953][url]https://github.com/Evolution-X-Devices/kernelxiaomimsm8953[/url][/url]
-[*][b]ROM Developer:[/b] [url=https://forum.xda-developers.com/member.php?u=4936496]joeyhuab[/url]
+[*][b]Evolution X Version:[/b] 3.4_Storm
+[*][b]Android OS Version:[/b] 10.0_r16
+[*][b]Security Patch Level:[/b] December 2019
+[*][b]Build Author:[/b] [url="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/url]
+[*][b]ROM Source:[/b] [url="https://github.com/Evolution-X"][url]https://github.com/Evolution-X[/url][/url]
+[*][b]Kernel Source:[/b] [url="https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845"][url]https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845[/url][/url]
+[*][b]ROM Developer:[/b] [url="https://forum.xda-developers.com/member.php?u=4936496"]Joeyhuab[/url]
 [/list][/SIZE][/LEFT]
- 
-[B][U][SIZE="4"][NOPARSE]XDA:DevDB Information[/NOPARSE][/SIZE][/U][/B]
-[SIZE=3][B]Evolution X 3.3, ROM for the Xiaomi Mi A1[/B][/SIZE]
- 
-[B][U]Contributors[/U][/B]
-[URL="https://forum.xda-developers.com/member.php?u=4936496"]joeyhuab[/URL],[URL="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/URL],[URL="https://forum.xda-developers.com/member.php?u=9008281"]peaktogoo[/URL], [URL="https://forum.xda-developers.com/member.php?u=7665334"]hugwalk[/URL]
-B]Source Code:[/B] [URL="https://github.com/Evolution-X"][url]https://github.com/Evolution-X[/url][/URL]
- 
-[B]ROM OS Version:[/B] 10.0 Ten
-[B]ROM Kernel:[/B] Linux 4.x
-[B]ROM Firmware Required:[/B] Unlocked Bootloader, TWRP/SHRP, [URL="https://forum.xda-developers.com/mi-a1/themes/twrp-baseband-modem-april-stock-rom-t3777901"]Updated Firmware (January and above only)[/URL]
-[B]Based On:[/B] AOSP
- 
-[B][U]Version Information[/U][/B]
-[B]Status:[/B] Stable
-[B]Current Stable Version:[/B] [url]https://sourceforge.net/projects/evolution-x/files/tissot[/url]
-[B]Stable Release Date:[/B] 2019-03-27
- 
-[B]Created[/B] 2019-02-18
-[B]Last Updated[/B] 2019-11-11
