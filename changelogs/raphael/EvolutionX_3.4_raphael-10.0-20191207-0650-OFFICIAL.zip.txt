@@ -1,0 +1,14 @@
+- Add battery styles and customizations
+- Add more orientation sanity checks
+- Add option to show battery percent & estimate together
+- Always show battery icon in QS expanded header
+- Battery text style: Show a bolt ⚡️ when charging
+- Bring back Screen off animations
+- Disable redundant battery percentage option in Settings > Battery
+- Disable redundant battery options in Evo Settings > Statusbar items
+- Fix LED notifications not blinking
+- Keep recent tasks for more time in memory
+- Refactor VoLTE icon implementation
+- REMOVE BROKEN LOCKSCREEN CHARGING INFO FEATURE
+- Type Clock: Bring back translations
+- Update to latest Immensity kernel with fixes to Camera and Audio
