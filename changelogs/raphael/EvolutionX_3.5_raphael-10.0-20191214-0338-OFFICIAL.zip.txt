@@ -1,0 +1,29 @@
+ROM side
+- Add Android/Pixel Setup & Carrier Setup missing permissions
+- Add Lockscreen cover art filters
+- Add Volume Key Answer toggle
+- Add option to Hide the power menu on the lockscreen
+- Add option to Unlock keystore with fingerprint after reboot
+- Add option to configure lock screen media artwork blur level
+- Allow changing visualizer default color
+- Avoid showing lock icon on AOD
+- Enable fingerprint swipe gestures by default
+- Fix Ambient stuff that Google broke
+- Fix QS footer side margins
+- Fix QS layout side paddings
+- Fix edge lighting color picker showing wrong color hex in summary
+- Fix shouldSkipHeadsUp logic for Gaming Mode
+- Fix wrong strings for Status bar clock fonts (Light/Light Italic/Thin/Thin Italic)
+- Make powermenu lockscreen visibility configurable
+- QS Panel: Set default value of opacity to 100%
+- QS: Fix rows not refreshing on setting change
+- Rebase ROM to Android 10.0 r18
+- Remove Phone ringtone setting for Multi SIM device options
+- Settings: Fix cannot see "see more" button in UI
+
+Device side
+- Update to latest Immensity kernel
+
+Bugs
+- Ambient visualizer currently not working (to be fixed for next update)
+- FOD dies on AOD after first error
