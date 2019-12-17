@@ -377,6 +377,13 @@
       "codename": "X01BD",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Ashok_Varma",
+            "maintainer_url": "https://github.com/ashokmini",
+            "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Ashok_Varma",
