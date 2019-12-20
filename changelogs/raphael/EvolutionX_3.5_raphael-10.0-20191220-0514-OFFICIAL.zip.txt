@@ -1,0 +1,75 @@
+ROM side
+12/15 changes
+- Add dynamic Immersive Mode tile
+- Add user selectable VoLTE icons
+- Allow torch during ambient display
+- Bring back old implementation of QS customizer (via QS edit menu)
+- Fix Ambient visualizer
+- Fix availability of Cast Quick Setting Tile
+- Fix black screen after AOD_PAUSED again
+- Fix enter deep doze when driving
+- Remove broken bluetooth QS battery toggle
+- Settings: InstalledAppDetails: Fix refreshing storage summary after force stop
+- Settings: Use seekbar to allow setting arbitrary animation values
+- Unlink AoD switch preference from AoD on charge toggle
+
+12/17 changes
+- Add flashlight blink on incoming calls options
+- Add more VoLTE icons
+- Ambient Display: Fix volume key music control
+- Bring back fixed QS customizer implementation (edit QS tiles via Evo settings)
+- Don't force show battery percent on keyguard
+- Fixes to Visualizer custom color and animators
+- Remove system screen recorder from power menu
+- Remove system screen recorder QS tile
+- Text Clock: Force show date/weather info
+- Vibrate on volume panel button long press
+- Update thumbnail for Typeface Clock
+
+12/18 changes
+- Add missing system fonts as choices for font styles
+- Add option to disable dashboard conditions and suggestions
+- Add support for adb over network
+- Bring back CM Screen Security settings (lock pattern grid size and pattern visibility settings)
+- Bring back Live Volume Steps
+- Bring back Lock screen Clock Widget Font styles
+- Bring back Lock screen Date Font styles
+- Bring back Lock Clock & Date Font Size options
+- Bring back LS OwnerInfo Fonts & Size Options
+- Bring back option to hide Adb notification icon
+- Bring back option to pass swipe-up-to-unlock
+- Bring back optional screenshot type
+- Bring back Sensor block per-package switch
+- Bring back Signature spoofing support
+- Bring back Status bar logos and positions
+- Do not apply date customization to QS clock
+
+12/19 changes
+- Add auto color option for edge lightning
+- Add qs status bar header images support
+- Allow overlaying max system icons
+- Improve edge lightning behavior on live wallpaper
+- Settings: fix hardcoded black text in storage summary
+- ThemePicker: Add a static widget for default clock preview
+- TypeClock: Add font styles
+- TypeClock: Allow font resizing
+- Patch partial wakelock issues
+
+12/20 changes
+
+- Allow changing duration of ambient edge light
+- Allow torch action also on ambient display & add haptic feedback
+- Evolution Settings overhaul: complete summaries, reorganize categories, update icons
+- Persistent settings icon on qs panel
+- Remove broken BT battery level toggles
+- Settings: Comment out double options that were under accessibility
+- Settings: Remove legal information from being indexable
+- Use automatic color instead of a color picker for status bar logos
+- Update date on keyguard when ticking past midnight
+
+Device side
+- Enable notification and battery light options
+- Update to latest Immensity kernel
+
+Bugs
+- Some QS header images may not show up
