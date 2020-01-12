@@ -17,22 +17,34 @@
 [img]https://i.imgur.com/RgqrlpK.png[/img]
 [HIDE]
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
-- 20 Accent Colors
-- 8 Custom Fonts
+- 40 Accent Colors
+- 17 Custom Fonts
+- 5 Icon Shapes
 - 5 Lock Screen Clock Styles
 - Pixel 2019 Wallpapers
 - Pixel Theme Picker
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
+- Clock Options
+- Battery Icon Styles
+- Carrier Label Settings
+- Rounded Corners
 - 4G/LTE Icon Toggle
-- VoLTE Toggle
+- VoLTE Toggle & Custom Icons
 - Brightness Control
 - Network Traffic Activity
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
+- Edge Lighting
+- Blink Flashlight On Call
 - Force Close Notifications
 - In Call Vibrations
 - Kill App Button
 - Notification light Config
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
+- Custom QS Header Images
+- Battery Percentage Configs
+- QS Opacity & Color Configs
+- Custom QS Footer Text
+- Toggles To Hide Misc Icons
 - Bottom Brightness Slider Toggle
 - Gaming Mode Quick Settings Tile
 - Quick Pulldown (Left/Right)
@@ -40,17 +52,20 @@
 - Tile Titles Toggle
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
 - AOSP Gestures
+- Toggle To Hide Navbar Pill
 - Back Gesture Height Config
 - Double Tap to Sleep Lockscreen
 - Double Tap To Sleep Status Bar
 - Screen Off Power Button Torch
 - Swipe To Screenshot
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
+- Custom Clock & Date Fonts
 - Fingerprint Authentication Vibration Toggle
+- FOD Icon Picker
 - Lock Screen Charging Info
 - Lock Screen Music Visualizer
 - Lock Screen Shortcuts
-- Media Artwork Toggle
+- Lock Screen Media Artwork Configs
 - Pocket Detection
 - Status bar visibility toggle
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
@@ -66,9 +81,14 @@
 - QS Tile Animation Duration & Interpolator configs 
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
 - Invert Layout
+- Nav Bar Tuner
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
 - Alarm Blocker
 - Default USB Config
+- Doze Settings
+- Time In State Monitor
+- Sensor Block Per Package
+- Signature Spoofing Support
 - Gaming Mode
 - Smart Charging
 - Wakelock Blocker
