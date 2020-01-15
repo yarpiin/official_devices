@@ -325,7 +325,8 @@
             "version_code": "ten",
             "version_name": "Ten",
             "maintainer_name": "Emma",
-            "maintainer_url": "https://github.com/4PERTURE"
+            "maintainer_url": "https://github.com/4PERTURE",
+            "deprecated": true
          },
          {
             "version_code": "pie",
