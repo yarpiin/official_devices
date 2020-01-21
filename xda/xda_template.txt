@@ -1,6 +1,6 @@
 [CENTER]
 [IMG]https://raw.githubusercontent.com/Evolution-X/platform_manifest/pie/EvoBanner.png[/IMG]
-[SIZE="5"][b][color=#0060FF]Evolution-X 3.4 for the OnePlus 6T [Fajita][/color][/b][/SIZE]
+[SIZE="5"][b][color=#0060FF]Evolution X 4.0 for the OnePlus 6T [Fajita][/color][/b][/SIZE]
 
 [img]https://i.imgur.com/qE4kqsj.png[/img]
 [CENTER][SIZE="5"][COLOR="#0060FF"][B]Living, Breaking, Keep Evolving. [/B][/COLOR][/SIZE]
@@ -10,7 +10,14 @@
 @[URL="https://forum.xda-developers.com/member.php?u=4936496"]Joeyhuab[/URL]
 @[URL="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/URL]
 @[URL="https://forum.xda-developers.com/member.php?u=9008281"]peaktogoo[/URL]
+
+[B][color=#0060FF]- Design -[/color][/B]
+@[URL="https://forum.xda-developers.com/member.php?u=10435351"]ecnivtwelve[/URL]
 @[URL="https://forum.xda-developers.com/member.php?u=7665334"]Hugwalk[/URL]
+@[URL="https://forum.xda-developers.com/member.php?u=9633220"]MartonDev[/URL]
+@[URL="https://forum.xda-developers.com/member.php?u=8984156"]4PERTURE[/URL]
+
+[url]https://evolution-x.org/[/url]
 
 [I]Reach us on Twitter! [URL="https://twitter.com/EvolutionXROM"]@EvolutionXROM[/URL][/I][/SIZE][/CENTER]
 
@@ -101,37 +108,39 @@
 
 [img]https://i.imgur.com/u5tIlfT.png[/img]
 [SIZE="5"][B][color=#0060FF]First Time Install / Clean Flash[/COLOR][/B][/SIZE]
-[SIZE="3"]- [COLOR="red"]Be on 9.0.17 FW![/COLOR]
+[SIZE="3"]- [COLOR="red"]Have OOS 10.3 flashed to both slots!![/COLOR]
 - Make sure you're running the latest TWRP
 - Boot into recovery
 - Flash  BUILD.zip
 - Flash TWRP.zip
 - Wipe Cache
-- Wipe data
-- Reboot to recovery
-- Flash Magisk.zip
+- Format data
+- Reboot to recovery (optional)
+- Flash Magisk.zip (optional)
 - Reboot to system & [COLOR="#0060FF"]#KeepEvolving[/COLOR][/SIZE]
 
 [SIZE="5"][B][color=#0060FF]Update / Dirty Flash[/COLOR][/B][/SIZE]
 [SIZE="3"]- Boot into recovery
 - Flash  BUILD.zip
 - Flash TWRP.zip
+- Reboot to recovery (optional)
+- Flash Magisk.zip (optional)
 - Wipe Cache
 - Reboot to system & [COLOR="#0060FF"]#KeepEvolving[/COLOR][/SIZE]
 
-[URL="https://imgur.com/gallery/SvmdfPb"][img]https://i.imgur.com/oDZONpB.png[/img][/URL][URL="https://imgur.com/gallery/c3QKAdp"][img]https://i.imgur.com/fmAkMrL.png[/img][/URL][URL="https://sourceforge.net/projects/evolution-x/files/fajita"][img]https://i.imgur.com/F2WF8Mx.png[/img][/URL]
-[URL="https://paypal.me/anierinb"][img]https://i.imgur.com/JBON20U.png[/img][/URL][URL="https://t.me/EvolutionX"][img]https://i.imgur.com/9dKRGuj.png[/img][/URL][URL="https://t.me/EvolutionXFajita"][img]https://i.imgur.com/PZ6h5NN.png[/img][/URL]
+[URL="http://imgur.com/gallery/azqS9rb"][img]https://i.imgur.com/oDZONpB.png[/img][/URL][URL="http://imgur.com/gallery/43Vgimg"][img]https://i.imgur.com/fmAkMrL.png[/img][/URL][URL="https://sourceforge.net/projects/evolution-x/files/fajita"][img]https://i.imgur.com/F2WF8Mx.png[/img][/URL]
+[URL="https://paypal.me/anierinbliss"][img]https://i.imgur.com/JBON20U.png[/img][/URL][URL="https://t.me/EvolutionX"][img]https://i.imgur.com/9dKRGuj.png[/img][/URL][URL="https://t.me/EvolutionXFajita"][img]https://i.imgur.com/PZ6h5NN.png[/img][/URL]
 
-[SIZE="3"][URL="https://imgur.com/gallery/SvmdfPb"]Light Screenshots[/URL] / [URL="https://imgur.com/gallery/c3QKAdp"]Dark Screenshots[/URL] / [URL="https://sourceforge.net/projects/evolution-x/files/fajita"]Download[/URL]
-[URL="https://paypal.me/anierinb"]Donate me![/URL] / [URL="https://t.me/EvolutionX"]Official Chat[/URL] / [URL="https://t.me/EvolutionXFajita"]Device Support[/URL][/SIZE]
+[SIZE="3"][URL="http://imgur.com/gallery/azqS9rb"]Light Screenshots[/URL] / [URL="http://imgur.com/gallery/43Vgimg"]Dark Screenshots[/URL] / [URL="https://sourceforge.net/projects/evolution-x/files/fajita"]Download[/URL]
+[URL="https://paypal.me/anierinbliss"]Donate me![/URL] / [URL="https://t.me/EvolutionX"]Official Chat[/URL] / [URL="https://t.me/EvolutionXFajita"]Device Support[/URL][/SIZE]
 
 [hr][/hr]
 
 [img]https://i.imgur.com/LU9gsrQ.png[/img][/CENTER]
 [LEFT][SIZE="3"][list]
-[*][b]Evolution X Version:[/b] 3.4_Storm
-[*][b]Android OS Version:[/b] 10.0_r16
-[*][b]Security Patch Level:[/b] December 2019
+[*][b]Evolution X Version:[/b] 4.0
+[*][b]Android OS Version:[/b] 10.0_r23
+[*][b]Security Patch Level:[/b] January 2020
 [*][b]Build Author:[/b] [url="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/url]
 [*][b]ROM Source:[/b] [url="https://github.com/Evolution-X"][url]https://github.com/Evolution-X[/url][/url]
 [*][b]Kernel Source:[/b] [url="https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845"][url]https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845[/url][/url]
