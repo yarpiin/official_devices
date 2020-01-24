@@ -471,6 +471,13 @@
       "codename": "mido",
       "supported_versions": [
          {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Suyog ( Ctrl Nick)",
+            "maintainer_url": "https://t.me/mangomanid",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-evolution-x-redmi-note-4-t4039713"
+         },
+         {
             "version_code": "pie",
             "version_name": "Pie",
             "maintainer_name": "Himanshu Naamdev",
