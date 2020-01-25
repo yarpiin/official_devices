@@ -1,0 +1,21 @@
+1/25
+Avoid system reboot while invalidate LegacyGlobalAction
+build: Set ro.build.type to user
+check_boot_jars: Add IFAA Manager to whitelist
+core: Set camera intents for camera state
+Disable night light for FOD
+Fix AOD autobrightness dimming
+Hide DC dimming for now
+Settings: FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl 
+SystemUI: Add CAF VoLTE HD icon
+SystemUI: implement better partial screenshot
+SystemUI: QS: Sync tile: make it behave like every other tile
+wm: DisplayRotation: Limit WFD UIBC rotation to primary displays
+Update to latest Immensity q-drm-changes branch
+
+1/24
+SystemUI: improve the VPN footer layout
+SystemUI: Remove lockscreen charging info
+SystemUI: use headline font for vpn
+Volume panel: Adjust the left padding
+Volume panel: avoid multiple animations on touch spam
