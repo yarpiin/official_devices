@@ -1,0 +1,42 @@
+1/28
+fingerprint: notify client when cancelling succeeded
+SystemUI: Make scramble PIN layout Multi-User friendly
+Update to latest Immensity Q branch
+
+1/27
+Add Option to disable night light on FOD
+Always keep clock widget visible while dozing
+Date styles: Add Bootleg's styles
+Date styles: Add Q beta pill
+Decrease line spacing in sammy clock styles
+Introduce lockscreen date styles
+Introduce RGB Accent Picker
+overlays: Remove AOSP Accents
+Network Traffic: remove status bar animation
+Refactor lockscreen clock/date styles
+ScreenshotHelper: ignore timeout when taking partial screenshots
+Settings: For Kobe and Gianna
+SettingsLib: Don't show system overlays on apps list
+SystemUI: fix accent based lockscreen clocks
+SystemUI: implement better partial screenshot
+SystemUI: Make header image height offset user configurable
+SystemUI: Option to hide lockscreen clock & date
+SystemUI: QS header color picker
+SystemUI: respect status bar header height also in edit mode
+
+1/26
+Add SFR IMS APN
+Add wifi configuration file from 9.12.19
+Check CellInfoCallback Detail for Null
+Cleanup & add missing overlays from MIUI
+Clear persist.vendor.usb.config on boot
+FOD: only turn-off event checking after doze
+fod: setup thread to high CFS priority
+Force enable VoWifi
+Mask up problematic vendor overlays
+Refactor Powerhal implementation
+sf: PhaseOffsets: Add missing low refresh rates
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+Tweak /init to never expose verifiedbootstate=orange
+Update WCNSS configuration from CAF
+Use LOS FOD in preparation for screen off FOD
