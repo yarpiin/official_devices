@@ -78,6 +78,20 @@
       ]
    },
    {
+      "name": "Redmi Note 8",
+      "brand": "Xiaomi",
+      "codename": "ginkgo",
+      "supported_versions": [
+         {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "ManoloRey",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8834098",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-8/development/rom-evolution-x-4-1-t4045795"
+         }
+      ]
+   },
+   {
       "name": "Mi Mix 3",
       "brand": "Xiaomi",
       "codename": "perseus",
