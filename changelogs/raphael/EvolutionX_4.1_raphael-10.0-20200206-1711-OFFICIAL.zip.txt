@@ -1,0 +1,83 @@
+Bugs
+Immensity has an issue with USB connection, flash F1xy or other Mi9FOD supported kernels to fix it
+QuickSwitch magisk module may have issues switching recents provider, find the fix here: https://forum.xda-developers.com/showpost.php?p=81573185&postcount=906
+
+Changelog
+2/6
+Add big Circle/big Dotted Circle battery styles
+Add flash-call-on-waiting option
+Add option to launch default music player on headset connect
+Add Mono audio QS tile (aka headphone in one ear only)
+AoD: Always force brightness updates on pause
+Camera: Use default prop for Privileged App List
+Enable VoWiFi For indian carriers
+Fix AoD front scrim being opaque at DOZE_PULSING
+Fix NPE with void android.view.VelocityTracker.clear()
+Introduce raise to wake gesture
+Lockscreen weather Soli port: more code improvements
+Reland "Apply front scrim to doze pulsing"
+Use VibrationEffect for in call vibration
+Update build fingerprint to Coral's Feb 2020 security patch
+Update to latest Immensity with mi9fod support
+
+2/1 - 2/5
+Add missing hide flag to public deviceHasSoli api
+base: Add classic Circle battery style from CM
+base: Fix unnecessary truncation in Slice
+base: Increase Longshot timeout to 2 seconds
+base: Longshot: Whitelist to use hidden APIs
+base: Lower the internal audio capture restriction
+base: omnistyle: Stinky workaround for header shadow and tinted images
+Camera: Ignore torch status update for aux or composite camera
+Disable Ambient on wake gestures by default
+Disable Wake to Ambient on Soli devices
+GlobalScreenshot: do not capture multiple screenshots simultaneously
+Merge February 2020 security patch changes
+ScreenshotSelector: mark externally unused functions as private
+Settings: Adaptive brightness: Fix summary fuckery
+Settings: Fix crash when going back from battery
+Settings: Fix usage of ChooseLockSettingsHelper
+Settings: fuelgauge: add back battery level animation
+Settings: Update raw animations and drawables from Pixel 4 XL
+Settings: Use IEC units in app info data usage
+SystemUI: add Ambient Lights always on hide aod content option
+SystemUI: Add an option to pulse edge light for all doze triggers
+SystemUI: Allow limiting edge lighting repeats
+SystemUI: block gestural navigation when using partial screenshot
+SystemUI: kill any leftover notification pulse on new pulse start
+SystemUI: Lockscreen weather code fixes
+SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+SystemUI: only call showAodContent(true) if we are still on the keyguard
+SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+SystemUI: Pulse light accent color option
+SystemUI: re-implement Pulse and Ambient notification bars
+SystemUI: Tint QSTile icon with accent color
+SystemUI: trigger pulse light only for notifications
+SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
+
+1/31
+base: Port extended screenshot function from OOS
+Improve toast implementation
+RecordingService: Use existing screen recorder icon
+Screen Recorder: Correctly display notification title
+Screen Recorder: Don't show Heads Up notification
+Settings: Add preference for TouchGestures
+Settings: Desktop backup password: Tint buttons to match system theme
+Settings: Fix icon tinting in power detail pages
+Settings: Fix settings dashboard summary while dash & warp charging
+Settings: Power detail pages: Finish off the rest of the icon tinting
+Settings: Themes: make sure settings shortcut icons follow system accent
+SystemUI: tiles: Migrate to new screenshot method with Longshot support
+
+1/30
+Allow controlling QS blur alpha
+Add option to blur QS
+base: Whitelist more permissions needed for SystemUIGoogle
+Bring back system screen recorder (QS & Power Menu)
+Bluetooth: Fix BT stability issues
+Updates to "Context-aware Bluetooth airplane mode"
+PowerMenu: Fix items not tinting correctly in landscape
+Partial screenshot: Layout improvements
+SystemUI: Fix minute digits for accent based lockscreen clock style
+SystemUI: Introduce Adjustable Blur Intensity
+Updates to various icons
