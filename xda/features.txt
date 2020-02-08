@@ -1,18 +1,18 @@
 [HIDE]
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
-- 40 Accent Colors
-- 17 Custom Fonts
-- 5 Icon Shapes
+- RGB Accent Picker
+- 17 System Fonts
+- 6 System Icon Shapes
 - 5 Lock Screen Clock Styles
 - Pixel 2019 Wallpapers
-- Pixel Theme Picker
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
 - Clock Options
-- Battery Icon Styles
+- 7 Battery Icon Styles
+- Battery Percent Show/Hide Config
 - Carrier Label Settings
-- Rounded Corners
+- Rounded Corners Config
 - 4G/LTE Icon Toggle
-- VoLTE Toggle & Custom Icons
+- 7 Custom VoLTE Icons
 - Brightness Control
 - Network Traffic Activity
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
@@ -26,6 +26,7 @@
 - Custom QS Header Images
 - Battery Percentage Configs
 - QS Opacity & Color Configs
+- QS Backround Image Blur
 - Custom QS Footer Text
 - Toggles To Hide Misc Icons
 - Bottom Brightness Slider Toggle
@@ -41,11 +42,12 @@
 - Double Tap To Sleep Status Bar
 - Screen Off Power Button Torch
 - Swipe To Screenshot
+- Screen Off Gestures
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
 - Custom Clock & Date Fonts
 - Fingerprint Authentication Vibration Toggle
 - FOD Icon Picker
-- Lock Screen Charging Info
+- Pressed FOD Icon Picker
 - Lock Screen Music Visualizer
 - Lock Screen Shortcuts
 - Lock Screen Media Artwork Configs
@@ -58,17 +60,22 @@
 - Volume Rocker Wake
 [SIZE="3"][U][I][COLOR="#0060FF"][B] Animations[/B][/COLOR][/I][/U][/SIZE]
 - Disable Transition Animations
+- Scrolling Cache Configs
 - Screen Off Animations
-- System Animation Configs
 - QS Tile Animations (Flip/Rotate)
-- QS Tile Animation Duration & Interpolator configs 
+- QS Tile Animation Duration & Interpolator configs
+- System Animation Configs
+- ListView Animations 
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
-- Invert Layout
 - Nav Bar Tuner
+- Nav Bar Hide/Show Toggle
+- Invert Layout
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
 - Alarm Blocker
+- Accidental Wake Up Prevention
 - Default USB Config
 - Doze Settings
+- Legacy App Scalling
 - Time In State Monitor
 - Sensor Block Per Package
 - Signature Spoofing Support
