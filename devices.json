@@ -92,6 +92,20 @@
       ]
    },
    {
+      "name": "Redmi Note 6 Pro",
+      "brand": "Xiaomi",
+      "codename": "twolip",
+      "supported_versions": [
+         {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Dobsgw",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7144653",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-evolutionx-4-1-unofficial-tulip-t4048893/post81728863#post81728863"
+         }
+      ]
+   },
+   {
       "name": "Mi Mix 3",
       "brand": "Xiaomi",
       "codename": "perseus",
