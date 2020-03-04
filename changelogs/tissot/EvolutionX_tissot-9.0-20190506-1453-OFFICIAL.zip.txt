@@ -1,7 +1,0 @@
-Changelog for Evolution X 5/6/19 build:
-
-ROM updates:
-Add Evolution X bootanimation
-Add better navigation bar inverse option
-Add Option for Users to select size of Single Traffic Font Size
-Fix FCs for Telegram X and WhatsApp

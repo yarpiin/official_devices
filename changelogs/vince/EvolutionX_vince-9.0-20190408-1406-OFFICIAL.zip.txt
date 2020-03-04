@@ -1,6 +1,0 @@
-- Updated sources.
-- Updated kernel to version 4.9.168, thanks @mdeejay
-- Updated tree for kernel 4.9
-- Working thermal
-- The camera is now Miui camera (Google camera will not work stably on the Omni sensor, it is connected with the core)
-- A lot of edits on stability

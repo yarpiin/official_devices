@@ -1,9 +1,0 @@
-Changelog for Evolution X 4/14/19 build:
-
-Improvements to Q Style lockscreen text clock
-Remove QS tiles animations to fix QS toggling
-Add Flashlight blink on incoming calls
-Add Battery temp to Battery settings
-Replaced Pixel Launcher with Lawnchair
-Removed Live wallpapers
-Update translations (thanks to all translators)

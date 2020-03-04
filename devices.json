@@ -10,13 +10,6 @@
             "maintainer_name": "Joey Huab (Stallix)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
             "xda_thread": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-3-3-t4002669"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Joey Huab (Stallix)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
-            "xda_thread": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-2-2-t3975157"
          }
       ]
    },
@@ -31,13 +24,6 @@
             "maintainer_name": "Dominik Procházka",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=7501576",
             "xda_thread": "https://forum.xda-developers.com/mi-a1/development/rom-evolution-x-3-3-t4010873"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Joey Huab (Stallix)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
-            "xda_thread": "https://forum.xda-developers.com/mi-a1/development/rom-pe-evolution-t3901369"
          }
       ]
    },
@@ -52,13 +38,6 @@
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "xda_thread": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-3-1-t3996295"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Gabriel Howard",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
-            "xda_thread": "https://forum.xda-developers.com/pixel/development/rom-evolution-x-2-0-t3947435"
          }
       ]
    },
@@ -101,13 +80,6 @@
             "maintainer_name": "Akito Mizukito",
             "maintainer_url": "https://github.com/RealAkito",
             "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-3-3-mi-9t-redmi-k20-davinci-t4010493"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Akito Mizukito",
-            "maintainer_url": "https://github.com/RealAkito",
-            "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-2-0-mi-9t-redmi-k20-davinci-t3963686"
          }
       ]
    },
@@ -122,13 +94,6 @@
             "maintainer_name": "Zeeshan Ahmed",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9639507",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-3-0-t3989229"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Zeeshan Ahmed",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9639507",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-evolution-x-t3919089"
          }
       ]
    },
@@ -138,8 +103,8 @@
       "codename": "guacamole",
       "supported_versions": [
          {
-            "version_code": "pie",
-            "version_name": "Pie",
+            "version_code": "ten",
+            "version_name": "Ten",
             "maintainer_name": "Chandra Chaganti",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=7600620",
             "xda_thread": "https://forum.xda-developers.com/oneplus-7-pro/development/rom-evolution-x-2-0-t3961398"
@@ -157,13 +122,6 @@
             "maintainer_name": "Anierin Bliss (AnierinB)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
             "xda_thread": "https://forum.xda-developers.com/oneplus-6/development/rom-evolution-x-3-1-t3995973"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Yash(rdjr5)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8531692",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-6/development/rom-evolution-x-2-0-t3937544"
          }
       ]
    },
@@ -187,32 +145,11 @@
       "codename": "oneplus3",
       "supported_versions": [
          {
-            "version_code": "pie",
-            "version_name": "Pie",
+            "version_code": "ten",
+            "version_name": "Ten",
             "maintainer_name": "Ajith (ajithzres)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=5940726",
             "xda_thread": "https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-evolution-x-2-0-t3942385"
-         }
-      ]
-   },
-   {
-      "name": "Redmi 5",
-      "brand": "Xiaomi",
-      "codename": "rosy",
-      "supported_versions": [
-         {
-            "version_code": "ten",
-            "version_name": "Ten",
-            "maintainer_name": "Sukrut Bhagwat (Sukrut4778)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
-            "xda_thread": "https://forum.xda-developers.com/redmi-5/development/rom-evolution-x-3-3-t4004227"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Sukrut Bhagwat (Sukrut4778)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
-            "xda_thread": "https://forum.xda-developers.com/redmi-5/development/rom-evolution-x-2-0-t3956286"
          }
       ]
    },
@@ -227,34 +164,6 @@
             "maintainer_name": "Bluejeans & AnierinB",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8879899",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-evolution-x-3-0-t3983137"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "RashedSahaji",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7054056",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-evolution-x-2-0-t3961038"
-         }
-      ]
-   },
-   {
-      "name": "Zenfone Max Pro M1",
-      "brand": "asus",
-      "codename": "X00T",
-      "supported_versions": [
-         {
-            "version_code": "ten",
-            "version_name": "Ten",
-            "maintainer_name": "Pranavkpr",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9434189",
-            "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/evolution-x-t3947428"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Pranavkpr",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9434189",
-            "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/evolution-x-t3947428"
          }
       ]
    },
@@ -266,13 +175,6 @@
          {
             "version_code": "ten",
             "version_name": "Ten",
-            "maintainer_name": "Ashok_Varma",
-            "maintainer_url": "https://github.com/ashokmini",
-            "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
             "maintainer_name": "Ashok_Varma",
             "maintainer_url": "https://github.com/ashokmini",
             "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
@@ -290,13 +192,6 @@
             "maintainer_name": "Saikiran",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8222620",
             "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-evolution-x-3-0-t3980467/"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Ninad Patil (REIGNZ)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6549853",
-            "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-evolution-x-t3923023"
          }
       ]
    },
@@ -311,13 +206,6 @@
             "maintainer_name": "Suyog ( Ctrl Nick)",
             "maintainer_url": "https://t.me/mangomanid",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-evolution-x-redmi-note-4-t4039713"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Himanshu Naamdev",
-            "maintainer_url": "https://t.me/hnaamdev41",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-evolution-x-t3924614"
          }
       ]
    },
@@ -332,13 +220,6 @@
             "maintainer_name": "Mayur Varde",
             "maintainer_url": "https://t.me/marshmello_61",
             "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-evolution-x-4-0-moto-g5s-plus-t4031813"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Mayur Varde",
-            "maintainer_url": "https://t.me/marshmello_61",
-            "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-evolution-x-t3923633"
          }
       ]
    },
@@ -353,13 +234,6 @@
             "maintainer_name": "Aggelos Savvopoulos (DarkAngelGR)",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
             "xda_thread": "https://forum.xda-developers.com/mi-8/development/10-0-evolution-x-v3-3-mi-8-t4006089"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": " Aggelos Savvopoulos (DarkAngelGR)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
-            "xda_thread": "https://forum.xda-developers.com/mi-8/development/9-0-evolution-x-v2-1-t3969947"
          }
       ]
    },
@@ -374,13 +248,6 @@
             "maintainer_name": "Harun",
             "maintainer_url": "https://github.com/WiZaRd981",
             "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-3-3-t4002005"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "azrim",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=5849399",
-            "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-2-0-t3951575"
          }
       ]
    },
@@ -395,13 +262,6 @@
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "xda_thread": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-3-1-t3996253"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Gabriel Howard",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
-            "xda_thread": "https://forum.xda-developers.com/pixel-xl/development/rom-evolution-x-2-0-t3943024"
          }
       ]
    },
@@ -416,13 +276,6 @@
             "maintainer_name": "Eytan",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8359610",
             "xda_thread": "https://forum.xda-developers.com/mi-5x/development/rom-evolution-x-3-0-t3981025"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Eytan",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8359610",
-            "xda_thread": "https://forum.xda-developers.com/mi-5x/development/rom-evolution-x-2-0-t3951342"
          }
       ]
    },
@@ -437,13 +290,6 @@
             "maintainer_name": "Aryan Arora",
             "maintainer_url": "https://t.me/Aryaannnn",
             "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3981601"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Aryan Arora",
-            "maintainer_url": "https://t.me/Aryaannnn",
-            "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3945397"
          }
       ]
    },
@@ -453,39 +299,11 @@
       "codename": "ysl",
       "supported_versions": [
          {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "Reynold29",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9367840",
-            "xda_thread": "https://forum.xda-developers.com/redmi-s2/development/arm64-evolution-x-t3967758"
-         },
-         {
             "version_code": "ten",
             "version_name": "Ten",
             "maintainer_name": "Reynold29",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9367840",
             "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "name": "Moto G5 Plus",
-      "brand": "Motorola",
-      "codename": "potter",
-      "supported_versions": [
-         {
-            "version_code": "ten",
-            "version_name": "Ten",
-            "maintainer_name": "ZJRDroid",
-            "maintainer_url": "https://t.me/ZJRDroid",
-            "xda_thread": "https://forum.xda-developers.com/g5-plus/development/rom-evolution-x-4-0-potter-t4031693"
-         },
-         {
-            "version_code": "pie",
-            "version_name": "Pie",
-            "maintainer_name": "giostocco",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6051580",
-            "xda_thread": "https://forum.xda-developers.com/g5-plus/development/rom-evolution-x-2-2-t3976463"
          }
       ]
    }

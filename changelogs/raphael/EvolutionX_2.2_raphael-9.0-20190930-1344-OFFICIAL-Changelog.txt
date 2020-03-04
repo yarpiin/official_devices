@@ -1,7 +1,0 @@
-- Ambient settings: Remove broken DC Dimming
-- Allow snoozing SD card notification unconditionally for SystemUI
-- Fix "show pattern error" feature
-- FOD: Revert to non-MIUI FP icon
-- Prevent trying to enable hw offload for tethering via VPN upstreams
-- Settings: Add preference for switching to cellular data when Wi-Fi is invalid
-- Try to fix remaining NFC issues

@@ -1,9 +1,0 @@
-Changelog for Evolution X 4/27/19 build: 
-
-Add Evo X Wallpapers app 
-Add Deep sleep info into Settings > About phone > Uptime 
-Add Lockscreen charging info Re-organize Lockscreen settings in Evo X 
-Few PE upstreams 
-Add OOS Style Mobile tile icon 
-Add OOS Style QS Divider
-Change some dashboard icon colors
