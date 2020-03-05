@@ -168,20 +168,6 @@
       ]
    },
    {
-      "name": "Zenfone Max Pro M2",
-      "brand": "asus",
-      "codename": "X01BD",
-      "supported_versions": [
-         {
-            "version_code": "ten",
-            "version_name": "Ten",
-            "maintainer_name": "Ashok_Varma",
-            "maintainer_url": "https://github.com/ashokmini",
-            "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/9-0-rom-evolution-x-t3922411"
-         }
-      ]
-   },
-   {
       "name": "POCO F1",
       "brand": "Xiaomi",
       "codename": "beryllium",
