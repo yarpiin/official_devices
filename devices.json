@@ -238,6 +238,20 @@
       ]
    },
    {
+      "name": "Mi A3",
+      "brand": "Xiaomi",
+      "codename": "laurel_sprout",
+      "supported_versions": [
+         {
+            "version_code": "ten",
+            "version_name": "Ten",
+            "maintainer_name": "Charles Spencer",
+            "maintainer_url": "https://github.com/frankdavidcorona",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
       "name": "Pixel XL",
       "brand": "Google",
       "codename": "marlin",
