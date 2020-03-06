@@ -1,16 +1,16 @@
 {
-   "error": false,
-   "filename": "EvolutionX_4.1.420_violet-10.0-20200222-0245-OFFICIAL.zip",
    "datetime": 1582339471,
-   "size": 1743389928,
-   "url": "https://sourceforge.net/projects/evolution-x/files/violet/EvolutionX_4.1.420_violet-10.0-20200222-0245-OFFICIAL.zip/download",
+   "error": false,
    "filehash": "7df688755af3d6eae3fe22a2627d81e8",
-   "version": "Ten",
+   "filename": "EvolutionX_4.1.420_violet-10.0-20200222-0245-OFFICIAL.zip",
+   "forum_url": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-evolution-x-3-0-t3983137",
    "id": "b9373a09d8298e55fe3a5f0712ec4506ab50e95619a177737dde58d90aa2e0ab",
-   "website_url": "https://evolution-x.org",
-   "news_url": "https://t.me/EvolutionXOfficial",
    "maintainer": "Bluejeans & AnierinB",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=8879899",
+   "news_url": "https://t.me/EvolutionXOfficial",
+   "size": 1743389928,
    "telegram_username": "bluejeans117",
-   "forum_url": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-evolution-x-3-0-t3983137"
+   "url": "https://sourceforge.net/projects/evolution-x/files/violet/EvolutionX_4.1.420_violet-10.0-20200222-0245-OFFICIAL.zip/download",
+   "version": "Ten",
+   "website_url": "https://evolution-x.org"
 }

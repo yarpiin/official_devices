@@ -1,17 +1,17 @@
 {
-   "error": false,
-   "filename": "EvolutionX_4.1.69_mido-10.0-20200303-2053-OFFICIAL.zip",
    "datetime": 1583268734,
-   "size": 1357399162,
-   "url": "https://sourceforge.net/projects/evolution-x/files/mido/EvolutionX_4.1.69_mido-10.0-20200303-2053-OFFICIAL.zip/download ",
-   "filehash": "5cb19f8ba6496f52adcf132fcf28b068",
-   "version": "Ten",
-   "id": "89eb6b184e8f196f42a9712a9fb2332bf3df5a9ec9fac6fe345d58222d729b08",
-   "website_url": "https://evolution-x.org",
-   "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://paypal.me/swaraj14111998",
+   "error": false,
+   "filehash": "5cb19f8ba6496f52adcf132fcf28b068",
+   "filename": "EvolutionX_4.1.69_mido-10.0-20200303-2053-OFFICIAL.zip",
+   "forum_url": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-evolution-x-redmi-note-4-t4039713",
+   "id": "89eb6b184e8f196f42a9712a9fb2332bf3df5a9ec9fac6fe345d58222d729b08",
    "maintainer": "Suyog ( Ctrl)",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=6698852",
+   "news_url": "https://t.me/EvolutionXOfficial",
+   "size": 1357399162,
    "telegram_username": "ctrl07",
-   "forum_url": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-evolution-x-redmi-note-4-t4039713"
+   "url": "https://sourceforge.net/projects/evolution-x/files/mido/EvolutionX_4.1.69_mido-10.0-20200303-2053-OFFICIAL.zip/download ",
+   "version": "Ten",
+   "website_url": "https://evolution-x.org"
 }

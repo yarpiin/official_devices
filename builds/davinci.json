@@ -1,17 +1,17 @@
 {
-   "error": "false",
-   "filename": "EvolutionX_4.1.69_davinci-10.0-20200305-1000-OFFICIAL.zip",
    "datetime": "1583402406",
-   "size": 1451550617,
-   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/EvolutionX_4.1.69_davinci-10.0-20200305-1000-OFFICIAL.zip/download",
-   "filehash": "d6ee1585cab7cc017a3d2ca73be4e095",
-   "version": "Ten",
-   "id": "80e7c55cda8cb64bf8571bb83e3ae2e33b4f71b6124ad2be54ad6f38050f73f6",
-   "website_url": "https://evolution-x.org",
-   "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/ysldeveloper",
+   "error": "false",
+   "filehash": "d6ee1585cab7cc017a3d2ca73be4e095",
+   "filename": "EvolutionX_4.1.69_davinci-10.0-20200305-1000-OFFICIAL.zip",
+   "forum_url": "https://forum.xda-developers.com/mi-9t/development/evolution-x-3-3-mi-9t-redmi-k20-davinci-t4010493",
+   "id": "80e7c55cda8cb64bf8571bb83e3ae2e33b4f71b6124ad2be54ad6f38050f73f6",
    "maintainer": "Akito Mizukito (RealAkito)",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9008281",
+   "news_url": "https://t.me/EvolutionXOfficial",
+   "size": 1451550617,
    "telegram_username": "RealAkito",
-   "forum_url": "https://forum.xda-developers.com/mi-9t/development/evolution-x-3-3-mi-9t-redmi-k20-davinci-t4010493"
+   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/EvolutionX_4.1.69_davinci-10.0-20200305-1000-OFFICIAL.zip/download",
+   "version": "Ten",
+   "website_url": "https://evolution-x.org"
 }

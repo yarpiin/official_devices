@@ -1,17 +1,17 @@
 {
-   "error": false,
-   "filename": "EvolutionX_4.1.69_beryllium-10.0-20200304-0048-OFFICIAL.zip",
    "datetime": 1583282855,
-   "size": 1664133471,
-   "url": "https://sourceforge.net/projects/evolution-x/files/beryllium/EvolutionX_4.1.69_beryllium-10.0-20200304-0048-OFFICIAL.zip/download",
-   "filehash": "f599c2f067eacb06e3e8399885c3f52d",
-   "version": "Ten",
-   "id": "d670c8730b8a40aa01b15407b2bd60cc57356d4efa5dd80fe089efbb5be3a0ba",
-   "website_url": "https://evolution-x.org",
-   "news_url": "https://t.me/EvolutionXOfficial",
    "donate_url": "https://www.paypal.me/Beastmaster007",
+   "error": false,
+   "filehash": "f599c2f067eacb06e3e8399885c3f52d",
+   "filename": "EvolutionX_4.1.69_beryllium-10.0-20200304-0048-OFFICIAL.zip",
+   "forum_url": "https://forum.xda-developers.com/poco-f1/development/rom-evolution-x-3-0-t3980467/",
+   "id": "d670c8730b8a40aa01b15407b2bd60cc57356d4efa5dd80fe089efbb5be3a0ba",
    "maintainer": "Saikiran",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=8222620",
+   "news_url": "https://t.me/EvolutionXOfficial",
+   "size": 1664133471,
    "telegram_username": "Saikiran001",
-   "forum_url": "https://forum.xda-developers.com/poco-f1/development/rom-evolution-x-3-0-t3980467/"
+   "url": "https://sourceforge.net/projects/evolution-x/files/beryllium/EvolutionX_4.1.69_beryllium-10.0-20200304-0048-OFFICIAL.zip/download",
+   "version": "Ten",
+   "website_url": "https://evolution-x.org"
 }

@@ -35,7 +35,7 @@ def formatter(path):
 	try:
 		data = json.loads(open(path).read())
 		outfile = open(path, 'w')
-		json.dump(data, outfile, indent=indents, ensure_ascii=False)
+		json.dump(data, outfile, indent=indents, ensure_ascii=False, sort_keys=True)
 		print(f"{path}, JSON Formatted!")
 	except Exception as e:
 		print(f"{path}, JSON Formatting errored with the following exception!\n{e}")
