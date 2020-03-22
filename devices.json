@@ -320,5 +320,33 @@
             "xda_thread": ""
          }
       ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "zerofltexx",
+      "name": "Galaxy S6",
+      "supported_versions": [
+         {
+            "maintainer_name": "Lunarixus",
+            "maintainer_url": "https://github.com/Lunarixus",
+            "version_code": "ten",
+            "version_name": "ten",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "zeroltexx",
+      "name": "Galaxy S6 Edge",
+      "supported_versions": [
+         {
+            "maintainer_name": "Lunarixus",
+            "maintainer_url": "https://github.com/Lunarixus",
+            "version_code": "ten",
+            "version_name": "ten",
+            "xda_thread": ""
+         }
+      ]
    }
 ]
