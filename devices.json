@@ -348,5 +348,19 @@
             "xda_thread": "https://forum.xda-developers.com/galaxy-s6/samsung-galaxy-s-6--s-6-edge-unified-development/rom-evolution-x-4-1-69-t4070209/post82071663#post82071663"
          }
       ]
+   },
+   {
+      "brand": "Essential",
+      "codename": "mata",
+      "name": "PH-1",
+      "supported_versions": [
+         {
+            "maintainer_name": "Maxwell",
+            "maintainer_url": "https://github.com/OceanDepth95028",
+            "version_code": "ten",
+            "version_name": "ten",
+            "xda_thread": "https://forum.xda-developers.com/essential-phone/development/rom-evolution-x-4-1-69-t4073153"
+         }
+      ]
    }
 ]
