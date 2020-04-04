@@ -1,5 +1,4 @@
-[HIDE]
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
+Themes
 - RGB Accent Picker
 - Color Bucket
 - 17 System Fonts
@@ -9,7 +8,8 @@
 - Custom QS Header Images
 - QS Opacity & Color Configs
 - QS Backround Image Blur
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
+
+Statusbar
 - Clock Options
 - 7 Battery Icon Styles
 - Battery Percent Show/Hide Config
@@ -19,14 +19,16 @@
 - 7 Custom VoLTE Icons
 - Brightness Control
 - Network Traffic Activity
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
+
+Notifications
 - Edge Lighting
 - Blink Flashlight On Call
 - Force Close Notifications
 - In Call Vibrations
 - Kill App Button
 - Notification light Config
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
+
+Quick Settings
 - Disable When Locked
 - Vibrate On Touch
 - Quick Pulldown (Right/Left)
@@ -38,7 +40,8 @@
 - Running Services Toggle
 - User Switcher Icon Toggle
 - QS Edit Icon Toggle 
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Power Menu[/B][/COLOR][/I][/U][/SIZE]
+
+Power Menu
 - Restart
 - Advanced Restart
 - Screenshot
@@ -49,7 +52,8 @@
 - Users
 - Logout 
 - Visibility On Lockscreen Configs
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
+
+Gestures
 - AOSP Gestures
 - Toggle To Hide Back Gesture Icon
 - Toggle To Hide Navbar Pill
@@ -61,7 +65,8 @@
 - Screen Off Power Button Torch
 - Double Tap To Sleep Status Bar
 - Double Tap to Sleep Lockscreen
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
+
+Lockscreen
 - Custom Clock & Date Fonts
 - Pocket Detection
 - Fingerprint Authentication Vibration Toggle
@@ -73,16 +78,19 @@
 - Lock Screen Shortcuts
 - Status bar visibility toggle
 - Lock Icon Toggle
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
+
+Navigation
 - Nav Bar Disable/Enable Toggle
 - Nav Bar Tuner
 - Invert Layout
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
+
+Hardware Buttons
 - Volume Key Answer
 - Volume Rocker Wake
 - Volume Rocker Playback Control
 - Volume Rocker Cursor Control
-[SIZE="3"][U][I][COLOR="#0060FF"][B] Animations[/B][/COLOR][/I][/U][/SIZE]
+
+Animations
 - Disable Transition Animations Toggle
 - Screen Off Animations
 - Scrolling Cache Configs
@@ -90,7 +98,8 @@
 - QS Tile Animation Duration & Interpolator configs
 - ListView Animations 
 - System Animation Configs
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Miscellaneous[/B][/COLOR][/I][/U][/SIZE]
+
+Miscellaneous
 - Gaming Mode
 - Launch Music App On Headset Connection
 - Wake On Charge
@@ -107,4 +116,4 @@
 - Alarm Blocker
 - Doze Settings
 - Wakelock Blocker
-[/HIDE]
+
