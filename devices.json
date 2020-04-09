@@ -168,6 +168,20 @@
       ]
    },
    {
+      "brand": "Realme",
+      "codename": "RMX1901",
+      "name": "Realme X",
+      "supported_versions": [
+         {
+            "maintainer_name": "Ritik Gupta",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7365304",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/realme-x/development/rom-t4044901"
+         }
+      ]
+   },
+   {
       "brand": "Samsung",
       "codename": "zerofltexx",
       "name": "Galaxy S6",
