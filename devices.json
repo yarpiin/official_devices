@@ -309,6 +309,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "perseus",
+      "name": "Mi Mix 3",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss (AnierinB)",
+            "maintainer_url": "https://t.me/anierinb",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/mi-mix-3/development/rom-evolution-x-2-0-t3941182"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "platina",
       "name": "Mi 8 Lite",
       "supported_versions": [
