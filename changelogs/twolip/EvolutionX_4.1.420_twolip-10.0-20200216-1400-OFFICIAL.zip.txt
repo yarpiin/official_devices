@@ -1,3 +1,0 @@
-Twolip:
-- Changed to pixel charge animation somehow
-- Many goodies from sync source
