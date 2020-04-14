@@ -140,20 +140,6 @@
       ]
    },
    {
-      "brand": "OnePlus",
-      "codename": "guacamole",
-      "name": "OnePlus 7 Pro",
-      "supported_versions": [
-         {
-            "maintainer_name": "Chandra Chaganti",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7600620",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-7-pro/development/rom-evolution-x-2-0-t3961398"
-         }
-      ]
-   },
-   {
       "brand": "oneplus",
       "codename": "oneplus3",
       "name": "OnePlus 3",
