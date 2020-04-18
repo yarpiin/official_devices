@@ -15,6 +15,20 @@
    },
    {
       "brand": "Asus",
+      "codename": "X00T",
+      "name": "Zenfone Max Pro M1",
+      "supported_versions": [
+         {
+            "maintainer_name": "Achooz",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=10449035",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/x00t-evolution-x-4-1-asus-zenfone-max-t4079671"
+         }
+      ]
+   },
+   {
+      "brand": "Asus",
       "codename": "X01BD",
       "name": "Zenfone Max Pro M2",
       "supported_versions": [
