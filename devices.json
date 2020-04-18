@@ -98,6 +98,20 @@
       ]
    },
    {
+      "brand": "LG",
+      "codename": "judyln",
+      "name": "G7 ThinQ",
+      "supported_versions": [
+         {
+            "maintainer_name": "Darren Ramen",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=5680977",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/lg-g7-thinq/development/rom-evolution-x-4-20-lg-g7-t4084243"
+         }
+      ]
+   },
+   {
       "brand": "Motorola",
       "codename": "sanders",
       "name": "Moto G5S Plus",
