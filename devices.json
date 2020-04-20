@@ -112,6 +112,20 @@
       ]
    },
    {
+      "brand": "Lenovo",
+      "codename": "z2_plus",
+      "name": "ZUK Z2 (Plus)",
+      "supported_versions": [
+         {
+            "maintainer_name": "Varshank Dhiman",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6862811",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-evolution-x-4-1-420-t4057651"
+         }
+      ]
+   },
+   {
       "brand": "LG",
       "codename": "judyln",
       "name": "G7 ThinQ",
