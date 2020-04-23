@@ -359,7 +359,8 @@
             "maintainer_url": "https://t.me/nysascape",
             "version_code": "ten",
             "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-evolution-x-4-0-mi-8-lite-t4033069"
+            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-evolution-x-4-0-mi-8-lite-t4033069",
+            "deprecated": true
          }
       ]
    },
