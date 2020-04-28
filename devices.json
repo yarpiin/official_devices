@@ -380,6 +380,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "sagit",
+      "name": "Mi 6",
+      "supported_versions": [
+         {
+            "maintainer_name": "Dobgsw",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7144653",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/mi-6/development/rom-evolution-x-4-20-2-sagit-t4089445"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "tiffany",
       "name": "Mi 5X",
       "supported_versions": [
