@@ -196,6 +196,20 @@
       ]
    },
    {
+      "brand": "OnePlus",
+      "codename": "guacamole",
+      "name": "OnePlus 7 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss (AnierinB)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7125966",
+            "version_code": "ten",
+            "version_name": "ten",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
       "brand": "oneplus",
       "codename": "oneplus3",
       "name": "OnePlus 3",
