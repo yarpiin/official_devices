@@ -89,6 +89,7 @@
       "name": "Pixel XL",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "version_code": "ten",
@@ -103,6 +104,7 @@
       "name": "Pixel",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Gabriel Howard",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
             "version_code": "ten",
@@ -369,12 +371,12 @@
       "name": "Mi 8 Lite",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "nysascape",
             "maintainer_url": "https://t.me/nysascape",
             "version_code": "ten",
             "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-evolution-x-4-0-mi-8-lite-t4033069",
-            "deprecated": true
+            "xda_thread": "https://forum.xda-developers.com/mi-8-Lite/development/rom-evolution-x-4-0-mi-8-lite-t4033069"
          }
       ]
    },
