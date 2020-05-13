@@ -212,6 +212,20 @@
       ]
    },
    {
+      "brand": "OnePlus",
+      "codename": "guacamoleb",
+      "name": "OnePlus 7",
+      "supported_versions": [
+         {
+            "maintainer_name": "Rick M",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7065337",
+            "version_code": "ten",
+            "version_name": "ten",
+            "xda_thread": "https://forum.xda-developers.com/oneplus-7/development/rom-evolution-x-4-20-1-t4086811"
+         }
+      ]
+   },
+   {
       "brand": "oneplus",
       "codename": "oneplus3",
       "name": "OnePlus 3",
