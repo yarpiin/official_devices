@@ -283,6 +283,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "curtana",
+      "name": "Redmi Note 9 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Lewis",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8692360",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-9-pro/development/rom-evolution-x-ganja-curtana-t4094495"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "davinci",
       "name": "Mi 9T",
       "supported_versions": [
