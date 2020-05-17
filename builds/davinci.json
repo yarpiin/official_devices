@@ -1,17 +1,17 @@
 {
-   "datetime": "1584347540",
+   "datetime": "1589551904",
    "donate_url": "https://www.paypal.me/ysldeveloper",
    "error": "false",
-   "filehash": "9bd5aee33fe92398e3e7c922e42d9077",
-   "filename": "EvolutionX_4.1.69_davinci-10.0-20200316-0833-OFFICIAL.zip",
+   "filehash": "ec7981e7d284d5826268fa8239844198",
+   "filename": "EvolutionX_4.3_davinci-10.0-20200515-1412-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/mi-9t/development/evolution-x-3-3-mi-9t-redmi-k20-davinci-t4010493",
-   "id": "e02b7814b09b5a337f45d86e61fbe8451717110f80ca16bcafd2f84a7a7a8573",
+   "id": "47d78ba53ada7091613706ad9d7880f6ea1ec62682004daa51526663dd27f897",
    "maintainer": "Akito Mizukito (RealAkito)",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9008281",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1357381072,
+   "size": 1219810859,
    "telegram_username": "RealAkito",
-   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/EvolutionX_4.1.69_davinci-10.0-20200316-0833-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/davinci/EvolutionX_4.3_davinci-10.0-20200515-1412-OFFICIAL.zip/download",
    "version": "Ten",
    "website_url": "https://evolution-x.org"
 }
