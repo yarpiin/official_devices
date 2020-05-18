@@ -505,5 +505,61 @@
             "xda_thread": ""
          }
       ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "crownlte",
+      "name": "Galaxy Note 9",
+      "supported_versions": [
+         {
+            "maintainer_name": "yarpiin",
+            "maintainer_url": "https://t.me/yarpiin",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "starlte",
+      "name": "Galaxy S9",
+      "supported_versions": [
+         {
+            "maintainer_name": "yarpiin",
+            "maintainer_url": "https://t.me/yarpiin",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "star2lte",
+      "name": "Galaxy S9+",
+      "supported_versions": [
+         {
+            "maintainer_name": "yarpiin",
+            "maintainer_url": "https://t.me/yarpiin",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "laurel_sprout",
+      "name": "MI A3",
+      "supported_versions": [
+         {
+            "maintainer_name": "oddlyspaced",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9807173",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/mi-a3/development/10-evolutionx-4-3-07-05-2020-t4095609"
+         }
+      ]
    }
 ]
