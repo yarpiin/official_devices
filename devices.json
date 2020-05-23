@@ -128,6 +128,34 @@
       ]
    },
    {
+      "brand": "Google",
+      "codename": "blueline",
+      "name": "Pixel 3",
+      "supported_versions": [
+         {
+            "maintainer_name": "nysa",
+            "maintainer_url": "https://github.com/nysascape",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/pixel-3-xl/development/rom-evolution-x-pixel-3-3xl-bluecross-t4094551"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "crosshatch",
+      "name": "Pixel 3 XL",
+      "supported_versions": [
+         {
+            "maintainer_name": "nysa",
+            "maintainer_url": "https://github.com/nysascape",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/pixel-3-xl/development/rom-evolution-x-pixel-3-3xl-bluecross-t4094551"
+         }
+      ]
+   },
+   {
       "brand": "Lenovo",
       "codename": "z2_plus",
       "name": "ZUK Z2 (Plus)",
@@ -278,6 +306,48 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/galaxy-s6/samsung-galaxy-s-6--s-6-edge-unified-development/rom-evolution-x-4-1-69-t4070209/post82071663#post82071663"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "crownlte",
+      "name": "Galaxy Note 9",
+      "supported_versions": [
+         {
+            "maintainer_name": "yarpiin",
+            "maintainer_url": "https://t.me/yarpiin",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "starlte",
+      "name": "Galaxy S9",
+      "supported_versions": [
+         {
+            "maintainer_name": "yarpiin",
+            "maintainer_url": "https://t.me/yarpiin",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "star2lte",
+      "name": "Galaxy S9+",
+      "supported_versions": [
+         {
+            "maintainer_name": "yarpiin",
+            "maintainer_url": "https://t.me/yarpiin",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": ""
          }
       ]
    },
@@ -500,48 +570,6 @@
          {
             "maintainer_name": "Reynold29",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=9367840",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "crownlte",
-      "name": "Galaxy Note 9",
-      "supported_versions": [
-         {
-            "maintainer_name": "yarpiin",
-            "maintainer_url": "https://t.me/yarpiin",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "starlte",
-      "name": "Galaxy S9",
-      "supported_versions": [
-         {
-            "maintainer_name": "yarpiin",
-            "maintainer_url": "https://t.me/yarpiin",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "star2lte",
-      "name": "Galaxy S9+",
-      "supported_versions": [
-         {
-            "maintainer_name": "yarpiin",
-            "maintainer_url": "https://t.me/yarpiin",
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": ""
