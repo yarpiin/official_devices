@@ -1,5 +1,0 @@
-Fixed deep sleep issue
-Increased historical notification to 100
-Some under the hood changes
-
-USE FIRMWARE 060 OR ABOVE
