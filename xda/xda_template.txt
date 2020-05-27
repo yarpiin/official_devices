@@ -1,21 +1,21 @@
 [CENTER]
 [IMG]https://raw.githubusercontent.com/Evolution-X/platform_manifest/pie/EvoBanner.png[/IMG]
-[SIZE="5"][b][color=#0060FF]Evolution X 4.1 for the OnePlus 6T [Fajita][/color][/b][/SIZE]
+[SIZE="5"][b][color=#0060FF]Evolution X 4.3 for the OnePlus 6T [Fajita][/color][/b][/SIZE]
 
 [img]https://i.imgur.com/qE4kqsj.png[/img]
 [CENTER][SIZE="5"][COLOR="#0060FF"][B]Living, Breaking, Keep Evolving. [/B][/COLOR][/SIZE]
 
-[COLOR="#0060FF"]Evolution X[/COLOR] is a flashable Custom ROM to bring a true Pixel feel to your Android Device at first glance, with many additional configurations at your disposal. We aim to provide frequent builds with monthly security patches from the latest aosp sources!
+[CENTER][SIZE="3"][B]Evolution X[/B] is a flashable custom ROM to bring a true Pixel feel to your Android Device at first glance, with many additional configurations at your disposal. We aim to provide frequent builds with monthly security patches from the latest aosp sources![/SIZE][/CENTER] 
 
-[B][color=#0060FF]- Team Evolution X -[/color][/B]
-@[URL="https://forum.xda-developers.com/member.php?u=4936496"]Joeyhuab[/URL]
-@[URL="https://forum.xda-developers.com/member.php?u=9008281"]peaktogoo[/URL]
-@[URL="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/URL]
+[B][color=#0060FF]- Team Evolution X - [/color][/B]
+Joey Huab (Founder & Lead Developer)
+Mizukito Akito (Project Manager)
+Anierin Bliss (Project Specialist)
 
-[B][color=#0060FF]- Design -[/color][/B]
-@[URL="https://forum.xda-developers.com/member.php?u=7665334"]Hugwalk[/URL]
-@[URL="https://forum.xda-developers.com/member.php?u=10435351"]ecnivtwelve[/URL]
-@[URL="https://forum.xda-developers.com/member.php?u=9633220"]MartonDev[/URL]
+[B][color=#0060FF]- Design - [/color][/B]
+ecnivtwelve ( Lead Designer)
+MartonDev (Website Designer)
+Hugwalk (Founding Designer)
 
 [url]https://evolution-x.org/[/url]
 
@@ -25,39 +25,48 @@
 [HIDE]
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Themes[/B][/COLOR][/I][/U][/SIZE]
 - RGB Accent Picker
-- Color Bucket
+-  Dark Theme Styles (color Bucket)
 - 17 System Fonts
 - 6 System Icon Shapes
 - 4 Statusbar Icon Styles
-- Pixel 2019 Wallpapers
+- 2019 Pixel Live Wallpapers
 - Custom QS Header Images
+- New Tint Style Toggle
 - QS Opacity & Color Configs
 - QS Backround Image Blur
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Statusbar[/B][/COLOR][/I][/U][/SIZE]
 - Clock Options
-- 7 Battery Icon Styles
-- Battery Percent Show/Hide Config
+- Battery Bar
 - Carrier Label Settings
-- Rounded Corners Config
-- 4G/LTE Icon Toggle
-- 7 Custom VoLTE Icons
-- Brightness Control
 - Network Traffic Activity
+- Rounded Corners Config
+- System UI Tuner
+- 7 Battery Icon Style
+- Battery Percent Show/Hide Config
+- Old Mobile Style Network Icons
+- 4G/LTE Icon Toggle
+- 7 Custom VoLTE Icons & Toggle
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Notifications[/B][/COLOR][/I][/U][/SIZE]
-- Edge Lighting
-- Blink Flashlight On Call
-- Force Close Notifications
-- In Call Vibrations
-- Kill App Button
+- Heads Up
+- R Style Notification Headers
+- Alert Slider Notification Toggle
 - Notification light Config
+- Pulse Edge Lighting
+- Force Close Notifications
+- Force Expanded Notification
+- Kill App Button
+- Notification Vibration Toggle
+- Blink Flashlight On Call
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Quick Settings[/B][/COLOR][/I][/U][/SIZE]
 - Disable When Locked
 - Vibrate On Touch
 - Quick Pulldown (Right/Left)
+- Smart Pulldown
 - Hide Battery Icon
+- Notification Header Battery Precent Configs
 - Brightness Slider Configs
 - Quick Settings Layout Configs
-- QS Footer Text
+- QS Footer Text Toggle & Customizations
 - Settings Icon Toggle
 - Running Services Toggle
 - User Switcher Icon Toggle
@@ -75,33 +84,33 @@
 - Visibility On Lockscreen Configs
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Gestures[/B][/COLOR][/I][/U][/SIZE]
 - AOSP Gestures
-- Toggle To Hide Back Gesture Icon
-- Toggle To Hide Navbar Pill
-- Back Gesture Height Config
-- Back Gesture Vibration Toggle
-- Screen Off Gestures
 - Swipe To Screenshot
 - Status Bar Brightness Control
 - Screen Off Power Button Torch
 - Double Tap To Sleep Status Bar
 - Double Tap to Sleep Lockscreen
+- Toggle To Hide Navbar Pill
+- Back Gesture Height Config
+- Back Gesture Vibration Toggle
+- Screen Off Gestures
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Lockscreen[/B][/COLOR][/I][/U][/SIZE]
-- Custom Clock & Date Fonts
 - Pocket Detection
 - Fingerprint Authentication Vibration Toggle
+- Charging Info
+- Lock Screen Shortcuts
+- Status bar Visibility Toggle
+- Lock Icon Toggle
+- Custom Clock & Date Fonts/Widgets
+- Owner Info Configs
 - FOD Icon Picker
 - FOD Pressed State Icon's
 - FOD Recognizing Animations
+- Lock Screen Media Artwork/Notification Configs
 - Lock Screen Music Visualizer
-- Lock Screen Media Artwork Configs
-- Lock Screen Shortcuts
-- Status bar visibility toggle
-- Lock Icon Toggle
 [SIZE="3"][U][I][COLOR="#0060FF"][B]Navigation[/B][/COLOR][/I][/U][/SIZE]
 - Nav Bar Disable/Enable Toggle
 - Nav Bar Tuner
 - Invert Layout
-[SIZE="3"][U][I][COLOR="#0060FF"][B]Hardware Buttons[/B][/COLOR][/I][/U][/SIZE]
 - Volume Key Answer
 - Volume Rocker Wake
 - Volume Rocker Playback Control
@@ -121,15 +130,16 @@
 - Charging Animation
 - Screenshot Type (Full/Drag)
 - Dashboard Condition/Suggestion Toggle
+- Doze Brightness Configs
 - Default USB Config
 - Disable Device Identifier Restrictions
 - Accidental Wake Up Prevention
 - Sensor Block Per Package
 - Signature Spoofing Support
 - Time In State Monitor
+- Doze Settings
 - Legacy App Scalling
 - Alarm Blocker
-- Doze Settings
 - Wakelock Blocker
 [/HIDE]
 
@@ -170,8 +180,8 @@
 
 [img]https://i.imgur.com/LU9gsrQ.png[/img][/CENTER]
 [LEFT][SIZE="3"][list][color="Lime"][*][b]Android version:[/b] 10[/COLOR]
-[color="#0060FF"][*][b]Evolution version:[/b] 4.1.69[/COLOR]
-[color="Red"][*][b]Security patch level:[/b] March 5, 2020[/COLOR]
+[color="#0060FF"][*][b]Evolution version:[/b] 4.3[/COLOR]
+[color="Red"][*][b]Security patch level:[/b] May 5, 2020[/COLOR]
 [*][b]Build Author:[/b] [url="https://forum.xda-developers.com/member.php?u=7125966"]AnierinB[/url]
 [*][b]ROM Source:[/b] [url="https://github.com/Evolution-X"][url]https://github.com/Evolution-X[/url][/url]
 [*][b]Kernel Source:[/b] [url="https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845"][url]https://github.com/Evolution-X-Devices/kernel_oneplus_sdm845[/url][/url]
