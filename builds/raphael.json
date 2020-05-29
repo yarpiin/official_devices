@@ -1,17 +1,17 @@
 {
-   "datetime": 1590225796,
+   "datetime": 1590766071,
    "donate_url": "https://www.paypal.me/joeyhuab",
    "error": false,
-   "filehash": "30ee2a2b75156e6e86e02ff48a006c89",
-   "filename": "EvolutionX_4.3_raphael-10.0-20200523-0924-OFFICIAL.zip",
+   "filehash": "9333860fd8505897944e049bb7639ab2",
+   "filename": "EvolutionX_4.3_raphael-10.0-20200529-1528-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-3-3-t4002669",
-   "id": "ad32de42d3ce70dfb8379c4ecd73520292e264320c67fa67e228470939c7e244",
+   "id": "e4c862d7f2a0827c10c38242947d99c8d795892a07a671918cbb485b4f57b5e4",
    "maintainer": "Joey Huab",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1339581964,
+   "size": 1341306153,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_4.3_raphael-10.0-20200523-0924-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_4.3_raphael-10.0-20200529-1528-OFFICIAL.zip/download",
    "version": "Ten",
    "website_url": "https://evolution-x.org"
 }
