@@ -1,17 +1,17 @@
 {
-   "datetime": "1587596786",
+   "datetime": "1591198368",
    "donate_url": "https://www.paypal.me/AnierinBliss",
    "error": false,
-   "filehash": "816d0ba0a7e77c743f7f3a5e91102524",
-   "filename": "EvolutionX_4.20.2_enchilada-10.0-20200422-2307-OFFICIAL.zip",
+   "filehash": "93de51e5f872f5d763d187e1e04b83c0",
+   "filename": "EvolutionX_4.4_enchilada-10.0-20200603-1533-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/oneplus-6/development/rom-evolution-x-3-1-t3995973",
-   "id": "8b9a3503b14112dc43f9c2aebfa20727444f8df91bc4d496c3195ac5a0776e31",
+   "id": "fce1ac29f5ba3bdc41c38e5f93d58ba972b493da7b8a53ac34489aec2f20c6de",
    "maintainer": "AnierinB (Anierin Bliss)",
    "maintainer_url": "https://github.com/AnierinBliss",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1346692666,
+   "size": 1178804115,
    "telegram_username": "AnierinB",
-   "url": "https://sourceforge.net/projects/evolution-x/files/enchilada/EvolutionX_4.20.2_enchilada-10.0-20200422-2307-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/enchilada/EvolutionX_4.4_enchilada-10.0-20200603-1533-OFFICIAL.zip/download",
    "version": "Ten",
    "website_url": "https://evolution-x.org"
 }
