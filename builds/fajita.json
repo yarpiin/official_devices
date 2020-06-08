@@ -1,17 +1,17 @@
 {
-   "datetime": "1591196584",
+   "datetime": "1591574272",
    "donate_url": "https://PayPal.me/anierinbliss",
    "error": false,
-   "filehash": "417ac5e559c23d3c7c43c29670e4b8e1",
-   "filename": "EvolutionX_4.4_fajita-10.0-20200603-1503-OFFICIAL.zip",
+   "filehash": "4eb144ab4467e6764ccaa2428b927679",
+   "filename": "EvolutionX_4.4_fajita-10.0-20200607-2358-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/oneplus-6t/development/rom-evolution-x-3-0-t3988143",
-   "id": "0d638d56970b78c7c2bf93b64a6ac0d9c47eb16c98ce617c48ab3253986c76be",
+   "id": "c133ab76473069b359e359dc89f42b2b46f1859be817b2bea03db223566bb776",
    "maintainer": "Anierin Bliss (AnierinB)",
    "maintainer_url": "https://github.com/anierinbliss",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1181585459,
+   "size": 1184517329,
    "telegram_username": "AnierinB",
-   "url": "https://sourceforge.net/projects/evolution-x/files/fajita/EvolutionX_4.4_fajita-10.0-20200603-1503-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/fajita/EvolutionX_4.4_fajita-10.0-20200607-2358-OFFICIAL.zip/download",
    "version": "Ten",
    "website_url": "https://evolution-x.org"
 }
