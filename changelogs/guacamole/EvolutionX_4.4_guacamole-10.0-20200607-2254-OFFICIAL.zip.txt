@@ -1,0 +1,60 @@
+6/7
+avc/hevc: Align 128 everywhere
+Camera: Make originalDataSpace be const upon stream creation
+Codec2Client: Add function to set preferred store
+Fix android.media.cts.ImageReaderDecoderTest fail on MT6580 project
+Fix some mods that hooks zygote such as Riru
+init.rc: disable kernel module autoloading
+Sepolicy: Add sepolicy for IBootControl 1.0 and the default HAL
+Sepolicy: Allow reading dt fstab in boot control HAL
+Sepolicy: Don't require seinfo for priv-apps
+Sepolicy: Ignore the denial when system_other is erased
+Sepolicy: global_macros: trim back various watch* permissions
+Sepolicy: update sepolicy for fs notification hooks
+SystemUI: Adapt screenshot sound to ringer modes
+
+6/6
+[viewcompiler] Switch to slicer DEX opcode definitions
+Allow non-system server code to AppOpsManager.checkOp and NoteOp
+base: add parallel verifyV1
+base: Fix NPE on some devices by checking for null client
+Fix PackageWatchdog::syncRequestsAsync and related code
+os: Process: Fix wrong code in isThreadInProcess
+overlay: Allow all apps to use smart replies
+Permissions: Stop auto-granting location to system browsers
+Simplifying callback calls in PackageInstallerSession
+
+6/5
+Add option to add left and right virtual buttons while typing
+Bring back option to disable long screenshot
+Disable safe volume everywhere, not just the US
+Evolver: Fix title & summary for layout inversion
+fixup! fix screenshot gesture working unexpectedly
+LongScreenshot: add screenshot type
+Settings: AboutDeviceNamePreferenceController: Use Manufacturer instead of brand
+Settings: Do not allow disabling the default keyboard
+Settings: InstalledApp: show link to Google Play
+SystemUI: DataSwitchTile: update SIMs QS icons
+SystemUI: ScreenshotTile: Migrate to new screenshot method with Longshot support
+Use open camera intent string from Intent class
+
+FODCircleViewImpl: Use FODUtils to check for auto disabling night light on FOD devices
+
+6/4
+Drop GooglePermissionControllerOverlay
+VibratorService: Fix vibration enabled when battery saver is enabled
+
+LEFT-SIDED Volume panel devices ONLY
+VolumeDialog: Fix live caption button when on left side
+
+FOD devices ONLY
+Clean up unnecessary FOD commits
+
+6/3
+overlays: Use correct Accent Colors for Brands regardless of theme
+Update gapps from QQ3A.200605.001
+Update translations
+
+Device side:
+Fixed hotspot and tethering
+Added auto HBM

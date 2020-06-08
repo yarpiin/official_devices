@@ -1,17 +1,17 @@
 {
-   "datetime": "1591188944",
+   "datetime": "1591570390",
    "donate_url": "https://www.paypal.me/AnierinBliss",
    "error": false,
-   "filehash": "db15a9d7e1ba8dd59061bd9219e663fb",
-   "filename": "EvolutionX_4.4_guacamole-10.0-20200603-1256-OFFICIAL.zip",
+   "filehash": "9afc107a5b0576f1ca4bea72f70378ca",
+   "filename": "EvolutionX_4.4_guacamole-10.0-20200607-2254-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/oneplus-7-pro/development/rom-evolution-x-4-3-t4108845",
-   "id": "74bd50f1e89c64c6471bb008fb66270cfc471e30a3c27f88b5707c502f21c230",
+   "id": "7bedbeee8fa8f3f501d5bd69a5d38021d09cb8eac9cf1a6961b1facbbf6ade7c",
    "maintainer": "Anierin Bliss (AnierinB)",
    "maintainer_url": "https://github.com/AnierinBliss",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1476521306,
+   "size": 1472675207,
    "telegram_username": "AnierinB",
-   "url": "https://sourceforge.net/projects/evolution-x/files/guacamole/EvolutionX_4.4_guacamole-10.0-20200603-1256-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/guacamole/EvolutionX_4.4_guacamole-10.0-20200607-2254-OFFICIAL.zip/download",
    "version": "Ten",
    "website_url": "https://evolution-x.org"
 }
