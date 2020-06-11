@@ -70,20 +70,6 @@
       ]
    },
    {
-      "brand": "Samsung",
-      "codename": "gtaxlwifi",
-      "name": "Galaxy Tab A6 (SM-T580)",
-      "supported_versions": [
-         {
-            "maintainer_name": "Gabriel Howard",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-tab-a/development/rom-evolution-x-4-20-2-t4088469"
-         }
-      ]
-   },
-   {
       "brand": "Google",
       "codename": "marlin",
       "name": "Pixel XL",
@@ -283,6 +269,20 @@
    },
    {
       "brand": "Samsung",
+      "codename": "gtaxlwifi",
+      "name": "Galaxy Tab A6 (SM-T580)",
+      "supported_versions": [
+         {
+            "maintainer_name": "Gabriel Howard",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-tab-a/development/rom-evolution-x-4-20-2-t4088469"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
       "codename": "zerofltexx",
       "name": "Galaxy S6",
       "supported_versions": [
@@ -432,6 +432,20 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-3-3-t4002005"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "laurel_sprout",
+      "name": "MI A3",
+      "supported_versions": [
+         {
+            "maintainer_name": "oddlyspaced",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9807173",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/mi-a3/development/10-evolutionx-4-3-07-05-2020-t4095609"
          }
       ]
    },
@@ -614,20 +628,6 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "laurel_sprout",
-      "name": "MI A3",
-      "supported_versions": [
-         {
-            "maintainer_name": "oddlyspaced",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9807173",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-a3/development/10-evolutionx-4-3-07-05-2020-t4095609"
          }
       ]
    }
