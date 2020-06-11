@@ -521,6 +521,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "pyxis",
+      "name": "Mi 9 Lite",
+      "supported_versions": [
+         {
+            "maintainer_name": "Aggelos Savvopoulos (DarkAngelGR)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/mi-cc9/development/rom-evolution-x-v4-4-mi-9-lite-t4113507"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "platina",
       "name": "Mi 8 Lite",
       "supported_versions": [
