@@ -171,6 +171,20 @@
    },
    {
       "brand": "Motorola",
+      "codename": "evert",
+      "name": "Moto G6 Plus",
+      "supported_versions": [
+         {
+            "maintainer_name": "Ardany Jolón (Ardjlon)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7006405",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/g6-plus/development/rom-evolution-x-t3963067"
+         }
+      ]
+   },
+   {
+      "brand": "Motorola",
       "codename": "sanders",
       "name": "Moto G5S Plus",
       "supported_versions": [
