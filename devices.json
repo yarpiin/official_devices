@@ -119,6 +119,7 @@
       "name": "Pixel 3",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "nysa",
             "maintainer_url": "https://github.com/nysascape",
             "version_code": "ten",
@@ -133,6 +134,7 @@
       "name": "Pixel 3 XL",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "nysa",
             "maintainer_url": "https://github.com/nysascape",
             "version_code": "ten",
