@@ -635,6 +635,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "vince",
+      "name": "Redmi Note 5/5 Plus",
+      "supported_versions": [
+         {
+            "maintainer_name": "Professor",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9386036",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-5/development/evolution-x-4-4-redmi-5-plus-t4122467"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "violet",
       "name": "Redmi Note 7 Pro",
       "supported_versions": [
