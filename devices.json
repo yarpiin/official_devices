@@ -527,6 +527,7 @@
       "name": "Mi Mix 3",
       "supported_versions": [
          {
+            "deprecated": true,
             "maintainer_name": "Anierin Bliss (AnierinB)",
             "maintainer_url": "https://t.me/anierinb",
             "version_code": "ten",
