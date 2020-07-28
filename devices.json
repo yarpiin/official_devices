@@ -472,11 +472,11 @@
       "name": "Mi A2",
       "supported_versions": [
          {
-            "maintainer_name": "Harun",
-            "maintainer_url": "https://github.com/WiZaRd981",
+            "maintainer_name": "OdSazib",
+            "maintainer_url": "https://github.com/OdSazib",
             "version_code": "ten",
             "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-3-3-t4002005"
+            "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-t4139597"
          }
       ]
    },
@@ -674,6 +674,20 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-evolution-x-4-4-t4128093"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "wayne",
+      "name": "Mi 6X",
+      "supported_versions": [
+         {
+            "maintainer_name": "OdSazib",
+            "maintainer_url": "https://github.com/OdSazib",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-t4139613"
          }
       ]
    },
