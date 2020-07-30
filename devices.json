@@ -609,6 +609,20 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "sakura",
+      "name": "Redmi 6 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "ZèD",
+            "maintainer_url": "https://github.com/IMZihad21",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-6-pro/development/evolution-x-t4112939"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "tiffany",
       "name": "Mi 5X",
       "supported_versions": [
