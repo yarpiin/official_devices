@@ -609,20 +609,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "tiffany",
-      "name": "Mi 5X",
-      "supported_versions": [
-         {
-            "maintainer_name": "Eytan",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8359610",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-5x/development/rom-evolution-x-3-0-t3981025"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "tissot",
       "name": "Mi A1",
       "supported_versions": [
