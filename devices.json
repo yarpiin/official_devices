@@ -298,6 +298,34 @@
    },
    {
       "brand": "Samsung",
+      "codename": "herolte",
+      "name": "Galaxy S7",
+      "supported_versions": [
+         {
+            "maintainer_name": "ExpressLuke",
+            "maintainer_url": "https://github.com/expressluke",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/galaxy-s7/development/beta-evolution-x-samsung-galaxy-s7-t4058843"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
+      "codename": "hero2lte",
+      "name": "Galaxy S7 Edge",
+      "supported_versions": [
+         {
+            "maintainer_name": "ExpressLuke",
+            "maintainer_url": "https://github.com/expressluke",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/s7-edge/development/beta-evolution-x-samsung-galaxy-s7-edge-t4058837"
+         }
+      ]
+   },
+   {
+      "brand": "Samsung",
       "codename": "zerofltexx",
       "name": "Galaxy S6",
       "supported_versions": [
