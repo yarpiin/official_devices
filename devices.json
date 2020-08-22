@@ -29,6 +29,20 @@
    },
    {
       "brand": "Asus",
+      "codename": "X00QD",
+      "name": "Zenfone 5",
+      "supported_versions": [
+         {
+            "maintainer_name": "emincangencer",
+            "maintainer_url": "https://github.com/emincangencer",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/zenfone-5/development/rom-evolution-x-4-3-t4104209 "
+         }
+      ]
+   },
+   {
+      "brand": "Asus",
       "codename": "X01BD",
       "name": "Zenfone Max Pro M2",
       "supported_versions": [
