@@ -424,20 +424,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "curtana",
-      "name": "Redmi Note 9 Pro",
-      "supported_versions": [
-         {
-            "maintainer_name": "Lewis",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8692360",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-9-pro/development/rom-evolution-x-ganja-curtana-t4094495"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "davinci",
       "name": "Mi 9T",
       "supported_versions": [
@@ -517,6 +503,20 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rom-evolutionx-4-1-t4063793"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "miatoll",
+      "name": "Redmi Note 9S, 9 Pro, 9 Pro Max, Poco M2 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Ahmed Tohamy (Agmad)",
+            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8386267",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": ""
          }
       ]
    },
