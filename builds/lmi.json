@@ -1,17 +1,17 @@
 {
-   "datetime": 1602220095,
+   "datetime": 1602324617,
    "donate_url": "https://www.paypal.me/ysldeveloper",
    "error": false,
-   "filehash": "b0a124255a088326574a75c1da4ba368",
-   "filename": "EvolutionX_4.7_lmi-10.0-20201009-0508-OFFICIAL.zip",
+   "filehash": "939602cdc3cbad90d93ace9aaf9d98e4",
+   "filename": "EvolutionX_4.7_lmi-10.0-20201010-1010-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/poco-f2-pro/development/evolution-x-4-7-poco-f2-pro-redmi-k30-t4174429",
-   "id": "84c2d741bae2da7a1571df1d007118bc803c4e54deb06f902d44c183a837c3a9",
+   "id": "cfcd8d7d5b1271cbeb73df7cf10bc245fb245a5f446c23d03fe573ca0e07ee39",
    "maintainer": "Akito Mizukito",
    "maintainer_url": "https://github.com/RealAkito",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1279948253,
+   "size": 1281415039,
    "telegram_username": "RealAkito",
-   "url": "https://master.dl.sourceforge.net/project/evolution-x/lmi/EvolutionX_4.7_lmi-10.0-20201009-0508-OFFICIAL.zip",
+   "url": "https://sourceforge.net/projects/evolution-x/files/lmi/EvolutionX_4.7_lmi-10.0-20201010-1010-OFFICIAL.zip/download",
    "version": "Ten",
    "website_url": "https://evolution-x.org"
 }
