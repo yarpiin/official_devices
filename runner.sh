@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copyright © 2019 Maestro Creativescape
 
-ADMINS="@RealAkito @Stallix @AnierinB"
+ADMINS="@RealAkito @Stallix"
 COMMIT_AUTHOR="$(git log -1 --format='%an <%ae>')"
 COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
 COMMIT_SMALL_HASH="$(git rev-parse --short HEAD)"
