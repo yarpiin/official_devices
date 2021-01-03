@@ -1,0 +1,7 @@
+!!! THIS UPDATE IS NOT FLASHABLE VIA OTA FROM 4.7 BUILDS, PLEASE DOWNLOAD THE UPDATE FROM THE PROJECT'S SOURCEFORGE !!!
+- Initial Android 11 build
+- Updated Neutrino kernel to latest stable
+- Countless stability improvements and tiny changes
+- GCam removed 
+- Source has been completely redone, so expect some features to be still missing
+NOTE: Clean flash is necessarry from 4.7 releases, if you will attempt a dirty flash and encounter data loss in the process, don't blame me!
