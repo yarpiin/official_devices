@@ -1,17 +1,17 @@
 {
-   "datetime": 1616683395,
+   "datetime": 1617000318,
    "donate_url": "https://www.paypal.me/joeyhuab",
    "error": false,
-   "filehash": "13d902ce2ffdc1878460b2f30dd64165",
-   "filename": "EvolutionX_5.5.2_raphael-11-20210325-1445-OFFICIAL.zip",
+   "filehash": "784a8aa37f3ba5b899d18b2d62615187",
+   "filename": "EvolutionX_5.5.2_raphael-11-20210329-0647-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/k20-pro/development/rom-evolution-x-elle-t4179163",
-   "id": "39d8392cab0dd93b515f529346093bb5c76185fd7021610ef4c39d2b7c03cfa5",
+   "id": "eb2fec60666692497943dbb29d5ddc552ae9ff4b884c8689679a9bda30e1e91a",
    "maintainer": "Stallix",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1595303803,
+   "size": 1595075217,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_5.5.2_raphael-11-20210325-1445-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_5.5.2_raphael-11-20210329-0647-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
