@@ -1,0 +1,14 @@
+NOTE: To avoid Pixel Launcher crash, delete /data/system/package_cache folder via recovery
+
+Device changes:
+==============================
+None
+------------------------------
+ROM changes:
+==============================
+Revert Pixel Launcher to modded version with Double tap to sleep
+Revert QS auto-brightness icon changes
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: Update preference videos
