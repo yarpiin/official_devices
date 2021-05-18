@@ -1,17 +1,17 @@
 {
-   "datetime": 1620837838,
+   "datetime": 1621325397,
    "donate_url": "https://www.paypal.me/joeyhuab",
    "error": false,
-   "filehash": "dbf37d5297223816b181f59be9a80143",
-   "filename": "EvolutionX_5.7_tissot-11-20210512-1646-OFFICIAL.zip",
+   "filehash": "a9edfa0cf7f69c5cd03bb94481e9c7ef",
+   "filename": "EvolutionX_5.7_tissot-11-20210518-0812-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-tissot-official-evolution-x-08-04-2021.4259149",
-   "id": "1fa751b6bf00ff1c36cf684f118d5c1f3e55a156931492cf9abf941d3ba09949",
+   "id": "af4aafa03f3766f4e7d2fa3e5bb201dd774ecb8c5570093fd6f20eacb4c9ad75",
    "maintainer": "Joey Huab",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1270686716,
+   "size": 1271746679,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_5.7_tissot-11-20210512-1646-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/EvolutionX_5.7_tissot-11-20210518-0812-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }

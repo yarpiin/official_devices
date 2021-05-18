@@ -1,0 +1,55 @@
+NOTE: To avoid Pixel Launcher crash, delete /data/system/package_cache folder via recovery
+
+Device changes:
+==============================
+Add goodix fingerprint keylayout
+Build custom fingerprint HIDL
+Build custom lights AIDL
+Commonize sepolicy
+Kill QTI gatekeeper HIDL
+Refactor rootdir
+Set vendor.post_boot.parsed=1
+Stop excluding overlays from RRO
+Update blobs from V10.0.24.0.PDHMIXM
+biometrics: Add custom fingerprint HAL loading logic
+init: post_boot: Update nodes of read_ahead_kb configs
+media: copy c2 google codecs to vendor/etc
+post_boot: Fix rate_limit_us setting
+sepolicy: Add vendor prefix to ctl_vendor_imsrcsservice_prop
+sepolicy: Add vendor prefix to qcom_ims_prop
+------------------------------
+ROM changes:
+==============================
+Add Bluetooth and Wi-Fi timeout features
+Add national roaming for o2 & E-Plus in germany
+BT: Don't allow isBleScanAlwaysAvailable API call for non foreground users
+Core: tweak some QQS dimens
+Evolver: make app volume rows optional
+Handle landscape and portrait display for PIP rotation
+IMS: Fix issue with answering call for some 3rd party apps
+LiveDisplaySettings: Unlock Reading Mode whenever is possible
+ReadingModeTile: Drop dependency on wellbeing app
+Screenrecord: Add an option to record for longer
+Settings: remove Bluetooth related text from DNS-dialog
+Snap: api2: add QR scanner mode
+Snap: api2: reduce unneeded animations
+Snap: api2: update promode icons
+Snap: api2: use nicer icons in settings
+SystemUI: Add VPN tile
+SystemUI: Add reading mode tile
+SystemUI: Import VoLTE & VoWiFi icons from Vivo X60 Pro
+SystemUI: add app volume row to volume dialog (stock panel only)
+VolumePluginManager: More fixes toggling panel
+apns-conf: Add TPG Singapore configs
+apns: Add AT&T 310-280 ids
+apns: Remove T-Mobile UK
+base: add option to scale default wallpaper to screen size
+base: shrink hi-res files of headers or ambient image than the device size
+device_config: Enable recents text selection for Pixel Launcher users
+overlays: Add Inter font style
+overlays: Add leaf icon shape
+overlays: Update Accent colors
+pixelstyle: config: Move gestural overlay to vendor
+pixelstyle: config: Remove redundant props
+pixelstyle: config: Turn off storage manager
+pixelstyle: fonts: Update Inter to v3.18
