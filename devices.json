@@ -29,34 +29,6 @@
    },
    {
       "brand": "Asus",
-      "codename": "X00QD",
-      "name": "Zenfone 5",
-      "supported_versions": [
-         {
-            "maintainer_name": "emincangencer",
-            "maintainer_url": "https://github.com/emincangencer",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/asus-zenfone-5-2018/development/rom-evolution-x-4-3-t4104209"
-         }
-      ]
-   },
-   {
-      "brand": "Asus",
-      "codename": "X01BD",
-      "name": "Zenfone Max Pro M2",
-      "supported_versions": [
-         {
-            "maintainer_name": "Vyom Desai",
-            "maintainer_url": "https://t.me/CannedShroudted",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/max-pro-m2/development/android-10-evolutionx-t4052793"
-         }
-      ]
-   },
-   {
-      "brand": "Asus",
       "codename": "Z01R",
       "name": "Zenfone 5Z",
       "supported_versions": [
@@ -66,92 +38,6 @@
             "version_code": "eleven",
             "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/zenfone-5z/development/rom-evolution-x-t3981601"
-         }
-      ]
-   },
-   {
-      "brand": "Essential",
-      "codename": "mata",
-      "name": "PH-1",
-      "supported_versions": [
-         {
-            "maintainer_name": "Maxwell",
-            "maintainer_url": "https://github.com/OceanDepth95028",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/essential-phone/development/rom-evolution-x-4-1-69-t4073153"
-         }
-      ]
-   },
-   {
-      "brand": "Google",
-      "codename": "walleye",
-      "name": "Pixel 2",
-      "supported_versions": [
-         {
-            "maintainer_name": "Gibran Mather",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8094713",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/pixel-2/development/rom-evolution-x-5-1-t4193419"
-         }
-      ]
-   },
-   {
-      "brand": "Google",
-      "codename": "taimen",
-      "name": "Pixel 2 XL",
-      "supported_versions": [
-         {
-            "maintainer_name": "Gibran Mather",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8094713",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/pixel-2-xl/development/rom-evolution-x-5-1-t4193435"
-         }
-      ]
-   },
-   {
-      "brand": "Google",
-      "codename": "blueline",
-      "name": "Pixel 3",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "nysa",
-            "maintainer_url": "https://github.com/nysascape",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/pixel-3-xl/development/rom-evolution-x-pixel-3-3xl-bluecross-t4094551"
-         }
-      ]
-   },
-   {
-      "brand": "Google",
-      "codename": "crosshatch",
-      "name": "Pixel 3 XL",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "nysa",
-            "maintainer_url": "https://github.com/nysascape",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/pixel-3-xl/development/rom-evolution-x-pixel-3-3xl-bluecross-t4094551"
-         }
-      ]
-   },
-   {
-      "brand": "Lenovo",
-      "codename": "z2_plus",
-      "name": "ZUK Z2 (Plus)",
-      "supported_versions": [
-         {
-            "maintainer_name": "Varshank Dhiman",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=6862811",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-evolution-x-4-1-420-t4057651"
          }
       ]
    },
@@ -166,20 +52,6 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/lg-g7-thinq/development/rom-evolution-x-4-20-lg-g7-t4084243"
-         }
-      ]
-   },
-   {
-      "brand": "Motorola",
-      "codename": "evert",
-      "name": "Moto G6 Plus",
-      "supported_versions": [
-         {
-            "maintainer_name": "Ardany Jolón (Ardjlon)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7006405",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/g6-plus/development/rom-evolution-x-t3963067"
          }
       ]
    },
@@ -213,41 +85,10 @@
    },
    {
       "brand": "OnePlus",
-      "codename": "cheeseburger",
-      "name": "OnePlus 5",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "Pavan Parmeshwar",
-            "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-unified-official-evolution-x-eleanor-22-11-20.4193365/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "dumpling",
-      "name": "OnePlus 5T",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "Pavan Parmeshwar",
-            "maintainer_url": "https://forum.xda-developers.com/m/pavan-parmeshwar.9966819/",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-unified-official-evolution-x-eleanor-22-11-20.4193365/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
       "codename": "enchilada",
       "name": "OnePlus 6",
       "supported_versions": [
          {
-            "deprecated": true,
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
             "version_code": "eleven",
@@ -262,7 +103,6 @@
       "name": "OnePlus 6T",
       "supported_versions": [
          {
-            "deprecated": true,
             "maintainer_name": "Anierin Bliss",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
             "version_code": "eleven",
@@ -342,35 +182,6 @@
       ]
    },
    {
-      "brand": "oneplus",
-      "codename": "oneplus3",
-      "name": "OnePlus 3",
-      "supported_versions": [
-         {
-            "maintainer_name": "Ajith (ajithzres)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=5940726",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-evolution-x-2-0-t3942385"
-         }
-      ]
-   },
-   {
-      "brand": "Realme",
-      "codename": "RMX1901",
-      "name": "Realme X",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "Ritik Gupta",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7365304",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/realme-x/development/rom-t4044901"
-         }
-      ]
-   },
-   {
       "brand": "Realme",
       "codename": "RMX1971",
       "name": "Realme 5 Pro",
@@ -381,80 +192,6 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/realme-5-pro/development/evolution-x-4-7-unofficial-realme-5-pro-t4161345"
-         }
-      ]
-   },
-   {
-      "brand": "Realme",
-      "codename": "x2",
-      "name": "Realme X2",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "CannedShroud",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8876697",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/realme-x2/development/rom-evolution-x-t4196867"
-         }
-      ]
-   },
-   {
-      "brand": "Realme",
-      "codename": "RMX206X",
-      "name": "Realme 6 Pro",
-      "supported_versions": [
-         {
-            "maintainer_name": "Sukrut4778",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9573489",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-realme-6-pro-official-evolution-x-aosp-16-01-21.4218881"
-         }
-      ]
-   },
-   {
-      "brand": "Realme",
-      "codename": "wasabi",
-      "name": "Realme G90T Series",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "Elias (TheMalachite)",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9609718",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/realme-6/development/rom-evolution-x-quantum-t4182525"
-         }
-      ]
-   },
-   {
-      "brand": "Redmi",
-      "codename": "begonia",
-      "name": "Redmi Note 8 Pro",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "Elias (TheMalachite)",
-            "maintainer_url": "https://t.me/TheMalachite",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-8-pro/development/rom-evolution-x-4-1-69-t4068229"
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "gtaxlwifi",
-      "name": "Galaxy Tab A6 (SM-T580)",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "Gabriel Howard",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9656816",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-tab-a/development/rom-evolution-x-4-20-2-t4088469"
          }
       ]
    },
@@ -473,93 +210,9 @@
       ]
    },
    {
-      "brand": "Samsung",
-      "codename": "herolte",
-      "name": "Galaxy S7",
-      "supported_versions": [
-         {
-            "maintainer_name": "ExpressLuke",
-            "maintainer_url": "https://github.com/expressluke",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-s7/development/beta-evolution-x-samsung-galaxy-s7-t4058843"
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "hero2lte",
-      "name": "Galaxy S7 Edge",
-      "supported_versions": [
-         {
-            "maintainer_name": "ExpressLuke",
-            "maintainer_url": "https://github.com/expressluke",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/s7-edge/development/beta-evolution-x-samsung-galaxy-s7-edge-t4058837"
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "starlte",
-      "name": "Galaxy S9",
-      "supported_versions": [
-         {
-            "maintainer_name": "yarpiin",
-            "maintainer_url": "https://t.me/yarpiin",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-s9/samsung-galaxy-s9--s9-cross-device-development/rom-evolution-x-undisputed-t4101493"
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "star2lte",
-      "name": "Galaxy S9+",
-      "supported_versions": [
-         {
-            "maintainer_name": "yarpiin",
-            "maintainer_url": "https://t.me/yarpiin",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-s9/samsung-galaxy-s9--s9-cross-device-development/rom-evolution-x-undisputed-t4101493"
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "zerofltexx",
-      "name": "Galaxy S6",
-      "supported_versions": [
-         {
-            "maintainer_name": "Lunarixus",
-            "maintainer_url": "https://github.com/Lunarixus",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-s6/samsung-galaxy-s-6--s-6-edge-unified-development/rom-evolution-x-4-1-69-t4070209/post82071663#post82071663"
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "zeroltexx",
-      "name": "Galaxy S6 Edge",
-      "supported_versions": [
-         {
-            "maintainer_name": "Lunarixus",
-            "maintainer_url": "https://github.com/Lunarixus",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-s6/samsung-galaxy-s-6--s-6-edge-unified-development/rom-evolution-x-4-1-69-t4070209/post82071663#post82071663"
-         }
-      ]
-   },
-   {
       "brand": "Xiaomi",
       "codename": "apollo",
-      "name": "Xiaomi Mi 10T / 10T Pro / Redmi K30S Ultra",
+      "name": "Mi 10T",
       "supported_versions": [
          {
             "maintainer_name": "Ahmed Tohamy",
@@ -567,21 +220,6 @@
             "version_code": "eleven",
             "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/t/official-evolution-x-5-3-xiaomi-mi-10t-10t-pro-apollo-apollopro.4226799/"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "beryllium",
-      "name": "POCO F1",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "_undead",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4867044",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/poco-f1/development/rom-evolution-x-t4081821"
          }
       ]
    },
@@ -671,21 +309,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "jasmine_sprout",
-      "name": "Mi A2",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "OdSazib",
-            "maintainer_url": "https://github.com/OdSazib",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-t4139597"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "laurel_sprout",
       "name": "Mi A3",
       "supported_versions": [
@@ -715,7 +338,7 @@
    {
       "brand": "Xiaomi",
       "codename": "miatoll",
-      "name": "Redmi Note 9S, 9 Pro, 9 Pro Max, Poco M2 Pro",
+      "name": "Redmi Note 9S, 9 Pro, 9 Pro Max / POCO M2 Pro",
       "supported_versions": [
          {
             "maintainer_name": "Ahmed Tohamy (Agmad)",
@@ -723,21 +346,6 @@
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "perseus",
-      "name": "Mi Mix 3",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "Anierin Bliss (AnierinB)",
-            "maintainer_url": "https://t.me/anierinb",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-mix-3/development/rom-evolution-x-2-0-t3941182"
          }
       ]
    },
@@ -766,35 +374,6 @@
             "version_code": "eleven",
             "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/xiaomi-mi-mix-2s/development/rom-evolution-x-undisputed-t4101193"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "sagit",
-      "name": "Mi 6",
-      "supported_versions": [
-         {
-            "maintainer_name": "Dobgsw",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7144653",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-6/development/rom-evolution-x-4-20-2-sagit-t4089445"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "sakura",
-      "name": "Redmi 6 Pro",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "ZèD",
-            "maintainer_url": "https://github.com/IMZihad21",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/redmi-6-pro/development/evolution-x-t4112939"
          }
       ]
    },
@@ -865,21 +444,6 @@
             "version_code": "eleven",
             "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-evolution-x-eleanor-t4190641"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "wayne",
-      "name": "Mi 6X",
-      "supported_versions": [
-         {
-            "deprecated": true,
-            "maintainer_name": "OdSazib",
-            "maintainer_url": "https://github.com/OdSazib",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/mi-a2/development/rom-evolution-x-t4139613"
          }
       ]
    },

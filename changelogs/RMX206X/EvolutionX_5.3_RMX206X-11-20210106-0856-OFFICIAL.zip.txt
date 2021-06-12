@@ -1,8 +1,0 @@
-Device changes:
-==============================
-Changes for Android 11 added through device tree
-------------------------------
-ROM changes:
-==============================
-
-Initial Android 11 release
