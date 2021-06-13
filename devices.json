@@ -5,7 +5,7 @@
       "name": "Mi 9T Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Stallix)",
+            "maintainer_name": "Joey Huab",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
             "version_code": "eleven",
             "version_name": "Eleven",
@@ -61,7 +61,7 @@
       "name": "Moto G7 Plus",
       "supported_versions": [
          {
-            "maintainer_name": "Leonardo Araujo Pimentel (batmann4bot)",
+            "maintainer_name": "Leonardo Araujo Pimentel",
             "maintainer_url": "https://forum.xda-developers.com/m/batmann4.6402777/",
             "version_code": "eleven",
             "version_name": "Eleven",
@@ -201,25 +201,11 @@
       "name": "Realme 6",
       "supported_versions": [
          {
-            "maintainer_name": "Tanmay (@tlas01)",
+            "maintainer_name": "Tanmay",
             "maintainer_url": "https://forum.xda-developers.com/m/tanmay78.11434281/",
             "version_code": "eleven",
             "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/t/rom-11-rmx2001-official-evolutionx-5-8-12-06-2021.4291013/"
-         }
-      ]
-   },
-   {
-      "brand": "Samsung",
-      "codename": "crownlte",
-      "name": "Galaxy Note 9",
-      "supported_versions": [
-         {
-            "maintainer_name": "yarpiin",
-            "maintainer_url": "https://t.me/yarpiin",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/galaxy-note-9/development/rom-evolution-x-undisputed-t4101495"
          }
       ]
    },
@@ -299,7 +285,7 @@
       "name": "Mi 8",
       "supported_versions": [
          {
-            "maintainer_name": "Aggelos Savvopoulos (DarkAngelGR)",
+            "maintainer_name": "Aggelos Savvopoulos",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
             "version_code": "eleven",
             "version_name": "Eleven",
@@ -341,7 +327,7 @@
       "name": "Redmi Note 7",
       "supported_versions": [
          {
-            "maintainer_name": "Martin (Sap1k)",
+            "maintainer_name": "Martin",
             "maintainer_url": "https://github.com/Sap1k",
             "version_code": "eleven",
             "version_name": "Eleven",
@@ -355,7 +341,7 @@
       "name": "Redmi Note 9S, 9 Pro, 9 Pro Max / POCO M2 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Ahmed Tohamy (Agmad)",
+            "maintainer_name": "Ahmed Tohamy",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8386267",
             "version_code": "ten",
             "version_name": "Ten",
@@ -369,7 +355,7 @@
       "name": "Mi 9 Lite",
       "supported_versions": [
          {
-            "maintainer_name": "Aggelos Savvopoulos (DarkAngelGR)",
+            "maintainer_name": "Aggelos Savvopoulos",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
             "version_code": "eleven",
             "version_name": "Eleven",
@@ -383,7 +369,7 @@
       "name": "Mi Mix 2s",
       "supported_versions": [
          {
-            "maintainer_name": "Chenyang Zhong (jjpprrrr)",
+            "maintainer_name": "Chenyang Zhong",
             "maintainer_url": "https://t.me/jjpprrrr",
             "version_code": "eleven",
             "version_name": "Eleven",
@@ -411,7 +397,7 @@
       "name": "Mi A1",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Stallix)",
+            "maintainer_name": "Joey Huab",
             "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
             "version_code": "eleven",
             "version_name": "Eleven",
