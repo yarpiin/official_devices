@@ -259,9 +259,37 @@
          {
             "maintainer_name": "Akito Mizukito",
             "maintainer_url": "https://github.com/RealAkito",
-            "version_code": "ten",
-            "version_name": "Ten",
-            "xda_thread": "https://forum.xda-developers.com/poco-f2-pro/development/evolution-x-4-7-poco-f2-pro-redmi-k30-t4174429"
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/evolution-x-5-8-for-poco-f2-pro-redmi-k30-pro-lmi-lmipro.4174429"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "umi",
+      "name": "Mi 10",
+      "supported_versions": [
+         {
+            "maintainer_name": "Akito Mizukito",
+            "maintainer_url": "https://github.com/RealAkito",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "cmi",
+      "name": "Mi 10 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Akito Mizukito",
+            "maintainer_url": "https://github.com/RealAkito",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": ""
          }
       ]
    },
