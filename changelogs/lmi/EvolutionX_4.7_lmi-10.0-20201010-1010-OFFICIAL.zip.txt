@@ -1,7 +1,0 @@
-• Supported Redmi K30 Pro India Edition (lmiin) if it was ever gonna be a thing. [Registered to Google months ago]
-• Optimization
-• Fixed Ok Google
-• Fixed problem where you can't receive calls if you have VoLTE enabled.
-• Fixed Google Message Chat Features
-• Fixed "Device is HD/VoLTE capable"
-• Added secret sauce for Genshin Impact gacha random, hope everyone get 5 stars character!
