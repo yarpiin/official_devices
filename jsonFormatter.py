@@ -4,7 +4,7 @@
 
 import os, json, sys
 
-paths = ['builds','devices.json']
+paths = ['builds','devices.json','incremental/builds']
 
 indents = 3
 
