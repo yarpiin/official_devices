@@ -1,17 +1,17 @@
 {
-   "datetime": 1624951635,
+   "datetime": 1625722577,
    "donate_url": "https://www.paypal.me/joeyhuab",
    "error": false,
-   "filehash": "8689bee1dff7d742ae8f08d748ce96b7",
-   "filename": "EvolutionX_5.8_raphael-11-20210629-0729-OFFICIAL.zip",
+   "filehash": "8eb5ce5967aca409648eae6d9297e25b",
+   "filename": "EvolutionX_5.9_raphael-11-20210708-0538-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-raphael-official-evolution-x-22-04-2021.4179163",
-   "id": "558a11736edd283e9c212f1b8f311428502c5f616628f9ce81a10c78c1508f80",
+   "id": "59fa464a53bc8455bab290b0b209c234d486aca1e45b1b3a11f0dc98eb7ef0fe",
    "maintainer": "Joey Huab",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1889413989,
+   "size": 1896361666,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_5.8_raphael-11-20210629-0729-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_5.9_raphael-11-20210708-0538-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
