@@ -1,17 +1,17 @@
 {
-   "datetime": 1625260209,
+   "datetime": 1625719951,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "4fb0cac1ab02cbe1a652eef246ced870",
-   "filename": "EvolutionX_5.8_kebab-11-20210702-2113-OFFICIAL.zip",
+   "filehash": "c06cb82303540597aaa433a82e4ccab2",
+   "filename": "EvolutionX_5.9_kebab-11-20210708-0455-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-0-official-evolution-x-5-8-built-in-06-10-2021.4276623/",
-   "id": "c9b92cdb2e817bbaa98e73548aa7d8e49c45290b310e3dc0242ef43d8516fd42",
+   "id": "3c3a79634b93c379a94c481e01f7d4002c253cfe287d5eb0187857f03a7023b8",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9830048",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2107510097,
+   "size": 2018534730,
    "telegram_username": "anierin_bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/EvolutionX_5.8_kebab-11-20210702-2113-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/EvolutionX_5.9_kebab-11-20210708-0455-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }

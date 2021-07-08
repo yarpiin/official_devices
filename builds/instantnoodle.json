@@ -1,17 +1,17 @@
 {
-   "datetime": 1625252062,
+   "datetime": 1625711267,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "f78fc855e22de3083ae4793539940b59",
-   "filename": "EvolutionX_5.8_instantnoodle-11-20210702-1857-OFFICIAL.zip",
+   "filehash": "4a035da92eec0c83f3e3bcd809d8713f",
+   "filename": "EvolutionX_5.9_instantnoodle-11-20210708-0231-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-0-official-evolution-x-5-8-built-in-06-10-2021.4276623/",
-   "id": "95b3539da221e27fce7ccf53f57c775a3d00c998ca773a224be84decba95c5fd",
+   "id": "a4488413d65928a3b22ca576be0e7737dac32269fac7c859254215a65408571a",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2101755875,
+   "size": 2012702827,
    "telegram_username": "anierin_bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/instantnoodle/EvolutionX_5.8_instantnoodle-11-20210702-1857-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/instantnoodle/EvolutionX_5.9_instantnoodle-11-20210708-0231-OFFICIAL.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
