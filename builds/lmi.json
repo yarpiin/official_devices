@@ -1,17 +1,17 @@
 {
-   "datetime": 1623777932,
+   "datetime": 1626172428,
    "donate_url": "https://www.paypal.me/ysldeveloper",
    "error": false,
-   "filehash": "8ab5eff03d300a3083e9cf3a666d35ac",
-   "filename": "EvolutionX_5.8_lmi-11-20210615-1725-OFFICIAL.zip",
+   "filehash": "e5359195ae104b948eebb573dc5b5de6",
+   "filename": "evolution_lmi-ota-rq3a.210705.001-07131934.zip",
    "forum_url": "https://forum.xda-developers.com/t/evolution-x-5-8-for-poco-f2-pro-redmi-k30-pro-lmi-lmipro.4174429",
-   "id": "32e22d10cc2b1de23fcb739ea3d3069501b36daca0b7faec9a641765bfbe18a8",
+   "id": "aeaa9c70cadab630ebf0a5a3c7aebc80a0020bfe25bc264166f67326bb6e2953",
    "maintainer": "Akito Mizukito",
    "maintainer_url": "https://github.com/RealAkito",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2017837155,
+   "size": 2146665949,
    "telegram_username": "RealAkito",
-   "url": "https://sourceforge.net/projects/evolution-x/files/lmi/EvolutionX_5.8_lmi-11-20210615-1725-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/lmi/evolution_lmi-ota-rq3a.210705.001-07131934.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
