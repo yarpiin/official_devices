@@ -1,0 +1,157 @@
+Device changes:
+==============================
+Add AptX blobs from redfin
+Add IImsFactory and uceservice HAL entry
+Build libgui_vendor
+Build vendor android.hidl.base@1.0.so
+Create CneApp symlinks
+Disable sys.use_fifo_ui
+Don't advertise vorbis offloading support
+Drop shim for dpmframework
+Drop soundtrigger hal
+Kill QTI gatekeeper HIDL
+Nuke data migration scripts
+Nuke deprecated bluetooth flags
+Nuke more prebuilt apps
+Provide a shim for libwfdmmsink
+Refactor & Fix WCNSS symlink
+Remove coresight leftovers
+Restart FP HAL on decryption
+Switch iwlan operation mode to legacy
+Update blobs from nokia
+Update carrierconfig from nokia
+Upstream perf kernel to 4.9.227
+audio: Remove hw_acc effect
+build vendor version of libavservices_minijail
+overlay: disable round corner padding overlay
+overlay: Advertise global carrier_vt for device
+manifest: IImsRadio HAL to latest version 1.6
+manifest: uprev IRTPService to 3.0
+------------------------------
+ROM changes:
+==============================
+Add Android S Clocks
+Add support to Slice in ClockPlugin
+Add support to see if there are visible notifications in ClockPlugin
+Allow Seamless rotation while PIP is active
+AndroidSClockController: fix IndexOutOfBoundsException
+AndroidSClockController: fix NPE in onAnimationUpdate
+AndroidSClockController: fix NPE in setSlice
+AndroidSClockController: set clock text color based on wallpapers
+AntiFlickerTile: Fix error in handleRefreshState
+AppErrorDialog: Add content type header when making POST request to pasty
+Bluetooth: Add option to change eSCO Transport Unit Size to 16
+BrightnessController: tune the slider animation duration
+Camera: Master callback mode support for MCX raw
+Consolidate LineageHardwareManager
+DataSwitchTile: Improve the code
+DataSwitchTile: collapse notification panel onClick
+Disallow certain power menu items while in lock task mode
+DozeTriggers: Add provision to pulse without proximity check
+DozeTriggers: Update setListening usage
+Drop Extended, Add ShapeShift, P404 and OOS Volume panel styles
+Drop the maximum recommended log size from 16MiB to 8MiB
+Evolver: Add Flashlight blink on incoming calls feature
+Evolver: Add Status bar Lyric feature
+Evolver: Introduce Android 12 Style Switches
+Evolver: Nuke Lock screen shortcut feature
+Evolver: On-The-Go Mode feature to Power menu options
+Fix PRODUCT_PROPERTY_OVERRIDES usage in full_base_telephony.mk
+Fonts: Add OnePlus Sans
+Fonts: Update Google Sans and OnePlus Slate
+Forbid content from MmsFileProvider in Bluetooth Share
+IDE clock: fix the C++ syntax and format
+IconPackRounded: Use correct icon for notification and ring volume
+IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+Introduce 2.1 LiveDisplay interface with IAntiFlicker support
+Introduce Fluid V2 lock clock
+LiveDisplay: Mark all pending intents as immutable
+LockIcon: Fix drawable log warning
+LyricTicker: hide TickerView after created
+Make Volume Panel divider transparent
+Makefile: Remove Evolution X guard
+Merge July security patches
+OmniStyle: Add GoT header pack
+OmniStyle: Added 'Colorful' headers
+OmniStyle: Optimize images
+PhoneStatusBarPolicy: Show battery level for all devices
+PixelPropsUtils: Make build property spoofing more reliable
+PixelPropsUtils: Update to July 2021 fingerprints
+Plugins: Don't show captions info tooltip
+PocketJudge: Allow to register vendor proximity sensor
+PowerManager: Add proximity check on wake feature
+PrivacyChip: Do not change view on expand
+Properly scale touch input window through resolution changes
+QSCustomizer: Properly apply changes with header image enabled
+QSDetail: Fix QS detail panel with header image enabled
+Remove WFD upstream changes
+Replace redundant nav gesture options with Immersive Navigation
+ResetPropsUtils: hook Apps for status bar lyric
+Restore "bypass lockscreen after face unlock" preference
+Revert "stagefright: remove Miracast sender code"
+Revert blur-related changes in frameworks/native
+Revert to original Pixel Launcher
+ScreenshotTile: Make default state inactive
+ScreenshotTile: Use secondary label to indicate mode
+Settings: Allow changing face unlock method when locked
+Settings: DisplayCutoutForceFullscreenSettings: Don't force close app
+Settings: DisplayCutoutForceFullscreenSettings: Don't trigger check listener if not from user
+Settings: DisplayCutoutForceFullscreenSettings: Show "No apps" if no apps can be forced
+Settings: Export the gravity of the fingerprint enroll animation
+Settings: Move back Evolution X version to firmware version fragment
+Settings: Remove back swipe deadzone feature (breaks gestures)
+Settings: Remove empty category from Security Settings
+Settings: Update font picker title string
+SystemUI: Add OnePlus Roman, Minimal and Numbers clock styles
+SystemUI: Add a config to show correct VoLTE/VoWiFi icons
+SystemUI: BatteryMeter: Fix padding for % on left
+SystemUI: BrightnessSlider: Scale animation duration with defined BrightnessRampRate
+SystemUI: Fix GamingModeTile long press
+SystemUI: Fix battery percent padding
+SystemUI: Fix showing duplicated charging status after r38 merge
+SystemUI: Give network traffic more padding
+SystemUI: Improve ScreenRecord Dialog layout
+SystemUI: LyricTextView: add delay for text scrolling
+SystemUI: Move percentage to left of battery
+SystemUI: Move percentage to original placement
+SystemUI: Properly align owner info on Android S clocks
+SystemUI: Properly align owner info to the 3 left aligned clocks
+SystemUI: QS: Add On-The-Go Tile
+SystemUI: QS: Decrease vertical padding between QS tiles
+SystemUI: handle camera launch gesture from keyhandler
+Upstream ART improvements
+Upstream OTA Updater app changes from PE
+Upstream fixes to Updater app
+Use EVOLUTION_FINGERPRINT to signal OTA upgrades
+VolumePanel: Drop aosp plugin
+base: Add bool to enable/disable doze by default
+base: enable doze by default (fix notifications not waking up the screen)
+base: lockscreen: Fix left custom shortcut always launching Dialer/Contacts
+base: prevent that double tap to sleep triggers panel expand
+base: set scrolling friction to 0.006f
+base: unhide flags used for status bar lyric
+config: Do not force iorap by default
+config: Strip off some debug packages
+custom_apns: Add double quote in custom APN name check
+fixup! Add Android S Clocks
+fixup! CameraDeviceClient: fix recognition of Y16 format
+fixup! Clock: Align owner info as per the clock style
+fixup! DisplayPowerController: make brightness ramp rate overlay-able
+fixup! Introduce anti flicker mode in LiveDisplay
+fw_av: Attempt to fix screencast for our legacy qti devices
+fwb: silence *negative delta from freq time proc* log spam
+layout: android-s-clock: remove drop shadows
+livedisplay: 2.1: Fix interfaces order
+optimize Notification ticker
+sepolicy: Add uclamp file nodes to proc_sched
+sepolicy: Allow permissive backuptools on user builds
+sepolicy: Allow vendor_init to set proc_sched sysfs
+sepolicy: Another theme_prop denials
+sepolicy: Fix some ActivityManager denials
+sepolicy: Optionally build sepolicy_freeze_test
+services: BrightnessAnimator: Make ramp rate non-linear for very low values
+services: VibratorService: Add support for intensity control with Oneplus haptics motor
+vendor: Enable backuptool in some conditions
+vendor: Include makefile with art definitions
+vendor: Inline versioning to Google
+vendor: Revert to old OP Slate style
