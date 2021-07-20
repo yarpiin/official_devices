@@ -1,0 +1,18 @@
+Device changes:
+==============================
+Add support for blinking lights
+Compile libOmxG711Enc
+Import lights AIDL changes from sm8250-common
+Properly upstream kernel version to v4.9.275
+Remove empty sepolicy version from manifest
+Workaround broken softAP with dynamic interface creation
+biometrics: Hardcode fingerprint HALs list
+biometrics: Simplify fingerprint data handling
+------------------------------
+ROM changes:
+==============================
+Evolver: Turn off QS battery estimate by default
+OosPanel, P404Panel: Add missing style fallback
+ShapeShiftPanel: Add alarm volume slider
+ShapeShiftPanel: Redesign output switcher UI
+settingslib: Tile: Add more checks if mMetaData is null
