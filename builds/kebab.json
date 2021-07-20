@@ -1,17 +1,17 @@
 {
-   "datetime": 1625719951,
+   "datetime": 1626671126,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "c06cb82303540597aaa433a82e4ccab2",
-   "filename": "EvolutionX_5.9_kebab-11-20210708-0455-OFFICIAL.zip",
+   "filehash": "5db10977d165ae3f1cff624f9467601e",
+   "filename": "evolution_kebab-ota-rq3a.210705.001-07190505-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-0-official-evolution-x-5-8-built-in-06-10-2021.4276623/",
-   "id": "3c3a79634b93c379a94c481e01f7d4002c253cfe287d5eb0187857f03a7023b8",
+   "id": "7e2ea6804c21249db50390ba983f9379e22929432af23081e267e74cb3c235e7",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/member.php?u=9830048",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2018534730,
+   "size": 1899056933,
    "telegram_username": "anierin_bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/EvolutionX_5.9_kebab-11-20210708-0455-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/evolution_kebab-ota-rq3a.210705.001-07190505-unsigned.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
