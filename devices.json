@@ -85,34 +85,6 @@
    },
    {
       "brand": "OnePlus",
-      "codename": "enchilada",
-      "name": "OnePlus 6",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-10-0_r46-official-evolution-x-4-7-gcam-ooscam-09-10-2020.3988143/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "fajita",
-      "name": "OnePlus 6T",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-10-0_r46-official-evolution-x-4-7-gcam-ooscam-09-10-2020.3988143/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
       "codename": "guacamole",
       "name": "OnePlus 7 Pro",
       "supported_versions": [
