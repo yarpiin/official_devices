@@ -1,0 +1,31 @@
+Device changes:
+==============================
+Bring back Renderscript HAL
+Build power stats HAL and label it
+Correct GBoard spacing for immersive navigation
+Drop libsdm-disp-apis.so
+Import XiaomiParts v3.0
+Import libthermalfeature.so
+Patch fingerprint blobs for fakelogprint shims
+Remove obsolete vulkan.pastel blobs
+Update Graphics Blobs from LA.UM.9.6.2.r1-04100-89xx.0
+extract-files: Fix wrong lib path
+init.qcom.rc: remove unused /data access
+init.qcom.rc: remove unused propery
+overlay: Add Battery Health
+rootdir: Boost I/O performance during bootup
+------------------------------
+ROM changes:
+==============================
+AndroidSClocks: Beautify it
+Disallow click to partial screenshot right after screenshot is taken
+GestureNavigationSettings: Fix default values
+SMP: Reject pairing if public_key.x match
+SystemUI: Change MediaPlayer margin to Android S style
+SystemUI: Don't show charging animation if battery is charged
+SystemUI: Enable three icon switching within QS DND tile
+SystemUI: Unblock gestural navigation on clearScreenshot()
+SystemUI: rework status bar burn-in protection controller
+TaskSnapshotController: avoid NPE
+base: use a double click effect for charging if there is no amplitude control support
+vendor: add OTA script to delete package cache
