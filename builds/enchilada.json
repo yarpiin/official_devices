@@ -1,17 +1,17 @@
 {
-   "datetime": 1631500438,
+   "datetime": 1632023841,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "c031e2bfbe22e28aa865fdbfd8604e39",
-   "filename": "evolution_enchilada-ota-rq3a.210905.001-09131135-unsigned.zip",
+   "filehash": "571961f038f689ade4e26ea058014d0c",
+   "filename": "evolution_enchilada-ota-rq3a.210905.001-09191259-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-0_r43-official-evolution-x-5-9-2-09-10-2021.3988143/",
-   "id": "9f78eff04bcfe943c1e9a795c87b18c4f4d526a320c4b8897b29cd5047b1bfa9",
+   "id": "e577106781e6b9b6f3377cd48847c68727290a5db3d4d07d9a07c6d799ae939c",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1148794032,
+   "size": 1116643371,
    "telegram_username": "anierin_bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/enchilada/evolution_enchilada-ota-rq3a.210905.001-09131135-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/enchilada/evolution_enchilada-ota-rq3a.210905.001-09191259-unsigned.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
