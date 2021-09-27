@@ -1,17 +1,17 @@
 {
-   "datetime": 1631806499,
+   "datetime": 1632736933,
    "donate_url": "https://www.paypal.me/joeyhuab",
    "error": false,
-   "filehash": "f0a4611e9bc54f658bb6996c527006a0",
-   "filename": "evolution_tissot-ota-rq3a.210905.001-09170037-unsigned.zip",
+   "filehash": "10d57ca19abde65b8fd47eab72b96be3",
+   "filename": "evolution_tissot-ota-rq3a.210905.001-09271904-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-tissot-official-evolution-x-08-04-2021.4259149",
-   "id": "9a8ced2bbd49ac17c1694e62f122f9d9631848b042fa0cb944a6db4cdd4d393d",
+   "id": "8ea23d1cff99e1e90323e41ba33e4f7bee67a7d9f9600f9529273e05577f9d13",
    "maintainer": "Joey Huab",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1141501834,
+   "size": 1142563042,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/evolution_tissot-ota-rq3a.210905.001-09170037-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/evolution_tissot-ota-rq3a.210905.001-09271904-unsigned.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }

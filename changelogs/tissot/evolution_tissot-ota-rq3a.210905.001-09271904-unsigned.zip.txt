@@ -1,0 +1,54 @@
+Device changes:
+==============================
+Add offline charging LED indicator
+Add vendor.qti.hardware.data.latency manifest entry
+Address power stats hal denials
+Bring back Renderscript HAL
+Build wcnss_service from source
+Change density to 420
+Cleanup DRM HIDL fqnames
+Downrev soundtrigger to 2.1
+Enable Adaptive charging
+Enable blur by default
+Enable PRODUCT_VENDOR_MOVE_ENABLED
+Enable zram-writeback job
+Get rid of legacy audio policy conf
+Migrate to android.hardware.bluetooth.audio
+Switch to GABUTERS clang
+Switch to shrimp kernel
+Update Graphics Blobs from LA.UM.9.6.2.r1-04100-89xx.0
+Use only full qualified name for manifest entries
+Use vintf fragment for Widevine HIDL
+dirac: Address denials
+rootdir: Boost I/O performance during bootup
+------------------------------
+ROM changes:
+==============================
+EdgeBackGestureHandler: use tick instead of heavy tick for back gesture
+Evolver: Add left and right virtual buttons while typing (for old navbar layout)
+Evolver: Add toggle for floating notification dismiss button
+Evolver: GamingMode: Add option to disable menu overlay
+Evolver: Launch EasterEgg activity when logo is clicked in about section
+Evolver: Move rounded corners back to Themes category
+Evolver: Remove toggle to disable charging animation
+Evolver: Reorganize and add dividers
+Fix some haptic issues with gestural navigation
+GamingMode: Fix danmaku container layoutParam on config changed
+GamingMode: Fix views obscuring other window that needs interaction
+GamingMode: Mark date/time format strings as non-translatable
+KeyguardSlice: Fix ticker appearing for a split second on lockscreen
+PixelPropsUtils: Remove some packages
+PixelPropsUtils: bring samsung accessory service to the list
+SamsungHighlightclock: fix updating wallpaper color when wallpaper changes
+Settings: Add our Easter Egg into our ROM version preference
+Settings: Combine Double Tap settings into a single fragment
+Settings: Improve A12-styled Search bar layout
+Settings: Make IME button space optional
+Settings: Make navbar visibility tweaks more distinct
+Settings: Refactor firmware version window
+SystemUI: Bring back AOSP Cellular tile icon
+SystemUI: Fix stuttering/jank related to media player control buttons
+SystemUI: LyricTicker: Follow status bar padding
+SystemUI: Reorder default QS Tiles
+SystemUI: Ticker: Follow status bar padding
+SystemUI: Update battery info every second when device is charging
