@@ -71,20 +71,6 @@
    },
    {
       "brand": "Motorola",
-      "codename": "sanders",
-      "name": "Moto G5S Plus",
-      "supported_versions": [
-         {
-            "maintainer_name": "Mayur Varde",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=9134270",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-evolution-x-moto-g5s-plus-24-11-20-t4194279"
-         }
-      ]
-   },
-   {
-      "brand": "Motorola",
       "codename": "liber",
       "name": "One Fusion+",
       "supported_versions": [
@@ -262,6 +248,20 @@
             "version_code": "eleven",
             "version_name": "Eleven",
             "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-realme-6-pro-official-evolution-x-aosp-11-08-21.4218881"
+         }
+      ]
+   },
+   {
+      "brand": "Realme",
+      "codename": "RMX2170",
+      "name": "Realme 7 Pro",
+      "supported_device": [
+         {
+            "maintainer_name": "Mayur Varde",
+            "maintainer_url": "https://forum.xda-developers.com/m/marshmello_61.9134270/",
+            "version_code": "eleven",
+            "version_name": "Eleven",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-rmx2170-evolution-x-5-9-for-realme-7-pro-09-07-2021.4303247/"
          }
       ]
    },
