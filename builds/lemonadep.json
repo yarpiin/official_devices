@@ -1,17 +1,17 @@
 {
-   "datetime": 1631085329,
+   "datetime": 1633981718,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "5ebf0c014c56d32f9cf99f44dfd076f2",
-   "filename": "evolution_lemonadep-ota-rq3a.210905.001-09081615-unsigned.zip",
+   "filehash": "b9f5c563f36ad6fd0f88646ad867088a",
+   "filename": "evolution_lemonadep-ota-rq3a.211001.001-10120450-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-0_r43-official-evolution-x-5-9-2-sanctuary-09-8-2021.4307505/",
-   "id": "05e89d2bd2f67e78d127c8174dd1b615608d97d851904e6558be3ed572c07534",
+   "id": "7d8d6e06159aeffae3e06b19e431b0cddc9c9feda07e56a57141ff9f5b3943dc",
    "maintainer": "Anierin Bliss & Hardik Srivastava",
    "maintainer_url": "https://forum.xda-developers.com/m/oddlyspaced.9807173/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1787896481,
+   "size": 1795076916,
    "telegram_username": "anierin_bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/lemonadep/evolution_lemonadep-ota-rq3a.210905.001-09081615-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/lemonadep/evolution_lemonadep-ota-rq3a.211001.001-10120450-unsigned.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }

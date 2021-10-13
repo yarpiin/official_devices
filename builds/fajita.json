@@ -1,17 +1,17 @@
 {
-   "datetime": 1632022766,
+   "datetime": 1634098450,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "c10fff223eda61a41fe1d7270051308f",
-   "filename": "evolution_fajita-ota-rq3a.210905.001-09191239-unsigned.zip",
+   "filehash": "b1c43e0889d44f72e5a7e7422a993e46",
+   "filename": "evolution_fajita-ota-rq3a.211001.001-10131314-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-0_r43-official-evolution-x-5-9-2-09-10-2021.3988143/",
-   "id": "164ce46a266b861326ebe9fd89035c5942f702bb68a5c593cd34525f006673de",
+   "id": "c5b94a506009608f0b86e975905b507649f9dedd3e6b3f78c3712abe8534b962",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1238390427,
+   "size": 1238839664,
    "telegram_username": "anierin_bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/fajita/evolution_fajita-ota-rq3a.210905.001-09191239-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/fajita/evolution_fajita-ota-rq3a.211001.001-10131314-unsigned.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
