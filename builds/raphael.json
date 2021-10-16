@@ -1,17 +1,17 @@
 {
-   "datetime": 1633721199,
+   "datetime": 1634370206,
    "donate_url": "https://www.paypal.me/joeyhuab",
    "error": false,
-   "filehash": "f0ba5278f440b1ce658229cf24661891",
-   "filename": "evolution_raphael-ota-rq3a.211001.001-10090428-unsigned.zip",
+   "filehash": "9bdd7e65e1c2069709240beaa5e5f8d5",
+   "filename": "evolution_raphael-ota-rq3a.211001.001-10161645-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-raphael-official-evolution-x-22-04-2021.4179163",
-   "id": "a5389405acaa325b45b698e49d2f3c1f15391c5042c0b7dad5ff1d050968096b",
+   "id": "f74dc7f23ff710ce831c0ef1c9fc63d786cdd26ab1332d0387b30667a2e00978",
    "maintainer": "Joey Huab",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2015323282,
+   "size": 2014773201,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/evolution_raphael-ota-rq3a.211001.001-10090428-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/evolution_raphael-ota-rq3a.211001.001-10161645-unsigned.zip/download",
    "version": "Eleven",
    "website_url": "https://evolution-x.org"
 }
