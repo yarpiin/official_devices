@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # Copyright © 2019 Maestro Creativescape
 
-ADMINS="@RealAkito @Stallix"
+ADMINS="@RealAkito @Stallix @Anierin_Bliss"
 COMMIT_AUTHOR="$(git log -1 --format='%an <%ae>')"
 COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
 COMMIT_SMALL_HASH="$(git rev-parse --short HEAD)"
 COMMIT_HASH="$(git rev-parse --verify HEAD)"
 
 function sendTG() {
-    curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendmessage" --data "text=${*}&chat_id=-1001176435322&parse_mode=Markdown"
+    curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendmessage" --data "text=${*}&chat_id=-1001539241326&parse_mode=Markdown"
 }
 
 printf "\n\n***Evolution X CI***\n\n"
