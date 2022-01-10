@@ -1,0 +1,9 @@
+Device changes:
+==============================
+Initial Android 12 release
+Kernel version: 4.9.227
+SELinux Enforcing
+------------------------------
+ROM changes:
+==============================
+All ROM source changes until 01/11/22

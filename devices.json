@@ -6,7 +6,7 @@
       "supported_versions": [
          {
             "maintainer_name": "Joey Huab",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
+            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "twelve",
             "version_name": "Twelve",
             "xda_thread": "https://forum.xda-developers.com/t/rom-12-raphael-official-evolution-x-snow.4356861"
@@ -510,10 +510,10 @@
       "supported_versions": [
          {
             "maintainer_name": "Joey Huab",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=4936496",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-tissot-official-evolution-x-08-04-2021.4259149/"
+            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-tissot-official-evolution-x-snow-01-11-22.4386525"
          }
       ]
    },
