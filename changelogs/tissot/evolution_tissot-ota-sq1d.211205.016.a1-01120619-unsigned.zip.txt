@@ -1,0 +1,52 @@
+Device changes:
+==============================
+Disable window rounded corner animations
+Fix audio issues
+Let kernel decide ZRAM Comp algorithm 
+Move qcamerasvr to main so it restarts on decryption
+Remove FM Tuner from audio input devices
+Remove schedulerservice from device compatibility matrix
+Remove unnecessary iop service
+Remove wcnss_filter and all references to it
+Set config_sustainedPerformanceModeSupported
+Upstream kernel to v4.9.295
+XiaomiParts: rootdir: Update some values
+audio: Add built-in/Back mic and remove TelePhony Rx from primary input
+audio: Add new flag name to compress offload case
+audio: Pull audio configs from daisy V11.0.21.0.QDLMIXM
+audio: Remove surround recording support from audio policy config xml
+init.qcom.rc: Remove vendor.sensors
+init: Limit cpufreq rate via down-/up_rate_limit_us knobs
+overlay: Configure SQLite to operate in MEMORY mode
+overlay: Disable wallpaper zooming
+overlay: Set globally accessible NTP server
+power-libperfmgr: Import power HAL AIDL implementation
+power: Enable idle_state mechanism
+rootdir: Checkout zram configuration from LA.UM.9.6.2.c25-00800-89xx.0
+rootdir: Enforce android-S new launch debugfs restrictions
+rootdir: Remove racey printk setups
+rootdir: add edgnss socket directory
+rootdir: fix bad processing of the chown system command
+sepolicy: Address camera denials
+sepolicy: Address iorap denials
+sepolicy: Address surfaceflinger denial
+sepolicy: Allow init.qcom.power.rc to write schedboost
+sepolicy: Fixup qcril rule
+sepolicy: Remove redundant rules
+sepolicy: address sensor denials
+wifi: Pull wifi configs from daisy V11.0.21.0.QDLMIXM
+------------------------------
+ROM changes:
+==============================
+Add settings to toggle the phantom process monitoring in dev options
+Address camera prop denials
+Battery Styles: Fix landscape battery size
+Battery Styles: Fix percentage view on landscape battery
+Make QS brightness slider animation more subtle
+PixelPropUtils: Add GamesProps
+PixelPropUtils: Bail out early when required
+PixelPropUtils: Consolidate google app checks
+PixelPropUtils: Extend list of packages to keep
+Settings: Allow toggling floating rotation button
+SystemUI: Properly adapt new switches in screenrec dialog
+SystemUI: fix black qqs on keyguard in light theme
