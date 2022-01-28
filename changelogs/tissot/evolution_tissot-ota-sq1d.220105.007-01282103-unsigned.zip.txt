@@ -1,0 +1,229 @@
+Device changes:
+==============================
+Add TARGET_DISPLAY_USE_SMOOTH_MOTION flag
+Add V1 to -ndk_platform modules
+Add vendor.display.use_smooth_motion flag on vendor.prop
+Address FPS Info Denial
+Address power stats hal denials
+Adjust zram write back policy
+Build all extra VNDK versions
+Build vendor variant of vendor.display.config@1.0
+Build vndk v30 only for extra vndk
+Deduplicate handheld_core_hardware.xml copy rule
+Disable Blur by default
+Disable EGL buffer_age extension support
+Disable VSync for CPU rendered apps
+Disable debug.sf.enable_hwc_vds
+Don't apply persist.vendor.usb.config
+Don't re-start hwcomposer if sf restart
+Don't warn user about FC in Google TTS
+Drop MIUI charger
+Drop power-ext mode for now
+Kill some IMS logspam
+New configs for better stability & accuracy
+Only white led is present
+Remove Obsolete flags
+Remove libI420colorconvert
+Remove more packages
+Remove non-vendor FOTA folder
+Remove specifying of audio HAL
+Remove unused fast dormancy persist property.
+Speed preopt SysUI/Launcher/Settings
+Switch to pixel charger animation
+add overlay to redraw screen after wakeup from doze
+add properpermission & path for fps info
+camera: silence excessive logs
+doze: Allow to wake the screen on gestures instead of pulse
+fix charging led via overlay
+init: Limit cpufreq rate via down-/up_rate_limit_us knobs.
+libperfmgr.rc: let perfmgr can change dex2oat priorities
+libperfmgr.rc: let power hal start early
+msm8953-common:sepolicy: Address some more denials
+msm8953: power: Use 1401600 as min frequency for interaction / launch.
+overlay: Add button backlight support
+parts: Fix missing ambient display string
+perf: Add back ro.vendor.extension_library definition
+perf: Enable the pre-rendering feature
+power-libperfmgr: Add support for tap-to-wake feature control
+power-libperfmgr: Guard it
+power-libperfmgr: Hook with display handler
+power-libperfmgr: Import power HAL AIDL implementation
+power-libperfmgr: add aidl extension server
+power-libperfmgr: allow powerhint calls as soon as service starts
+power-libperfmgr: remove Google-specific VR and camera hints
+power-libperfmgr: rename namespace for Pixel power HAL
+power-libperfmgr: simply wait if idle state node is not present
+power: Align path to devfreq nodes
+power: Camera hint tuning
+power: Change big cluster min freq from 300000 to 0
+power: Create dummy libqti-perfd-client
+power: Disable console suspend and fix powerhal permissions
+power: Disable sched autogroup
+power: Do sched_boost in boottime and app launch
+power: Enable 2.8G boost freq
+power: Enable compaction_proactiveness at app launch.
+power: Enable idle_state mechanism
+power: Lower VR (Un)sustained frequencies
+power: Migrate to Xiaomi power AIDL HAL
+power: PowerHal: Support legacy fb path
+power: Powerhint for camera powersaving
+power: Powerhint tuning
+power: Powerhint: Update msm8953 specifics.
+power: Rebrand xiaomi -> msm8953.
+power: Remove QTI perfd
+power: Switch to libperfmgr for powerhint
+power: Switch to uclamp
+power: Switch to use stable power HAL
+power: Update power HAL to version 1.3
+power: Use property node to manage hints
+power: libqti-perfd-client: Move to C
+power: libqti-perfd-client: Remove namespace declaration
+power: libqti-perfd-client: return a dummy value
+power: power: Add dumpstate support in Power HAL
+power: power: Add hint state into PowerHAL in case of restart
+power: power: Change CPU min freq to 0 in config
+power: power: Reorder cpu max node value priority
+power: power: Set cpufreq max first
+power: power: Skip audio streaming hint in VR/SUSTAINED_PERFORMANCE mode
+power: powerhint.json: Change to use value directly
+power: powerhint.json: Clean up unused hints
+power: powerhint: Cap to 1996800 on big cluster for camera
+power: powerhint: Change little cluster to 576MHz
+power: powerhint: Changes for sdm632
+power: powerhint: Relax cpubw/llccbw for camera
+powerhint: Decrease launch boost to 3.5sec
+powerhint: Lower Schedtune interactive boost
+powerhint: Retain support for SchedTune
+remove creation of /data/misc/seemp
+remove duplicate SIP+VoIP permission
+rootdir: Remove hbtp components
+rootdir: Remove unnecessary QTI logkit directories
+sepolicy: Address more libperfmgr denials
+sepolicy: Address remaining denials
+sepolicy: Address surfaceflinger denial 
+sepolicy: Address thermal-engine denials
+sepolicy: Allow audio HAL access sysfs
+sepolicy: Allow init.qcom.power.rc to write schedboost
+sepolicy: Fix slmadapter denials
+sepolicy: remove sys.post_boot.parsed label
+ship cgroups.json and task_profiles.json in vendor
+switch to proton clang
+------------------------------
+ROM changes:
+==============================
+Add new Game space from exthmui
+Allow screen unpinning on devices without navbar
+AuthRippleController: always finish the LightRevealScrim
+AuthRippleController: only update sensor location when necessary
+Battery Styles: Set proper battery style on init
+BatteryMeterView: Move null check to the beginning of the method
+Deprecate LiveDisplay and LOS FOD stuff
+EnhancedEstimates: Get estimates from Device Health Services
+EnhancedEstimates: Rewrite estimates in kotlin
+Evolver: Add Game Space shortcut pref
+Evolver: Add volume panel on left toggle
+Evolver: Allow disabling qs on secure lock screen
+Evolver: Allow forcing small keyguard clock
+Evolver: Allow toggling camera/mic privacy indicator
+Evolver: Bring back Screen off animations
+Evolver: Improve location privacy indicator toggle
+Evolver: Navbar Settings: Add a footer pref to show a hint message
+Evolver: Navbar: Lock layout settings if the 3-buttons navbar isn't in use
+Evolver: Pulse initial checkin for Android 12
+Evolver: Remove Expanded option for network traffic
+Evolver: Remove old lock screen visualizer toggles
+Evolver: Remove redundant line for Combined Signal icons
+Evolver: Rename FP pressed color default to Cyan
+Evolver: Themes: Rearrange the categories
+Evolver: Use a different CustomSeekBarPreference adaptation
+Fix incorrect SID matching for bio prompts
+Fix screen unpinning text on devices that have gestures on fp sensor
+GamingMode: Fix NPE in ActivityManager service
+GamingMode: LockGestureTile: load state from preferences in init
+GamingMode: remove overlay menu switch
+GpsNetInitiatedHandler: Disable more debugging
+IconPackKaiAndroidOverlay: fix for carriers using 5 bars of signal
+IconPackRounded: Use the correct icon for notification and ring volume
+Make DownloadManager.enqueue() a no-op when INTERNET permission is revoked
+Make Gaming Mode QS tile use Game space features instead
+Merge Pixel January 2021 security patches
+NavigationModeController: Silence log spam
+PixelPropsUtils: Remove GamesProps
+PixelPropsUtils: Whitelist ARCore (fixes AR Camera crash in Google app)
+PixelPropsUtils: update raven fp from SQ1D.220105.007 build
+Pulse: Add more NPE checks
+Pulse: Extend to Ambient Screen
+Pulse: Fix up navbar layout logic
+QuickSettings: Use tick instead of vibrate for normal tap on qs tile
+QuickStatusBarHeader: Only disable battery click when needed
+RecoverySystem: make the package readable before checking capex
+Reduce padding use by privacy indicator resources
+Settings: Add footer explanation to Adaptive Playback
+Settings: Add proximity check on wake preference
+Settings: ColorBucketPreference: Nuke SettingsObserver
+Settings: Display: Observe auto-brightness mode changes
+Settings: DoubleTapGesture: Make it use a preference controller
+Settings: Expose Heads Up settings page
+Settings: Fix invalid private DNS help text if URI is missing
+Settings: Fix up panel theme and layout
+Settings: Hardcode moduleProvider to com.google.android.modulemetadata
+Settings: Import missing lottie swipe fingerprint from redfin
+Settings: Make PIN scramble user-specific
+Settings: Make signal & wifi icon overlay persistent across reboots
+Settings: Replace settings:defaultText with settings:defaultValueText
+Settings: Temp remove broken reset battery stats feature
+Settings: Use font configs instead fonts directly
+Settings: WifiDisplaySettings: Fix some NPE
+Settings: add NPE check for SetupWizard usage
+Settings: stop logspill from ProcessStats
+Show infinity for large notification counts
+StatusBarIconController: Don't cast NetworkTrafficSB to StatusBarIconView
+Stop Microsoft apps from crashing without INTERNET permission
+SystemUI: AODTile: Use LockScreenSettingsActivity instead on long click
+SystemUI: Add HIGH_SAMPLING_RATE_SENSORS permission
+SystemUI: HeadsUpTile: Open Heads Up fragment on long click
+SystemUI: Keyguard: Check for a null errString
+SystemUI: Limit keyguard charging stats updates
+SystemUI: LocationTile: Be affected by the secure tiles toggle
+SystemUI: Make sure notification icons are stuck to the left
+SystemUI: PeopleSpaceWidgetManager: don't spam logcat
+SystemUI: Properly adapt new switches in screen recorder dialog
+SystemUI: ic_brightness_*: drawables get surface color
+SystemUI: refactor notification counter
+SystemUI: rewrite FPSInfoService in kt from scratch
+SystemUI: rewrite fps info tile in kt and bind service to the tile
+SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod
+SystemUIGoogle: Fix CalledFromWrongThread exceptions
+SystemUIGoogle: Import Reverse Charging and Battery Saver tiles
+TextView: Allow preventing requestLayout() calls
+ThemeOverlayApplier: Apply wifi and signal icon styles last
+Update translations
+appop: Keep up to 7 days of permission usage history
+appop: Save discrete app op history for more permissions
+apps: Build Repainter integration service
+base: AudioService: bail out if ringer mode is not recognized
+base: Fix location privacy indicator getting stuck
+core: Switch to Pasty for copying crash logs
+fonts: Bring back more font overlays
+gms: Remove non-battery TurboAdapter
+neko/Cat: Mark FLAG_IMMUTABLE PendingIntent with FLAG_MUTABLE
+overlay: Add config for Repainter integration service
+overlay: Extend 'Target pixel launcher/pixel themes' to OOS icon pack
+overlay: SystemUI: Remove power menu shadow
+overlay: core: Add chroma to light surface highlight color
+overlay: core: Use accent color for progress bar background
+overlays: Add acherus icon pack
+overlays: Add unlinked ringtone and notification volume icons
+overlays: oos: Add dummy icons to fix preview
+overlays: oos: Add status bar bluetooth icons
+overlays: oos: Adjust width and height for dnd and vibrate icons
+overlays: oos: Fix edit icon color in Settings
+privapp-permissions: Grant missing TelephonyProvider perm
+ripple: Replace with Fluent Design-inspired ripple animation
+sepolicy: Nuke LiveDisplay and Lineage FOD
+sepolicy: Resolve turbo_adapter denial
+services: LightsService: Mute an annoying error message
+vendor: Add drawable XMLs for themed icons
+vendor: Update overlays from January release
+vendor: overlay: Adjust Settings search bar roundness to be like stock
+vendor: overlay: Re-enable volume control for remote sessions
