@@ -1,0 +1,22 @@
+Device changes:
+==============================
+Cut previous status bar padding values in half
+Enable debug.sf.latch_unsignaled
+Fix ims jni symlinks location
+Remove status bar padding added in previous update
+Upstream kernel changes (v4.9.301)
+audio: Remove FM Tuner from audio input devices
+sepolicy: Address goodix denials
+sepolicy: Drop typeattribute from mm-qcamerad.te and qti_init_shell.te
+wifi: Disable WLAN Firmware loggings
+------------------------------
+ROM changes:
+==============================
+Evolver: Add user toggle for games
+Evolver: Improve user toggle for Photos unlimited storage
+GamingMode: NotificationOverlayController: mark overlay as untouchable and non-focusable
+GamingMode: upgrade gradle plugin and dependencies
+Restore support with RadioConfig@1.0 dsds clients
+SystemUI: Disable ringer button if alert slider is present
+Updater: Convert to blueprint
+core: Rework the Photos features blacklist again
