@@ -1,64 +1,86 @@
 [CENTER]
-[IMG]https://raw.githubusercontent.com/Evolution-X/manifest/ten/EvoBanner.png[/IMG]
-[SIZE="5"][b][color=#0060FF]Evolution X 5.1 for the Xiaomi K20 Pro / Xiaomi Mi 9T Pro [raphael][/color][/b][/SIZE]
+[URL='http://evolution-x.org'][IMG]https://i.imgur.com/IvlZLyc.png[/IMG][/URL]
+
+[SIZE=5][B][COLOR=#0060FF]Evolution X 6.0 for the Xiaomi K20 Pro / Xiaomi Mi 9T Pro [raphael][/COLOR][/B][/SIZE]
 [CODE]/*
-* Your warranty is void. Or vaild, probably?
+* Your warranty is void. Or valId, probably?
 *
 * I am not responsible for bricked devices, dead SD cards, Ebolation X,
-* thermonuclear war, or the current economic crisis caused by you following 
-* these directions. YOU are choosing to make these modificiations, and if 
+* thermonuclear war, or the current economic crisis caused by you following
+* these directions. YOU are choosing to make these modifications, and if
 * you point your finger at me for messing up your device, I will LMAO at you.
 */[/CODE]
 
-[img]https://i.imgur.com/qE4kqsj.png[/img]
-[CENTER][SIZE="5"][COLOR="#0060FF"][B]Living, Breaking, Keep Evolving. [/B][/COLOR][/SIZE]
-[SIZE="3"]Pixel UI, customization and more, we are Evolution X!
+[IMG]https://i.imgur.com/0KUV8YX.png[/IMG]
+
+[SIZE=5][COLOR=#0060FF][B]Keep Evolving[/B][/COLOR][/SIZE]
+[SIZE=3]Pixel UI, customization, and more, we are Evolution X!
 
 [B]- Team Evolution X - [/B]
-@[URL="https://forum.xda-developers.com/member.php?u=4936496"]joeyhuab[/URL]
-@[URL="https://forum.xda-developers.com/member.php?u=9008281"]peaktogoo (Now RealAkito)[/URL]
+@[URL='https://forum.xda-developers.com/member.php?u=4936496']joeyhuab[/URL]
+@[URL='https://forum.xda-developers.com/member.php?u=9008281']RealAkito[/URL]
+@[/SIZE][URL='https://forum.xda-developers.com/m/anierinb.7125966/'][SIZE=3]AnierinB[/SIZE][/URL]
 
-[I]Reach us on Twitter! [URL="https://twitter.com/EvolutionXROM"]@EvolutionXROM[/URL][/I][/SIZE][/CENTER]
+[SIZE=3][I]Reach us on Twitter! [URL='https://twitter.com/EvolutionXROM']@EvolutionXROM[/URL][/I][/SIZE]
 
-[img]https://i.imgur.com/RgqrlpK.png[/img]
-[HIDE]
-[SIZE="2"][U][I][COLOR="#0060FF"][B]What are our features?[/B][/COLOR][/I][/U][/SIZE]
-- Just flash and check "The Evolver"[/HIDE]
+[IMG]https://i.imgur.com/SRQCjQJ.png[/IMG]
 
-[img]https://i.imgur.com/n6b8AXD.png[/img]
-[SIZE="3"]You tell me[/SIZE]
- 
-[SIZE="3"][B][color=red]DO NOT FLASH GAPPS, ALREADY INCLUDED[/COLOR][/B][/SIZE]
+Just flash and check "The Evolver". We have tons of features combined together from different ROMs.
 
-[img]https://i.imgur.com/u5tIlfT.png[/img]
-[SIZE="5"][B]First Time Install / Clean Flash[/B][/SIZE]
-[SIZE="3"]1. Reboot to Recovery
-2. Download the proper ZIP for your device
-3. Wipe Data/Cache/System when coming from non-AOSP ROMs
-4 Flash the [URL="https://downloads.akhilnarang.dev/MIUI/raphael/"]proper vendor/firmware[/URL] for your device variant
+[IMG]https://i.imgur.com/CIrL2gb.png[/IMG]
+
+* You tell me
+
+[SIZE=3][B]DO NOT FLASH GAPPS, ALREADY INCLUDED[/B][/SIZE]
+
+[IMG]https://i.imgur.com/o2G52Ve.png[/IMG]
+
+[SIZE=5][B]First Time Install / Clean Flash[/B][/SIZE]
+[SIZE=3]1. Reboot to Recovery
+2. Download the zip for your device
+3. Flash [B]whichever recovery you desire and Flash [/B][/SIZE][URL='https://xiaomifirmwareupdater.com/firmware/raphael/'][SIZE=3][B]A11 firmware[/B][/SIZE][/URL]
+[SIZE=3]4. Wipe Data/Cache/System
 5. Flash the ROM
 6. Reboot to System and #KeepEvolving[/SIZE]
 
-[SIZE="5"][B]Update / Dirty Flash[/B][/SIZE]
-[SIZE="3"]1. Reboot to Recovery
-2. Download the proper ZIP for your device
+[SIZE=5][B]Update / Dirty Flash[/B][/SIZE]
+[SIZE=3]1. Reboot to Recovery
+2. Download the update for your device
 3. Flash the ROM
 4. Reboot to System and #KeepEvolving[/SIZE]
 
-[URL="https://imgur.com/a/dQiYBql"][img]https://i.imgur.com/fmAkMrL.png[/img][/URL][URL="https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_5.1_raphael-11-20201118-0742-OFFICIAL.zip/download"][img]https://i.imgur.com/F2WF8Mx.png[/img][/URL]
-[URL="https://www.paypal.me/joeyhuab"][img]https://i.imgur.com/JBON20U.png[/img][/URL][URL="https://t.me/EvolutionX"][img]https://i.imgur.com/9dKRGuj.png[/img][/URL][URL="https://t.me/EvolutionXRaphael"][img]https://i.imgur.com/PZ6h5NN.png[/img][/URL]
+[URL='https://evolution-x.org/device/raphael'][IMG]https://i.imgur.com/dvp0Hq1.png[/IMG][/URL]
+[URL='https://www.paypal.com/paypalme/joeyhuab'][IMG]https://i.imgur.com/Boc2GdE.png[/IMG][/URL][URL='https://t.me/EvolutionXRaphael'][IMG]https://i.imgur.com/RwBEPP8.png[/IMG][/URL]
 
-[SIZE="1"][URL="https://imgur.com/gallery/SvmdfPb"]Light Screenshots[/URL] / [URL="https://imgur.com/gallery/c3QKAdp"]Dark Screenshots[/URL] / [URL="https://sourceforge.net/projects/evolution-x/files/raphael/EvolutionX_5.1_raphael-11-20201118-0742-OFFICIAL.zip/download"]Download[/URL]
-[URL="https://www.paypal.me/joeyhuab"]Donate to me![/URL] / [URL="https://t.me/EvolutionX"]Official Chat[/URL] / [URL="https://t.me/EvolutionXRaphael"]Device Support[/URL][/SIZE]
+[SIZE=1][URL='https://evolution-x.org/device/raphael']Download[/URL]
+[URL='https://www.paypal.me/joeyhuab']Donate to me![/URL] / [URL='https://t.me/EvolutionX']Official Chat[/URL] / [URL='https://t.me/EvolutionXRaphael']Device Support[/URL][/SIZE]
 
-[hr][/hr]
+[URL='https://github.com/Evolution-X'][IMG]https://i.imgur.com/S2t0kJ9.png[/IMG][/URL]
+[/CENTER]
+[LIST]
+[*][B]Android OS version:[/B] 12.0_r29
+[*][B]Security patch level:[/B] February 2022
+[*][B]Build author: [/B][URL='https://forum.xda-developers.com/member.php?u=4936496']Joey Huab[/URL]
+[*][B]Source code: [/B][URL]https://github.com/Evolution-X[/URL]
+[*][B]Kernel Source code: [/B][URL]https://github.com/Evolution-X-Devices/kernel_xiaomi_raphael[/URL]
+[*][B]ROM Developer: [/B][URL='https://forum.xda-developers.com/member.php?u=4936496']Joey Huab[/URL]
+[/LIST]
 
-[img]https://i.imgur.com/LU9gsrQ.png[/img][/CENTER]
-[LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 11.0_r17
-[*][b]Security patch level:[/b] November 2020
-[*][b]Build author:[/b] [url="https://forum.xda-developers.com/member.php?u=4936496"]Joey Huab[/url]
-[*][b]Source code:[/b] [url="https://github.com/Evolution-X"][url]https://github.com/Evolution-X[/url][/url]
-[*][b]Kernel Source code:[/b] [url="http://bigota.d.miui.com/V11.0.1.0.QFKINXM/miui_RAPHAELININGlobal_V11.0.1.0.QFKINXM_5e75bba584_10.0.zip"][url]http://bigota.d.miui.com/V11.0.1.0.QFKINXM/miui_RAPHAELININGlobal_V11.0.1.0.QFKINXM_5e75bba584_10.0.zip[/url][/url]
-[*][b]ROM Developer:[/b] [url="https://forum.xda-developers.com/member.php?u=4936496"]joeyhuab[/url]
-[/list][/SIZE][/LEFT]
+[B][U][SIZE=4]XDA: DevDB Information[/SIZE][/U][/B]
+[SIZE=3][B]Evolution X, ROM for the Redmi K20 Pro[/B][/SIZE]
+
+[B][U]Contributors[/U][/B]
+[URL='https://forum.xda-developers.com/member.php?u=4936496']joeyhuab[/URL]
+[B]Source Code:[/B] [URL]https://github.com/Evolution-X[/URL]
+
+[B]ROM OS Version:[/B] Android 12
+[B]ROM Kernel:[/B] Linux 4.14.265
+[B]Based On:[/B] AOSP
+
+[B][U]Version Information[/U]
+Status:[/B] Stable
+[B]Current Stable Version:[/B] 6.0
+[B]Stable Release Date:[/B] 2021-11-04
+
+[B]Created[/B] 2021-11-04
+[B]Last Updated[/B] 2022-02-15
