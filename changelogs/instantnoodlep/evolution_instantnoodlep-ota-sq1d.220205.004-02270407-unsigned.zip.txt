@@ -1,0 +1,29 @@
+Add option to change eSCO Transport Unit Size to 16
+Evolver: Remove UDFPS pressed color options
+Evolver: Remove volume panel on left toggle and switch to maintainer-set overlay
+SystemUI: Fix an NPE in KeyguardMessageArea
+SystemUI: Remove unnecessary showVoLTEIcon config
+Remove navbar inset for UDFPS BiometricPrompt
+Workaround to support low-area UDFPS on BP
+SystemUI: AuthBiometricFaceView: Don't spam log
+SystemUI: Don't store pending ControlAction if the device is locked
+Give hardcoded permission for oplus.permission
+Settings: AppLockSettingsPC: call super class method if preference click is not handled
+SystemUI: Adjust default QS tiles
+SystemUI: Block face authentication when device is in pocket mode
+SystemUI: Fix issues related to SystemUIGoogle and Udfps 
+Introduce App lock for S
+Introduce Face Unlock for S
+Settings: ColumbusLowSensitivityPreferenceController: Disable if using ap sensor
+Settings: exclude app lock subsettings from recents
+VolumeDialog: Fix live caption tooltip when on left side
+base: Fix carrier label being white on keyguard when using a light wallpaper
+fixup! BiometricScheduler: Cancel operation if not idle
+optimizations
+overlay: core: Disable OtaSuggestionSummaryProvider from GMS
+overlay: Don't disable Google Play Updates
+vendor: Disable blur on app-launch
+vendor: update GMS updater component disable list
+Fix deadlock issue
+Fix edit button in screenshot share activity
+PixelPropsUtils: Bypass hw attestation on newer pixel devices

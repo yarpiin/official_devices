@@ -1,17 +1,17 @@
 {
-   "datetime": 1645394025,
+   "datetime": 1645910963,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "3ef5d2ac3970ec8f0786e5cd36fafb2c",
-   "filename": "evolution_instantnoodle-ota-sq1d.220205.004-02210657-unsigned.zip",
+   "filehash": "782c1018f098479038307e775f733beb",
+   "filename": "evolution_instantnoodle-ota-sq1d.220205.004-02270631-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-0_r32-official-evolution-x-6-0-02-21-2022.4276623/",
-   "id": "7cf992e48f748b64fbabc087bb5a8d5c2cde75450f4cef93e556e29ec2de9c71",
+   "id": "b552aef7565ccc99892f11b9592ec77c8fc5fb0f322b10cff6d7d02cc5e8c468",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2066944992,
+   "size": 2127651192,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/instantnoodle/evolution_instantnoodle-ota-sq1d.220205.004-02210657-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/instantnoodle/evolution_instantnoodle-ota-sq1d.220205.004-02270631-unsigned.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
