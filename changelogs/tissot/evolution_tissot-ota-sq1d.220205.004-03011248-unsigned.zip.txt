@@ -1,0 +1,23 @@
+Device changes:
+==============================
+Disable Adaptive Connectivity preference
+------------------------------
+ROM changes:
+==============================
+Biometrics: Allow disabling of fingerprint cleanups
+Evolver: Remove volume panel on left toggle
+PixelPropsUtils: Whitelist YouTube app
+Settings: AppLockSettingsPC: call super class method if preference click is not handled
+Settings: Battery: Show battery temp on power summary
+Settings: Bring back fixed Advanced nav gestures
+SoundSettings: Add charging vibration settings
+SystemUI: Adjust default QS tiles
+SystemUI: AuthBiometricFaceView: Don't spam log
+SystemUI: Don't store pending ControlAction if the device is locked
+SystemUI: Enable VoLTE/VoWiFi icons by default
+SystemUI: Fix an NPE in KeyguardMessageArea
+SystemUI: Fix missing volume dialog track
+Update translations
+Updater: Add changelog button
+WalletActivity: Don't explicitly request face auth
+charging: Allow using vibration without sounds
