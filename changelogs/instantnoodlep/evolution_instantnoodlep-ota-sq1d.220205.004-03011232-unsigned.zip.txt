@@ -1,0 +1,16 @@
+Fixed AOSP display modes (no more jank workarounds)
+Added TP Edge Limit toggle in DeviceExtras
+Updated haptics aidl to be a bit more powerful
+Biometrics: Allow disabling of fingerprint cleanups
+BiometricScheduler: Cancel operation if not idle
+Block UDFPS auth in pocket mode
+Settings: Battery: Make battery temp preference looks like others
+Settings: Battery: Show battery temp on power summary
+Settings: Bring back fixed Advanced nav gestures
+SystemUI: Enable VoLTE/VoWiFi icons by default
+WalletActivity: Don't explicitly request face auth
+PixelPropsUtils: Whitelist YouTube app
+SoundSettings: Add charging vibration settings
+SystemUI: Fix missing volume dialog track
+Updater: Add changelog button
+charging: Allow using vibration without sounds
