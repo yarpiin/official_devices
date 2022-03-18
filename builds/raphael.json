@@ -1,17 +1,17 @@
 {
-   "datetime": 1647188833,
+   "datetime": 1647612173,
    "donate_url": "https://www.paypal.me/joeyhuab",
    "error": false,
-   "filehash": "7381354f0c1340167eb2fb40a56bde62",
-   "filename": "evolution_raphael-ota-sp2a.220305.012-03140128-unsigned.zip",
+   "filehash": "ca12b952df83e13ebf0e770e223ee45f",
+   "filename": "evolution_raphael-ota-sp2a.220305.012-03182304-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-raphael-official-evolution-x-snow.4356861",
-   "id": "f42f547dfd4aa67fc277ec1d95f5097035fdc17aea6ad95ee1d46b631ef48e59",
+   "id": "68e63f6aeb88faf3e859fe8db2192f10e39fa3acac5136c822efcbba7dad4f91",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1961621601,
+   "size": 1944206356,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/evolution_raphael-ota-sp2a.220305.012-03140128-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/evolution_raphael-ota-sp2a.220305.012-03182304-unsigned.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
