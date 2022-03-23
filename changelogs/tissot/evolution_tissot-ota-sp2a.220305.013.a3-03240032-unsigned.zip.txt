@@ -1,0 +1,103 @@
+Device changes:
+==============================
+Don't build with Google Apex
+------------------------------
+ROM changes:
+==============================
+AutofillManager: Turn off logging by default
+Bring back Google Game Dashboard
+BugFix: HWASAN: Fix stack-buffer-overflow
+CameraServiceProxy: Loosen UID check conditionally
+CarrierConfigManager: Enable payphone call blocking option
+Change the order of Notification writeToParcel
+CollapsedStatusbar: Fix phantom spaces in status bar
+ColorUtils: Prevent crash if alpha component is translucent
+Don't throw exception if admin is null
+EvolutionUtils: Add check if device supports compass
+Evolver: Allow to disable qs footer warnings
+Evolver: Bring back Flashlight blink on incoming calls
+Evolver: Bring back Monet settings
+Evolver: Bring back Pulse
+Evolver: QS footer icon visibilities
+Evolver: allow disabling qs on secure lockscreen
+FaceService: Downgrade strength to STRENGTH_WEAK
+FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+Fix EventLog string class problem in ViewRootImpl#enqueueInputEvent()
+Fix autogroupsummary bug
+Fix potential race condition problem
+Fix: if anrApp is null, Null pointer exception occurred, Anr trace capture failed
+Fixed a crash in settings in tts engine selection screen
+GestureTweaksSettings: fix after removing assistant from extended swipe options
+Make center clock follow paddingTop
+Make sure we close system dialogs on the thread which it's created
+MediaArtworkProcessor: Use less blur, zoom & alpha on keyguard
+Merge Pixel 6 Pro March security patches
+Parcel: remove use of getOpenAshmemSize
+PixelPropsUtils: Append whitespace to MODEL only for GMS
+PixelPropsUtils: Update to SP2A.220305.013.A3
+PixelPropsUtils: Whitelist YouTube apps
+PowerProfile: allow overriding default power profile
+Properly apply dark theming to clock
+QS: Add CPUInfo toggle tile
+QS: Add and use Bluetooth Panel instead of full Settings
+QS: Add and use Mobile Data panel
+QuickStatusBarHeader: Update for new mClockDateView
+Reduce padding use by privacy indicator resources
+Restore cache clean up code in PackageManagerService
+Screenshot: Remove text from expanded screenshot chip
+Settings: Add more trigger actions/app/activities
+Settings: Apply SUW button theming to WiFi page
+Settings: Bring back haptic feedback on back gesture
+Settings: Disable face enroll on Setup Wizard
+Settings: Don't change nouns in summaries to lower case for German
+Settings: Enable Quick Wallet settings for all devices with NFC
+Settings: Implement RoutinesActionBroadcastReceiver
+Settings: Network setup UI changes for SUW
+Settings: Remove divider from Battery Manager
+Settings: Update settings animations
+Settings: Update some lottie animations
+Settings: update PowerUsageFeatureProviderGoogle to 12L
+Settings: use PowerUsageFeatureGoogle
+SettingsLib: Don't show system overlays on apps list
+Shorten wait time for shutdown time optimization
+SoundPool: Update queue only if streamID matches
+SystemUI: Add Compass tile and disable long click
+SystemUI: AuthController: Fix NPE due to isPowerbuttonFps()
+SystemUI: AuthController: Fix ripple animation for side fp devices
+SystemUI: Better QS detail clip animation
+SystemUI: Fix SystemUI Crash
+SystemUI: Flags: Properly enable Smartspace transition
+SystemUI: Grant additional permissions for smartspace
+SystemUI: Invoke keyguard exit animation
+SystemUI: Nuke oriented navbar handle
+SystemUI: Open WifiPanel on LongClick
+SystemUI: Prevent loop with display timeout
+SystemUI: Show mobile data indicator when VoLTE icon enabled
+SystemUI: Update Smartspace assets to 12L
+SystemUI: Use geometric 6 and 9 glyphs in PIN entry keypad
+SystemUI: add missing initial call to updateResources in brightness mirror
+SystemUI: add resource dimen for all screenshot ui radiuses
+SystemUI: catch up to 12L SystemUIDefaultModule
+SystemUI: inject WiredChargingRippleController
+SystemUI: integrate smartspace and backgesture provider
+SystemUI: unify screenshot and record corner dimens
+SystemUI: use proper themed divider in notification channel editor dialog
+Toast: fix layer leak
+Use alphaoptimized layout for icons on left
+ViewGroup: Remove child parent when a new view is added
+ViewRootImpl: Fixed memory leak caused by viewrootImpl objects
+audio: add support for extended formats
+base: Use vector drawable for tab_selected_holo
+base: add CPU info overlay
+base: fix list style alert dialog to use system font
+core: PinSet: Cache pin algorithms
+fonts: add OneUISans
+fs_mgr: Don't run clean_scratch_files on non-dynamic devices
+graphics: Override system fonts with user-selected overlays
+libmedia_jni: Changing MediaPlayer RefBase object creation as per RefBase recommendation
+libs: PipTaskOrganizer: do not start fade out animation for pip if surfacecontrol leash is null
+media: Define MPEG-H Encoder Format
+services: WindowOrientationListener: bail out if rotation resolver service instance is null
+services: fonts: use a simple sha512 hash based file verification system
+styles: Use user fonts for Material UI themes
+version: Uprev to 6.2.2
