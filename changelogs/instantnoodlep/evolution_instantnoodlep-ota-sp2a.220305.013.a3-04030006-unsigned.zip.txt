@@ -1,0 +1,48 @@
+BluetoothUtils: disable useless logspam
+Call log limit 500=>5000
+Camera: Prevent crash with prebuilt camera metadata
+Grant Wellbeing the SUSPEND_APPS perm if already declared
+Increase Zenmode max hour limit from 12 to 24
+Keep recent tasks for more time in memory
+Permissions: Grant Download Provider access permissions to external storage
+Settings: Add vibration patterns from OOS
+Settings: Allow choosing a custom vibration pattern
+SystemUI: Add Mono audio tile (aka headphone in one ear only)
+SystemUI: Always disable rotation on lockscreen
+SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+Telecomm: Update vibration patterns
+Telephony: Add null check for operator
+Telephony: Fix crash while updating Operator Name
+Telephony: Limit setSignalStrengthReportingCriteria
+WallpaperService: Fix half black wallpaper after rotating quickly
+Watchdog: run emergency sync before killing system
+base: Delete media tests
+base: Fix black screen issue due to wallpaper decoding exceptions
+base: Remove unnecessary videos
+AutoAODService: Use Calendar.add instead of Calendar.roll
+Brightness slider: Fix issues with media mode
+Brightness slider: Use proper icon names
+Bring back QQS brightness slider
+Fixes and clean up for QS brightness slider customizations
+PixelPropsUtils: Remove Fortnite from Games spoof
+Fix res after newer SettingsGoogle import
+SystemUI: Nuke redundant Now Playing/Smartspace assets
+fixup! Camera: Ignore torch status update for aux or composite camera
+fixup! QS footer icon visibilities (aka QS footer power menu toggle)
+PixelPropsUtils: Selectively enable GPhotos spoof for Pixel devices
+SystemUI: fix initial notif shade layout on split mode
+SystemUI: use default dialogCornerRadius for qs customize title
+Port changes from SystemUIGoogle/SettingsGoogle (Quick Tap, Game Dashboard, Smartspace)
+Evolver: Bring back Ambient Edge Lighting
+Evolver: Bring back bluetooth battery level toggle
+Fix status bar clock hiding implementation
+PixelPropsUtils: Refactor after switching gms to raven
+base: improve three finger gesture code
+Evolver: Add reTicker feature
+Evolver: Bring back lock screen album art filters
+Evolver: QS Column count and QS hide label settings
+Framelayout: Fix NPE when view is missing
+PixelPropsUtils: Add NHS App props spoofing
+PixelPropsUtils: Add game props for mobile legends
+SystemUI: Add switch data saver icon
+SystemUI: Make media view less-gore when artwork bg is enabled
