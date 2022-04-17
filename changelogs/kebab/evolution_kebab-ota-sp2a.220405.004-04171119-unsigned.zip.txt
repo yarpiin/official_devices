@@ -1,0 +1,78 @@
+Implement Kcal (kernel color calibration) in DeviceExtras
+Fix DeviceExtras slider preferences not applying on first boot (vib, kcal, etc)
+Uprev USB hal 1.2 > 1.3 (Supports enable/disable USB data signaling)
+Add smart idle maintenance service
+DeviceGroup: Check RSI data with filtered scan results
+DisplayPowerController: Don't apply brightness adjustment if NaN
+HeadsUp: Move timeout option to SettingsObserver instead
+Move PackageManager new user logic after dispatching
+Settingslib: Remove a reflect method that can never succeed
+SystemUI: Fix pulseOut fails before fully pulsing
+udfps: Disable Night Light when showUdfpsOverlay
+Do not lock when biometric lock status is cleared
+Evolver: Bring back HeadsUp blocklist/stoplist/snooze/timeout
+prebuilt: fix APN for Vodafone NL
+Settings: Fixup start padding for battery usage graph
+overlay: Disable AiAiTranslationService usage
+overlay: show all icons in collapsed statusbar
+vendor: rro_overlays: Remove Pixel's rounded corner overlay
+Evolver: applock: intercept activity in a better way
+Fix the issue of transition animation splash screen in split screen mode
+QSPanel: Fix NPE in updateViewPositions()
+base: add missing device config permissions for settings
+Settings: Allow to hide arrow for back gesture
+StatusBar: dismiss qs when screen is going off if showing
+base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+config: Disable remote keyguard animation until it's fixed
+config: Move keylayout to /product
+config: Move permissions & sysconfig to /product
+fix google widget timing issue
+Evolver: Move screen off animation to Misc category
+Evolver: Use correct key for Status bar clock auto hide launcher
+Settings: Make IME button space optional
+SystemUI: Add VPN tile
+SystemUI: Animate cutout padding for QS clock
+SystemUI: Enable status bar burn-in protection by default
+SystemUI: Update BT battery level from OOS
+Catch SQLiteFullException in AccountManagerService
+Close the FileStream to avoid resource leak
+Evolver: Remove charging animation toggle
+Fix chip visibility in split shade header
+SystemUI: Face Unlock animation
+config: Disable GMS OTA popup
+unregister FileCleanupReceiver when disableHistory
+Evolver: Remove color picker for custom Logo
+PixelPropsUtils: Avoid spoofing for Pixel Buds
+PixelPropsUtils: Use Mi 11 Ultra for games prop
+ShortcutPackage: do not spam logcat
+StatusBar: Kill old privacy indicator icons completely
+SystemUI: Show daily data usage in QS footer
+UIModeTile: Collapse after change UI mode
+base: Add system app whitelist for applock
+base: Grant Gapps permissions on boot
+base: Grant storage permissions for Papers app
+base: log spill when dragging
+sepolicy: Allow apps to read auxiliary camera properties
+AOD: Sleep when proximity is covered for 3 secs
+Evolver: Allow hiding apps from launcher
+Evolver: Bring back volume panel on left toggle
+Evolver: Hide Status bar on Lock screen
+Fix wakelock under-locked issue
+Settings: Battery charge warning
+SystemUI: Make the volume dialog expandable
+ActivityThread: Prevent surface hang up when screen on and screen off
+Add more notification channels to be blockable
+AlarmManager: Handle all gms exact alarm denials
+AlarmManagerService: null check the alarm operation
+Catch IllegalArgumentException for invalid phone id
+DisplayPowerController: Fix incall proximity not turning off display
+Don't update OverScroller fling state if improper time passed
+Fix Wakelock issue
+Keystore 2.0: Add CREATION_DATETIME only for Keymint V1 and higher
+Notifications: Make USB-Debugging notification less important
+SQLite: Do integrity_check only once
+SystemServer: Only enable fd leak tracker on eng
+SystemUI: QuickStatusBarHeaderController: Remove ColorExtractor listener
+SystemUI: restart timeout causes black screen
+fonts: Use variable font for Roboto Regular
+os: Process: Fix wrong code in isThreadInProcess 
