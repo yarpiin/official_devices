@@ -1,0 +1,57 @@
+Device changes:
+==============================
+Build new GNSS HAL
+Move CNE and DPM properties around
+Provide bluetooth, drm and gatekeeper on vendor
+Switch to Protein kernel (v4.9.311)
+Switch to QTI health implementation
+Unpin updatable-media from memory
+Update target-level in manifest
+biometrics: Handle goodix hals without "gf_" prefix
+don't latch unsignal buffers
+fix deprecated power profile items
+media: Drop c2 configs
+overlay: Remove config_jitzygoteBootImagePinnerServiceFiles list
+props: Don't write binary XML files
+------------------------------
+ROM changes:
+==============================
+Add keylayout mapping for Xbox360 compatible controllers
+Add smart idle maintenance service
+Allow provisioning package to retrieve subGrp, clear its own config
+DeviceGroup: Check RSI data with filtered scan results
+DisplayPowerController: Don't apply brightness adjustment if NaN
+Do not lock when biometric lock status is cleared
+Evolver: Allow hiding system apps that appear in launcher
+Evolver: Bring back HeadsUp blocklist/stoplist/snooze/timeout
+Evolver: Bring back Status bar brightness control
+Evolver: Hidden apps toggle does not require launcher restart anymore
+Evolver: Introduce OOS style notification clear all button
+Evolver: applock: intercept activity in a better way
+Fix the issue of transition animation splash screen in split screen mode
+Grant NETWORK_STACK permissions for Dialer
+HeadsUp: Move timeout option to SettingsObserver instead
+Move PackageManager new user logic after dispatching
+QSPanel: Fix NPE in updateViewPositions()
+Settings: Add TalkBack accessibility service
+Settings: Add toggle to switch between AOSP/Google battery graphs
+Settings: Align user avatar with homepage title
+Settings: Disable tips and support
+Settings: Fixup start padding for battery usage graph
+Settings: Remove empty Security status header
+Settingslib: Remove a reflect method that can never succeed
+SystemUI: Fix alarm icon
+SystemUI: Fix pulseOut fails before fully pulsing
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+SystemUI: Whitelist PREVENT_POWER_KEY permission
+Treat default value that wasn't found as empty value
+Update translations
+base: add missing device config permissions for settings
+fixup! Evolver: applock: intercept activity in a better way
+fuelgauge: Update clean up for estimate
+fuelgauge: Use Enhanced Battery Prediction from Turbo
+make DownloadManager.query() a no-op when INTERNET permission is revoked
+overlay: Disable AiAiTranslationService usage
+overlay: show all icons in collapsed statusbar
+prebuilt: fix APN for Vodafone NL
+version: Uprev to 6.3 (codename Snow-v2)
