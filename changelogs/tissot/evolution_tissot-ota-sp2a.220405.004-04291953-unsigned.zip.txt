@@ -1,0 +1,23 @@
+Device changes:
+==============================
+Add init to handle dalvik props based on sysram
+Drop DMService and StorageManagerGoogle
+Rename config_disabledComponents
+Switch to using AOSP APEX (no more broken Play system updates)
+------------------------------
+ROM changes:
+==============================
+Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
+PMS and WMS deadlock when uninstalling APP
+Remove DUN requirement for tethering
+Settings: Add AdGuard and Cloudflare DNS as private DNS providers
+Settings: Add hotspot setting to allow VPN upstreams
+Settings: Remove DSU Loader if unsupported
+Settings: Update package details to match S style
+SystemUI: Allow overlaying max system icons
+SystemUI: Fix PIN scramble setting discrepancy
+SystemUI: fix MediaProjection cast crash
+audio: Verify that hal implements get_audio_port before calling
+base: add zen mode off hook to prevent problems with ringer mode
+device_config: Save discrete app op history for more permissions
+getaddrinfo: Use Cloudflare DNS instead of Google DNS
