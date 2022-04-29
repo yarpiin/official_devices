@@ -355,10 +355,10 @@
       "name": "Mi 10",
       "supported_versions": [
          {
-            "maintainer_name": "yarpiin",
+            "maintainer_name": "Slaw Handzlik (yarpiin)",
             "maintainer_url": "https://github.com/yarpiin",
-            "version_code": "eleven",
-            "version_name": "Eleven",
+            "version_code": "twelve",
+            "version_name": "Twelve",
             "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-umi-official-evolution-x.4272743"
          }
       ]
@@ -369,11 +369,11 @@
       "name": "Mi 10 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Akito Mizukito",
-            "maintainer_url": "https://github.com/RealAkito",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/evolution-x-5-8-for-poco-f2-pro-redmi-k30-pro-lmi-lmipro.4174429"
+            "maintainer_name": "Slaw Handzlik (yarpiin)",
+            "maintainer_url": "https://github.com/yarpiin",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-umi-official-evolution-x.4272743"
          }
       ]
    },
@@ -397,7 +397,7 @@
       "name": "Mi 8",
       "supported_versions": [
          {
-            "maintainer_name": "LuMorningStarr",
+            "maintainer_name": "Matheus C. (LuMorningStarr)",
             "maintainer_url": "https://github.com/LucyfMorning",
             "version_code": "twelve",
             "version_name": "Twelve",
@@ -635,7 +635,7 @@
       "name": "Poco X3 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "elizabethangelalorenza",
+            "maintainer_name": "Fikri A. (elizabethangelalorenza)",
             "maintainer_url": "https://forum.xda-developers.com/m/elizabethangelalorenza.7923660",
             "version_code": "twelve",
             "version_name": "Twelve",
@@ -649,7 +649,7 @@
       "name": "Redmi 7A/8/8A/8A Dual",
       "supported_versions": [
          {
-            "maintainer_name": "JaswalAshish (JaswalAshish)",
+            "maintainer_name": "Ashish Jaswal (JaswalAshish)",
             "maintainer_url": "https://forum.xda-developers.com/m/ashish11948.11817917/",
             "version_code": "twelve",
             "version_name": "Twelve",
