@@ -1,0 +1,20 @@
+Switch to AOSP updatable apex
+Switch to 1440p animation as per request
+Settings: Remove string array resource sim_color_light in translations
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
+PMS and WMS deadlock when uninstalling APP
+Settings: Add AdGuard and Cloudflare DNS as private DNS providers
+Settings: Add hotspot setting to allow VPN upstreams
+SystemUI: Fix PIN scramble setting discrepancy
+SystemUI: fix MediaProjection cast crash
+UdfpsController: Fix position if cutout is hidden
+audio: Verify that hal implements get_audio_port before calling
+base: add zen mode off hook to prevent problems with ringer mode
+device_config: Save discrete app op history for more permissions
+Settings: Remove DSU Loader if unsupported
+SystemUI: Add API for runtime taskbar config on phones
+SystemUI: Allow overlaying max system icons
+UsbDeviceManager: Delay MSG_UPDATE_SCREEN_LOCK message
+linker: Add support for opening zip files by fd paths
+Settings: Update package details to match S style
+Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
