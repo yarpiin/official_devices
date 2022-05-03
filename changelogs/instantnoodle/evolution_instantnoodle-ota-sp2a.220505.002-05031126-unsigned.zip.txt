@@ -1,0 +1,19 @@
+Merge May 2022 security patches
+PixelPropsUtils: Update fingerprints to May 2022 release
+overlay: SystemUI: Follow light/dark theme in power menu
+overlay: SystemUI: Use default surface colors for power menu buttons
+overlay: core: Add chroma to light surface highlight color
+overlay: core: Suppress System UI ANRs
+Add Mediatek IMS to location indicator whitelist
+SystemUI: Let screenshot window ignore screen decorations
+fixup! Camera: Skip stream size check for whitelisted apps
+Evolver: Color coded battery indication
+Evolver: Introduce QS transparency level
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+SystemUI: Bring back dual-tone light and dark themes for QS
+base: Battery style improvements
+development: disable DSULoader
