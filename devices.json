@@ -712,5 +712,19 @@
             "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-official-evolution-x-6-3-mojito-sunny-29-04-2022.4439075/"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "venus",
+      "name": "Mi 11",
+      "supported_versions": [
+         {
+            "maintainer_name": "Joey Huab and Akito Mizukito",
+            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/beta-rom-12-1-official-evolution-x-for-xiaomi-mi-11-05-04-22.4441407"
+         }
+      ]
    }
 ]
