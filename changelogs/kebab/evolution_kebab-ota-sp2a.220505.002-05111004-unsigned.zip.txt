@@ -1,0 +1,46 @@
+QSFooter: Set tuner icon to always be invisible
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+Don't report existing menu key if it was remapped
+Evolver: hw keys: Fix custom app selection dialog
+HWKeys: Disable haptic on keyguard
+HardkeyActionHandler: Adapt to Android 11
+Navbar: Patch navigation bar to emulate hw keys
+Settings: Swipe gestures: Add show recents option
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Always refresh power menu on UI mode change
+SystemUI: Follow light/dark theme in quick settings
+SystemUI: Initialize QS tiles in inactive state
+SystemUI: Remove colorSurfaceHeader dependency from framework
+fixup! Hardware key: Customization support
+overlay: SystemUI: Follow light/dark theme in power menu
+overlay: SystemUI: Use default surface colors for power menu buttons
+overlay: core: Add chroma to light surface highlight color
+vendor: Add back livedisplay permissions
+vendor: Don't enforce inclusion of common compatibility matrix
+Add Google Search and Google Location History to location indicator whitelist
+PixelPropsUtils: Refactor & clean up
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Telecomm: Provide required permissions for Telephony
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+libsysutils: Hide NetlinkListener error in recovery
+prebuilt: apns-conf: Checkout to LOS
+config: Allow Fullscreen Gesture overlay on phones only
+Evolver: Add "Enable taskbar" toggle
+Provide required permissions for cellbroadcastreceiver
+RIL: Fix manual network selection with old modem
+Settings: Hide settings that don't work when taskbar is enabled
+SystemUI: Strict lock screen rotation
+Battery: Color coded battery indication for Landscape icons
+Properly update view for reTicker
+base: fix deadlock between activity manager and power manager
+BatteryService: add Dash, Warp, VOOC, Turbo power, OEM fast charging support
+Display actual charge tech in battery settings
+Evolver: Battery Styles: Introduce Battery Landscape
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+Move high touch sensitivity and hovering to InputService
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+Settings: Display: Add High Touch Polling Rate Support
+SystemUI: Only apply tuning changes when the fragment is attached
+fwb: Import SwipeToScreenshot implementation from MIUI
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support

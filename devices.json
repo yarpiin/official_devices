@@ -107,7 +107,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r4-official-evolution-x-6-2-2-04-09-2022.3988143/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-11-2022.3988143/"
          }
       ]
    },
@@ -121,7 +121,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r4-official-evolution-x-6-2-2-04-09-2022.3988143/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-11-2022.3988143/"
          }
       ]
    },
@@ -163,7 +163,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-04-2022.4276623/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-11-2022.4276623/"
          }
       ]
    },
@@ -177,7 +177,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-04-2022.4276623/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-11-2022.4276623/"
          }
       ]
    },
@@ -191,7 +191,7 @@
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
             "version_code": "twelve",
             "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-04-2022.4276623/"
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-11-2022.4276623/"
          }
       ]
    },
@@ -201,11 +201,11 @@
       "name": "OnePlus 9",
       "supported_versions": [
          {
-            "maintainer_name": "Anierin Bliss & Hardik Srivastava",
+            "maintainer_name": "Anierin Bliss & Daryl Ronningen",
             "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0_r43-official-evolution-x-5-9-2-sanctuary-09-08-2021.4317867"
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-11-2022.4388391/"
          }
       ]
    },
@@ -215,11 +215,11 @@
       "name": "OnePlus 9 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Anierin Bliss & Hardik Srivastava",
-            "maintainer_url": "https://forum.xda-developers.com/m/oddlyspaced.9807173",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0_r43-official-evolution-x-5-9-2-sanctuary-09-8-2021.4307505"
+            "maintainer_name": "Anierin Bliss & Daryl Ronningen",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r5-official-evolution-x-6-3-1-05-11-2022.4388391/"
          }
       ]
    },

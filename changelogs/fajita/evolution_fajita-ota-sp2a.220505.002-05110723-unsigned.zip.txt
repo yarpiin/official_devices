@@ -1,0 +1,159 @@
+DeviceExtras: Import latest translations
+DeviceExtras: Add easter egg
+QSFooter: Set tuner icon to always be invisible
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+Don't report existing menu key if it was remapped
+Evolver: hw keys: Fix custom app selection dialog
+HWKeys: Disable haptic on keyguard
+HardkeyActionHandler: Adapt to Android 11
+Navbar: Patch navigation bar to emulate hw keys
+Settings: Swipe gestures: Add show recents option
+SystemUI: Add dual-tone light and dark themes for QS
+SystemUI: Always refresh power menu on UI mode change
+SystemUI: Follow light/dark theme in quick settings
+SystemUI: Initialize QS tiles in inactive state
+SystemUI: Remove colorSurfaceHeader dependency from framework
+fixup! Hardware key: Customization support
+overlay: SystemUI: Follow light/dark theme in power menu
+overlay: SystemUI: Use default surface colors for power menu buttons
+overlay: core: Add chroma to light surface highlight color
+vendor: Add back livedisplay permissions
+vendor: Don't enforce inclusion of common compatibility matrix
+Add Google Search and Google Location History to location indicator whitelist
+PixelPropsUtils: Refactor & clean up
+Settings: Add toggle for screenshot timestamp EXIF metadata
+Telecomm: Provide required permissions for Telephony
+ThemedIconsOverlay: Import resources from https://t.me/modulesrepo/3166
+libsysutils: Hide NetlinkListener error in recovery
+prebuilt: apns-conf: Checkout to LOS
+config: Allow Fullscreen Gesture overlay on phones only
+Evolver: Add "Enable taskbar" toggle
+Provide required permissions for cellbroadcastreceiver
+RIL: Fix manual network selection with old modem
+Settings: Hide settings that don't work when taskbar is enabled
+SystemUI: Strict lock screen rotation
+Battery: Color coded battery indication for Landscape icons
+Properly update view for reTicker
+base: fix deadlock between activity manager and power manager
+BatteryService: add Dash, Warp, VOOC, Turbo power, OEM fast charging support
+Display actual charge tech in battery settings
+Evolver: Battery Styles: Introduce Battery Landscape
+Increase Zygote command buffer size to 32k
+Introduce LiveDisplay from Lineage
+Move high touch sensitivity and hovering to InputService
+Settings: Add high touch sensitivity and touchscreen hovering toggles
+Settings: Display: Add High Touch Polling Rate Support
+SystemUI: Only apply tuning changes when the fragment is attached
+fwb: Import SwipeToScreenshot implementation from MIUI
+media: MediaCodec: add RGBA_1010102 and RGBA_F16 format support
+Add Phone Services to location indicator whitelist
+Merge May 2022 security patches
+PixelPropsUtils: Refactor implementation
+PixelPropsUtils: Update fingerprints to May 2022 release
+add com.android.bluetooth to indicator exemptions
+add com.android.phone to indicator exemptions
+base: Change default udfps vendor code to 22
+overlay: core: Suppress System UI ANRs
+Add Mediatek IMS to location indicator whitelist
+SystemUI: Let screenshot window ignore screen decorations
+fixup! Camera: Skip stream size check for whitelisted apps
+Evolver: Color coded battery indication
+SoftAp: add Hidden SSID preference
+SoftAp: add back AP Band preference into tether settings
+SoftAp: add client manager
+SoftAp: add more bands to band preference
+SoftAp: add support for setting shutdown timeout
+base: Battery style improvements
+development: disable DSULoader
+Settings: Remove string array resource sim_color_light in translations
+prebuilt: apns-conf: update to LA.QSSI.12.0.r1-05100-qssi.0
+PMS and WMS deadlock when uninstalling APP
+Settings: Add AdGuard and Cloudflare DNS as private DNS providers
+Settings: Add hotspot setting to allow VPN upstreams
+SystemUI: fix MediaProjection cast crash
+UdfpsController: Fix position if cutout is hidden
+audio: Verify that hal implements get_audio_port before calling
+base: add zen mode off hook to prevent problems with ringer mode
+device_config: Save discrete app op history for more permissions
+SystemUI: Allow max system icons overlay
+UsbDeviceManager: Delay MSG_UPDATE_SCREEN_LOCK message
+linker: Add support for opening zip files by fd paths
+Settings: Update package details to match S style
+Fix Dark Theme "TURN ON UNTIL SUNRISE" issue
+Evolver: Add application downgrade feature
+Evolver: Add window ignore secure feature
+Re-implement optional haptic feedback on back gesture
+Settings: Add Battery Capacity info and make resources overlayable
+nativedisplay: fix the flicker issue in streaming video
+vendor: rro_overlays: Remove Pixel's rounded corner overlay
+Add keylayout mapping for Xbox360 compatible controllers
+Evolver: Bring back Status bar brightness control
+Grant NETWORK_STACK permissions for Dialer
+SystemUI: Fix alarm icon
+SystemUI: Whitelist PREVENT_POWER_KEY permission
+Update translations
+make DownloadManager.query() a no-op when INTERNET permission is revoked
+version: Uprev to 6.3 (codename Snow-v2)
+Allow provisioning package to retrieve subGrp, clear its own config
+Evolver: Allow hiding system apps that appear in launcher
+Evolver: Hidden apps toggle does not require launcher restart anymore
+Settings: Add TalkBack accessibility service
+Settings: Add toggle to switch between AOSP/Google battery graphs
+Settings: Align user avatar with homepage title
+Settings: Remove empty Security status header
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returns null
+Treat default value that wasn't found as empty value
+fixup! Evolver: applock: intercept activity in a better way
+fuelgauge: Update clean up for estimate
+fuelgauge: Use Enhanced Battery Prediction from Turbo
+Evolver: Introduce OOS style notification clear all button
+Settings: Disable tips and support
+DeviceGroup: Check RSI data with filtered scan results
+DisplayPowerController: Don't apply brightness adjustment if NaN
+HeadsUp: Move timeout option to SettingsObserver instead
+Move PackageManager new user logic after dispatching
+Settingslib: Remove a reflect method that can never succeed
+SystemUI: Fix pulseOut fails before fully pulsing
+udfps: Disable Night Light when showUdfpsOverlay
+Do not lock when biometric lock status is cleared
+Evolver: Bring back HeadsUp blocklist/stoplist/snooze/timeout
+prebuilt: fix APN for Vodafone NL
+Settings: Fixup start padding for battery usage graph
+overlay: Disable AiAiTranslationService usage
+overlay: show all icons in collapsed statusbar
+Evolver: applock: intercept activity in a better way
+Fix the issue of transition animation splash screen in split screen mode
+QSPanel: Fix NPE in updateViewPositions()
+base: add missing device config permissions for settings
+Settings: Allow to hide arrow for back gesture
+StatusBar: dismiss qs when screen is going off if showing
+base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+config: Disable remote keyguard animation until it's fixed
+config: Move keylayout to /product
+config: Move permissions & sysconfig to /product
+fix google widget timing issue
+Evolver: Move screen off animation to Misc category
+Evolver: Use correct key for Status bar clock auto hide launcher
+Settings: Make IME button space optional
+SystemUI: Add VPN tile
+SystemUI: Enable status bar burn-in protection by default
+SystemUI: Update BT battery level from OOS
+Catch SQLiteFullException in AccountManagerService
+Close the FileStream to avoid resource leak
+Evolver: Remove charging animation toggle
+Fix chip visibility in split shade header
+SystemUI: Face Unlock animation
+config: Disable GMS OTA popup
+unregister FileCleanupReceiver when disableHistory
+Evolver: Remove color picker for custom Logo
+PixelPropsUtils: Avoid spoofing for Pixel Buds
+PixelPropsUtils: Use Mi 11 Ultra for games prop
+ShortcutPackage: do not spam logcat
+StatusBar: Kill old privacy indicator icons completely
+SystemUI: Show daily data usage in QS footer
+UIModeTile: Collapse after change UI mode
+base: Add system app whitelist for applock
+base: Grant Gapps permissions on boot
+base: Grant storage permissions for Papers app
+base: log spill when dragging
+sepolicy: Allow apps to read auxiliary camera properties
