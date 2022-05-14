@@ -1,0 +1,15 @@
+Settings: Remove Google Cell Broadcast Receiver package config
+core: Disable LiveDisplay display mode by default
+overlays: Acherus: Use correct path for some icons
+rro_overlays: Build NowPlayingOverlay for Pixels by default
+rro_overlays: Create ApexSettingsOverlay
+Add more core Google apps to system app whitelist for applock
+Evolver: Allow to force black qs background in dark theme
+Evolver: Remove broken click to partial screenshot feature
+PixelPropsUtils: Use Mi 11 Ultra for Tencent Games
+Update translations
+Add various system packages to indicator exemptions
+Clean up whitelisted packages in privacy indicator controller
+PixelPropsUtils: Spoof some Google apps to raven
+Settings: Check wifi direct feature for showing preferences
+Settings: Remove conflicting color modes array
