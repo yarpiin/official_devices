@@ -1,0 +1,51 @@
+This is Android 12.1 with May 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Device changes:
+==============================
+Make userspace dlopen vulkan.msm8953 instead of vulkan.adreno
+Remove remaining vendor RenderScript implementation
+Remove the RenderScript HAL from the vendor manifest
+Upstream latest Matcha kernel changes
+------------------------------
+ROM changes:
+==============================
+Add more core Google apps to system app whitelist for applock
+Add various system packages to indicator exemptions
+Call setBrightness when user stops swiping on statusbar
+Clean up whitelisted packages in privacy indicator controller
+Evolver: Allow to force black qs background in dark theme
+Evolver: Remove broken click to partial screenshot feature
+Fix bluetooth percentage not showing on battery widget
+NavigationBarView: Show floating rotation if 2-button nav mode enabled
+PackageManagerService: Protect forced enabled components at runtime
+PermissionManager: fix NPE in getIndicatorExemptedPackages
+PixelPropsUtils: Spoof some Google apps to raven
+PixelPropsUtils: Use Mi 11 Ultra for Tencent Games
+QSFooter: Set tuner icon to always be invisible
+Settings: Check wifi direct feature for showing preferences
+Settings: Remove Google Cell Broadcast Receiver package config
+Settings: Remove conflicting color modes array
+SystemUI: Don't allow the end user to disable SystemUI Tuner
+SystemUI: Fix power menu light/dark theme switching
+SystemUI: fix black qqs on keyguard in light theme
+SystemUI: migrate statusbar manual brightness to float
+SystemUI: unify statusbar manual & auto brightness code
+ThemedIcons: Update and add Repainter
+Update translations
+apn: Grameenphone uses APN 'gpinternet'
+config: Copy bootanimation to system/media for pixel devices
+core: Disable LiveDisplay display mode by default
+fix ProcessCpuTracker.java file sLoadComparator issue
+frameworks: Exempt location packages from location indicators
+fs_mgr: Allow remounts with Magisk installed
+init: Skip interface duplicates if service is an override
+libsparse: Add simg2img_static target for host
+overlays: Acherus: Use correct path for some icons
+telephony: Bring back "Fix loading SIM phonebook redundantly"
+telephony: Handle that an operator numeric can be null
