@@ -1,0 +1,37 @@
+Add missing ANT+ blobs
+Use oneplus pocket sensor for pocket lock
+Disable notify_fppress on screen off
+Disable auth ripple and fingerprint vib by default
+Evolver: Bring back VoLTE/VoWiFi icon styles
+SystemUI: Screenshot: open the screenshot instead of edit
+fastboot: Print OemCmdHandler return message on success
+SystemUI: Screenshot: Avoid NPE while getting app label
+pocket lock: Increase pocket lock screen to 15 seconds
+Battery Styles: Fix percentage view on landscape battery
+Evolver: Add back big dotted and big circle battery indicator
+Evolver: Add temperature warning toggle
+SystemUI: Integrate Google Lens into Screenshot UI
+SystemUI: Reset QS on UI mode change
+Check for null callerPackage in getStorageEncryptionStatus
+Evolver: Add Battery Bar
+Evolver: Bring back Screen off Animations
+Fix QS clock being white on light theme
+NightDisplay Settings: Use List Preference for NightLight settings
+PixelPropsUtils: Keep only gms for Raven spoof
+RefreshRateTile: Fix min refresh rate to 60hz in auto mode
+Settings: Bring back pocket lock toggle
+SystemUI: Introduce refresh rate tile
+SystemUI: Network Traffic: Stop scheduling updates when screen off
+SystemUI: Remove unnecessary showVoLTEIcon config
+SystemUI: UdfpsController: Disable Night Light on keyguard
+UdfpsResources: Add McLaren and Mi icons
+gms: Add Connectivity thermal manager support
+GameSpace: Bring in lockGesture tile
+Revert NFC icons to AOSP versions
+AudioDeviceBroker: handle back to back device change requests
+Fix dialog exit animation
+GameSpace: Do not hardcode font to sans-serif
+Settings: Add back increasing ring feature
+Settings: Fix misspelling on hotspot string
+Telecomm: Fix few issues with Blink with call
+base: Export bodyFontFamily and bodyFontFamilyMedium symbols
