@@ -1,17 +1,17 @@
 {
-   "datetime": 1652015184,
+   "datetime": 1654104118,
    "donate_url": "https://linktr.ee/Stallix",
    "error": false,
-   "filehash": "6081199557202f27b4b5e5cd2944d1e8",
-   "filename": "evolution_venus-ota-sp2a.220505.002-05082206.zip",
+   "filehash": "c987909e83dbf4b3cda74c6182c41ebb",
+   "filename": "evolution_venus-ota-sp2a.220505.002-06020222.zip",
    "forum_url": "https://forum.xda-developers.com/t/beta-rom-12-1-official-evolution-x-for-xiaomi-mi-11-05-04-22.4441407",
-   "id": "6e871a7d06e7f90e374bd209c56cbd0813322470e68775c7fe69f9df97264153",
+   "id": "0f6e9ea1907e42c790ba500a7ffe84839b9203c69c4b1c2ec5100ca52edef5bb",
    "maintainer": "Joey Huab and Akito Mizukito",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2138380635,
+   "size": 2249407092,
    "telegram_username": "Stallix",
-   "url": "https://cdn.evolution-x.org/evolution_venus-ota-sp2a.220505.002-05082206.zip",
+   "url": "https://cdn.evolution-x.org/evolution_venus-ota-sp2a.220505.002-06020222.zip",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
