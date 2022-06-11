@@ -1,17 +1,17 @@
 {
-   "datetime": 1653147042,
+   "datetime": 1654942679,
    "donate_url": "https://linktr.ee/Stallix",
    "error": false,
-   "filehash": "9fcc75570ff4de15e1cd6d512273edcd",
-   "filename": "evolution_tissot-ota-sp2a.220505.002-05220030-unsigned.zip",
+   "filehash": "b965a98464276fc6449a0a39513d957e",
+   "filename": "evolution_tissot-ota-sq3a.220605.009.b1-06111918-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-tissot-official-evolution-x-snow-01-11-22.4386525",
-   "id": "9cf46ca64a30606776f0e57488d9aa17f6187a873b2cf4aed4224e11b82dc6da",
+   "id": "befe9b802beac20f17c27039e11de5f5357255b8387a42cd9a02ff16c20e58e6",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1190583961,
+   "size": 1193233394,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/evolution_tissot-ota-sp2a.220505.002-05220030-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/evolution_tissot-ota-sq3a.220605.009.b1-06111918-unsigned.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
