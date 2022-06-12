@@ -1,0 +1,8 @@
+DeviceExtras: Fix panel modes
+DeviceExtras: Fix kcal not applying without screen off
+DeviceExtras: Fix all touchgestures actions
+DeviceExtras: Add actions to launch DeviceExtras, Google search & Google maps
+ART: Fix banking apps from crashing (e.g HDFC)
+FooterActions: Add haptic click when long pressing settings icon
+Settings: Also disable navbar hint state if IME space is hidden
+SystemUI: add haptic feedback for qs tiles
