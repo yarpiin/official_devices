@@ -5,7 +5,7 @@
       "name": "Mi 9T Pro / Redmi K20 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab",
+            "maintainer_name": "Joey Huab (Stallix)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "twelve",
             "version_name": "Twelve",
@@ -565,7 +565,7 @@
       "name": "Mi A1",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab",
+            "maintainer_name": "Joey Huab (Stallix)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "twelve",
             "version_name": "Twelve",
@@ -719,7 +719,7 @@
       "name": "Mi 11",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab and Akito Mizukito",
+            "maintainer_name": "Joey Huab (Stallix)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "twelve",
             "version_name": "Twelve",
