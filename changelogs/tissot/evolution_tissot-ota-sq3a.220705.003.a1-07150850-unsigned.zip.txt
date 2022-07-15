@@ -1,0 +1,54 @@
+This is Android 12.1 with July 2022 security patches
+
+Notes:
+==============================
+This build uses AOSP apex and disable Google Play system updates.
+Uninstall 'Main components' and 'Support components' apps if found in Settings app.
+To fix mobile data issues, Reset your APN settings on all SIMs.
+
+Device changes:
+==============================
+Always preopt extracted APKs
+Inherit several Android Go configurations
+Speed profile services and wifi-service to reduce RAM and storage
+Strip off some debug packages
+Switch to latest Cakeby kernel (v4.9.323)
+media: Update Google media codecs
+media: Update and drop deprecated media codecs
+prop: Force disable iorapd
+rootdir: Add permission for /dev/spidev5.1
+temp: delete data/system/storage.xml everyboot
+------------------------------
+ROM changes:
+==============================
+Camera: Update HighFrameRate GPU flags
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Evolver: BlockSensors: Fix/update the way Footer info is added
+Evolver: Bring back Alarm & Wakelock blocker feature
+Evolver: Bring back Sensor block package list feature
+Extend splash screen exception list to SC-V2
+Keyguard Clock: Use google sans only for faulty fonts
+PixelPropsUtils: GameProps: Hide Apex Legends as Mi11
+PixelPropsUtils: Spoof play store once again
+Settings: Add setting for timeout-reboot
+Settings: AppLock: Make timeout strings translatable
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+Settings: DevicePicker: Adapt to S style
+Settings: Toast insulter: Add new insults
+Settings: Update all classes which inherit from TogglePreferenceController
+Settings: Use ListPreference instead of DropDownPreference
+SystemUI: CastTile: Open cast settings on long click
+ThemedIcons: Bring some more icons
+base: ChooserActivity: Don't show image edit button on multiple targets
+base: Prevent NPE for Demo mode
+core: Optimize download/upload animations
+fixup! Camera: Skip stream size check for whitelisted apps
+fonts: Add san francisco display font
+fonts: Use fallback variant of Roboto
+gms: Build Carrier apps only for Pixel devices
+gms: Remove prebuilt Drive, Gmail, Maps, OemDmTrigger
+permissions: Update Settings app allowlist
+permissions: Update SettingsProvider permissions
+prebuilt: import APNs for CBN
+services: AppLockManagerService: fix an oob exception
+themes: Add new signal icon packs
