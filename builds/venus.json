@@ -1,17 +1,17 @@
 {
-   "datetime": 1657454281,
+   "datetime": 1658004517,
    "donate_url": "https://linktr.ee/Stallix",
    "error": false,
-   "filehash": "8ec058efdb9986d2fe7c10f2c33a6345",
-   "filename": "evolution_venus-ota-sq3a.220705.003.a1-07101158.zip",
+   "filehash": "5d2334b66b992963bed5ae02cbc69b32",
+   "filename": "evolution_venus-ota-sq3a.220705.003.a1-07162049.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-1-official-evolution-x-for-xiaomi-mi-11-06-28-22.4441407",
-   "id": "b49623807f607ab1c8bdfdeaf44d7e5007796999fef60556a56db7243021a993",
+   "id": "2b969e2be4c8abb06cee4c3f193351a75da0460147d0c13f3cc756d422b22f0d",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2250879753,
+   "size": 2347072888,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/venus/evolution_venus-ota-sq3a.220705.003.a1-07101158.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/venus/evolution_venus-ota-sq3a.220705.003.a1-07162049.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
