@@ -1,0 +1,43 @@
+#########################################################                                  
+IF COMING FROM OOS 11 BASED BUILDS, 
+YOU NEED TO MANUALLY UPDATE YOUR FW AND FORMAT. CHECK XDA
+#########################################################
+
+ih8sn: Set ro.debuggable to 0 on init_stage 
+DeviceExtras: Implement fsync toggle
+DeviceExtras: Make getFileValueAsBoolean return values from res 
+DeviceExtras: Fix remaining features    
+arm64: dts: alias qupv3_se1_i2c to i2c3 
+arm64: dts: alias qupv3_se11_i2c to i2c6 (fixes vibration on some devices)
+oplus_touchpanel: Fix game mode not restoring on wakeup
+
+Settings: Add toggle to enable ADB root 
+SystemUI: Allow limiting AOD & ambient display refresh rate
+SystemUI: Dynamically adjust clock layout for broken fonts
+fonts: Import Roboto fallback font modification
+themes: fonts: Add nothingdot font style
+BootAnimation: Check for resolution override
+Evolver: Notification media artwork: Better fade filter
+Require CONFIG_HID_PLAYSTATION for DualSense key layout
+Settings: Add toggle to set captive portal settings
+themes: fonts: Add ProductSans VH
+Evolver: BlockSensors: Fix/update the way Footer info is added
+Evolver: Bring back Alarm & Wakelock blocker feature 
+Evolver: Bring back Sensor block package list feature
+Settings: AppLock: Make timeout strings translatable 
+Settings: Convert one-handed mode to a PrimarySwitchPreference
+Settings: DevicePicker: Adapt to S style 
+Settings: Toast insulter: Add new insults
+Settings: Update all classes which inherit from TogglePreferenceController
+Settings: Use ListPreference instead of DropDownPreference
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Extend splash screen exception list to SC-V2
+SystemUI: CastTile: Open cast settings on long click
+base: ChooserActivity: Don't show image edit button on multiple targets
+prebuilt: import APNs for CBN
+Camera: Update HighFrameRate GPU flags
+Keyguard Clock: Use google sans only for faulty fonts
+ThemedIcons: Bring some more icons
+base: Prevent NPE for Demo mode
+core: Optimize download/upload animations
+fixup! Camera: Skip stream size check for whitelisted apps
