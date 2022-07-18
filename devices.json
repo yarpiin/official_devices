@@ -224,6 +224,20 @@
       ]
    },
    {
+      "brand": "OnePlus",
+      "codename": "lemonades",
+      "name": "OnePlus 9R",
+      "supported_versions": [
+         {
+            "maintainer_name": "Manidweep",
+            "maintainer_url": "https://forum.xda-developers.com/m/manidweep.7762531/",
+            "version_code": "twelve",
+            "version_name": "Twelve",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r11-official-evolution-x-6-6-07-17-2022.4276623/"
+         }
+      ]
+   },
+   {
       "brand": "Realme",
       "codename": "RMX1971",
       "name": "Realme 5 Pro",
