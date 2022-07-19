@@ -491,20 +491,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "lavender",
-      "name": "Redmi Note 7",
-      "supported_versions": [
-         {
-            "maintainer_name": "Martin Štrobl",
-            "maintainer_url": "https://github.com/Sap1k",
-            "version_code": "twelve",
-            "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rom-evolutionx-5-1-t4192765"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "miatoll",
       "name": "Redmi Note 9S, 9 Pro, 9 Pro Max / POCO M2 Pro",
       "supported_versions": [
