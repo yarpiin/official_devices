@@ -1,0 +1,34 @@
+DeviceExtras: DeviceExtras -> OPlusExtras
+sm8250-common Added IFAA fingerprint support for Chinese users
+sm8250-common: Fix NFC adpu
+sm8250-common: Disable auxiliary cams for telegram/ telegram x
+GameSpace: Add do not change option to ringer mode
+GameSpace: Adjust views to avoid overlap
+GameSpace: Change tile enabled/disabled case for consistency
+GameSpace: Drop disable heads up option
+GameSpace: Expose icon in launcher
+GameSpace: Fix default ringer mode value
+GameSpace: Fix panel view not losing focus when touching outside
+GameSpace: Let's take advantage of reTicker
+GameSpace: Port in-game danmaku feature
+GameSpace: Properly filter duplicated notification
+GameSpace: Re-sort ringer mode
+GameSpace: Remove unimplemented method from Danmaku service
+SystemUI: media_view: align song and artist name text
+Evolver: Removing spoof for streaming apps
+SystemUI: doze: add config for double tap sensors and long press sensors that need a proximity check
+SystemUI: set white color for media actions button background
+core: Remove P21 experience system feature check
+fixup! PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+themes: fonts: Add Roboto Condensed
+themes: fonts: Add Roboto overlay
+themes: fonts: Add a Headline-only version of nothing font overlay
+themes: fonts: Improve Linotte font
+themes: fonts: Update Comfortaa font
+themes: fonts: Update SamsungOne font
+Skip less boring notification check when reTicker mode is active
+fixup! Less boring heads up option
+Settings: Add toggle to enable ADB root
+SystemUI: Allow limiting AOD & ambient display refresh rate
+SystemUI: Lockscreen clock improvements
+fonts: Import Roboto fallback font modification
