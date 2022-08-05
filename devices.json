@@ -99,62 +99,6 @@
    },
    {
       "brand": "OnePlus",
-      "codename": "enchilada",
-      "name": "OnePlus 6",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
-            "version_code": "twelve",
-            "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r11-official-evolution-x-6-6-07-22-2022.3988143/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "fajita",
-      "name": "OnePlus 6T",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
-            "version_code": "twelve",
-            "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r11-official-evolution-x-6-6-07-22-2022.3988143/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "guacamole",
-      "name": "OnePlus 7 Pro",
-      "supported_versions": [
-         {
-            "maintainer_name": "Justin Crawford",
-            "maintainer_url": "https://t.me/Justasic",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-11-0-official-ooscam-oneplus-7-pro-11-0_r20-evolution-x-emerald.4212351"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "guacamoleb",
-      "name": "OnePlus 7",
-      "supported_versions": [
-         {
-            "maintainer_name": "Rick M",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=7065337",
-            "version_code": "twelve",
-            "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-official-guacamoleb-evolution-x-snow-04-11-22.4430061/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
       "codename": "instantnoodle",
       "name": "OnePlus 8",
       "supported_versions": [

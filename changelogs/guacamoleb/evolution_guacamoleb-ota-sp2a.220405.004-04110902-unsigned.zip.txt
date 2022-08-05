@@ -1,5 +1,0 @@
-NOTE: This build MUST be clean flashed!!
-
-Device:
-
-Initial release of Android 12.1
