@@ -645,20 +645,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "mojito",
-      "name": "Redmi Note 10",
-      "supported_versions": [
-         {
-            "maintainer_name": "Tejas Kamat (TejasKamat)",
-            "maintainer_url": "https://forum.xda-developers.com/m/tejaskamat.11872873/",
-            "version_code": "twelve",
-            "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1-official-evolution-x-6-3-mojito-sunny-29-04-2022.4439075/"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "venus",
       "name": "Mi 11",
       "supported_versions": [
