@@ -1,2 +1,0 @@
-- Fix warp/vooc charging
-- Wip ROM changes - flex on those 8T/9R cucks
