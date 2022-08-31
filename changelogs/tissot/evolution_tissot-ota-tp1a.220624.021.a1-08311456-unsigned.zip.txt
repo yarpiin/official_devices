@@ -1,0 +1,14 @@
+This is Android 13 with August 2022 security patches
+
+Notes:
+==============================
+This is the initial build. Things may change in the
+following updates.
+
+Device changes:
+==============================
+Use latest Cakeby kernel
+------------------------------
+ROM changes:
+==============================
+Initial release
