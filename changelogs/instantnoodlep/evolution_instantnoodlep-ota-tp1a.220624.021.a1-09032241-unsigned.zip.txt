@@ -1,0 +1,65 @@
+sm8250-common: Move Bluetooth power overlays to sysprops 
+sm8250-common: overlay: Decouple display state from auto-suspend
+sm8250-common: Force enable USB-OTG by default 
+Add various system packages to indicator exemptions
+AudioService: Remove Analog Dock from fixed-volume devices
+BootAnimation: Check for resolution override
+Don't pass repeated back key events to app if custom action is set up
+Don't skip theme application if it's already current
+Keyguard - Treat messsages to lock with priority
+Keyguard: don't use large clock on landscape
+QS: LocationTile: make it cycle modes
+Settings: Align user avatar with homepage title
+Settings: Check isVoiceCapable for Calls&SMS category
+Settings: Don’t disable ls device controls based on secure lock
+Settings: Fix duplicated baseband string on all devices
+Sharesheet: Display two rows of max ranked targets
+SystemUI: add FloatingRotationButton for hw-key devices
+SystemUI: Don't store pending ControlAction if the device is locked
+SystemUI: Fix QS mobile icon disappearing on theme switch
+SystemUI: ic_brightness_*: drawables get surface color
+SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+SystemUI: Redraw display cutout on overlay changes
+base: ChooserActivity: Don't show image edit button on multiple targets
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+Cellular tile: don't show disable confirmation dialog
+Download: Add support to manually pause/resume download
+Evolver: Add back Lockscreen Charging info
+Evolver: Add back support for window ignore secure
+Fingerprints: Increase MAX_FAILED_ATTEMPTS
+FingerprintManager: return "Try again" by default
+NavigationModeController: Mute debug logging
+Settings: Add toggle to enable ADB root
+Settings: Apply SUW button theming to WiFi page
+Settings: Don't reset A2DP offload when disabling developer settings
+Settings: Fingerprint: hide link icon when there's no link
+Settings: Forward port lock pattern grid size
+Settings: Forward port pattern visibility settings
+Settings: Improve gesture bar length option
+Settings: Make FRP go through ChooseLockPatternSize if needed
+Settings: Make NetworkScanHelper max search time customizable
+Settings: Make setup wizard go through ChooseLockPatternSize if needed
+Settings: Network setup UI changes for SUW
+Settings: Only show gesture navigation if device has a software nav bar
+Settings: Remove hardcoded extras from ChooseLockPatternSize
+Settings: use Glif themed button bar
+SystemUI: Add AOD QS tile
+SystemUI: Add bootloader option to 'Reboot' tile
+SystemUI: Add support for persistent usb drive notification
+SystemUI: Allow privileged system apps to access screenshot service
+SystemUI: Always disable rotation on lockscreen
+SystemUI: Introduce Data Switch QS Tile
+SystemUI: NavigationBar: disable secondary handle
+SystemUI: Remove spaces from screenshot app filename
+SystemUI: Require unlocking to use Reboot tile
+SystemUI: Update additional navbar dimens for Android 13
+SystemUI: disable keyguard screen off animation if we use split notification shade
+common: Add a system property for System UI compiler filter
+overlay: Update Immersive Navigation values
+Camera: allow camera to use power key as shutter
+Evolver: Allow disabling QS battery estimates
+SystemUI: Remove Music QS Tile
+Settings: Add back increasing ring feature
+Settings: Add switch for linked ring and media notification volumes
+SystemUI: Show notification row when it's unlinked to ringer volume
+Evolver: Add Vivid theme toggle (dark mode)
