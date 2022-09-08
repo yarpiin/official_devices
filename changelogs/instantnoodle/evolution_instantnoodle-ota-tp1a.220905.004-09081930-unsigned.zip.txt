@@ -1,0 +1,30 @@
+AODTile: Add back config check for aod available
+AODTile: add option to enable AOD on charging only
+AODTile: cycle through AOD states
+ColorStateList: Switch to ZCAM for lightness modulation
+ColorUtils: Fix out-of-gamut Oklab blending
+Enable Volume Long Press Skip Tracks by default
+PackageInfo: Optimize ApplicationInfo creation
+PixelPropsUtils: fixup! spoofing properties for samsung apps
+Settings: add option to enable AOD on charging only
+SystemUI: Reduce scrim color animation duration to 375 ms
+SystemUI: Speed up actions expansion animation
+InsetsStateController/LayoutInflater/LocalServices/SystemServiceRegistry/ThemedResourceCache: Replace ArrayMap with HashMap for performance
+Update Gapps to Sep 2022 sec patch versions
+WallpaperColors: Use CIELAB for light/dark wallpaper detection
+appop: Save discrete app op history for more permissions
+graphics: Add ZCAM implementation with sRGB interface
+graphics: Blend ARGB colors using Oklab
+rro_overlays: Remove SystemUIGoogleOverlay
+Evolver: Bring back Edge Lighting feature
+Paint: Enable subpixel text positioning by default
+SystemUI: Implement burn-in protection for status/navbar
+SystemUI: QSTileImpl: bail out early in handleLongClick if getLongClickIntent returned null
+base: add API for disabling gestural navigation
+monet: Fix overly low chroma for tones below 90
+AlertSlider: Add toggle to pulse on notification
+AlertSlider: Allow blocking alert slider in pocket
+base: Add mute on silent feature
+Evolver: allow toggling haptic feedback on pressing udfps view
+base: allow hiding apps from launcher
+GameSpace: Fix NPE's
