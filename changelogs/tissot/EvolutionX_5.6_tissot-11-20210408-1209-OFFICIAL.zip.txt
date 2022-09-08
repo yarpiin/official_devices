@@ -1,8 +1,0 @@
-Device changes:
-==============================
-Enable gesture navbar by default (to avoid SystemUI crash)
-Upstream kernel to 4.9.263
-------------------------------
-ROM changes:
-==============================
-Initial Android 11 release
