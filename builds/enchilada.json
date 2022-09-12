@@ -1,17 +1,17 @@
 {
-   "datetime": 1662514099,
+   "datetime": 1662939386,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "832e0c0b2e9d8717ce20270448c0caab",
-   "filename": "evolution_enchilada-ota-tp1a.220905.004-09070129-unsigned.zip",
+   "filehash": "55c3d1d3b6918cb7e0de91a8fcd376d0",
+   "filename": "evolution_enchilada-ota-tp1a.220905.004-09112337-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r4-official-evolution-x-7-1-09-06-2022.4488369/",
-   "id": "7c5cde96ec8514c80232b6ea71cf3e313dc58c990fbb211845365982bb5d12be",
+   "id": "1535e78d16304775fed5cf38a9d48bb1787cbdf4d44dc7d27ac70b477b5a1a11",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1323213596,
+   "size": 1324894895,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/enchilada/evolution_enchilada-ota-tp1a.220905.004-09070129-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/enchilada/evolution_enchilada-ota-tp1a.220905.004-09112337-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
