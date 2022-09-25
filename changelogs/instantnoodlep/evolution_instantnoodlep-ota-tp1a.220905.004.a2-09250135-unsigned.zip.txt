@@ -1,0 +1,31 @@
+instantnoodlep: Add support for wireless warp charge detection
+instantnoodlep: Add wlchgmonitor (fixes wireless charging speeds)
+Add missing INTERACT_ACROSS_USERS_FULL permission
+SystemUI: Allow UdfpsAnimations to work with multiple resolutions
+Evolver: UDFPS: Bring back customization options
+Settings: Add sim status listener in about phone
+Settings: Call CardDatabaseHelper.getInstance() when used and not in onCreate
+Settings: Fix ExtraText lint errors
+Settings: Fix SIM name in Network Details to show the selected SIM
+SystemUI: Fix QS customizer corner radius
+Do not preload ThreadLocalRandom class
+Evolver: Bring back OOS style notification clear all button feature
+Evolver: Bring back QS footer icon visibilities
+QSPanel: Fix NPE in updateViewPositions()
+PixelPropsUtils: Fix issue with text select and copy
+Settings: Move screen off UDFPS toggle to security lock screen settings
+SystemUI: Show battery level for all devices
+SystemUI: Refactor status bar bluetooth icon
+SystemUI: Use red color for low bluetooth battery
+gms: Add RECORD_AUDIO permission to googlequicksearchbox
+Calm down attention service logspam
+Evolver: Bring back privacy indicators toggles
+NfcA: Fix an NPE in constructor
+PixelPropsUtils: bring back all changes from Build.FINGERPRINT to Build.TIME
+Settings: Add missing summary for Display size and text
+Settings: PowerUsageSummary: open advanced usage on header click
+SystemUI: Add missing init for isDeviceProvisioned in PhoneStatusBarPolicy
+SystemUI: Bring back ic_qs_bluetooth_connected.xml
+SystemUI: Get rid of unnecessary broadcast for IMS
+SystemUI: Kill old privacy indicator icons completely
+SystemUI: Use ImsStateCallback instead of FeatureConnector
