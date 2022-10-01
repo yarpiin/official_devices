@@ -1,0 +1,34 @@
+sm8250-common; Add LMC gcam (Camera2 will be removed on the next build)
+sm8250-common: Fix LS charging info
+Kernel: Set CONFIG_HZ_1000
+sm8250-common: Switch to libperfmgr
+sm8250-common: Drop QTI perfd
+qdMetadata: STFU!
+Evolver: Remove monet engine for now
+DeviceIdleJobsController: don't ignore whitelisted system apps
+Evolver: Bring back Wi-Fi standard icon feature
+Fix black screen issue due to wallpaper decoding exceptions
+MotionEvent: Add backwards compatible initialize() function
+Settings: Add optional Build status info
+Settings: Allow extended/"L" back swipe to trigger actions/app/activities
+Settings: Allow toggling floating rotation button
+Settings: Hide Build maintainer info if not set
+Settings: Optional haptic feedback on back gesture
+Settings: Set Build date to be unselectable
+Settings: applock: fix unlock prompt disappearing when trying to open apps
+Settings: use a new task stack for app lock fragments
+SystemUI: Allow limiting AOD & ambient display refresh rate
+SystemUI: Calculate paged QS tiles height properly
+SystemUI: CastTile: Open cast settings on long click
+SystemUI: HACK: Fix random wakeup when just sleeping
+themes: fonts: Add Cool Jazz
+services: applock: allow background authentication
+Don't build CaptivePortalLoginGoogle/CaptivePortalLoginOverlay
+Evolver: Bring back Navbar visibility toggle
+Evolver: Remove faulty privacy indicator implementation
+SystemUI: Properly apply dark theming to clock
+Zygote: Disable debug
+Zygote: Install seccomp filter regardless of selinux status
+fixup! frameworks: Add support for clock auto-hiding
+sepolicy: Allow webview_zygote to read /dev/ion
+SystemUI: Fix pulseOut fails before fully pulsing
