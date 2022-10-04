@@ -1,0 +1,24 @@
+version: Uprev to 7.2
+Merge October 2022 security patches
+PixelPropsUtils: Update fingerprints to October 2022 release
+gms: Update gapps
+vendor: CarrierSettings: Update from TP1A.221005.002
+vendor: apex: Update from TP1A.221005.002
+OPlusExtras: Slider: Add a new controller for refresh rate switching
+OPlusExtras: CPU: Add power efficient workqueue switch
+Kernel: 2fs: reduce timeout for uncongestion 
+Kernel: f2fs: set ioprio of GC kthread to idle
+Kernel: fs: default to noatime
+sm8250-common: Build fastboot custom HAL
+AlertSlider: Add resources for refresh rate modes
+SystemUI: QuickStatusBarHeader: use proper shade for secondary color of circle battery icon
+Evolver: Add switch preferences for privacy indicators
+Evolver: Replace QS data usage with customizable footer text
+Settings: BiometricFragment: respect background authentication request in source prompt info
+core: ProcessState: prevent an NPE from crashing system server
+services: ActiveServices: drop uid check when notifying newly registered callbacks
+services: AppLockConfig: fix a derp in hidePackage(Build fastboot custom HAL )
+Evolver: Add Power menu animations
+Evolver: Allow Power/reboot menu transparency
+base: merge hidden app feature with applock
+sepolicy: Allow recovery to read sysfs_perdev_minors

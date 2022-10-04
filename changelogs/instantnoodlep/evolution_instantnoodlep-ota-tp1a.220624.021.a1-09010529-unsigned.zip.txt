@@ -1,7 +1,0 @@
-Evolver: Bring back double tap/long press power to toggle torch
-Evolver: Bring back QQS brightness slider options
-Evolver: Status bar Clock background chip
-Pre-grant Updater app with Notification permission by default
-SystemUI: Make the volume dialog expandable
-config: Move the bootanimation to a build package
-Settings: Fix Tethering fragment NPE
