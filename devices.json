@@ -113,34 +113,6 @@
    },
    {
       "brand": "OnePlus",
-      "codename": "enchilada",
-      "name": "OnePlus 6",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r4-official-evolution-x-7-1-09-06-2022.4488369/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "fajita",
-      "name": "OnePlus 6T",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r4-official-evolution-x-7-1-09-06-2022.4488369/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
       "codename": "instantnoodle",
       "name": "OnePlus 8",
       "supported_versions": [
@@ -178,34 +150,6 @@
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r7-official-evolution-x-7-2-10-04-2022.4480927/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "lemonade",
-      "name": "OnePlus 9",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
-            "version_code": "twelve",
-            "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r11-official-evolution-x-6-6-07-19-2022.4388391/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "lemonadep",
-      "name": "OnePlus 9 Pro",
-      "supported_versions": [
-         {
-            "maintainer_name": "Anierin Bliss",
-            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
-            "version_code": "twelve",
-            "version_name": "Twelve",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-12-1_r11-official-evolution-x-6-6-07-19-2022.4388391/"
          }
       ]
    },
