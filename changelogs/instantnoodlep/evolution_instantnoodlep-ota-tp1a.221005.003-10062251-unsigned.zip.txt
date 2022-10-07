@@ -1,0 +1,57 @@
+instantnoodlep: Fix DPI adjustment during resolution switch
+SystemUI: UdfpsAnimation: Don't run scaleFactor on mAnimationSize
+OPlusExtras: Fix blank app icon
+BatteryMeterView: Fix NPE that occurs when onDensityOrFontScaleChanged() is called
+SystemUI: Fix SystemUI Crash
+SystemUI: Fix issue that log can't be enabled in MobileSignalController
+UpdateInstaller: Set file permissions on uncrypt ota package
+Updater: Allow starting activities from background
+Updater: Don't show thousands of days
+Updater: No need to install every update
+Updater: Open Local changelog instead of URL
+Updater: Replace jcenter with mavenCentral
+Updater: Use monet colors
+Updater: We don't do upgrades
+base: Supress telephony crashing platform
+core: Fix toast background color not changing with theme
+development: Address NPE when removing preferences out of developer options
+privapp-permissions: Grant missing TelephonyProvider perm
+view: add null check for dispatch touch view
+BackupAgent: Add backup shared mode
+BluetoothControllerImpl: fetch battery level from any device
+BluetoothControllerImpl: synchronize mConnectedDevices access
+Don't enable memory-mapped coverage for child zygote
+EvoEgg: Update Launcher icon and use monet colors
+EvolutionUtils: Add support for changing dpi
+Fix MtpDatabase multithreading NullPointerException
+Fix incorrect context classloader initialization in system_server
+InputWrapper: Opt out early if session == null
+LayoutInflater: remove less frequently used apps
+PackageManager: Add configuration to specify vendor platform signatures
+ProcessList: Silence lmkd retries logspam
+Settings: Add a preference to battery optimization page
+Settings: Add summary to daily battery usage charge toggle
+Settings: Change dpi on changing screen resolution
+Settings: Use monet colors for Evolution X Unbound Logo
+SettingsGoogle: Sync with Evolution X changes
+SystemUI: Integrate Google Lens into Screenshot UI
+WallpaperService: Fix half black wallpaper after rotating quickly
+base: Update ic_doc_folder drawable to MD2
+build: execute changelog generator script
+config: Allow gms to access persistent data partition
+fix error com.google.android.gms.persistent
+tools: Copy Changelog.txt to /system/etc
+wm: Passing a new ArraySet instance to avoid crash
+zygote: Enable USAP by default
+Evolver: Add toggle for media projection indicator
+Evolver: Bring back privacy indicators toggles
+Evolver: Changelog: Rework with Activity
+Settings: Randomize The Evolver's summary
+SystemUI: AOD Tile: Register battery observer in main thread
+SystemUI: Avoid altering page indicator layout when hiding qs footer icons
+SystemUI: BatteryMeterView: Set white tint in darkmode
+SystemUI: CustomTile: add a null check before loadDrawable invocation in default icon
+SystemUI: Kill old privacy indicator icons completely
+SystemUI: Remove spacer in QS footer
+Evolver: AppLockSettingsPC: use DashboardFragment as the type for host
+Evolver: applock: early return in setChecked if backing field has the same value
