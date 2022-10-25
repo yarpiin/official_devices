@@ -1,17 +1,17 @@
 {
-   "datetime": 1666579284,
+   "datetime": 1666649822,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "75cc6d61116a87fd1734adbf00be09f0",
-   "filename": "evolution_hotdogb-ota-td1a.220804.031-10240242-unsigned.zip",
+   "filehash": "8ad62c2ce95912103117883394eb21c5",
+   "filename": "evolution_hotdogb-ota-td1a.220804.031-10242218-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r11-official-evolution-x-7-2-10-24-2022.4509195/",
-   "id": "edc096001cfa84dff6f9c9c4c4e11139c07a115552e700a8b5852b043bc7a36c",
+   "id": "bb425df238bc050f305bc7e45cbced2130416d644676669217907c818e5bc581",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1792024291,
+   "size": 1817712620,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/hotdogb/evolution_hotdogb-ota-td1a.220804.031-10240242-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/hotdogb/evolution_hotdogb-ota-td1a.220804.031-10242218-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }

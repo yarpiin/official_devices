@@ -1,0 +1,22 @@
+sm8250-common: power: Decrease launch boost to 3sec 
+SystemUI: Logo: Avoid NPE
+GlobalActions: Update the default actions to match the stock experience
+GlobalActionsDialog: Implement partial screenshot for screenshot power menu long press
+GlobalActionsDialog: Never show emergency without telephony support
+GlobalActionsDialog: Remove broken PhoneStateListener for airplane mode toggle
+Settings: Grab screen resolution drawables from cheetah-td1a.220804.031-factory-6152f6f3
+SystemUI: screenshot: add delay for long-press partial screenshot
+Fix NPE with 1.0 and 1.1 CardStatus
+Pass correct value to setPreferredNetworkType() for RIL version < 1.4
+Pulse: Detach pulse view only when attached
+Settings: Fix up panel theme and layout
+Settings: Regulatory: Fullscreen instead of AlertDialog
+Evolver: Pulse: Implement pulse color based album art
+SystemUI: Always show screenshot dismiss button
+SystemUI: Fix tuner pref for bluetooth
+SystemUI: Make edit button click ripple effect rounded
+SystemUI: Refactor status bar bluetooth icon
+SystemUI: Use red color for low bluetooth battery
+ThemedIcons: Add Desmos icon
+Update translations
+overlays: Stop building NotoSerif font

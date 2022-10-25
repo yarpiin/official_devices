@@ -1,17 +1,17 @@
 {
-   "datetime": 1666575335,
+   "datetime": 1666648280,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "c7627793df98a16b8e0b236fd458af7c",
-   "filename": "evolution_guacamole-ota-td1a.220804.031-10240135-unsigned.zip",
+   "filehash": "0aad9083f6fd4d169b39448e885e8be2",
+   "filename": "evolution_guacamole-ota-td1a.220804.031-10242152-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r11-official-evolution-x-7-2-10-24-2022.4509185/",
-   "id": "c88ebae609bdf6bda931a55022d1f2fa1d0d169dbbc92d95cae0d72e162a4852",
+   "id": "804d44c6124e32ec2f536934dbb6f3e6e06e7d8dd5dbbce39f708b607f9188b5",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1775931443,
+   "size": 1800902519,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/guacamole/evolution_guacamole-ota-td1a.220804.031-10240135-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/guacamole/evolution_guacamole-ota-td1a.220804.031-10242152-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
