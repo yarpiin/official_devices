@@ -1,0 +1,41 @@
+guacamole/b/hotdog/b: Ship firmware
+guacamole/b/hotdog/b: Ship AOSP NFC
+aidl: vibrator: Use the same sysfs writes as click for tick
+BatteryService: Switch Dash charging status path to an overlay
+BrightnessController: Don't update slider from DisplayManager callback if user is changing brightness
+Camera: Allow skipping input configuration check
+Camera: Expose aux camera if packagename is null
+EventLog: Disable event writing in production builds
+Fix DozeLogger NPE crash when DozeMachine.State is null
+Fix crash when init QrCamera to start preview
+Fix crash when trying to dismiss dialog
+Link dialog radius to config_dialogCornerRadius
+Remove Safety Center tile from default tiles
+Settings: Adjust gesture navigation settings title
+Settings: Fix incorrect switch status when user stay in NightDisplaySettings page while scheduled night lights on
+Settings: Fix show system status lost when switching dark theme
+Settings: Protect sensitive data on the about phone
+Settings: Use ListPreference instead of DropDownPreference
+SystemUI: BurnInProtectionController: offset less aggressively
+SystemUI: Enable status bar burn-in protection by default
+SystemUI: Limit keyguard charging stats updates
+SystemUI: QuickStatusBarHeader: Fix clickability issue with privacy indicator
+SystemUI: Re-implement burn-in protection for status/navbar
+base: Disable some DEBUG log spill
+base: Don't send interaction hint for unnecessary events
+config: Downscale task snapshots to 80%
+fixup! biometrics: allow to disable unused fingerprints cleanup
+telephony: Provide a default executor
+Enable backup service by default for all users
+Evolver: Controllable squiggle animation
+ListView: Disable dividers by default
+Settings: Remove broken LTE only mode
+SystemUI: Add charging icon to the charging animation
+SystemUI: Improve charging animation's color palette
+SystemUI: Play all charging animator sets at the same time
+base: TtsEngines: fix yet another NPE
+Settings: add animation to dark mode preference
+Settings: buttons text should no longer be allCaps
+Settings: drop divider in dark mode screen
+PixelPropsUtils: Don't spoof euicc
+SystemUI: Logo: Avoid NPE
