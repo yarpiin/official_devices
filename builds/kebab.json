@@ -1,17 +1,17 @@
 {
-   "datetime": 1667445099,
+   "datetime": 1667885633,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "373ab2211f8b283179e210a74d8330c1",
-   "filename": "evolution_kebab-ota-td1a.220804.031-11030312-unsigned.zip",
+   "filehash": "97a5a7ba40f3a9ce9c00cbdc35fbdb68",
+   "filename": "evolution_kebab-ota-td1a.221105.001-11080534-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r11-official-evolution-x-7-2-11-03-2022.4480927/",
-   "id": "5f0ca53fdada85e9c3cfb2092f728f2a1802b3bbf3388a6ebfea6c3e13a91f06",
+   "id": "67df4db5ea65a40e5a271d7cc00e34681edfb655835d73b621e632fa4d95c1ce",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2177294315,
+   "size": 2237414032,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/evolution_kebab-ota-td1a.220804.031-11030312-unsigned.zip/download/",
+   "url": "https://sourceforge.net/projects/evolution-x/files/kebab/evolution_kebab-ota-td1a.221105.001-11080534-unsigned.zip/download/",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
