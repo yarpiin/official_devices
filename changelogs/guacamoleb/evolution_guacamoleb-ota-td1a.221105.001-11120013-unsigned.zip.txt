@@ -1,0 +1,54 @@
+Fix long press skip track changing volume issue
+SystemUI: Remove Bluetooth dialog
+Use a better implementation for hide IME space feature
+Update translations
+sepolicy: vendor: Allow Bluetooth APEX to work with GMS
+GameSpace: Long click Settings icon to open Settings Dashboard
+GameSpace: Notify in-coming call number when receiving/rejecting call
+GameSpace: Port auto answer/reject calls feature
+Re-implement Face Unlock from PE
+AudioService: catch RuntimeException for IServiceManager.getService
+Change the default value of sync mode to NORMAL
+Merge November 2022 security patches
+PixelPropsUtils: Update fingerprints to November 2022 release
+Settings: Remove offsets from Evo X logo
+Sync hardware/xiaomi changes from LOS
+Sync sepolicy-legacy-um and sepolicy_vndr-legacy-um changes from LOS
+SystemUI: Add VPNTethering tile
+SystemUI: Check whether the selected WFD route is available
+apns: Added IA APN types to all default type APNs
+apns: Format xml spacing
+core: Treat reboot boot mode same as normal one
+fixup! Do not dismiss keyguard after SIM PUK unlock
+vendor: apex: Update from TD1A.221105.001
+version: Uprev to 7.3
+Settings: Allow disabling clipboard overlay
+Settings: Ambient Music Ticker - Allow to pulse on new tracks
+TrafficStats: Stop the spam 
+Update various corner radiuses to align with AOSP apps
+PixelPropsUtils: Get package name from context instead of app
+camera: Allow extending aux list/excludelist
+AlertWindowNotification: Correctly load app label
+Allow screen unpinning on devices without navbar
+AmbientIndicationContainer: Fix possible NPE
+Fix NPE when finishing remote animation
+Fix screen unpinning text on devices that have gestures on fp sensor
+SettingsGoogle: Update resources from cheetah
+SystemUIGoogle: Update resources from cheetah
+lmkd: fix the cgroup attribute name to MemCgroupEventControl
+reTicker: Do not jump to app when clicked in games
+vendor: rro_overlays: Update from cheetah
+AuthRippleController: Always finish the LightRevealScrim
+AuthRippleController: Only update sensor location when necessary
+CutoutFullScreenController: force full screen important apps
+Settings: Fix crash when input illegal proxy port number
+Settings: Fix crash when showing error dialog in NetworkRequestDialogActivity
+Settings: Fix NPE crash in TextToSpeechSettings
+Settings: Fix NPE crash in UwbPreferenceController and optimize the lifecycle observer adding condition in page
+Settings: Fix potential NPE crash in ConversationHeaderPreferenceController
+Settings: Fix the IllegalArgumentException from RecyclerView
+Settings: Mark DataUsageState as nullable to avoid potential NPE risk
+SystemUI: Improve fp ripple animation color
+base: Stop the spamming of background start not allowed
+themes: UdfpsResources: Add more resources from Realme RMX3392
+themes: UdfpsResources: Remove Aurora and OP Cosmos
