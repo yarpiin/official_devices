@@ -1,0 +1,22 @@
+OPlusExtras: Add support for per-app colorspace feature (requires an updated apk for now)
+Switch NexusLauncherRelease cert to platform
+kernel: aw8697: Drop OPLUS_HAPTIC_OOS changes for setting vmax to 100-109
+aidl: vibrator: Redo effects and vibrator timeout handling
+BatteryStatsService: limit logspam
+Evolver: Make combined signal icons configurable at runtime
+Fix for NullPointerException in SmsMessage
+Fix long press skip track changing volume issue
+Fix potential crash when exit splash screen
+Settings: Fix potential crash in AppAllServicesPreferenceController
+Syncronize framework and ImsStack operation for ImsFeatureStatusCallback
+SystemUI: Disable clock auto hide feature for QS
+SystemUI: Perform soft reboot when enabling combined signal icons
+SystemUI: Remove Bluetooth dialog
+Use a better implementation for hide IME space feature
+base: Make NavigationBar to use Hidden IME Space only on gesture bar
+Update translations
+sepolicy: vendor: Allow Bluetooth APEX to work with GMS
+GameSpace: Long click Settings icon to open Settings Dashboard
+GameSpace: Notify in-coming call number when receiving/rejecting call
+GameSpace: Port auto answer/reject calls feature
+Sync sepolicy-legacy-um and sepolicy_vndr-legacy-um changes from LOS
