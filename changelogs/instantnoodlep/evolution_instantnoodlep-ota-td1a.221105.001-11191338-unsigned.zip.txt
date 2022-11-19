@@ -1,0 +1,32 @@
+Switch back to PRESIGNED google launcher
+Fix CPU info tile reporting temps in the 1000s
+Display VOOC charging instead of Warp charging
+Instantnoodlep: Fix offline charging
+Evolver: Allow toggling Netflix spoofing
+Fix NPE in SystemUI
+Fix ViewConfiguration's ArrayIndexOutOfBoundsException
+Fix the logic of parsing profilebootclasspath flags
+ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects
+overlay: Add and update pinner configuration
+ImeFocusController: Prevent a rare NPE
+recovery: init: Add console service
+Evolver: Bring back Button backlight brightness for hw key devices
+EventLog: Re-enable event writing in production builds
+Evolver: Remove toggle for squiggle animation
+Fallback ESC to BACK
+Settings: InstalledApp: Hide GooglePlay icon for webapps
+SystemUI: fix showing device controls on lock screen
+SystemUI: migrate statusbar manual brightness to float
+SystemUI: unify statusbar manual & auto brightness code
+base: Rework lock gesture feature
+SystemUI: fix SliceView layout
+Fix freeform window resize not working on multiple displays
+Settings: Allow to skip confirmation in biometric auth dialog
+Settings: Expose saved devices fragment via intent
+Settings: Link smallest width options in display settings
+SystemUI: New per-app volume icon
+SystemUI: Re-implement new Bluetooth dialog
+SystemUI: VolumeDialogControllerImpl: make sure to load linked notification state as well
+bootanimation: Always use normal bootanimation
+charger: Update Pixel charger animation from cheetah TD1A.220804.009.A2
+config: Disable Now Playing widget
