@@ -1,4 +1,0 @@
-sm8150: Fix video playback issues
-sm8150: Add physical button locations
-sm8150: Fix a few issues with NFC
-SystemUI: Logo: Avoid NPE
