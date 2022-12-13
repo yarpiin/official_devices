@@ -28,12 +28,16 @@ Merge December 2022 security patches
 PhoneWindowManager: Pocket Judge: Handle torch power gestures
 PixelPropsUtils: Update fingerprints to December 2022
 PixelPropsUtils: spoof nothing smartcenter to pixel
+QS: LocationTile: make it cycle modes (fix Location QS tile)
 QS Tiles: Drop Preferred Network type
 Rebase to Android 13 QPR1 (r16)
 Screenrecord: Add summary for HEVC encoding
 Settings: Avoid enforcing weird backgrounds
 Settings: Drop hide arrow for back gesture feature
 Settings: Reset battery stats
+SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model (fix for WiFI and Data QS tiles)
+SystemUI: DreamTile: Enable for everyone
+SystemUI: Fix suspicious spaces around mobile icons
 Telecomm: Fix dark navigationBar background in some telephony settings pages
 Update translations
 base: Pocket Judge: Don't block dialer UI
@@ -50,4 +54,4 @@ vendor: config: Add support for more Carriers
 vendor: config: common: Build BtHelper (for AirPods support)
 vendor: overlay: Import branded VPN translations
 vendor: rro_overlays: Configure the clock font family type
-version: Uprev to 7.4 (Unholy)
+version: Rename 7.4 to Kaldereta
