@@ -1,0 +1,25 @@
+THIS BUILD WILL NOT INSTALL VIA OTA!!!
+MANUALLY UPDATE YOUR FW TO F.13 AND SIDELOAD THE ROM!!!
+
+Ship a custom logo.img to better match the ROM
+Update to OOS13 kernel/libs
+Aperture: Sync latest LOS changes
+Evolver: Drop Combined signal icons
+Evolver: Drop Less boring Heads up
+Evolver: Drop Power menu dialog dim/opacity options
+Evolver: Drop Smart Pixels support
+Evolver: Drop Smart Pulldown
+Evolver: Drop WiFi standard icon feature
+Fix app crashes for apps and games like Xbox Game Pass
+GameSpace: Update takeScreenshot API in ScreenUtils
+QS Tiles: Drop Preferred Network type
+Settings: Drop hide arrow for back gesture feature
+SystemUI: DreamTile: Enable for everyone
+Telecomm: Fix dark navigationBar background in some telephony settings pages
+gms: Bring back CaptivePortalLoginGoogle
+gms: Don’t build Google Battery for everyone
+vendor: Drop pixel-framework for now
+vendor: rro_overlays: Configure the clock font family type
+PhoneWindowManager: Pocket Judge: Handle torch power gestures
+Rebase to Android 13 QPR1 (r16)
+base: Pocket Judge: Don't block dialer UI
