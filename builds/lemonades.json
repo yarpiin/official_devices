@@ -1,17 +1,17 @@
 {
-   "datetime": 1670898821,
+   "datetime": 1670980414,
    "donate_url": "https://www.paypal.me/anierinb",
    "error": false,
-   "filehash": "d0142b17aab625e7f74e221bb3dfd306reimu",
-   "filename": "evolution_lemonades-ota-tq1a.221205.011-12130234-unsigned.zip",
+   "filehash": "09f594525c3d7d28bddb39b30ea90cd7reimu",
+   "filename": "evolution_lemonades-ota-tq1a.221205.011-12140114-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-official-evolution-x-7-4-12-13-2022.4480927/",
-   "id": "9076c3122c6350791f204fa55f94cb2b131ba648ed2f96a298b7d9dc3aabadd1cirno",
+   "id": "9f3a1f6121bde56419a93bf97fac6d3460f54805fa772a5d2a59c0d5f8e2cf78cirno",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2234736864,
+   "size": 2234726697,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/lemonades/evolution_lemonades-ota-tq1a.221205.011-12130234-unsigned.zip/download/",
+   "url": "https://sourceforge.net/projects/evolution-x/files/lemonades/evolution_lemonades-ota-tq1a.221205.011-12140114-unsigned.zip/download/",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }

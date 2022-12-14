@@ -1,0 +1,29 @@
+Fix HDMI out
+OPlusExtras: Bring back static HBM toggle
+Ship a custom logo.img to better match the ROM
+Downgrade abl to OOS13 F.10 to bypass unlocked bootloader warning
+Update to OOS13 fw/kernel/libs
+Aperture: Sync latest LOS changes
+Add absent sim info to locked screen text
+Evolver: Bring back Less boring Heads up
+QSTileHost: Fix crashes with tiles like Anti flicker
+Remove RESET_BATTERY_STATS permission for resetting stats
+SystemUI: Re-enable session-based media actions for all apps
+Evolver: Drop Combined signal icons
+Evolver: Drop Power menu dialog dim/opacity options
+Evolver: Drop Smart Pixels support
+Evolver: Drop Smart Pulldown
+Evolver: Drop WiFi standard icon feature
+Fix app crashes for apps and games like Xbox Game Pass
+GameSpace: Update takeScreenshot API in ScreenUtils
+QS: LocationTile: make it cycle modes (fix Location QS tile)
+QS Tiles: Drop Preferred Network type
+Settings: Drop hide arrow for back gesture feature
+SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model (fix for WiFI and Data QS tiles)
+SystemUI: DreamTile: Enable for everyone
+SystemUI: Fix suspicious spaces around mobile icons
+Telecomm: Fix dark navigationBar background in some telephony settings pages
+gms: Bring back CaptivePortalLoginGoogle
+gms: Don’t build Google Battery for everyone
+vendor: Drop pixel-framework for now
+version: Rename 7.4 to Kaldereta
