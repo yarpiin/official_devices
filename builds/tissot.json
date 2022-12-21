@@ -1,17 +1,17 @@
 {
-   "datetime": 1671007583,
+   "datetime": 1671644671,
    "donate_url": "https://linktr.ee/Stallix",
    "error": false,
-   "filehash": "3d80371e5874c0e5e600ed04ab49bc3f",
-   "filename": "evolution_tissot-ota-tq1a.221205.011-12140847-unsigned.zip",
+   "filehash": "93a85e842a97ade7fa724a04dbb72e21",
+   "filename": "evolution_tissot-ota-tq1a.221205.011-12211745-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-tissot-official-evolution-x-12-13-22.4487107/",
-   "id": "a814220883f9f67a76fb8c29536b622053a329240f897798c331de76437f4244",
+   "id": "242b26530020fe703bbc2308da218f28738abc80232665ce3c1c383f51fef7b7",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 1211187579,
+   "size": 1209858386,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/evolution_tissot-ota-tq1a.221205.011-12140847-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/evolution_tissot-ota-tq1a.221205.011-12211745-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
