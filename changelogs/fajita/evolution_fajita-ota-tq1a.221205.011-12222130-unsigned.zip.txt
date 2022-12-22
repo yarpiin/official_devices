@@ -1,0 +1,40 @@
+APM: Restore S, R and Q behavior respectively for telephony audio
+Battery: make fill path rounded
+Switch to Evolution X Launcher and ThemePicker
+SystemUI: Add API for runtime taskbar config
+SystemUI: BcSmartspaceView: Allow setting current page
+SystemUI: Hide oos clear all if reticker enable
+SystemUI: clock_default_large: Don't hardcode monospace font
+SystemUI: fixup! Hide OOS clear all if panel visible because Heads up
+base: Allow Launcher3 to use android.permission.FORCE_STOP_PACKAGES
+vendor: rro_overlays: Comment out Google CaptivePortalLogin
+vendor: rro_overlays: Nuke config_recentsComponentName override
+vendor: rro_overlays: Target Launcher3 & ThemePicker
+vendor: themes: Add Evolution Themes stub
+BtHelper: Initial support for showing battery separately
+SF: Bring back support for disabling backpressure propagation
+Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+SystemUI: Catch NPE with android.view.ViewPropertyAnimator
+Logspam: Properly handle optional app widgets service
+Use UIDFaker to ensure Credentials_test cleans up setting UID
+fixup! Custom status bar logo customizations
+fixup! Settings: Allow to hide arrow for back gesture
+recovery: fix applying updates
+vendor: GMS: Refactor setting of PRODUCT_GMS_CLIENTID_BASE
+vendor: Use GMS configurator instead of SimpleDeviceConfig
+BLASTBufferQueue: Comment out lines causing log spam
+ContrastColorUtil: Suppress log spam
+Keyguard: allow large clock on tablets
+Keyguard: don't use large clock on landscape
+SystemUI: Add display mode provider for UDFPS on Pixel devices
+SystemUI: Fix com.android.systemui.statusbar.StatusBarIconView cannot be cast to com.android.systemui.statusbar.StatusBarMobileView
+SystemUI: Match lockscreen clock font with system
+overlay: Set config_clockFontFamily to empty string
+SidefpsController: Apply ScaleFactor to sensorLocationY
+fwb: Disable Smart Pixels on UDFPS
+NetworkTraffic: Don't leave empty spaces when hiding network traffic text
+Remove length validation for WifiSsid
+Screenshot: Unregister task listener on destroy
+Settings: Bring back hide arrow for back gesture feature
+Settings: Refactor hardcoded radius of ActionPrimaryButton to resource
+fingerprint: Rework enrollment screen
