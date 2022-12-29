@@ -1,9 +1,8 @@
-[CENTER]
-[URL='http://evolution-x.org'][IMG]https://i.imgur.com/IvlZLyc.png[/IMG][/URL]
+[CENTER][URL='http://evolution-x.org'][IMG]https://i.imgur.com/IvlZLyc.png[/IMG][/URL]
 
-[SIZE=5][B][COLOR=#0060FF]Evolution X 6.0 for the Xiaomi K20 Pro / Xiaomi Mi 9T Pro [raphael][/COLOR][/B][/SIZE]
+[SIZE=5][B][COLOR=#0060FF]Evolution X 7.4 for the Xiaomi K20 Pro / Xiaomi Mi 9T Pro [raphael][/COLOR][/B][/SIZE]
 [CODE]/*
-* Your warranty is void. Or valId, probably?
+* Your warranty is void. Or valid, probably?
 *
 * I am not responsible for bricked devices, dead SD cards, Ebolation X,
 * thermonuclear war, or the current economic crisis caused by you following
@@ -14,12 +13,12 @@
 [IMG]https://i.imgur.com/0KUV8YX.png[/IMG]
 
 [SIZE=5][COLOR=#0060FF][B]Keep Evolving[/B][/COLOR][/SIZE]
-[SIZE=3]Pixel UI, customization, and more, we are Evolution X!
+[SIZE=3]Pixel UI, customization, and more, we are Evolution X![/SIZE]
 
 [B]- Team Evolution X - [/B]
-@[URL='https://forum.xda-developers.com/member.php?u=4936496']joeyhuab[/URL]
-@[URL='https://forum.xda-developers.com/member.php?u=9008281']RealAkito[/URL]
-@[/SIZE][URL='https://forum.xda-developers.com/m/anierinb.7125966/'][SIZE=3]AnierinB[/SIZE][/URL]
+@[URL='https://forum.xda-developers.com/member.php?u=4936496']joeyhuab[/URL] (Founder/Lead Developer)
+@[URL='https://forum.xda-developers.com/m/realakito.9008281/']RealAkito[/URL](Project Manager/Co-Founder)
+@[URL='https://forum.xda-developers.com/m/anierinb.7125966/']AnierinB[/URL] (Project Specialist/Co-Founder)
 
 [SIZE=3][I]Reach us on Twitter! [URL='https://twitter.com/EvolutionXROM']@EvolutionXROM[/URL][/I][/SIZE]
 
@@ -27,21 +26,140 @@
 
 Just flash and check "The Evolver". We have tons of features combined together from different ROMs.
 
+[U][I][B]What are our features?[/B][/I][/U]
+[SPOILER="Click to see all features!"]
+Themes
+- Vivid Theme (Black theme/Vibrant monet)
+- Dark Theme Schedules
+- System Fonts (53 Styles)
+- SB Icon Packs (10 Styles)
+- SB Signal Icon Packs (14 Styles)
+- SB WiFi Icon Packs (10 Styles)
+- System Icon Packs (16 Styles)
+
+Statusbar
+- System SB UI Tuner
+- Clock Styles (Right, Center, Left)
+- Clock & Date Configs (Auto Hide, Seconds, AM/PM, Date Postion/Case/Format)
+- Network Traffic Indicators
+- Battery Icon (10 Styles, 3 Percentage Options)
+- SB Logo Pack (28 Styles)
+- Data Disabled Icon (On/Off)
+- Old Style Mobile Data
+- 4G Instead Of LTE
+
+Notifications
+- Alert Slider Notifications (OnePlus Only)
+- ReTicker
+- Heads Up
+- Notification Count
+- Notification Sound If Active
+- Notification Headers
+- Kill App Button
+- Blink Flashlight For Incoming Call
+- In-Call-Vibrations (Connect, Waiting, Disconnect)
+
+Quick Settings
+- Date
+- Secure QS
+- Battery Estimates
+- Quick QS Pulldown
+- Smart Pulldown
+- Album Art Media Background (Blur, Transparency)
+- Brightness Slider (Bottom, Hidden, Auto Icon)
+- QS Footer Warnings
+- User Account
+- Edit Icon
+- Power Menu Shortcut
+- Running Services Shortcut
+- Settings Shortcut
+- Clear All Button (9 Styles, 4 Backgrounds)
+
+Power Menu
+- System Settings ( Hold PWR Assistant + Hold Duration)
+- Power
+- Restart
+- Advanced Reboot Options
+- Screenshot
+- On-The-Go Mode
+- Flashlight
+- Settings
+- Lock Down
+- Emergency
+- Device Controls
+- Users
+- Logout
+- Bug Report
+
+Gestures
+- AOSP Gestures
+- Swipe To Screenshot
+- Brightness Control
+- PWR Button Torch
+- Double Tap To Sleep Status Bar
+- Double Tap to Sleep Lockscreen
+- Double Tap to Wake On Doze
+- Back Gesture Animation Toggle
+- IME Space Disabler
+- Swipe To Invoke Assistant
+- Left/Right Sensitivity
+- Back Gesture Height Region
+- Pill Length
+
+Lockscreen
+- UDFPS Haptic Feedback
+- Ambient Edge Lighting
+- LS Charging Info
+- Hide SB
+- Hide QS
+- Media Cover Art
+- UDFPS Ripple Effect
+
+Buttons
+- On-Screen NavBar
+- Arrow Keys While Typing On 3 Button Layout
+- Compact 3 Button Layout
+- Invert 3 Button Layout
+- Show Vol Panel On Left Side
+- Per App Vol Control
+- Volume Steps Configs (Alarm, DTMF, Media, Notification, Ringer, System, Voice Call)
+- Volume Rocker Wake
+- Keyboard Cursor Control
+
+Miscellaneous
+- Game Space (Custom)
+- Launch Music App On Headset Connect
+- Screen Off Animation (Default, CRT, Scale)
+- Unlimited Photos Storage
+- Unlock Higher FPS In Games
+- Jitter Test
+- Show Tempature Warning
+- Ignore Secure Window Flags
+- Ignore Window Secure Flags
+- Show CPU Info
+- Toast App Icon
+- Default USB Configuration
+- Radio Info
+[/SPOILER]
+
 [IMG]https://i.imgur.com/CIrL2gb.png[/IMG]
 
-* You tell me
-
-[SIZE=3][B]DO NOT FLASH GAPPS, ALREADY INCLUDED[/B][/SIZE]
+* Apps may crash randomly due to zygote issue (kernel related; minimal)
+* YouTube/other apps pip mode may be unstable (surface syncer error)
 
 [IMG]https://i.imgur.com/o2G52Ve.png[/IMG]
 
-[SIZE=5][B]First Time Install / Clean Flash[/B][/SIZE]
-[SIZE=3]1. Reboot to Recovery
-2. Download the zip for your device
-3. Flash [B]whichever recovery you desire and Flash [/B][/SIZE][URL='https://xiaomifirmwareupdater.com/firmware/raphael/'][SIZE=3][B]A11 firmware[/B][/SIZE][/URL]
-[SIZE=3]4. Wipe Data/Cache/System
+[SIZE=5][B]PLEASE DO NOT FLASH GAPPS, THEY ARE ALREADY INCLUDED
+
+First Time Install / Clean Flash from MIUI[/B][/SIZE]
+[SIZE=3]1. Reboot to Fastboot
+2. Download your desired recovery for your device
+3. Flash [B]whichever recovery you desire and make sure you're on latest A11 firmware.
+If not, flash [/B][/SIZE][URL='https://xiaomifirmwareupdater.com/firmware/raphael/'][SIZE=3][B]A11 firmware[/B][/SIZE][/URL].
+[SIZE=3]4. [B]FORMAT [/B]data. ([B]Requires full backup of internal storage[/B])
 5. Flash the ROM
-6. Reboot to System and #KeepEvolving[/SIZE]
+6. Reboot to System and #KeepEvolving
+7. Don't restore [B]DEVICE SETTINGS[/B] during Setup Wizard.[/SIZE]
 
 [SIZE=5][B]Update / Dirty Flash[/B][/SIZE]
 [SIZE=3]1. Reboot to Recovery
@@ -49,21 +167,21 @@ Just flash and check "The Evolver". We have tons of features combined together f
 3. Flash the ROM
 4. Reboot to System and #KeepEvolving[/SIZE]
 
-[URL='https://evolution-x.org/device/raphael'][IMG]https://i.imgur.com/dvp0Hq1.png[/IMG][/URL]
-[URL='https://www.paypal.com/paypalme/joeyhuab'][IMG]https://i.imgur.com/Boc2GdE.png[/IMG][/URL][URL='https://t.me/EvolutionXRaphael'][IMG]https://i.imgur.com/RwBEPP8.png[/IMG][/URL]
+[URL='https://sourceforge.net/projects/evolution-x/files/raphael'][IMG]https://i.imgur.com/dvp0Hq1.png[/IMG][/URL]
+[URL='https://linktr.ee/Stallix'][IMG]https://i.imgur.com/Boc2GdE.png[/IMG][/URL][URL='https://t.me/EvolutionXRaphael'][IMG]https://i.imgur.com/RwBEPP8.png[/IMG][/URL]
 
-[SIZE=1][URL='https://evolution-x.org/device/raphael']Download[/URL]
+[SIZE=1][URL='https://sourceforge.net/projects/evolution-x/files/raphael']Download[/URL]
 [URL='https://www.paypal.me/joeyhuab']Donate to me![/URL] / [URL='https://t.me/EvolutionX']Official Chat[/URL] / [URL='https://t.me/EvolutionXRaphael']Device Support[/URL][/SIZE]
 
 [URL='https://github.com/Evolution-X'][IMG]https://i.imgur.com/S2t0kJ9.png[/IMG][/URL]
 [/CENTER]
 [LIST]
-[*][B]Android OS version:[/B] 12.0_r29
-[*][B]Security patch level:[/B] February 2022
-[*][B]Build author: [/B][URL='https://forum.xda-developers.com/member.php?u=4936496']Joey Huab[/URL]
-[*][B]Source code: [/B][URL]https://github.com/Evolution-X[/URL]
-[*][B]Kernel Source code: [/B][URL]https://github.com/Evolution-X-Devices/kernel_xiaomi_raphael[/URL]
-[*][B]ROM Developer: [/B][URL='https://forum.xda-developers.com/member.php?u=4936496']Joey Huab[/URL]
+[*][B]Android OS version:[/B] 13.0.0_r16
+[*][B]Security patch level:[/B] December 2022
+[*][B]Build author: [/B][URL='https://forum.xda-developers.com/member.php?u=4936496']Joey Huab (Stallix)[/URL]
+[*][B]Source code: [/B][URL='https://github.com/Evolution-X']Evolution X GitHub[/URL]
+[*][B]Kernel Source code: [/B][URL='https://github.com/Evolution-X-Devices/kernel_xiaomi_raphael']Soviet kernel[/URL]
+[*][B]ROM Developer: [/B][URL='https://forum.xda-developers.com/member.php?u=4936496']Joey Huab (Stallix)[/URL]
 [/LIST]
 
 [B][U][SIZE=4]XDA: DevDB Information[/SIZE][/U][/B]
@@ -71,16 +189,15 @@ Just flash and check "The Evolver". We have tons of features combined together f
 
 [B][U]Contributors[/U][/B]
 [URL='https://forum.xda-developers.com/member.php?u=4936496']joeyhuab[/URL]
-[B]Source Code:[/B] [URL]https://github.com/Evolution-X[/URL]
 
-[B]ROM OS Version:[/B] Android 12
-[B]ROM Kernel:[/B] Linux 4.14.265
+[B]ROM OS Version:[/B] Android 13
+[B]ROM Kernel:[/B] Linux 4.14.302
 [B]Based On:[/B] AOSP
 
 [B][U]Version Information[/U]
 Status:[/B] Stable
-[B]Current Stable Version:[/B] 6.0
-[B]Stable Release Date:[/B] 2021-11-04
+[B]Current Stable Version:[/B] 7.4
+[B]Stable Release Date:[/B] 2022-08-17
 
-[B]Created[/B] 2021-11-04
-[B]Last Updated[/B] 2022-02-15
+[B]Created[/B] 2022-08-17
+[B]Last Updated[/B] 2022-12-28
