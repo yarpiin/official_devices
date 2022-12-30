@@ -1,0 +1,36 @@
+KeyguardIndication: Fix glitchy charging info on lock screen and AOD
+Update translations
+Add e2fsck/resize2fs/tune2fs to recovery/vendor_ramdisk
+Avoid NetworkPolicyLogger NullPointException
+Launcher3: Add GCam GO to default_workspace_4x5
+Launcher3: Enable Lens toggle by default
+Launcher3: Match dimens with Pixel Launcher
+Launcher3: Move suggestions preference from misc to main menu
+Launcher3: Refresh themed icons check via Build.TIME instead
+Launcher3: Update activity for Aperture camera shortcut
+Launcher3: Update default layouts from Pixel Launcher
+Remove fs utilities from init_boot module list
+Settings: Fix memory leak on SensorPrivacyManager Listener
+Settings: Fix restore default apn dialog sometimes not dismissed
+Settings: Fix USB OTG hot plug out nndexOutOfBoundsException
+SystemUI: Bring back dynamic VoLTE & VoWiFi icons
+SystemUI: Ensure keyguard statusbar is gone when not showing
+SystemUI: Fix VPN icon failed reloading after disabling
+SystemUI: Improvements for dynamic VoLTE & VoWiFi icons
+SystemUI: Old style mobile indicator layout fixes
+SystemUI: Remove existing icon group if its overriding
+SystemUI: Show the alarm icon on QS as well
+Updates: Change to daily checks
+iconloaderlib: Update icon cache via Build.TIME instead
+Guard in short-circuit evaluations for stringSplit methods
+Launcher3: Add background chip for memory info view
+Settings: Change Google battery graph toggle string
+SystemUI: Add more notification snooze times
+SystemUI: Set launcher activity name to Launcher3
+aapt: Fix compiler warning (clobbered by longjmp)
+aapt: add check for untranslatable "string-array"s
+audio: Don't play sound effects if stream is muted
+base: rescue party: check isDisabled on all public API
+Evolver: Nuke Live Volume steps (broken on A13 QPR1)
+base: app widgets fix update check from Build.FINGERPRINT to Build.TIME
+camera: Expose aux cameras in third party apps
