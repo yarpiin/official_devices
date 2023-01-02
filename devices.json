@@ -492,14 +492,14 @@
    {
       "brand": "Xiaomi",
       "codename": "davinci",
-      "name": "Mi 9T",
+      "name": "Mi 9T / Redmi K20",
       "supported_versions": [
          {
-            "maintainer_name": "Adarsh Grewal",
-            "maintainer_url": "https://github.com/AdarshGrewal",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/mi-9t/development/evolution-x-5-1-mi-9t-redmi-k20-davinci-t4189391"
+            "maintainer_name": "Ahmed Fouad",
+            "maintainer_url": "https://t.me/AMWolfstein",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-davinci-official-evolution-x-12-31-22.4535949"
          }
       ]
    },
