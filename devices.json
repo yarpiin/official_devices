@@ -579,11 +579,11 @@
       "name": "Mi 9 Lite",
       "supported_versions": [
          {
-            "maintainer_name": "Aggelos Savvopoulos",
-            "maintainer_url": "https://forum.xda-developers.com/member.php?u=8065843",
-            "version_code": "eleven",
-            "version_name": "Eleven",
-            "xda_thread": "https://forum.xda-developers.com/t/android-r-official-evolution-x-for-mi-9-lite-pyxis.4250831"
+            "maintainer_name": "CSSABLACK",
+            "maintainer_url": "https://forum.xda-developers.com/m/czarsuperstar-gmail-com.2892269/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-pyxi-official-evolution-x-12-30-22.4535297/"
          }
       ]
    },
@@ -794,20 +794,6 @@
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-lavender-official-evolution-x-11-11-22.4517803/"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "pyxis",
-      "name": "Mi 9 Lite",
-      "supported_versions": [
-         {
-            "maintainer_name": "CSSABLACK",
-            "maintainer_url": "https://forum.xda-developers.com/m/czarsuperstar-gmail-com.2892269/",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r16-pyxi-official-evolution-x-12-30-22.4535297/"
          }
       ]
    },
