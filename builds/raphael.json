@@ -1,17 +1,17 @@
 {
-   "datetime": 1672242785,
+   "datetime": 1672659611,
    "donate_url": "https://linktr.ee/Stallix",
    "error": false,
-   "filehash": "453e8c41ae6bf60500163514deebb27d",
-   "filename": "evolution_raphael-ota-tq1a.221205.011-12281553-unsigned.zip",
+   "filehash": "db04b054442c0ea8894fc00962f61a20",
+   "filename": "evolution_raphael-ota-tq1a.221205.011-01021141-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-raphael-official-evolution-x-12-13-22.4481179/",
-   "id": "7f07b121867a7771f97173b8fe36d3042caa0130760cfc8476aee4358a731127",
+   "id": "74f5c901c2970dca0cb540656c8a25f9dc3ce9a71587717b0feddad24773064d",
    "maintainer": "Joey Huab (Stallix)",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2102378163,
+   "size": 2121547495,
    "telegram_username": "Stallix",
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/evolution_raphael-ota-tq1a.221205.011-12281553-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/evolution_raphael-ota-tq1a.221205.011-01021141-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
