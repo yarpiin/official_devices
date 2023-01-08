@@ -1,0 +1,26 @@
+sdm845-common: Resolve NFC issues
+BtHelper: Add more product images for metadata icons
+BtHelper: Apply rightLeft check to usingLeft/usingRight
+Evolver: Add some native monet settings
+Evolver: Add support for Lockscreen clock fonts
+Evolver: Allow a more granular control over shades
+Evolver: Allow choosing a custom background color seed
+Evolver: CustomSeekBarPreference: Improve seekbar drawables
+FeatureFlags: Enable systemui volume panel by default
+Intent: Fix launch of permission revoke activity from playstore
+NotificationPlayer: use AUDIOFOCUS_GAIN_TRANSIENT instead of AUDIOFOCUS_GAIN in looping mode
+Revert "Remove navbar inset for UDFPS BiometricPrompt"
+Settings: Fix layout battery UsageView
+Youtube application when moving to PIP animation was very bad
+base: dont call roundStorageSize on Storage API for getting sizes
+camera: Add backwards-compatible CaptureResultExtras constructor
+clockfont: Add separate Google Sans and NothingDot overlays
+config: Enable SystemUIDialog volume panel by default
+fixup - SystemUI: Make the volume dialog expandable
+fixup! SystemUI: Enable session-based media actions for all apps
+fixup! fixup! Improvements for dynamic VoLTE & VoWiFi icons
+fonts: Add config_clockFontFamily to custom font overlays
+overlay: Set default status bar height to 28dp
+prebuilt: Nuke obsolete custom_fonts package
+sepolicy_vndr: legacy: Add support for AIDL widevine hal
+sepolicy_vndr: restore iwlan hwservice
