@@ -1,0 +1,92 @@
+===================
+DEVICE side changes
+===================
+sm8250-kernel: sched/walt: Fix negative count of sched_asym_cpucapacity static key
+sm8250-common: Add missing vendor.qti.hardware.btconfigstore@2.0 impl
+sm8250-common: Remove unused a2dp_audio_policy_configuration.xml
+sm8250-common: Disable LE audio related profiles
+sm8250-common: Remove A2DP input module in audio policy configuration
+instantnoodle/kebab/lemonades: Build naruto light ALS correction service
+sm8250-common: Switch to oplus sensors multihal
+hardware: sensors-multihal: Add naruto light ALS correction service
+Evolver: Add back missing setMax method in CustomSeekBarPreference
+OPlusExtras: Improve CustomSeekBarPreference drawables
+
+================
+ROM side changes
+================
+Evolver: Preference: Add CustomSecureSettingMainSwitchPreference
+Evolver: Add support for GMS switch
+Evolver: Allow to change QS tile label text size
+Evolver: Bring back QS footer data usage
+Evolver: Bring back QS tile layout settings
+Evolver: Bring back Force expanded notifications
+Evolver: Disable Force FP authentication preference if encrypted
+Evolver: HUN importance selector
+Evolver: Introduce Android P system animation style
+Evolver: Remove QS footer text customization
+Evolver: Unlock keystore with fingerprint after reboot
+Exclude Camera2 for Evolution builds
+FPSInfoService: Revamp FPS counter
+Fix exception caused by system app setting wallpaper
+GCamGOPrebuilt: Override GoogleCamera from gms
+GameSpace: Hide icon from launcher
+QS: Add and use Bluetooth Panel instead of full Settings
+ParallelSpace: Enable google services by default
+Settings: Follow Accent color on search button
+Settings: Introduce automated Sleep Mode
+Settings: Update battery temp & health strings
+SystemUI: Don't force small clock when media isn't allowed on keyguard
+SystemUI: Hide notifications when quickly expanding QS
+SystemUI: Implement sleep for pickup gesture
+SystemUI: Revamp the QS header (A13 QPR2 style)
+WifiDisplaySource: allow overriding max wfd resolution with prop
+WifiDisplaySource: raise supported resolution to 1920x1080p60
+gms: GoogleCamera: Adjust make file and delete unneeded stub apk
+udfps: Allow devices to pulse onFingerDown instead of waking the screen
+vendor: overlay: Remove pinner configuration
+Evolver: Bring back notification counters
+Evolver: Remove Power menu flashlight option
+Settings: Remove Quick Mute gesture
+Add @Nullable to SensorManager.getDefaultSensor's return value
+BootReceiver: Return early if trace_pipe doesn't exists
+Calculate apk size multiple times
+Dynamic broadcast receivers that are not exported need to be filtered in checkBroadcastFromSystem
+Fix potential crash in ImageTransformState
+ImageUtils: Fix estimated bytes factor for P010
+KernelCpuUidTimeReader: Always check if remove_uid_range file exists
+ThemePicker: Unify font & icon label sizes, scroll the text
+create different pendingintent via appwidgetId
+fixup! camera: Skip HFR checks for privileged apps
+vibrator: fix log format and level issue
+Evolver: Add an ability to blink flashlight for notifications
+Launcher3: Adjust suggestions row vertical padding
+Launcher3: Do not limit the number of search results
+Launcher3: Do not skip search animation for app icons
+Settings: Align the long press behavior on secondary sim
+Settings: Allow customizing default notification vibration pattern
+Settings: Allow disabling color inversion pref via overlay
+Settings: Allow setting wake for notification separately from doze
+Settings: Allow toggling NFC sounds
+Settings: Allow toggling in-call notifications
+Settings: Fix NPE crash in UwbPreferenceController and optimize the lifecycle observer adding condition in page
+Settings: Fix NullPointerException when renaming a fingerprint
+Settings: Fix always return first package for mock location app in developer options
+Settings: Fix crash when input illegal proxy port number
+Settings: Fix crash when showing error dialog in NetworkRequestDialogActivity
+Settings: Fix permissions for internal links
+Settings: Fix potential NPE crash in ConversationHeaderPreferenceController
+Settings: Fix the IllegalArgumentException from RecyclerView
+Settings: Mark DataUsageState as nullable to avoid potential NPE risk
+SystemUI: Fix default data SIM resetting after reboot
+java_sdk_library_import: Copy all prebuilt properties to child modules
+vendor: fix check for picking up partner_modules
+AutoAODService: Better check for doze enablement
+Delay display DOZE on LS => AOD only if blanking is not needed
+Evolver: Bring back Wi-Fi standard icon
+Fix an issue that the FoldStateListener induces a memory leak
+KeyguardIndication: Set wakelock on doze only when required
+Launcher3: CustomSeekBarPreference: Improve seekbar drawables
+Settings: Remove Intent selector from 2-pane deep link Intent
+audio_hal_interface: Optionally use sysbta HAL
+base: Pocket Judge: Don't go to sleep while on call
