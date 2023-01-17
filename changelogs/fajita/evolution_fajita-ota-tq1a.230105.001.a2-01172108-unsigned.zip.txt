@@ -1,0 +1,47 @@
+kernel-sdm845: Sync with LOS
+sdm845-common: Enable APEX compression
+Evolver: LockScreen: Avoid joining strings with + in a loop
+Evolver/Settings: Use proper grammar/check correct spelling
+Fix PermissionHelper NullPointerException
+Settings: Re-arrange and add ordering in battery preferences
+ThemePicker: grid_section_view: Center it like the rest
+apex: Allow overriding prefer and add required frameworks
+base: treewide: Disable debug logging
+fix NullPointException when pkg is null
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+rro_overlays: Enable Safety Protection
+rro_overlays: Update face unlock configuration
+soong: Add support to set vendor tag with client package name
+vendor: Update CarrierSettings database
+Enable pulse on new tracks by default
+Bring back SimpleDeviceConfig and update to A13
+Remove QS transparency feature
+Launcher3: Keep hotseat bottom spacing for taskbar devices
+Launcher3: Remove ugly 4x4 grid option
+ParallelSpace: Allow/block essential apps without overlay
+Settings: Add sliders for color balance adjustment
+Settings: Show current value of color balance sliders
+SystemUI: Redesign lockscreen bottom buttons
+UdfpsResources: Add Genshin Impact Character icons
+Update translations
+base: fix list style alert dialog to use system font
+base: styles: Use user fonts for Material UI themes
+clockfont: Copy all fonts for lockscreen clock font
+device_config: Enable smart actions in the clipboard overlay
+device_config: Globally enable the new photo picker
+fwb: guard power calculator spam with debug
+graphics: Override system fonts with user-selected overlays
+overlay: SettingsLib: No longer override headline font family
+Evolver: Allow setting bottom keyguard shortcuts
+Evolver: Extend DashboardFragment instead of SettingsPreferenceFragment
+Evolver: Move AOD schedule back to Lockscreen fragment
+Settings: Allow the user to change the BackupTransport
+SystemUIGoogle: Add missing permission for Smartspace
+SystemUIGoogle: Power: disable some debug services
+SystemUIGoogle: Use system font for smartspace
+config: Enable QR scanner shortcut on lockscreen
+packages: Build Seedvault
+vendor: Add permissions for lineagehw
+Evolver: Add back missing setMax method in CustomSeekBarPreference
+Evolver: Configurable lockscreen clock color
+Evolver: Preference: Add CustomSecureSettingMainSwitchPreference
