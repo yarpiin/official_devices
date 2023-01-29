@@ -43,6 +43,48 @@
    },
    {
       "brand": "Google",
+      "codename": "oriole",
+      "name": "Pixel 6",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r20-official-evolution-x-7-5-01-30-2023.4547009/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "raven",
+      "name": "Pixel 6 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r20-official-evolution-x-7-5-01-30-2023.4547009/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "bluejay",
+      "name": "Pixel 6a",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r20-official-evolution-x-7-5-01-30-2023.4547009/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
       "codename": "cheetah",
       "name": "Pixel 7 Pro",
       "supported_versions": [
