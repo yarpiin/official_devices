@@ -1,17 +1,17 @@
 {
-   "datetime": 1676193739,
+   "datetime": 1676233683,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "5d4fed9ce7404d3e9a0d9b1d973c66e0",
-   "filename": "evolution_panther-ota-tq1a.230205.002-02120923-unsigned.zip",
+   "filehash": "cdb883c4aae01703c3164568b41f99ca",
+   "filename": "evolution_panther-ota-tq1a.230205.002-02122029-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-1-02-12-2023.4546503/",
-   "id": "4bf524c7fc4c45c2bf1b582b22cb05c397fc659fe77b7c07b6808bda193fa221",
+   "id": "592d63b2739f1c442bf62236f691ef9b969824b4149ffbe7ed590fb53d497b62",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2153108839,
+   "size": 2317139569,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/panther/evolution_panther-ota-tq1a.230205.002-02120923-unsigned.zip/download/",
+   "url": "https://sourceforge.net/projects/evolution-x/files/panther/evolution_panther-ota-tq1a.230205.002-02122029-unsigned.zip/download/",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }

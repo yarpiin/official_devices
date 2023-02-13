@@ -1,17 +1,17 @@
 {
-   "datetime": 1676195875,
+   "datetime": 1676236488,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "6fb91f7cee23256302629ea812bf34de",
-   "filename": "evolution_cheetah-ota-tq1a.230205.002-02120958-unsigned.zip",
+   "filehash": "3dfd2747322ed24db55e604101f15d9b",
+   "filename": "evolution_cheetah-ota-tq1a.230205.002-02122115-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-1-02-12-2023.4546503/",
-   "id": "1d5a9fc419330a9487577173370921be0de1d8755c9871d484f73d8769e3474c",
+   "id": "71668578fa54cf0f66891491f3ea86f6e414fce0af2c3c76a21752c0c26fc9fa",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2160038086,
+   "size": 2323895655,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/cheetah/evolution_cheetah-ota-tq1a.230205.002-02120958-unsigned.zip/download/",
+   "url": "https://sourceforge.net/projects/evolution-x/files/cheetah/evolution_cheetah-ota-tq1a.230205.002-02122115-unsigned.zip/download/",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
