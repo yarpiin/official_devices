@@ -1,0 +1,31 @@
+This is Android 13 with February 2023 (r30) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI artifacts.
+
+Device changes:
+==============================
+None
+------------------------------
+
+ROM changes:
+==============================
+Add additional work profile badge colors and labels
+Always allow overriding the number of work profiles 
+Fix Open With dialog within a work profile
+Fix unlocking of multiple work profiles at boot
+KeyguardMediaViewController: Cleanup and add proper annotations (fix SystemUI crash while playing music in AOD)
+Launcher3: Remove lock tasks feature
+PixelPropsUtils: Don't spoof some apps to cheetah (fixes Meet camera issues)
+SettingsProvider: Remove backup for some feature settings (might fix restoring Settings during Google restore)
+SystemUI: Do not add lens screenshot without google package enabled
+SystemUI: Remove BT dialog QS tile
+SystemUI: Remove split shade notifications on landscape
+Use profile's power button/timeout lock settings
+ViewGroup: Remove child parent when a new view is added
+device_config: Don’t use new privacy indicators for location
+overlay: Partially disable gms chimera service
