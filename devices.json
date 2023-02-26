@@ -71,6 +71,34 @@
    },
    {
       "brand": "Google",
+      "codename": "sargo",
+      "name": "Pixel 3a",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-02-25-2023.4558305/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
+      "codename": "bonito",
+      "name": "Pixel 3a XL",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r30-official-evolution-x-7-6-2-02-25-2023.4558305/"
+         }
+      ]
+   },
+   {
+      "brand": "Google",
       "codename": "oriole",
       "name": "Pixel 6",
       "supported_versions": [
