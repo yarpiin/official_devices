@@ -1,0 +1,5 @@
+b1c1/b4s4: Fix NowPlaying
+b1c1/b4s4: Add TurboPrebuilt back
+b1c1/b4s4: Fix Pixel Battery stats not appearing
+b1c1/b4s4: Enable Smart Charging
+b1c1/b4s4: Expose Adaptive Charging
