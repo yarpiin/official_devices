@@ -1,0 +1,4 @@
+b1c1/b4s4: Fully fix QS flicker
+b1c1/b4s4: Introduce PixelParts (Settings > Pixel Parts)
+Evolver: Bring back feature to change QS tile label text size
+PixelPropsUtils: Don't spoof some apps
