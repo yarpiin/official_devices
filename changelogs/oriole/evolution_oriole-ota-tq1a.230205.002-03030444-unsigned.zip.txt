@@ -1,0 +1,86 @@
+Improve renderscript allocation and usage
+JobScheduler: Stop leaking user information
+fixup! permissions: Pre-grant google restore permissions (attempt to fix google restore issue)
+gms: Stop building Photos for gms_mini
+Codec2: guard the dummy work signal to lahaina only
+Codec2: queue a empty work to HAL to wake up allocation thread
+InputMethodManager: Prevent unnecessary invocation of IME
+PixelPropsUtils: Spoof Samsung Accessory apps
+Revert reticker implementation (fixes flickers in notification panel)
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Prevent systemui crash when reinflating QS
+SystemUI: Re-implement Bluetooth dialog
+apn: AMC now is ONE Albania
+core: Fix suspend failure for privileged system components
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+kernel: Check HIP support of clang before disabling it
+kernel: Force disable LLVM HIP
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+permissions: Pre-grant google restore permissions
+tinycompress: Add support for compress_set_codec_params API
+tinycompress: plugin: Set codec params in SETUP state
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+SystemUI: Stop using marquee on qs tiles label
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+fixup! audioflinger: Fix audio for WifiDisplay
+PixelPropsUtils: Don't spoof some apps
+GameSpace: Remove dim layer from the panel view
+KeyguardMediaViewController: Cleanup and add proper annotations
+Fix status bar landscape touch issues
+Launcher3: Redesign recents app buttons
+SettingsProvider: Remove backup for some feature settings
+SystemUI: Fix optional ripple animation issue
+gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+overlay: Partially disable gms chimera service
+Bring back Parallel Space support
+Evolver: Restore Custom QS panel styles
+PixelPropsUtils: Don't declare propsToChange as static
+PixelPropsUtils: misc changes
+Remove support for custom themed icon pack
+SystemUI: Restore default biometric listener behavior
+apn: Add Wintel
+apn: Don't set type default for Vodafone MMS 404/43
+fonts: Remove config_clockFontFamily from Google Sans overlay
+gms: Add missing READ_DEVICE_CONFIG permission for System Intelligence
+hosts: Block OTA downloading from GMS
+overlay: Add google OTA to global disabledComponent
+services: core: Temporaily handle NullPointerException in PackageManagerService
+version: Update to 7.6.2 (Tapsilog)
+Bring back Ambient music ticker pulse
+Bring back Private Compute Services prebuilt app (fixes downloading Live Captions; reinstall Android System Intelligence app from Play store)
+Evolver: Move pulse on new tracks from Settings
+Launcher3: Add kill App button to recents overview
+Launcher3: Hide developer options
+Launcher3: Revert Smartspace to pre-13-QPR1 (fixes missing At a Glance in higher grids)
+Launcher3: Shorten Spanish translation
+Evolver: Bring back reworked OOS style notification clear all button
+Improve logic around pre-allocation loop devices
+Launcher3: Fix crash when placing widgets
+Launcher3: Fix nonsense smartspace span in some workspaces
+Launcher3: Fix widget add screen on dark theme
+Launcher3: Make music search icon colorful
+Launcher3: No Calendarwidget 4x4 widget displayed
+Launcher3: device_profiles: catch up to 13
+Launcher3: meminfo: Replace deprecated BigDecimal methods
+Set alert dialog message to use system font
+SystemUI: remove spammy wallet lockscreen icon error
+themes: UIStyle: fix settings icons being invisible in Clear theme
+vendor: charger: Import latest offline charging animation
+ColorContoller: Fix getting default accent color
+Launcher3: Updates from Pixel Launcher
+SystemUI: Hide wifi standard icon if not connected to wifi
+overlay: Enable config_setColorTransformAccelerated by default
+Evolver: Bring back Combined signal icons toggle
+Evolver: Lockscreen clock format settings
+Evolver: Redesign LS Clockpicker
+clockfonts: Add 50+ New Fonts for LS Clock
+clockfonts: Add more styles for lockscreen clock
+display: Make Night Light transition more gradual
+Battery bolt: Preserve unicode bolt color
+Battery Style Improvements
+Launcher3: Add separate category for At A Glance
+Launcher3: Optional music search toggle for QSB
+Launcher3: Update some strings from latest Pixel Launcher
+SystemUI: Update lyric ticker on post notification
+SystemUIGoogle: Add missing MANAGE_SMARTSPACE permission
+SystemUIGoogle: Update adaptive charging description to match normal charging indication
