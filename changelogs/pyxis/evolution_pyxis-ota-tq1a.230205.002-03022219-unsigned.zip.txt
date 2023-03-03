@@ -1,0 +1,156 @@
+=======================
+     2023/03/03
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/tiramisu
+
+60092e1 common: trust: Add sepolicy for dwc3 usb_data_enabled
+
+* Repository: https://github.com/Evolution-X/external_tinycompress/commits/refs/heads/tiramisu
+
+c9784fe tinycompress: plugin: Set codec params in SETUP state
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/tiramisu
+
+c5a4ef4 Codec2: guard the dummy work signal to lahaina only
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/tiramisu
+
+f3a5e524 SystemUI: Move bluetooth dialog creation to LongClick method
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/tiramisu
+
+402a415 New Crowdin updates (#226-#396)
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/tiramisu
+
+badc533 Controller: Warn on LeSetEventMask error codes
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/tiramisu
+
+51ad947 first_stage_mount: Skip dm-verity setup if AVB is not enabled
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/tiramisu
+
+4b738eb AMC now is ONE Albania
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/tiramisu
+
+f4b3482 SettingsGoogle: Sync with Evolution X changes
+
+
+=======================
+     2023/03/02
+=======================
+
+* Repository: https://github.com/PixelExperience-Devices/device_qcom_common/commits/thirteen
+
+9335db0 vendor: perf-legacy: Enable performance mode on atoll
+
+
+=======================
+     2023/03/01
+=======================
+
+
+=======================
+     2023/02/28
+=======================
+
+* Repository: https://gitlab.com/EvoX/vendor_firmware/commits/refs/heads/tiramisu
+
+d8605f2 rosemary: Initial firmware
+
+
+=======================
+     2023/02/27
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/tiramisu
+
+a1fefa9 GameSpace: Remove dim layer from the panel view
+
+* Repository: https://github.com/Evolution-X/packages_apps_Launcher3/commits/refs/heads/tiramisu
+
+27bd1a9 Launcher3: Redesign recents app buttons
+
+
+=======================
+     2023/02/26
+=======================
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/tiramisu
+
+f10bc66 manifest: Track our own system/apex
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/tiramisu
+
+09da655 New Crowdin updates (#127-#287)
+
+* Repository: https://gitlab.com/EvoX/vendor_gms/commits/refs/heads/tiramisu
+
+ab44704 gms: Stop building Chrome and PixelLiveWallpaperPrebuilt
+
+
+=======================
+     2023/02/25
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_libs_systemui/commits/refs/heads/tiramisu
+
+5c0ad92 Multiple work profile badge colors for Launcher3
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/tiramisu
+
+6812208 blur: Reduce max cross fade radius for OpenGL
+
+* Repository: https://github.com/Evolution-X/packages_apps_ThemePicker/commits/refs/heads/tiramisu
+
+d51e780 ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.002
+
+
+=======================
+     2023/02/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_usb/commits/refs/heads/lineage-20.0
+
+3f1adaf usb: Add interface specifiers to USB/USB gadget services
+
+
+=======================
+     2023/02/23
+=======================
+
+* Repository: https://github.com/Evolution-X/system_apex/commits/refs/heads/tiramisu
+
+0b982a9 Improve logic around pre-allocation loop devices
+
+
+=======================
+     2023/02/22
+=======================
+
+
+=======================
+     2023/02/21
+=======================
+
+
+=======================
+     2023/02/20
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_GCamGOPrebuilt/commits/refs/heads/tiramisu
+
+4e8e558 GCamGOPrebuilt: Add GCamGOPrebuilt-V4
+
+
+=======================
+     2023/02/19
+=======================
+
+
+=======================
+     2023/02/18
+=======================
