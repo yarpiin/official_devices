@@ -1,0 +1,26 @@
+Instantnoodle/p:Update firmware and proprietary libs to F62
+OPlusExtras: Correct max for kcal preferences
+Evolver: Configurable media notification and lockscreen blur radius
+Evolver: Fade filter for lockscreen media artwork
+Evolver: Fade filter for media notification
+Evolver: Import more status bar logo styles
+Evolver: Resolve NPE when opening iconpacks pref
+Evolver: Rework media artwork and blur implementation
+Improve renderscript allocation and usage
+JobScheduler: Stop leaking user information
+Update translations
+InputMethodManager: Prevent unnecessary invocation of IME
+PixelPropsUtils: Spoof Samsung Accessory apps
+Revert reticker implementation (fixes flickers in notification panel)
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Prevent systemui crash when reinflating QS
+SystemUI: Re-implement Bluetooth dialog
+apn: AMC now is ONE Albania
+core: Fix suspend failure for privileged system components
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+permissions: Pre-grant google restore permissions
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+SystemUI: Stop using marquee on qs tiles label
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+fixup! audioflinger: Fix audio for WifiDisplay
