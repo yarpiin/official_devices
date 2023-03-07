@@ -1,0 +1,94 @@
+Allow profile owner to set user_setup_complete secure setting
+Launcher3: Use ic_screenshot for recents screenshot drawable again
+PhoneStatusBarTransitions: Always animate battery out at the same rate
+base: overlays: Fixed ! cutting signal icons in restored themes
+overlays: iconpacks: Update launcher screenshot fill color
+themes: Add removed iconpacks as WiFi and Signal overlays
+AttestationHooks: Spoof cheetah to gms.ui and gms.learning
+AttestationHooks: Spoof raven to gms.persistent
+Bring back Seedvault support
+Exclude Gallery2
+Pre-grant some prebuilt google app permissions
+fwb: Add missing android.permission.REGISTER_STATS_PULL_ATOM
+Evolver: Allow locking all apps visible in launcher
+Evolver: Update AppLock API
+Launcher3: Bring back support for custom themed icon pack
+Launcher3: Fix a potential NPE when buildAnimationController is called
+Launcher3: Fix potential ConcurrentModificationException
+Launcher3: Restore blur depth on configuration change
+Launcher3: Switch to AppLock API for protected apps
+ParallelSpace: Block telecom server package
+ViewGroup: Remove child parent when a new view is added
+audio: Fix HAL reply handling in CompressedOffloadOutputStreamTest
+btaudio: aidl: Support offloading all LDAC qualities
+Evolver: Configurable media notification and lockscreen blur radius
+Evolver: Fade filter for lockscreen media artwork
+Evolver: Fade filter for media notification
+Evolver: Import more status bar logo styles
+Evolver: Resolve NPE when opening iconpacks pref
+Evolver: Rework media artwork and blur implementation
+Improve renderscript allocation and usage
+JobScheduler: Stop leaking user information
+Update translations
+device_config: Update now playing to 2/19/23
+gms: Stop building Photos for gms_mini
+InputMethodManager: Prevent unnecessary invocation of IME
+PixelPropsUtils: Spoof Samsung Accessory apps
+Revert reticker implementation (fixes flickers in notification panel)
+SystemUI: Move bluetooth dialog creation to LongClick method
+SystemUI: Prevent systemui crash when reinflating QS
+SystemUI: Re-implement Bluetooth dialog
+apn: AMC now is ONE Albania
+core: Fix suspend failure for privileged system components
+first_stage_mount: Skip dm-verity setup if AVB is not enabled
+kernel: Check HIP support of clang before disabling it
+kernel: Force disable LLVM HIP
+permissions: Grant ACCESS_COARSE_LOCATION to some system apps
+permissions: Pre-grant google restore permissions
+Bluetooth: Controller: Warn on LeSetEventMask error codes
+SystemUI: Stop using marquee on qs tiles label
+common: trust: Add sepolicy for dwc3 usb_data_enabled
+fixup! audioflinger: Fix audio for WifiDisplay
+PixelPropsUtils: Don't spoof some apps
+GameSpace: Remove dim layer from the panel view
+KeyguardMediaViewController: Cleanup and add proper annotations
+Fix status bar landscape touch issues
+Launcher3: Redesign recents app buttons
+SettingsProvider: Remove backup for some feature settings
+SystemUI: Fix optional ripple animation issue
+gms: Stop building prebuilt Chrome and PixelLiveWallpaperPrebuilt
+overlay: Partially disable gms chimera service
+Bring back Parallel Space support
+Evolver: Restore Custom QS panel styles
+PixelPropsUtils: Don't declare propsToChange as static
+PixelPropsUtils: misc changes
+Remove support for custom themed icon pack
+SystemUI: Restore default biometric listener behavior
+apn: Add Wintel
+apn: Don't set type default for Vodafone MMS 404/43
+fonts: Remove config_clockFontFamily from Google Sans overlay
+gms: Add missing READ_DEVICE_CONFIG permission for System Intelligence
+hosts: Block OTA downloading from GMS
+overlay: Add google OTA to global disabledComponent
+services: core: Temporaily handle NullPointerException in PackageManagerService
+version: Update to 7.6.2 (Tapsilog)
+Bring back Ambient music ticker pulse
+Bring back Private Compute Services prebuilt app (fixes downloading Live Captions; reinstall Android System Intelligence app from Play store)
+Evolver: Move pulse on new tracks from Settings
+Launcher3: Add kill App button to recents overview
+Launcher3: Hide developer options
+Launcher3: Revert Smartspace to pre-13-QPR1 (fixes missing At a Glance in higher grids)
+Launcher3: Shorten Spanish translation
+Evolver: Bring back reworked OOS style notification clear all button
+Improve logic around pre-allocation loop devices
+Launcher3: Fix crash when placing widgets
+Launcher3: Fix nonsense smartspace span in some workspaces
+Launcher3: Fix widget add screen on dark theme
+Launcher3: Make music search icon colorful
+Launcher3: No Calendarwidget 4x4 widget displayed
+Launcher3: device_profiles: catch up to 13
+Launcher3: meminfo: Replace deprecated BigDecimal methods
+Set alert dialog message to use system font
+SystemUI: remove spammy wallet lockscreen icon error
+themes: UIStyle: fix settings icons being invisible in Clear theme
+vendor: charger: Import latest offline charging animation
