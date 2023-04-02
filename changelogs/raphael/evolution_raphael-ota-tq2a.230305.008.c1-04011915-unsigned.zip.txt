@@ -1,0 +1,21 @@
+This is Android 13 (QPR2) with March 2023 (r35) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+
+Device changes:
+==============================
+Enable debug.sf.auto_latch_unsignaled
+Upstream kernel changes
+overlay/SysUI: disable prox for sensors
+------------------------------
+
+ROM changes:
+==============================
+Evolver: Disable/Remove several features
+Rebase entire framework to qpr2 changes
+Switch back to Pixel Launcher
