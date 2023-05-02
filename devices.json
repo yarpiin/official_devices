@@ -58,7 +58,7 @@
    {
       "brand": "Google",
       "codename": "taimen",
-      "name": "Pixel 2XL",
+      "name": "Pixel 2 XL",
       "supported_versions": [
          {
             "maintainer_name": "Asriadi Rahim",
@@ -86,7 +86,7 @@
    {
       "brand": "Google",
       "codename": "crosshatch",
-      "name": "Pixel 3XL",
+      "name": "Pixel 3 XL",
       "supported_versions": [
          {
             "maintainer_name": "Anierin Bliss",
@@ -422,7 +422,7 @@
    {
       "brand": "OnePlus",
       "codename": "denniz",
-      "name": "OnePlus Nord2",
+      "name": "OnePlus Nord 2 5G",
       "supported_versions": [
          {
             "maintainer_name": "lahaina",
@@ -436,7 +436,7 @@
    {
       "brand": "Realme",
       "codename": "bladerunner",
-      "name": "Realme X50 Pro 5G",
+      "name": "X50 Pro 5G",
       "supported_versions": [
          {
             "maintainer_name": "Gaganpreet Singh",
@@ -450,7 +450,7 @@
    {
       "brand": "Realme",
       "codename": "bladerunner_48m",
-      "name": "Realme X50 Pro 5G Play",
+      "name": "X50 Pro 5G Play",
       "supported_versions": [
          {
             "maintainer_name": "Gaganpreet Singh",
@@ -464,7 +464,7 @@
    {
       "brand": "Realme",
       "codename": "RMX2020",
-      "name": "Realme C3/ Narzo 10A",
+      "name": "Realme C3 / Narzo 10A",
       "supported_versions": [
          {
             "maintainer_name": "Koushik Dey",
@@ -478,7 +478,7 @@
    {
       "brand": "Realme",
       "codename": "RMX199X",
-      "name": "Realme X2",
+      "name": "X2",
       "supported_versions": [
          {
             "maintainer_name": "Rj Raijin",
@@ -505,8 +505,8 @@
    },
    {
       "brand": "Realme",
-      "codename": "rmx3371",
-      "name": "Realme Q5 Pro/ Gt Neo 3T",
+      "codename": "RMX3371",
+      "name": "Q5 Pro / GT Neo 3T",
       "supported_versions": [
          {
             "maintainer_name": "Abhishek Shukla",
@@ -520,7 +520,7 @@
    {
       "brand": "Samsung",
       "codename": "starlte",
-      "name": "Samsung Galaxy S9",
+      "name": "Galaxy S9",
       "supported_versions": [
          {
             "maintainer_name": "Pham Nguyen Gia Khiem (Cyder)",
@@ -534,7 +534,7 @@
    {
       "brand": "Samsung",
       "codename": "star2lte",
-      "name": "Samsung Galaxy S9+",
+      "name": "Galaxy S9+",
       "supported_versions": [
          {
             "maintainer_name": "Pham Nguyen Gia Khiem (Cyder)",
@@ -548,7 +548,7 @@
    {
       "brand": "Samsung",
       "codename": "crownlte",
-      "name": "Samsung Galaxy Note 9",
+      "name": "Galaxy Note 9",
       "supported_versions": [
          {
             "maintainer_name": "Pham Nguyen Gia Khiem (Cyder)",
@@ -702,7 +702,7 @@
    {
       "brand": "Xiaomi",
       "codename": "polaris",
-      "name": "Mi Mix 2s",
+      "name": "Mi Mix 2S",
       "supported_versions": [
          {
             "maintainer_name": "Chenyang Zhong",
@@ -744,7 +744,7 @@
    {
       "brand": "Xiaomi",
       "codename": "sweet",
-      "name": "Redmi Note 10 Pro / Max",
+      "name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
       "supported_versions": [
          {
             "maintainer_name": "Zaid Khan (@zaidkhan0997)",
@@ -785,8 +785,8 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "Mi439",
-      "name": "Redmi 7A/8/8A/8A Dual",
+      "codename": "mi439",
+      "name": "Redmi 7A / Redmi 8 / Redmi 8A / Redmi 8A Dual",
       "supported_versions": [
          {
             "maintainer_name": "Janak Niraula (janakniraula_2017)",
@@ -856,7 +856,7 @@
    {
       "brand": "Xiaomi",
       "codename": "lavender",
-      "name": "Redmi Note 7/7s",
+      "name": "Redmi Note 7 / Redmi Note 7S",
       "supported_versions": [
          {
             "maintainer_name": "OmarAlCoptan (Coptan)",
@@ -870,7 +870,7 @@
    {
       "brand": "Xiaomi",
       "codename": "mido",
-      "name": "Redmi Note 4/4X",
+      "name": "Redmi Note 4 / Redmi Note 4X",
       "supported_versions": [
          {
             "maintainer_name": "Nalinish Ranjan",
