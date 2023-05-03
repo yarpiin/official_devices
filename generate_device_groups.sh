@@ -5,8 +5,7 @@ BLUE='\033[0;34m'
 ENDCOLOR='\033[0m'
 
 # Corrections for devices that don't have
-# groups that directly translate to their
-# codename.
+# groups that match their codename.
 declare -A corrections=(
   # Google corrections
   ["blueline"]="Pixel3"
@@ -43,7 +42,7 @@ declare -A corrections=(
 )
 
 # Remove devices if group isn't Evolution X
-# specific or if there is no group at all.
+# specific or if no group at all.
 declare -a remove_devices=(
   "taimen"
   "walleye"
@@ -70,7 +69,6 @@ while IFS= read -r device; do
         devices_by_brand[$brand]+="$codename "
     fi
 done < <(jq -c '.[]' devices.json)
-
 printf '%s\n' "${!devices_by_brand[@]}" | tr ' ' '\n' | sort -u | while read -r brand; do
     echo "${brand}:"
     for device in $(echo "${devices_by_brand[$brand]}" | tr ' ' '\n' | sort | tr '\n' ' '); do
@@ -81,12 +79,11 @@ done > ../device_groups.txt 2>&1
 
 corrected_devices_output="Corrected Devices:\n"
 for corrected_device in "${corrected_devices[@]}"; do
-  corrected_devices_output+="  - $corrected_device\n"
+    corrected_devices_output+="  - $corrected_device\n"
 done
-
 removed_devices_output="Removed Devices:\n"
 for removed_device in "${removed_devices[@]}"; do
-  removed_devices_output+="  - $removed_device\n"
+    removed_devices_output+="  - $removed_device\n"
 done
 
 echo -e "${GREEN}===========================================================${ENDCOLOR}"
@@ -100,26 +97,25 @@ echo -e "${BLUE}                         #KeepEvolving                      ${EN
 echo -e "${GREEN}Finished generating ../device_groups.txt                   ${ENDCOLOR}"
 echo -e "${GREEN}===========================================================${ENDCOLOR}"
 corrected_output=""
-removed_output=""
-final_output=""
 while [[ ! $corrected_output =~ ^[yn]$ ]]; do
     read -p "Would you like to view a list of corrected devices? (y/n) " corrected_output
 done
+if [[ $corrected_output == "y" ]]; then
+  echo -e "${corrected_devices_output}"
+fi
+removed_output=""
+echo -e "${GREEN}===========================================================${ENDCOLOR}"
 while [[ ! $removed_output =~ ^[yn]$ ]]; do
     read -p "Would you like to view a list of removed devices? (y/n) " removed_output
 done
-while [[ ! $final_output =~ ^[yn]$ ]]; do
-    read -p "Would you like to view the final device_groups.txt? (y/n) " final_output
-done
-echo -e "${GREEN}===========================================================${ENDCOLOR}"
-if [[ $corrected_output == "y" ]]; then
-  echo -e "${corrected_devices_output}"
-echo -e "${GREEN}===========================================================${ENDCOLOR}"
-fi
 if [[ $removed_output == "y" ]]; then
   echo -e "${removed_devices_output}"
-echo -e "${GREEN}===========================================================${ENDCOLOR}"
 fi
+final_output=""
+echo -e "${GREEN}===========================================================${ENDCOLOR}"
+while [[ ! $final_output =~ ^[yn]$ ]]; do
+    read -p "Would you like to view ../device_groups.txt? (y/n) " final_output
+done
 if [[ $final_output == "y" ]]; then
   echo -e "Final output:"
   cat ../device_groups.txt
