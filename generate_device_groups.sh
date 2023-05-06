@@ -6,6 +6,20 @@ BLUE='\033[0;34m'
 ORANGE='\033[0;33m'
 ENDCOLOR='\033[0m'
 
+display_header() {
+    echo -e "${GREEN}===========================================================${ENDCOLOR}"
+    echo -e "${BLUE}      ______            __      __  _                _  __  ${ENDCOLOR}"
+    echo -e "${BLUE}     / ____/   ______  / /_  __/ /_(_)___  ____     | |/ /  ${ENDCOLOR}"
+    echo -e "${BLUE}    / __/ | | / / __ \/ / / / / __/ / __ \/ __ \    |   /   ${ENDCOLOR}"
+    echo -e "${BLUE}   / /___ | |/ / /_/ / / /_/ / /_/ / /_/ / / / /   /   |    ${ENDCOLOR}"
+    echo -e "${BLUE}  /_____/ |___/\____/_/\__,_/\__/_/\____/_/ /_/   /_/|_|    ${ENDCOLOR}"
+    echo -e "${BLUE}                                                            ${ENDCOLOR}"
+    echo -e "${BLUE}                     Device group generator                 ${ENDCOLOR}"
+    echo -e "${BLUE}                                                            ${ENDCOLOR}"
+    echo -e "${BLUE}                         #KeepEvolving                      ${ENDCOLOR}"
+    echo -e "${GREEN}===========================================================${ENDCOLOR}"
+}
+
 dependencies="jq coreutils"
 
 missing_dependencies=()
@@ -16,14 +30,15 @@ for dependency in $dependencies; do
 done
 
 if [ ${#missing_dependencies[@]} -ne 0 ]; then
+  clear && display_header
   echo -e "${ORANGE}Missing dependencies:${ENDCOLOR}"
   for dependency in "${missing_dependencies[@]}"; do
     case $dependency in
       jq)
-        echo -e "$dependency: Lightweight and flexible command-line tool for parsing and manipulating JSON data."
+        echo -e "${BLUE}$dependency: A lightweight and flexible command-line tool for parsing and manipulating JSON data.${ENDCOLOR}"
         ;;
       coreutils)
-        echo -e "$dependency: Collection of essential command-line utilities for basic file and text manipulation tasks."
+        echo -e "${BLUE}$dependency: A collection of essential command-line utilities for basic file and text manipulation.${ENDCOLOR}"
         ;;
     esac
   done
@@ -33,43 +48,49 @@ if [ ${#missing_dependencies[@]} -ne 0 ]; then
     case $choice in
       [Yy]|[Yy][Ee][Ss])
         if [ -x "$(command -v apt-get)" ]; then
-          echo -e "${ORANGE}Detected Debian/Ubuntu distribution, installing required dependencies...${ENDCOLOR}"
+          clear && display_header
+          echo -e "${ORANGE}Debian/Ubuntu detected, installing required dependencies...${ENDCOLOR}"
           sudo apt-get update && sudo apt-get install -y "${missing_dependencies[@]}" || {
             echo -e "${RED}Error: Failed to install required dependencies using apt-get.${ENDCOLOR}"
             exit 1
           }
         elif [ -x "$(command -v pacman)" ]; then
-          echo -e "${ORANGE}Detected Arch Linux distribution, installing required dependencies...${ENDCOLOR}"
+          clear && display_header
+          echo -e "${ORANGE}Arch detected, installing required dependencies...${ENDCOLOR}"
           sudo pacman -Sy --noconfirm "${missing_dependencies[@]}" || {
             echo -e "${RED}Error: Failed to install required dependencies using pacman.${ENDCOLOR}"
             exit 1
           }
         elif [ -x "$(command -v dnf)" ]; then
-          echo -e "${ORANGE}Detected Fedora distribution, installing required dependencies...${ENDCOLOR}"
+          clear && display_header
+          echo -e "${ORANGE}Fedora detected, installing required dependencies...${ENDCOLOR}"
           sudo dnf update -y && sudo dnf install -y "${missing_dependencies[@]}" || {
             echo -e "${RED}Error: Failed to install required dependencies using dnf.${ENDCOLOR}"
             exit 1
           }
       elif [ -x "$(command -v emerge)" ]; then
-        echo -e "${ORANGE}Detected Gentoo distribution, installing required dependencies...${ENDCOLOR}"
+        echo -e "${ORANGE}Gentoo detected, installing required dependencies...${ENDCOLOR}"
+        clear && display_header
         sudo emerge -av "${missing_dependencies[@]}" || {
           echo -e "${RED}Error: Failed to install required dependencies using emerge.${ENDCOLOR}"
           exit 1
         }
         else
-          echo -e "${RED}Error: Unsupported distribution or package manager detected.${ENDCOLOR}"
+          clear && display_header
+          echo -e "${RED}Error: Unsupported distro or package manager detected.${ENDCOLOR}"
           exit 1
         fi
-
-        echo -e "${GREEN}Dependencies successfully installed.${ENDCOLOR}"
+        clear && display_header
+        echo -e "${GREEN}Dependencies successfully installed. Generating device groups...${ENDCOLOR}"
         break
         ;;
       [Nn]|[Nn][Oo])
-        echo -e "${RED}Missing dependencies not installed. Exiting!${ENDCOLOR}"
+        clear
+        echo -e "${RED}Dependencies not satisfied... Exiting!${ENDCOLOR}"
         exit 0
         ;;
       *)
-        echo "Invalid choice. Please enter 'y' or 'n'."
+        echo "Invalid selection. Please enter 'y' or 'n'."
         ;;
     esac
   done
@@ -79,20 +100,21 @@ devices=$(<devices.json)
 
 declare -A device_groups
 
-for device in $(echo "${devices}" | jq -r '.[] | @base64'); do
-    _jq() {
-        echo "${device}" | base64 --decode | jq -r "${1}"
-    }
-    brand=$(_jq '.brand')
-    device_group=$(_jq '.supported_versions[].device_group')
-    if [ -z "${device_groups["${brand}"]}" ]; then
-        device_groups["${brand}"]="${device_group}\n"
-    else
-        device_groups["${brand}"]+="${device_group}\n"
-    fi
-done
-
 {
+    echo "/save device_groups"
+    for device in $(echo "${devices}" | jq -r '.[] | @base64'); do
+        _jq() {
+            echo "${device}" | base64 --decode | jq -r "${1}"
+        }
+        brand=$(_jq '.brand')
+        device_group=$(_jq '.supported_versions[].device_group')
+        if [ -z "${device_groups["${brand}"]}" ]; then
+            device_groups["${brand}"]="${device_group}\n"
+        else
+            device_groups["${brand}"]+="${device_group}\n"
+        fi
+    done
+
     for brand in $(echo "${!device_groups[@]}" | tr ' ' '\n' | sort); do
         echo "${brand}:"
         echo -e "${device_groups[${brand}]}" | sort -u | awk NF
@@ -100,75 +122,82 @@ done
     done
 } > /tmp/device_groups.txt
 
-echo -e "${GREEN}===========================================================${ENDCOLOR}"
-echo -e "${BLUE}      ______            __      __  _                _  __  ${ENDCOLOR}"
-echo -e "${BLUE}     / ____/   ______  / /_  __/ /_(_)___  ____     | |/ /  ${ENDCOLOR}"
-echo -e "${BLUE}    / __/ | | / / __ \/ / / / / __/ / __ \/ __ \    |   /   ${ENDCOLOR}"
-echo -e "${BLUE}   / /___ | |/ / /_/ / / /_/ / /_/ / /_/ / / / /   /   |    ${ENDCOLOR}"
-echo -e "${BLUE}  /_____/ |___/\____/_/\__,_/\__/_/\____/_/ /_/   /_/|_|    ${ENDCOLOR}"
-echo -e "${BLUE}                                                            ${ENDCOLOR}"
-echo -e "${BLUE}                         #KeepEvolving                      ${ENDCOLOR}"
-echo -e "${GREEN}Wrote device groups to /tmp/device_groups.txt              ${ENDCOLOR}"
-echo -e "${GREEN}===========================================================${ENDCOLOR}"
+sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' /tmp/device_groups.txt
+
 check_command() {
     if ! command -v "$1" &>/dev/null; then
+        clear && display_header
         echo -e "${RED}Error: $1 is not installed! Please install it and try again.${ENDCOLOR}"
+        sleep 1
         return 1
     fi
 }
 
+clear
 while true; do
-    read -p "How do you want to view the file? Choose an option:
-    1. Cat
-    2. Nano
-    3. Vim
-    4. Gedit
-    5. Enter your own command
-    6. Exit
-    Enter your choice (1-6): " choice
+    clear
+    display_header
 
-    case "$choice" in
+    read -p "Select a method to view output:
+    1. Nano
+    2. Vim
+    3. Gedit
+    4. Emacs
+    5. Enter your own command
+    6. Regenerate (Restart script)
+    7. Exit
+    (1-7): " selection
+
+    case "$selection" in
         1)
-            if check_command "cat"; then
-                cat /tmp/device_groups.txt
-                break
+            if check_command "nano"; then
+                clear
+                nano /tmp/device_groups.txt
             fi
             ;;
         2)
-            if check_command "nano"; then
-                nano /tmp/device_groups.txt
-                break
+            if check_command "vim"; then
+                clear
+                vim /tmp/device_groups.txt
             fi
             ;;
         3)
-            if check_command "vim"; then
-                vim /tmp/device_groups.txt
-                break
+            if check_command "gedit"; then
+                clear
+                gedit /tmp/device_groups.txt
             fi
             ;;
         4)
-            if check_command "gedit"; then
-                gedit /tmp/device_groups.txt
-                break
+            if check_command "emacs"; then
+                clear
+                emacs /tmp/device_groups.txt
             fi
             ;;
         5)
-            while true; do
-                read -p "Enter the command to open the file: " custom_cmd
-                if eval "$custom_cmd /tmp/device_groups.txt"; then
-                    break 2
-                else
-                    echo -e "${RED}Failed to execute the command!${ENDCOLOR}"
-                    continue 2
-                fi
-            done
+            clear && display_header
+            read -p "Enter a valid program name to open device_groups with (/tmp/device_groups.txt will be appended): " custom_cmd
+            if command -v "$custom_cmd" &>/dev/null; then
+                eval "$custom_cmd /tmp/device_groups.txt"
+            else
+                clear && display_header
+                echo -e "${ORANGE}$custom_cmd not found, returing to the main menu..${ENDCOLOR}"
+                sleep 1
+            fi
             ;;
         6)
-            echo -e "${ORANGE}Exiting..${ENDCOLOR}"
+            clear && display_header
+            echo -e "${GREEN}Regenerating device groups...${ENDCOLOR}"
+            exec "$0"
+            ;;
+        7)
+            clear
+            echo -e "${RED}Session ended.${ENDCOLOR}"
             break
             ;;
         *)
-            echo -e "${ORANGE}Invalid choice. Please enter a valid choice (1-6).${ENDCOLOR}"
+            clear && display_header
+            echo -e "${ORANGE}Invalid selection! Try again. (1-7).${ENDCOLOR}"
+            sleep 1
             ;;
     esac
 done
