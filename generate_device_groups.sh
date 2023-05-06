@@ -10,7 +10,7 @@ dependencies="jq coreutils"
 
 missing_dependencies=()
 for dependency in $dependencies; do
-  if ! dpkg -s "$dependency" >/dev/null 2>&1 && ! rpm -q "$dependency" >/dev/null 2>&1 && ! pacman -Q "$dependency" >/dev/null 2>&1; then
+  if ! dpkg -s "$dependency" >/dev/null 2>&1 && ! rpm -q "$dependency" >/dev/null 2>&1 && ! pacman -Q "$dependency" >/dev/null 2>&1 && ! equery -q list "$dependency" >/dev/null 2>&1; then
     missing_dependencies+=("$dependency")
   fi
 done
@@ -50,6 +50,12 @@ if [ ${#missing_dependencies[@]} -ne 0 ]; then
             echo -e "${RED}Error: Failed to install required dependencies using dnf.${ENDCOLOR}"
             exit 1
           }
+      elif [ -x "$(command -v emerge)" ]; then
+        echo -e "${ORANGE}Detected Gentoo distribution, installing required dependencies...${ENDCOLOR}"
+        sudo emerge -av "${missing_dependencies[@]}" || {
+          echo -e "${RED}Error: Failed to install required dependencies using emerge.${ENDCOLOR}"
+          exit 1
+        }
         else
           echo -e "${RED}Error: Unsupported distribution or package manager detected.${ENDCOLOR}"
           exit 1
