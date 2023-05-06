@@ -98,7 +98,7 @@ done
         echo -e "${device_groups[${brand}]}" | sort -u | awk NF
         echo
     done
-} > ../device_groups.txt
+} > /tmp/device_groups.txt
 
 echo -e "${GREEN}===========================================================${ENDCOLOR}"
 echo -e "${BLUE}      ______            __      __  _                _  __  ${ENDCOLOR}"
@@ -108,40 +108,67 @@ echo -e "${BLUE}   / /___ | |/ / /_/ / / /_/ / /_/ / /_/ / / / /   /   |    ${EN
 echo -e "${BLUE}  /_____/ |___/\____/_/\__,_/\__/_/\____/_/ /_/   /_/|_|    ${ENDCOLOR}"
 echo -e "${BLUE}                                                            ${ENDCOLOR}"
 echo -e "${BLUE}                         #KeepEvolving                      ${ENDCOLOR}"
-echo -e "${GREEN}Wrote device groups to ../device_groups.txt                ${ENDCOLOR}"
+echo -e "${GREEN}Wrote device groups to /tmp/device_groups.txt              ${ENDCOLOR}"
 echo -e "${GREEN}===========================================================${ENDCOLOR}"
+check_command() {
+    if ! command -v "$1" &>/dev/null; then
+        echo -e "${RED}Error: $1 is not installed! Please install it and try again.${ENDCOLOR}"
+        return 1
+    fi
+}
+
 while true; do
     read -p "How do you want to view the file? Choose an option:
     1. Cat
     2. Nano
     3. Vim
     4. Gedit
-    5. None of the above
-    Enter your choice (1-5): " choice
+    5. Enter your own command
+    6. Exit
+    Enter your choice (1-6): " choice
 
     case "$choice" in
         1)
-            cat ../device_groups.txt
-            break
+            if check_command "cat"; then
+                cat /tmp/device_groups.txt
+                break
+            fi
             ;;
         2)
-            nano ../device_groups.txt
-            break
+            if check_command "nano"; then
+                nano /tmp/device_groups.txt
+                break
+            fi
             ;;
         3)
-            vim ../device_groups.txt
-            break
+            if check_command "vim"; then
+                vim /tmp/device_groups.txt
+                break
+            fi
             ;;
         4)
-            gedit ../device_groups.txt
-            break
+            if check_command "gedit"; then
+                gedit /tmp/device_groups.txt
+                break
+            fi
             ;;
         5)
-            echo -e "${ORANGE}No action taken.${ENDCOLOR}"
+            while true; do
+                read -p "Enter the command to open the file: " custom_cmd
+                if eval "$custom_cmd /tmp/device_groups.txt"; then
+                    break 2
+                else
+                    echo -e "${RED}Failed to execute the command!${ENDCOLOR}"
+                    continue 2
+                fi
+            done
+            ;;
+        6)
+            echo -e "${ORANGE}Exiting..${ENDCOLOR}"
             break
             ;;
         *)
-            echo "Invalid choice. Please enter a valid choice (1-5)."
+            echo -e "${ORANGE}Invalid choice. Please enter a valid choice (1-6).${ENDCOLOR}"
             ;;
     esac
 done
