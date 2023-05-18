@@ -21,6 +21,8 @@ display_header() {
     echo -e "${GREEN}===========================================================${ENDCOLOR}"
 }
 
+clear
+
 dependencies="jq coreutils"
 
 missing_dependencies=()
@@ -81,7 +83,7 @@ if [ ${#missing_dependencies[@]} -ne 0 ]; then
           echo -e "${RED}Error: Unsupported distro or package manager detected.${ENDCOLOR}"
           exit 1
         fi
-        clear && display_header
+        clear
         echo -e "${GREEN}Dependencies successfully installed. Running...${ENDCOLOR}"
         break
         ;;
@@ -97,16 +99,17 @@ if [ ${#missing_dependencies[@]} -ne 0 ]; then
   done
 fi
 
-display_header
+clear && display_header
 
 display_help() {
-    echo "Usage: $0 <input_json_from_out_dir>"
-    echo "Updates the information from the input JSON file to the corresponding codename.json file."
     echo
-    echo "Arguments:"
-    echo "input_json_from_out_dir   The JSON file used to update ./builds/codename.json"
+    echo -e "${BLUE}Usage:${ENDCOLOR} $0 ${ORANGE}<input_json_from_out_dir>${ENDCOLOR}"
+    echo -e "${CYAN}Updates the information from the input JSON file to the corresponding codename.json file.${ENDCOLOR}"
     echo
-    echo "Note: The input file should follow the format 'evolution_<codename>-ota-<>.json'"
+    echo -e "${BLUE}Arguments:${ENDCOLOR}"
+    echo -e "${ORANGE}input_json_from_out_dir${ENDCOLOR}   ${CYAN}The JSON file used to update ./builds/codename.json${ENDCOLOR}"
+    echo
+    echo -e "${RED}Note:${ENDCOLOR} The input file should follow the format 'evolution_<codename>-ota-<>.json'"
 }
 
 if [ $# -ne 1 ]; then
@@ -114,10 +117,11 @@ if [ $# -ne 1 ]; then
     exit 1
 fi
 
-input_json=$1
+input_json="$1"
 
 if [ ! -f "$input_json" ]; then
-    echo "Input file not found: $input_json"
+    echo -e "${RED}Input file, ${CYAN}$input_json${RED} not found!${ENDCOLOR}"
+    display_help
     exit 1
 fi
 
@@ -126,7 +130,7 @@ input_data=$(cat "$input_json")
 filename=$(echo "$input_data" | jq -r '.filename')
 
 if [ -z "$codename" ] || [ -z "$filename" ]; then
-    echo "Invalid input file name: $input_json"
+    echo "Invalid input file name: $input_json"  
     echo "Please make sure the input file follows the format 'evolution_<codename>-ota-<>.json'"
     exit 1
 fi
@@ -157,16 +161,24 @@ if [ -f "$output_json" ]; then
             echo -e "  ${CYAN}${property}:${ENDCOLOR}"
             echo -e "    ${CYAN}Old:${ENDCOLOR} ${RED}${old_value}${ENDCOLOR}"
             echo -e "    ${CYAN}New:${ENDCOLOR} ${GREEN}${new_value}${ENDCOLOR}"
+            return 1
         fi
     }
 
-    echo -e "${CYAN}Updating ${codename}.json:${ENDCOLOR}"
-    compare_and_display "$(echo "$old_data" | jq -r '.datetime')" "$datetime" "datetime"
-    compare_and_display "$(echo "$old_data" | jq -r '.filehash')" "$filehash" "filehash"
-    compare_and_display "$(echo "$old_data" | jq -r '.id')" "$id" "id"
-    compare_and_display "$(echo "$old_data" | jq -r '.size')" "$size" "size"
-    compare_and_display "$(echo "$old_data" | jq -r '.url')" "$url" "url"
-    compare_and_display "$(echo "$old_data" | jq -r '.filename')" "$filename" "filename"
+    echo -e "${ORANGE}Updating ${codename}.json:${ENDCOLOR}"
+    changes_found=0
+
+    compare_and_display "$(echo "$old_data" | jq -r '.datetime')" "$datetime" "datetime" || changes_found=1
+    compare_and_display "$(echo "$old_data" | jq -r '.filehash')" "$filehash" "filehash" || changes_found=1
+    compare_and_display "$(echo "$old_data" | jq -r '.id')" "$id" "id" || changes_found=1
+    compare_and_display "$(echo "$old_data" | jq -r '.size')" "$size" "size" || changes_found=1
+    compare_and_display "$(echo "$old_data" | jq -r '.url')" "$url" "url" || changes_found=1
+    compare_and_display "$(echo "$old_data" | jq -r '.filename')" "$filename" "filename" || changes_found=1
+
+    if [ "$changes_found" -eq 0 ]; then
+        echo -e "${ORANGE}No changes required. All properties match.${ENDCOLOR}"
+        exit 0
+    fi
 fi
 
 temp_file=$(mktemp)
@@ -188,4 +200,86 @@ echo
 
 mv "$temp_file.indented" "$output_json"
 
-echo -e "${GREEN}Done${ENDCOLOR}"
+check_command() {
+    if ! command -v "$1" &>/dev/null; then
+        clear && display_header
+        echo -e "${RED}Error: $1 is not installed! Please install it and try again.${ENDCOLOR}"
+        sleep 1
+        return 1
+    fi
+}
+
+add_changelog() {
+    read -p "Do you want to add a changelog? (yes/no): " answer
+    if [[ $answer == "yes" ]]; then
+        select_changelog_edit_method
+    else
+        exit 0
+    fi
+}
+
+select_changelog_edit_method() {
+    clear
+    display_header
+
+    read -p "Select an editor to create the changelog with:
+    1. Nano
+    2. Vim
+    3. Gedit
+    4. Emacs
+    5. Enter your own command
+    6. Exit
+    (1-6): " selection
+
+    case "$selection" in
+        1)
+            if check_command "nano"; then
+                clear
+                nano changelogs/${codename}/${filename}.txt
+            fi
+            ;;
+        2)
+            if check_command "vim"; then
+                clear
+                vim changelogs/${codename}/${filename}.txt
+            fi
+            ;;
+        3)
+            if check_command "gedit"; then
+                clear
+                gedit changelogs/${codename}/${filename}.txt
+            fi
+            ;;
+        4)
+            if check_command "emacs"; then
+                clear
+                emacs changelogs/${codename}/${filename}.txt
+            fi
+            ;;
+        5)
+            clear && display_header
+            read -p "Enter a valid program name to open the changelog file (changelogs/${codename}/${filename}.txt): " custom_cmd
+            if command -v "$custom_cmd" &>/dev/null; then
+                eval "$custom_cmd changelogs/${codename}/${filename}.txt"
+            else
+                clear && display_header
+                echo -e "${ORANGE}$custom_cmd not found, returning to the main menu..${ENDCOLOR}"
+                sleep 1
+            fi
+            ;;
+        6)
+            clear
+            echo -e "${RED}Session ended.${ENDCOLOR}"
+            exit 0
+            ;;
+        *)
+            clear && display_header
+            echo -e "${ORANGE}Invalid selection! Try again. (1-6).${ENDCOLOR}"
+            sleep 1
+            select_changelog_edit_method
+            ;;
+    esac
+}
+
+add_changelog
+select_changelog_edit_method
