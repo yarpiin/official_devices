@@ -1,7 +1,10 @@
 #!/bin/bash
 
+RED='\033[0;31m'
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+ORANGE='\033[0;33m'
 ENDCOLOR='\033[0m'
 
 display_header() {
@@ -12,20 +15,10 @@ display_header() {
     echo -e "${BLUE}   / /___ | |/ / /_/ / / /_/ / /_/ / /_/ / / / /   /   |    ${ENDCOLOR}"
     echo -e "${BLUE}  /_____/ |___/\____/_/\__,_/\__/_/\____/_/ /_/   /_/|_|    ${ENDCOLOR}"
     echo -e "${BLUE}                                                            ${ENDCOLOR}"
-    echo -e "${BLUE}                          OTA helper                        ${ENDCOLOR}"
+    echo -e "${BLUE}                        Json OTA helper                     ${ENDCOLOR}"
     echo -e "${BLUE}                                                            ${ENDCOLOR}"
     echo -e "${BLUE}                         #KeepEvolving                      ${ENDCOLOR}"
     echo -e "${GREEN}===========================================================${ENDCOLOR}"
-}
-
-display_help() {
-    echo "Usage: $0 <input_json_from_out_dir>"
-    echo "Updates the information from the input JSON file to the corresponding codename.json file."
-    echo
-    echo "Arguments:"
-    echo "  input_json   The JSON file used to update ./builds/codename.json"
-    echo
-    echo "Note: The input file should follow the format 'evolution_<codename>-ota-<>.json'"
 }
 
 dependencies="jq coreutils"
@@ -89,7 +82,7 @@ if [ ${#missing_dependencies[@]} -ne 0 ]; then
           exit 1
         fi
         clear && display_header
-        echo -e "${GREEN}Dependencies successfully installed. Generating device groups...${ENDCOLOR}"
+        echo -e "${GREEN}Dependencies successfully installed. Running...${ENDCOLOR}"
         break
         ;;
       [Nn]|[Nn][Oo])
@@ -103,6 +96,18 @@ if [ ${#missing_dependencies[@]} -ne 0 ]; then
     esac
   done
 fi
+
+display_header
+
+display_help() {
+    echo "Usage: $0 <input_json_from_out_dir>"
+    echo "Updates the information from the input JSON file to the corresponding codename.json file."
+    echo
+    echo "Arguments:"
+    echo "input_json_from_out_dir   The JSON file used to update ./builds/codename.json"
+    echo
+    echo "Note: The input file should follow the format 'evolution_<codename>-ota-<>.json'"
+}
 
 if [ $# -ne 1 ]; then
     display_help
@@ -136,30 +141,32 @@ size=$(echo "$input_data" | jq -r '.size')
 url="https://sourceforge.net/projects/evolution-x/files/${codename}/${filename}/download/"
 
 if [ -f "$output_json" ]; then
-    old_datetime=$(jq -r '.datetime' "$output_json")
-    old_filehash=$(jq -r '.filehash' "$output_json")
-    old_id=$(jq -r '.id' "$output_json")
-    old_size=$(jq -r '.size' "$output_json")
-    old_url=$(jq -r '.url' "$output_json")
-    old_filename=$(jq -r '.filename' "$output_json")
+    old_data=$(cat "$output_json")
 
-    if [ "$datetime" = "$old_datetime" ] && \
-        [ "$filehash" = "$old_filehash" ] && \
-        [ "$id" = "$old_id" ] && \
-        [ "$size" = "$old_size" ] && \
-        [ "$url" = "$old_url" ] && \
-        [ "$filename" = "$old_filename" ]; then
+    if [ "$input_data" = "$old_data" ]; then
         echo "No changes required. All properties match."
         exit 0
     fi
 
-    echo "Updating values:"
-    echo "  datetime: $old_datetime > $datetime"
-    echo "  filehash: $old_filehash > $filehash"
-    echo "  id: $old_id > $id"
-    echo "  size: $old_size > $size"
-    echo "  url: $old_url > $url"
-    echo "  filename: $old_filename > $filename"
+    compare_and_display() {
+        local old_value=$1
+        local new_value=$2
+        local property=$3
+
+        if [ "$old_value" != "$new_value" ]; then
+            echo -e "  ${CYAN}${property}:${ENDCOLOR}"
+            echo -e "    ${CYAN}Old:${ENDCOLOR} ${RED}${old_value}${ENDCOLOR}"
+            echo -e "    ${CYAN}New:${ENDCOLOR} ${GREEN}${new_value}${ENDCOLOR}"
+        fi
+    }
+
+    echo -e "${CYAN}Updating ${codename}.json:${ENDCOLOR}"
+    compare_and_display "$(echo "$old_data" | jq -r '.datetime')" "$datetime" "datetime"
+    compare_and_display "$(echo "$old_data" | jq -r '.filehash')" "$filehash" "filehash"
+    compare_and_display "$(echo "$old_data" | jq -r '.id')" "$id" "id"
+    compare_and_display "$(echo "$old_data" | jq -r '.size')" "$size" "size"
+    compare_and_display "$(echo "$old_data" | jq -r '.url')" "$url" "url"
+    compare_and_display "$(echo "$old_data" | jq -r '.filename')" "$filename" "filename"
 fi
 
 temp_file=$(mktemp)
@@ -173,11 +180,12 @@ jq --arg datetime "$datetime" --arg filehash "$filehash" --arg id "$id" --arg si
      | .filename = $filename' \
     "$output_json" > "$temp_file"
 
-echo "Updated JSON:"
+echo -e "${GREEN}Updated ${codename}.json${ENDCOLOR}"
 echo
-jq --indent 2 . "$temp_file"
+jq --indent 3 . "$temp_file" > "$temp_file.indented"
+jq . "$temp_file.indented"
 echo
 
-mv "$temp_file" "$output_json"
+mv "$temp_file.indented" "$output_json"
 
-echo "Done."
+echo -e "${GREEN}Done${ENDCOLOR}"
