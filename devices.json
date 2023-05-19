@@ -225,6 +225,21 @@
       ]
    },
    {
+      "brand": "Google",
+      "codename": "lynx",
+      "name": "Pixel 7a",
+      "supported_versions": [
+         {
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r43-official-evolution-x-7-9-05-10-2023.4546503/",
+            "device_group": "@EvolutionXPixel7"
+         }
+      ]
+   },
+   {
       "brand": "Lenovo",
       "codename": "zippo",
       "name": "Z6 Pro",
