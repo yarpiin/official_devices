@@ -23,7 +23,7 @@ display_header() {
 
 clear
 
-dependencies="jq coreutils"
+dependencies="coreutils git jq"
 
 missing_dependencies=()
 for dependency in $dependencies; do
@@ -37,11 +37,14 @@ if [ ${#missing_dependencies[@]} -ne 0 ]; then
   echo -e "${ORANGE}Missing dependencies:${ENDCOLOR}"
   for dependency in "${missing_dependencies[@]}"; do
     case $dependency in
-      jq)
-        echo -e "${BLUE}$dependency: A lightweight and flexible command-line tool for parsing and manipulating JSON data.${ENDCOLOR}"
-        ;;
       coreutils)
         echo -e "${BLUE}$dependency: A collection of essential command-line utilities for basic file and text manipulation.${ENDCOLOR}"
+        ;;
+      git)
+        echo -e "${BLUE}$dependency: A distributed version control system.${ENDCOLOR}"
+        ;;
+      jq)
+        echo -e "${BLUE}$dependency: A lightweight and flexible command-line tool for parsing and manipulating JSON data.${ENDCOLOR}"
         ;;
     esac
   done
@@ -152,7 +155,7 @@ if [ -f "$output_json" ]; then
         exit 0
     fi
 
-    compare_and_display() {
+    display_diff() {
         local old_value=$1
         local new_value=$2
         local property=$3
@@ -168,12 +171,12 @@ if [ -f "$output_json" ]; then
     echo -e "${ORANGE}Updating ${codename}.json:${ENDCOLOR}"
     changes_found=0
 
-    compare_and_display "$(echo "$old_data" | jq -r '.datetime')" "$datetime" "datetime" || changes_found=1
-    compare_and_display "$(echo "$old_data" | jq -r '.filehash')" "$filehash" "filehash" || changes_found=1
-    compare_and_display "$(echo "$old_data" | jq -r '.id')" "$id" "id" || changes_found=1
-    compare_and_display "$(echo "$old_data" | jq -r '.size')" "$size" "size" || changes_found=1
-    compare_and_display "$(echo "$old_data" | jq -r '.url')" "$url" "url" || changes_found=1
-    compare_and_display "$(echo "$old_data" | jq -r '.filename')" "$filename" "filename" || changes_found=1
+    display_diff "$(echo "$old_data" | jq -r '.datetime')" "$datetime" "datetime" || changes_found=1
+    display_diff "$(echo "$old_data" | jq -r '.filehash')" "$filehash" "filehash" || changes_found=1
+    display_diff "$(echo "$old_data" | jq -r '.id')" "$id" "id" || changes_found=1
+    display_diff "$(echo "$old_data" | jq -r '.size')" "$size" "size" || changes_found=1
+    display_diff "$(echo "$old_data" | jq -r '.url')" "$url" "url" || changes_found=1
+    display_diff "$(echo "$old_data" | jq -r '.filename')" "$filename" "filename" || changes_found=1
 
     if [ "$changes_found" -eq 0 ]; then
         echo -e "${ORANGE}No changes required. All properties match.${ENDCOLOR}"
@@ -200,6 +203,15 @@ echo
 
 mv "$temp_file.indented" "$output_json"
 
+add_changelog() {
+    read -p "Do you want to add a changelog? (yes/no): " answer
+    if [[ $answer == "yes" ]]; then
+        select_changelog_edit_method
+    else
+        exit 0
+    fi
+}
+
 check_command() {
     if ! command -v "$1" &>/dev/null; then
         clear && display_header
@@ -209,11 +221,21 @@ check_command() {
     fi
 }
 
-add_changelog() {
-    read -p "Do you want to add a changelog? (yes/no): " answer
-    if [[ $answer == "yes" ]]; then
-        select_changelog_edit_method
+git_commit() {
+    git add ./builds/${codename}.json
+    git add changelogs/${codename}/${filename}.txt
+
+    commit_name="$(tr '[:lower:]' '[:upper:]' <<< ${codename:0:1})${codename:1}: $(date +'%m/%d/%Y') Update"
+    echo "Commit Name: $commit_name"
+
+    read -p "Do you want to sign the commit? (yes/no): " sign_commit
+    if [[ $sign_commit =~ ^[Yy][Ee][Ss]$ ]]; then
+        git commit -s -m "$commit_name"
+        echo -e "${GREEN}Commit created successfully.${ENDCOLOR}"
+        exit 0
     else
+        git commit -m "$commit_name"
+        echo -e "${GREEN}Commit created successfully.${ENDCOLOR}"
         exit 0
     fi
 }
@@ -236,24 +258,28 @@ select_changelog_edit_method() {
             if check_command "nano"; then
                 clear
                 nano changelogs/${codename}/${filename}.txt
+                git_commit
             fi
             ;;
         2)
             if check_command "vim"; then
                 clear
                 vim changelogs/${codename}/${filename}.txt
+                git_commit
             fi
             ;;
         3)
             if check_command "gedit"; then
                 clear
                 gedit changelogs/${codename}/${filename}.txt
+                git_commit
             fi
             ;;
         4)
             if check_command "emacs"; then
                 clear
                 emacs changelogs/${codename}/${filename}.txt
+                git_commit
             fi
             ;;
         5)
@@ -261,6 +287,7 @@ select_changelog_edit_method() {
             read -p "Enter a valid program name to open the changelog file (changelogs/${codename}/${filename}.txt): " custom_cmd
             if command -v "$custom_cmd" &>/dev/null; then
                 eval "$custom_cmd changelogs/${codename}/${filename}.txt"
+                git_commit
             else
                 clear && display_header
                 echo -e "${ORANGE}$custom_cmd not found, returning to the main menu..${ENDCOLOR}"
