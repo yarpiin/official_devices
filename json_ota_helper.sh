@@ -186,7 +186,7 @@ fi
 
 temp_file=$(mktemp)
 
-jq --arg datetime "$datetime" --arg filehash "$filehash" --arg id "$id" --arg size "$size" --arg url "$url" --arg filename "$filename" \
+jq --argjson datetime "$datetime" --arg filehash "$filehash" --arg id "$id" --argjson size "$size" --arg url "$url" --arg filename "$filename" \
     '.datetime = $datetime
      | .filehash = $filehash
      | .id = $id
