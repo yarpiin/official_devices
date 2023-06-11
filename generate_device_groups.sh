@@ -108,6 +108,11 @@ declare -A device_groups
         }
         brand=$(_jq '.brand')
         device_group=$(_jq '.supported_versions[].device_group')
+
+        if [[ -n $device_group ]]; then
+            device_group="@${device_group}"
+        fi
+
         if [ -z "${device_groups["${brand}"]}" ]; then
             device_groups["${brand}"]="${device_group}\n"
         else
