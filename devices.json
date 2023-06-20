@@ -590,7 +590,7 @@
       "name": "Mi A1",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Stallix)",
+            "maintainer_name": "Joey Huab (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
@@ -635,7 +635,7 @@
       "name": "Mi 9T Pro / Redmi K20 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Stallix)",
+            "maintainer_name": "Joey Huab (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
@@ -725,7 +725,7 @@
       "name": "Mi 11",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Stallix)",
+            "maintainer_name": "Joey Huab (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
@@ -806,6 +806,21 @@
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-android13-evolutionx-official-munch.4504789/",
             "device_group": "EvolutionX_Munch"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "marble",
+      "name": "POCO F5 / Redmi Note 12 Turbo",
+      "supported_versions": [
+         {
+            "maintainer_name": "Joey Huab (Shaughzam) | Shamik",
+            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r52-marble-official-evolution-x-06-21-23.4597991",
+            "device_group": "EvolutionXMarble"
          }
       ]
    },
