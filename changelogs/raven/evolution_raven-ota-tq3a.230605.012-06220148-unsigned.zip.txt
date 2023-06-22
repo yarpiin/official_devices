@@ -1,0 +1,13 @@
+PixelParts: Add about fragment
+PixelParts: Add tiles for PixelParts, BatteryInfo and Saturation
+PixelParts: Remove PEWQ toggle and tile
+KeyguardStatusBarView: Clean up cruft
+QS: Open Mobile Data panel on LongClick
+SettingsGoogle: Re-enable AOSP Battery percentage toggle for now
+SystemUI: Align keyguard carrier text with status bar
+SystemUI: Make clock & battery clickable again
+SystemUI: Re-enable stock clock tuner toggle
+DeviceConfig: Enable WallpaperEffects
+Fix NPE when store brightness and displayDevice is null
+WallpaperPicker2: Add null check for effectsController
+ThemePicker: Apply window insets to quick affordance fragment
