@@ -1,17 +1,17 @@
 {
-   "datetime": 1688963472,
+   "datetime": 1689426064,
    "donate_url": "https://linktr.ee/Shaughzam",
    "error": false,
-   "filehash": "3a91203c4bd8ee95a93b182216467336",
-   "filename": "evolution_venus-ota-tq3a.230705.001.b4-07100431-unsigned.zip",
+   "filehash": "076dfb2d0a78b4c1cabba1092c24a6c1",
+   "filename": "evolution_venus-ota-tq3a.230705.001.b4-07151301-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-venus-official-evolution-x-12-13-22.4490535/",
-   "id": "80d0e12c860739348c528c56302c9933dbedfafac95576449994abec30524445",
+   "id": "5aba8476bb4b9734ea4059d732bd53c2617b62a82dc8061698a4012687dfb4d6",
    "maintainer": "Joey",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2567632143,
+   "size": 2430555623,
    "telegram_username": "Shaughzam",
-   "url": "https://sourceforge.net/projects/evolution-x/files/venus/evolution_venus-ota-tq3a.230705.001.b4-07100431-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/venus/evolution_venus-ota-tq3a.230705.001.b4-07151301-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
