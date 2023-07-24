@@ -1,0 +1,50 @@
+This is Android 13 with July 2023 (r63) security patches
+
+Notes:
+==============================
+- Set Google Maps, Camera apps and any app with 3rd party with camera access to 60hz in per app refresh rate settings if you experience lag.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots, backup your stuff and do a clean flash.
+- Latest unofficial OFOX (decrypted), Official OFOX/TWRP (encrypted) are all supported.
+- Turn off blur toggle and reboot if you're experiencing UI glitches.
+- Turn on Lab in Leica camera, restart the app then turn off Parallel processing to fix normal captures.
+- Double tap to wake will be fixed in the future. Use Lift to wake for now.
+
+Device changes:
+==============================
+fingerprint: enable thinlto + whole program vtables optimization
+fix issues with Google Pay and NFC for CN variants
+------------------------------
+
+ROM changes:
+==============================
+7/24
+ConfigurationController: Prevent app crash on orientation change
+Evolver: Bring back QS header images
+camera: Allow to use boottime as timestamp reference
+camera: Guard newer HIDL overrideFormat
+fixup! Add toggle to enable brightness slider haptic feedback
+fixup! SystemUI: Allow customizing footer text
+
+7/21
+Evolver: Bring back Combined signal icons
+Evolver: Bring back Status bar brightness control
+Settings: Prioritize Build maintainer preference
+SystemUI: Restart SystemUI when toggling QS brightness slider haptic option
+
+7/20
+Evolver: Bring back customizable QS footer text
+Evolver: Bring back kill button to notification guts
+Evolver: Bring back Less boring heads up
+Evolver: Bring back Status bar Lyrics
+Launcher3: Fit settings title into one line
+Launcher3: Fix Lens toggle default value
+base: Add rounded corners to activity open/close animation
+vendor: Refactor Pixel inclusions
+
+7/19
+Evolver: Enable Photos spoof by default
+Now Playing: Updated v3 manifest to version 3059
+SystemUI: Add FingerprintInteractiveToAuthProvider implementation
+fixup! Settings: Hide SFPS wakeup setting when it's not supported
+gms: Import Wallpapers from felix and tangorpro
+gms: Replace PixelWallpapers2022 with PixelWallpapers2022a from lynx
