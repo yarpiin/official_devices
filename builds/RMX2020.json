@@ -1,17 +1,17 @@
 {
-   "datetime": "1688852252",
+   "datetime": 1688852252,
    "donate_url": " https://www.paypal.com/paypalme/chettyneil",
    "error": false,
    "filehash": "0b213bbd52e057bc283315454209fe3e",
    "filename": "evolution_RMX2020-ota-tq3a.230705.001.b4-07082140-unsigned.zip",
-   "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r49-official-rmx2020-evolution-x-7-9-2-02-06-2023.4576247/",
+   "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r49-official-rmx2020-evolution-x-7-9-2-02-06-2023.4576247",
    "id": "4b41dfad04ad780ec8b1fc899a8ca744d528d4c50e15d7092e3d3dbb35d21049",
    "maintainer": "Koushik Dey",
    "maintainer_url": "https://github.com/Koushikdey2003",
    "news_url": "https://t.me/EvolutionXOfficial",
    "size": "1807816044",
    "telegram_username": "Koushikdey3",
-   "url": "https://sourceforge.net/projects/evolution-x/files/RMX2020/evolution_RMX2020-ota-tq3a.230705.001.b4-07082140-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/RMX2020/13/evolution_RMX2020-ota-tq3a.230705.001.b4-07082140-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }

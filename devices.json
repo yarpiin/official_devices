@@ -485,7 +485,7 @@
       "name": "Mi A1",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Shaughzam)",
+            "maintainer_name": "Joey (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
@@ -530,7 +530,7 @@
       "name": "Mi 9T Pro / Redmi K20 Pro",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Shaughzam)",
+            "maintainer_name": "Joey (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
@@ -620,7 +620,7 @@
       "name": "Mi 11",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Shaughzam)",
+            "maintainer_name": "Joey (Shaughzam)",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",
@@ -710,7 +710,7 @@
       "name": "POCO F5 / Redmi Note 12 Turbo",
       "supported_versions": [
          {
-            "maintainer_name": "Joey Huab (Shaughzam) | Shamik",
+            "maintainer_name": "Joey (Shaughzam) | Shamik",
             "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
             "version_code": "thirteen",
             "version_name": "Thirteen",

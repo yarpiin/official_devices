@@ -49,7 +49,7 @@
 
 - [Xiaomi Mi 9T & Redmi K20](https://telegram.me/EvolutionXDavinci)
 
-- [Xiaomi Mi 9T Pro & Redmi k20 Pro](https://telegram.me/EvolutionXRaphael)
+- [Xiaomi Mi 9T Pro & Redmi k20 Pro](https://telegram.me/EvolutionXRaphael_v2)
 
 - [Xiaomi Mi 10T & 10 Pro](https://telegram.me/EvolutionXApollo)
 
@@ -60,6 +60,8 @@
 - [Xiaomi Gourami](https://telegram.me/EvolutionXKona)
 
 - [Xiaomi Poco X2 & Redmi K30](https://telegram.me/EvolutionXPhoenix)
+
+- [Xiaomi Poco F5](https://telegram.me/EvolutionXMarble)
 
 - [Xiaomi Redmi Note 5 Plus](https://telegram.me/EvolutionXVince)
 
