@@ -135,4 +135,6 @@ Ensure you replace `<input_json>` with the path to your input JSON file. This JS
 6. Once the changelog is added, the script will automatically commit the changes, allowing you to push and submit a pull request.
 
 
+- Example:
 
+![example](https://github.com/Evolution-X-Devices/official_devices/blob/master/assets/json_ota_helper_example.gif)
