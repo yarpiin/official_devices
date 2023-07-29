@@ -184,7 +184,7 @@ filehash=$(jq -r '.filehash' "$input_json")
 id=$(jq -r '.id' "$input_json")
 size=$(jq -r '.size' "$input_json")
 
-url="https://sourceforge.net/projects/evolution-x/files/${codename}/${filename}/download/"
+url="https://sourceforge.net/projects/evolution-x/files/${codename}/13/${filename}/download/"
 
 display_diff() {
     local old_value=$1
