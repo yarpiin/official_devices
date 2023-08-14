@@ -646,6 +646,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "venus",
+      "name": "Mi 11",
+      "supported_versions": [
+         {
+            "maintainer_name": "Joey (Shaughzam)",
+            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-raphael-official-evolution-x-09-08-22.4490535/",
+            "device_group": "EvolutionXVenus"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "mars",
       "name": "Mi 11 Pro",
       "supported_versions": [
