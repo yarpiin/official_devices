@@ -240,6 +240,21 @@
       ]
    },
    {
+      "brand": "Google",
+      "codename": "tangorpro",
+      "name": "Pixel Tablet",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixelTablet",
+            "maintainer_name": "Anierin Bliss",
+            "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-23-2023.4619801/"
+         }
+      ]
+   },
+   {
       "brand": "Lenovo",
       "codename": "zippo",
       "name": "Z6 Pro",
