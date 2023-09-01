@@ -721,6 +721,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "nabu",
+      "name": "Xiaomi Pad 5",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionX_Nabu",
+            "maintainer_name": "Eleazer Ennis",
+            "maintainer_url": "https://forum.xda-developers.com/m/eleazerennis.12643711/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2023.4622803/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "beryllium",
       "name": "POCO F1",
       "supported_versions": [
