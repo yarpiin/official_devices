@@ -480,6 +480,21 @@
       ]
    },
    {
+      "brand": "Realme",
+      "codename": "lunaa",
+      "name": "GT Master Edition",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXLunaa",
+            "maintainer_name": "Partha Sarathi",
+            "maintainer_url": "https://forum.xda-developers.com/m/bunny155.12602171/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2022.4622735/"
+         }
+      ]
+   },
+   {
       "brand": "Samsung",
       "codename": "crownlte",
       "name": "Galaxy Note 9",
