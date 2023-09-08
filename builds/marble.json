@@ -1,17 +1,17 @@
 {
-   "datetime": 1693826925,
+   "datetime": 1694177943,
    "donate_url": "https://linktr.ee/shaughzam",
    "error": false,
-   "filehash": "1dd4146b5ed4e5a28af72a980a1bed1b",
-   "filename": "evolution_marble-ota-tq3c.230805.001.b2-09041128-unsigned.zip",
+   "filehash": "157f0260f935303be701bf8bb8f272fd",
+   "filename": "evolution_marble-ota-tq3c.230805.001.b2-09081301-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r52-marble-official-evolution-x-06-21-23.4597991",
-   "id": "e4728d26ba38ffb6a949bdea7555ec58fabc088a6e77053954a847dc8555ac65",
+   "id": "4ba22475c90188a68745bb05d626a97f05f928fb3be7b96a1095de2990ca665b",
    "maintainer": "Joey",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2586145071,
+   "size": 2583010795,
    "telegram_username": "shaughzam",
-   "url": "https://sourceforge.net/projects/evolution-x/files/marble/13/evolution_marble-ota-tq3c.230805.001.b2-09041128-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/marble/13/evolution_marble-ota-tq3c.230805.001.b2-09081301-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
