@@ -826,6 +826,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "redwood",
+      "name": "POCO X5 Pro",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXRedwood",
+            "maintainer_name": "Priyanshu Jangid",
+            "maintainer_url": "https://forum.xda-developers.com/m/priyanshu-jangid.10108762/",
+            "version_code": "thirteen",
+            "version_name": "Thirteen",
+            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-09-08-2023.4625663/"
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "phoenix",
       "name": "Redmi K30 / POCO X2",
       "supported_versions": [
