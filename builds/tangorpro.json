@@ -1,17 +1,17 @@
 {
-   "datetime": 1694718243,
+   "datetime": 1694931832,
    "donate_url": "http://paypal.me/anierinb",
    "error": false,
-   "filehash": "28522005e39dbb45ab6a52056e9436b2",
-   "filename": "evolution_tangorpro-ota-tq3c.230805.001.b2-09162203-unsigned.zip",
+   "filehash": "72f4a56ae7588bce47c48e4917499377",
+   "filename": "evolution_tangorpro-ota-tq3c.230805.001.b2-09170628-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r74-official-evolution-x-7-9-7-08-31-2023.4619801/",
-   "id": "66db6caa38b74c8e96618a9c07b8a2883d146d1697f62442f6a5571fa4ffba46",
+   "id": "79a9a78a54ed65711beb10476c9ede5ef4598e03e992853969d14a8b387fbb89",
    "maintainer": "Anierin Bliss",
    "maintainer_url": "https://forum.xda-developers.com/m/anierinb.7125966",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2326704412,
+   "size": 2326686268,
    "telegram_username": "Anierin_Bliss",
-   "url": "https://sourceforge.net/projects/evolution-x/files/tangorpro/13/evolution_tangorpro-ota-tq3c.230805.001.b2-09162203-unsigned.zip/download/",
+   "url": "https://sourceforge.net/projects/evolution-x/files/tangorpro/13/evolution_tangorpro-ota-tq3c.230805.001.b2-09170628-unsigned.zip/download/",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
