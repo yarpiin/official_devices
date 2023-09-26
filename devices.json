@@ -856,21 +856,6 @@
    },
    {
       "brand": "Xiaomi",
-      "codename": "vayu",
-      "name": "POCO X3 Pro",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXVayu",
-            "maintainer_name": "Fikri A. (elizabethangelalorenza)",
-            "maintainer_url": "https://forum.xda-developers.com/m/elizabethangelalorenza.7923660",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-official-evolution-x-poco-x3-pro-vayu.4487643"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
       "codename": "spes",
       "name": "Redmi Note 11/NFC",
       "supported_versions": [
