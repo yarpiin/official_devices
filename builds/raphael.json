@@ -1,17 +1,17 @@
 {
-   "datetime": 1695101305,
+   "datetime": 1696339284,
    "donate_url": "https://linktr.ee/shaughzam",
    "error": false,
-   "filehash": "b5601d0be09439dbb56e11188e249566",
-   "filename": "evolution_raphael-ota-tq3c.230901.001.b1-09190531-unsigned.zip",
+   "filehash": "dfe030826c60d2a4112ba4f4554cd854",
+   "filename": "evolution_raphael-ota-tq3c.230901.001.b1-10031521-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0_r16-raphael-official-evolution-x-12-13-22.4481179",
-   "id": "3681d3cf022618d7a5d156c3e1525dfce2a10fd6827bf7ef964949b91cbc7af8",
+   "id": "c1d820a44cdb5c36d21822793824b0dc59092ac8085e662a399f9c7ac42c4b6c",
    "maintainer": "Joey",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2066006641,
+   "size": 2071217109,
    "telegram_username": "shaughzam",
-   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/13/evolution_raphael-ota-tq3c.230901.001.b1-09190531-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/raphael/13/evolution_raphael-ota-tq3c.230901.001.b1-10031521-unsigned.zip/download",
    "version": "Thirteen",
    "website_url": "https://evolution-x.org"
 }
