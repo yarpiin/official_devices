@@ -1,17 +1,17 @@
 {
-   "datetime": 1698043002,
+   "datetime": 1698715860,
    "donate_url": "https://linktr.ee/shaughzam",
    "error": false,
-   "filehash": "3bdf9bda2c23bfe577027b01fbea629c",
-   "filename": "evolution_venus-ota-ud1a.230803.041-10230838-unsigned.zip",
+   "filehash": "908b1a66b9453e972044b9b1d0557f39",
+   "filename": "evolution_venus-ota-up1a.231005.007.a1-10310231-OFFICIAL.zip",
    "forum_url": "https://xdaforums.com/t/rom-14-0_r11-venus-official-evolution-x-10-16-23.4636519/",
-   "id": "26608c671fa360b7b6378d2c2053e0ded090aad3dd231670baf346d71c98f9b6",
+   "id": "9d1ddb893b237e8fe9b3bec51f59d37a99002ff6b21678e562ec3b9acea62a76",
    "maintainer": "Joey",
    "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
    "news_url": "https://t.me/EvolutionXOfficial",
-   "size": 2376137853,
+   "size": 2515522660,
    "telegram_username": "shaughzam",
-   "url": "https://sourceforge.net/projects/evolution-x/files/venus/14/evolution_venus-ota-ud1a.230803.041-10230838-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/venus/14/evolution_venus-ota-up1a.231005.007.a1-10310231-OFFICIAL.zip/download",
    "version": "Fourteen",
    "website_url": "https://evolution-x.org"
 }
