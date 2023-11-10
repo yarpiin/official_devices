@@ -816,11 +816,11 @@
       "supported_versions": [
          {
             "device_group": "EvolutionXMarble",
-            "maintainer_name": "Joey (Shaughzam) | Shamik",
-            "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r52-marble-official-evolution-x-06-21-23.4597991"
+            "maintainer_name": "Joey (Shaughzam)",
+            "maintainer_url": "https://xdaforums.com/m/joeyhuab.4936496/",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": "https://xdaforums.com/t/rom-14-0_r14-marble-official-evolution-x-11-10-23.4640655/"
          }
       ]
    },
