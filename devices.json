@@ -826,6 +826,21 @@
    },
    {
       "brand": "Xiaomi",
+      "codename": "stone",
+      "name": "POCO X5 / Redmi Note 12 5G / Redmi Note 12R Pro ",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXStone",
+            "maintainer_name": "Sourajit Mukherjee (Dr.Opto)",
+            "maintainer_url": "https://github.com/Drpto",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Xiaomi",
       "codename": "redwood",
       "name": "POCO X5 Pro",
       "supported_versions": [
