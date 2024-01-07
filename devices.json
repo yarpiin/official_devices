@@ -436,21 +436,6 @@
    },
    {
       "brand": "Realme",
-      "codename": "RMX199X",
-      "name": "X2",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXX2",
-            "maintainer_name": "CHAITANYA",
-            "maintainer_url": "https://t.me/Chaitanyakm",
-            "version_code": "fourteen",
-            "version_name": "Fourteen",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Realme",
       "codename": "bladerunner",
       "name": "X50 Pro 5G",
       "supported_versions": [
