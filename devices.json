@@ -256,6 +256,21 @@
    },
    {
       "brand": "Google",
+      "codename": "felix",
+      "name": "Pixel Fold",
+      "supported_versions": [
+         {
+            "device_group": "EvolutionXPixelFold",
+            "maintainer_name": "Lahaina & Anierin Bliss",
+            "maintainer_url": "https://misskey.io/@lahaina_RMX3031",
+            "version_code": "fourteen",
+            "version_name": "Fourteen",
+            "xda_thread": ""
+         }
+      ]
+   },
+   {
+      "brand": "Google",
       "codename": "husky",
       "name": "Pixel 8 Pro",
       "supported_versions": [
