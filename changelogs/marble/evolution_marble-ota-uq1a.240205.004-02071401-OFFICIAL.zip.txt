@@ -11,6 +11,10 @@ Notes:
 
 Device changes:
 ==============================
+02/07
+Update Leica camera to Beta 7.0 hotfix (https://t.me/itzdfplayer_stash/1157, https://bitbucket.org/evo-x/vendor_xiaomi_miuicamera/commits/branch/udc)
+
+02/06
 Silence some spammy logging
 fixup! Enable VoNR Calls support
 overlay: Don't require long press for lockscreen shortcuts
@@ -24,6 +28,13 @@ switch to common Health AIDL
 
 Notable ROM changes:
 ==============================
+02/07
+Evolver: Clean up spoofing options
+PPU: Refactor again
+SystemUI: Enable pulsing animation for faceunlock
+Update translations
+
+02/06
 BatteryStatsViewer: Move it to Battery Section
 ChooseLockPassword: Decrease minimum pin length for auto confirm
 ChooseLockPassword: Don't uncheck auto confirm above minimum length
