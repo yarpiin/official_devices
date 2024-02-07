@@ -1,0 +1,39 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Kernel is already pre-rooted with KSU. Just install KSU apk file.
+- Uses latest Soviet kernel (https://github.com/SOVIET-ANDROID/kernel_xiaomi_raphael/commits/14.0-matrix).
+- Includes Viper4AndroidFX, Leica camera and 32-bit apps support.
+- Play Integrity passes by default (As of 02/07/2024).
+
+Device changes:
+==============================
+Update Leica camera port to Beta 7.0hotfix (https://t.me/itzdfplayer_stash/1157, https://bitbucket.org/evo-x/vendor_xiaomi_miuicamera/commits/branch/udc)
+Update to latest Soviet kernel (https://github.com/SOVIET-ANDROID/kernel_xiaomi_raphael/commits/14.0-matrix)
+
+Notable ROM changes:
+==============================
+BatteryStatsViewer: Move it to Battery Section
+ChooseLockPassword: Decrease minimum pin length for auto confirm
+ChooseLockPassword: Don't uncheck auto confirm above minimum length
+Evolver: Clean up spoofing options
+Evolver: Update Island settings
+Island: Do not show now playing on keyguard and dozing state
+IslandView: Fix and improve notification regex filtering
+Merge February 2024 security patches (r25)
+PPU: Refactor again
+PPU: Update fingerprints to February 2024 release
+Settings: Adapt Evolver fragment paths
+Settings: Hide battery info
+SystemUI: Allow disabling long press for lockscreen shortcuts
+SystemUI: Enable pulsing animation for faceunlock
+SystemUI: Introduce dynamic VoLTE & VoWiFi icons
+Update translations
+device_config: Update some values
+fixup! SystemUI: Implement burn-in protection for status/navbar
+overlay: Disable a couple more OTA upgrade components
+overlay: Disable OtaUpdateActivity component
+rro_overlays: Whitelist oslo plugin
+version: Uprev to 8.3
