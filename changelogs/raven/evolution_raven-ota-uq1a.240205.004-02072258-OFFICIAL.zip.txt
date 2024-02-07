@@ -1,0 +1,26 @@
+February 2024 Security update
+
+Device specific changes:
+Unlock support for Osaifu-Keitai on non-Japanese SKUs.
+Update fingerprint/build description from UQ1A.240205.002.
+Update proprietary blobs/firmware from UQ1A.240205.002.
+
+PixelParts:
+Use AOSP color mode preview for saturation.
+Allow continuousUpdates for saturation SeekBarPreference.
+Add PixelTorchButtonService Accessibility service.
+Add option to cycle between multiple torch strengths.
+
+Rom side feature additions:
+Bring back custom UDFPS animations.
+Bring back expanded volume panel.
+Add dynamic VoLTE & VoWiFi icons.
+Add AlarmsBlocker.
+Add WakelockBlocker.
+Add option to vibrate on scroll flings.
+Add Advanced navigation "extended/L" gestures.
+
+Misc:
+Enable burn in detection by default.
+Enable pulsing animation for faceunlock.
+Various miscellaneous SystemUI, Evolver and Settings fixes/improvements.
