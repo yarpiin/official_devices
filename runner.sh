@@ -2,7 +2,7 @@
 # Copyright © 2019 Maestro Creativescape
 # Copyright © 2023 Akito Mizukito (Haruka Aita)
 
-ADMINS="@RealAkito @Shaughzam @Anierin_Bliss"
+ADMINS="@RealAkito @jgh_tg @Anierin_Bliss"
 COMMIT_AUTHOR="$(git log -1 --format='%an <%ae>')"
 COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
 COMMIT_SMALL_HASH="$(git rev-parse --short HEAD)"
