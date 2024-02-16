@@ -1,305 +1,82 @@
-[CENTER][URL='http://evolution-x.org'][IMG]https://i.imgur.com/IvlZLyc.png[/IMG][/URL]
+[CENTER][SIZE=6][COLOR=rgb(0, 96, 255)][B][COLOR=rgb(0, 96, 255)][B]G[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]o[/B][/COLOR][COLOR=rgb(250, 197, 28)][B]o[/B][/COLOR][COLOR=rgb(0, 96, 255)][B]g[/B][/COLOR][COLOR=rgb(97, 189, 109)][B]l[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]e[/B][/COLOR] Pixel 6, 6 Pro & 6a[/B][/COLOR]
+[COLOR=rgb(0, 96, 255)][B][oriole][raven][bluejay][/B][/COLOR][/SIZE]
 
-[SIZE=5][B][COLOR=rgb(0, 96, 255)]Evolution X 8.3 for the POCO F5 / Redmi Note 12 Turbo [SIZE=5][B][COLOR=rgb(0, 96, 255)][marble][/COLOR][/B][/SIZE][/COLOR][/B][/SIZE]
+## INSERT FULL BANNER HERE
 
-[CODE]/*
-* Your warranty is void. Or valid, probably?
-*
-* I am not responsible for bricked devices, dead SD cards, Ebolation X,
-* thermonuclear war, or the current economic crisis caused by you following
-* these directions. YOU are choosing to make these modifications, and if
-* you point your finger at me for messing up your device, I will LMAO at you.
-*/[/CODE]
+[SIZE=5][B][COLOR=#0060FF][B]Pixel UI, customization and more, we are Evolution X![/B][/COLOR][/B][/SIZE]
 
-[IMG]https://i.imgur.com/0KUV8YX.png[/IMG]
+[URL='https://xdaforums.com/m/joeyhuab.4936496/']Joey Huab[/URL] - Founder/Lead Developer
+[URL='https://xdaforums.com/m/anierinb.7125966/']Anierin Bliss[/URL] - Co-Founder/Project Specialist
+[URL='https://xdaforums.com/m/realakito.9008281/']Akito Mizukito [/URL]- Co-Founder/Project Manager
 
-[SIZE=5][COLOR=rgb(0, 96, 255)][B]Keep Evolving[/B][/COLOR][/SIZE]
-[SIZE=3]Pixel UI, customization, and more, we are Evolution X![/SIZE]
+[I]Reach us on Twitter! [URL='https://twitter.com/EvolutionXROM']@EvolutionXROM[/URL][/I]
+Check out our [URL='https://evolution-x.org/']website[/URL]!
 
-[B]- Team Evolution X - [/B]
-@[URL='https://xdaforums.com/member.php?u=4936496']joeyhuab[/URL] (Founder/Lead Developer)
-@[URL='https://xdaforums.com/m/realakito.9008281/']RealAkito[/URL](Project Manager/Co-Founder)
-@[URL='https://xdaforums.com/m/anierinb.7125966/']AnierinB[/URL] (Project Specialist/Co-Founder)
+[IMG]https://i.imgur.com/wjBJ2Hk.png[/IMG]
 
-[SIZE=3][I]Reach us on Twitter! [URL='https://twitter.com/EvolutionXROM']@EvolutionXROM[/URL][/I][/SIZE]
+[SPOILER="Feature List"][CODE]
+8.x Regeneration coming soon
+[/CODE][/SPOILER]
 
-[IMG]https://i.imgur.com/SRQCjQJ.png[/IMG]
+[IMG]https://i.imgur.com/sxs3pbW.png[/IMG]
 
-[U][I][B]What are our features?[/B][/I][/U]
-[SPOILER="Click to see all features!"]
-Themes
+[SIZE=5][B][COLOR=red]DO NOT FLASH GAPPS; ALREADY INCLUDED[/COLOR][/B][/SIZE]
 
-- Theming Settings (Style, Color Source, Accent Color, Accent Background, Background Color, Luminance, Chroma, Tint Background)
-- Custom Themes (Black, Clear, Vivid, Paint In The Snow, Espresso)
-- Dark Theme Schedules
-- Lock screen Clock Fonts (16 Fonts)
-- Headline/Body Fonts (53 Fonts)
-- SB Icon Packs (10 Styles)
-- SB Signal Icon Packs (14 Styles)
-- SB WiFi Icon Packs (10 Styles)
-- System Icon Shape Packs (16 Styles)
-- 3 Button Navbar Styles (10 Styles)
+[IMG]https://i.imgur.com/VvzRh0K.png[/IMG]
 
-Status bar
+[SPOILER]
+[SIZE=5][B][COLOR=rgb(0, 96, 255)][SIZE=5][B]First Time Install[/B][/SIZE][/COLOR][/B][/SIZE]
+[COLOR=rgb(251, 160, 38)](Note: These releases include firmware.)[/COLOR]
+1. Download boot, dtbo, vendor_boot & rom for your device from [URL='https://xdaforums.com/t/rom-13-0_r20-official-evolution-x-7-5-01-30-2023.4547009/post-88066737']here[/URL]
+2. Reboot to bootloader
+3. fastboot flash boot boot.img
+fastboot flash dtbo dtbo.img
+fastboot flash vendor_boot vendor_boot.img
+fastboot reboot recovery
+4. While in recovery, navigate to Factory reset -> Format data/factory reset and confirm to format the device.
+5. When done formatting, go back to the main menu and then navigate to Apply update -> Apply from ADB
+6. adb sideload rom.zip (replace "rom" with actual filename)
+7 (optional). Reboot to recovery to sideload any add-ons (e.g magisk)
+8. Reboot to system & #KeepEvolving
 
-- Status Bar Lyrics
-- Clock Styles (Right, Center, Left)
-- Clock & Date Configs (Auto Hide, Hide Duration, Show Duration, Seconds, AM/PM, Font Size, Date Position/Case/Format)
-- SB Logo Pack (20 Styles, Right/Left)
-- Network Traffic Indicators
-- Battery Icon Styles (19 Styles)
-- Battery Percent (Hidden, Inside Icon, Next To Icon)
-- Battery Bar (Thickness, Alignment, Blend Colors, Reverse Direction, Colors, Animation)
-- System SB UI Tuner
-- Data Disabled Icon (On/Off)
-- Old Style Mobile Data
-- 4G Instead Of LTE
-- Roaming Indicator
-- WiFi Type Icon
-- Colored Icons
-- Notification Count
-- Bluetooth Battery Status
-- Mic/Camera Privacy Indicator
-- Location Privacy Indicator
-- Media Projection Privacy Indicator
+[SIZE=5][B][COLOR=rgb(0, 96, 255)]Update[/COLOR][/B][/SIZE]
+[SIZE=3]1. Reboot to recovery
+2. While in recovery, navigate to Apply update -> Apply from ADB
+3. adb sideload rom.zip (replace "rom" with  actual filename)[/SIZE]
+4 (optional). Reboot to recovery to sideload any add-ons (e.g magisk)
+[SIZE=3]5. Reboot to system & #KeepEvolving
 
-Notifications
-
-- ReTicker
-- App Colored Background For Reticker
-- Heads Up (Time Out, Importance Threshold, Less Boring, Stoplist/BlockList)
-- Force Expand Notifications
-- Notification Sound If Active
-- Kill App Button
-- Blink Flashlight For Incoming Call (When Ringing, When Silent, When Entierly Silent, Always)
-- Blink Flashlight For Notifications
-- In-Call-Vibrations (Connect, Waiting, Disconnect)
-
-Quick Settings
-
-- Clock
-- Clock Font Size
-- Date
-- Battery Style (15 Styles)
-- Battery Percent Location (Hidden, Inside Icon, Next To Icon)
-- Battery Estimates
-- Secure QS Tiles Requires Unlocking
-- Quick QS Pulldown (Disabled, Right, Left, Always)
-- Brightness Slider (Never, Expanded, Always)
-- Brightness Slider Position (Top, Bottom)
-- Auto Brightness Icon
-- Hide Labels
-- Label Text Size
-- Smart Pulldown
-- Vertical Layout
-- Columns In Portrait (2-5)
-- Columns In Landscape (2-6)
-- QS Tile Animation Style (3 Styles)
-- QS Tile Animation Druations (3 Speeds)
-- QS Tile Animation Interpolator (8 Styles)
-- Vibration On Touch
-- Vibration On Touch Duration
-- QS Footer Warnings
-- Show Data Usage
-- User Account Icon
-- Edit Icon
-- Power Menu Shortcut
-- Running Services Shortcut
-- Settings Shortcut
-- Clear All Button (10 Styles, 5 Backgrounds)
-
-Power Menu
-
-- System Settings (Hold PWR Assistant + Hold Duration)
-- Disable Power Menu On LS
-- Power
-- Restart
-- Advanced Reboot Options
-- Screenshot
-- On-The-Go Mode
-- Settings
-- Lock Down
-- Emergency
-- Device Controls
-- Users
-- Logout
-- Bug Report
-
-Gestures
-
-- System Settings
-- Quick Tap
-- Volume Button Playback Control
-- Swipe To Screenshot
-- Brightness Control
-- PWR Button Torch
-- Double Tap To Sleep Status Bar
-- Double Tap To Sleep Lock screen
-- AOSP Gestures
-- Pill Length
-- Pill Radius
-- Hide IME Button Space
-- Back Gesture Animation
-
-Lock screen
-
-- Edge Light
-- Always On Fingerprint
-- UDFPS Icon Picker (55 Styles)
-- UDFPS Animation Picker (38 Styles)
-- Lock screen Charging Info
-- Hide Status Bar
-- Hide QS During Secure Lock screen
-- Media Cover Art (5 Filters)
-- Ripple Effect
-- Fingerprint Authentication Vibration
-- Fingerprint Error Vibration
-
-Buttons
-
-- Navigation Bar
-- Compact Layout
-- Invert Layout
-- Show Vol Panel On Left
-- Per App Vol Control
-- On-Screen NavBar
-- Reorient Volume
-- Volume Rocker Wake
-- Keyboard Cursor Control
-- Alert Slider Notifications
-- Alert Slider Pulse
-- Block Alert Slider In Pocket Mode
-- Click To Partial Screenshot
-
-Animations
-
-- Screen Off Animation (3 Styles)
-- Power Menu Animations (11 Styles)
-- Android P Animation Style
-
-Miscellaneous
-
-- AOD Display Schedule
-- Google Services
-- Parallel Space
-- Game Space
-- Smart Pixels
-- App Lock
-- Launch Music App On Headset Connection
-- Unlimited Photos Storage
-- Unlock Higher FPS In Games
-- Netflix Spoof
-- Pulse Music Visualizer (Navbar, LS, Ambient)
-- Volume Panel Timeout
-- Jitter Test
-- Ignore Secure Window Flags
-- Show CPU Info
-- Toast App Icon
-- Sensor Block Per Package
-- Wakelock Blocker
-- Alarm Blocker
-- Default USB Configuration
-- Radio Info
-
-Evolution X Launcher
-
-- Icon Packs
-- Notification Dots
-- Icon Size
-- Icon Font Size
-- Max Lines For App Label
-- Lock Layout
-- Add App Icons To Home
-- Dark Status Bar
-- Double Tap To Sleep
-- Wallpaper Scrolling
-- Wallpaper Zooming
-- At A Glance
-- Swipe To Access Google Feed
-- Hide/Show Status Bar
-- Top Shadow
-- Icon Labels On Desktop
-- Hotseat Background
-- Google Search bar
-- Themed Icons
-- Corner Radius
-- Themed Icons In App Drawer
-- App Drawer Search bar
-- Icon Labels In App Drawer
-- App Drawer Row Height
-- App Drawer Background Opacity
-- Recents Background Opacity
-- Recents Scroll Vibration
-- Recents Screenshot
-- Recents Google Lens
-- Recents Clear All
-- Suggestions In All Apps List
-- Suggestions On Home
-- Blocked Suggestions
-- Parallel Space
-- Taskbar
-- Rotation
-- Hidden & Protected Apps
+[COLOR=rgb(0, 96, 255)][SIZE=5][B]OTA[/B][/SIZE][/COLOR][/SIZE]
+[SIZE=3]1. Check for update. If available, select "Download and install" (approx 10-15 min)
+2. Reboot & #KeepEvolving[/SIZE]
 [/SPOILER]
 
-[IMG]https://i.imgur.com/CIrL2gb.png[/IMG]
+[URL='https://www.paypal.me/anierinb'][IMG width="200px" height="180px"]https://i.imgur.com/FozPQ02.png[/IMG][/URL][URL='https://t.me/EvolutionXOfficialRom'][IMG width="200px" height="180px"]https://i.imgur.com/Oi7vMpZ.png[/IMG][/URL][URL='https://t.me/EvolutionXPixel6'][IMG width="200px" height="180px"]https://i.imgur.com/xGD7nVK.png[/IMG][/URL][/CENTER]
 
-* ADB sideload is currently broken in Evo recovery
-* Leica camera will not fully work. Supermoon, Pocket Mirror, and Fastshot currently crash.
-
-[IMG]https://i.imgur.com/o2G52Ve.png[/IMG]
-
-[SIZE=5][B]PLEASE DO NOT FLASH GAPPS, THEY ARE ALREADY INCLUDED
-
-First Time Install / Clean Flash from MIUI[/B][/SIZE]
-
-Backup your entire internal storage as it will be wiped in the final step before rebooting to the system.
-
-Flash [URL='https://xiaomifirmwareupdater.com/archive/firmware/marble/']MIUI 14 firmware[/URL] of your region if coming from HyperOS
-
-Flash the linked [URL='https://t.me/EvolutionXMarble/1/128558']recovery[/URL] image by performing the following:
-
-[CODE]fastboot flash recovery filename.img[/CODE]
-
-After finishing with that, get into recovery by pressing the power button and volume up button. Or run "fastboot reboot recovery"
-
-After that, Install the ROM either by doing the normal flashing step or use adb sideload.
-
-Then kindly perform a format data in the recovery afterwards.
-
-Reboot! Enjoy! #KeepEvolving
-
-[URL='https://sourceforge.net/projects/evolution-x/files/marble'][IMG]https://i.imgur.com/dvp0Hq1.png[/IMG][/URL]
-[URL='https://linktr.ee/shaazice'][IMG]https://i.imgur.com/Boc2GdE.png[/IMG][/URL][URL='https://t.me/EvolutionXMarble'][IMG]https://i.imgur.com/RwBEPP8.png[/IMG][/URL]
-
-[SIZE=1][URL='https://sourceforge.net/projects/evolution-x/files/marble']Download[/URL]
-[URL='https://linktr.ee/shaazice']Donate to me![/URL] / [URL='https://t.me/EvolutionX']Official Chat[/URL] / [URL='https://t.me/EvolutionXMarble']Device Support[/URL][/SIZE]
-
-[URL='https://github.com/Evolution-X'][IMG]https://i.imgur.com/S2t0kJ9.png[/IMG][/URL]
-[/CENTER]
-[LIST]
-[*][B]Android OS version:[/B] 14.0.0_r25
-[*][B]Security patch level:[/B] February 2024
-[*][B]Build author: [/B][URL='https://xdaforums.com/member.php?u=4936496']Joey Huab[/URL]
-[*][B]Source code: [/B][URL='https://github.com/Evolution-X']Evolution X GitHub[/URL]
-[*][B]Kernel Source code: [/B][URL='https://github.com/karthick-kk/android_kernel_common_silvercore']Silvercore kernel[/URL]
-[*][B]ROM Developer: [/B][URL='https://xdaforums.com/member.php?u=4936496']Joey Huab[/URL]
-[/LIST]
-
-[B][U][SIZE=4]XDA: DevDB Information[/SIZE][/U][/B]
-[SIZE=3][B]Evolution X, ROM for the POCO F5 / Redmi Note 12 Turbo[/B][/SIZE]
-
-[B][U]Contributors[/U][/B]
-[URL='https://xdaforums.com/member.php?u=4936496']joeyhuab[/URL]
-
-[B]ROM OS Version:[/B] Android 14
-[B]ROM Kernel:[/B] Linux 5.10.207
-[B]Based On:[/B] AOSP
-
-[B][U]Version Information[/U]
-Status:[/B] Stable
-[B]Current Stable Version:[/B] 8.3
-[B]Stable Release Date:[/B] 2023-11-10
-
-[B]Created[/B] 2023-11-10
-[B]Last Updated[/B] 2024-02-07
+[TABLE]
+[TR]
+[TD][IMG]https://i.imgur.com/S2t0kJ9.png[/IMG][/TD]
+[/TR]
+[TR]
+[TD][B][COLOR=rgb(97, 189, 109)]Android version[/COLOR]:[/B] [URL='https://github.com/Evolution-X/manifest/tree/udc-p']14.0_r25[/URL][/TD]
+[/TR]
+[TR]
+[TD][B][COLOR=rgb(184, 49, 47)]Security patch level[/COLOR]:[/B] [URL='https://source.android.com/security/bulletin/2024-02-01']February 2024[/URL][/TD]
+[/TR]
+[TR]
+[TD][B][COLOR=rgb(41, 105, 176)]Build author[/COLOR]:[/B] [URL='https://xdaforums.com/m/anierinb.7125966/']Anierin Bliss[/URL][/TD]
+[/TR]
+[TR]
+[TD][B][COLOR=rgb(65, 168, 95)]Kernel Source[/COLOR]:[/B] [URL]https://github.com/Evolution-X-Devices/kernel_google_gs201[/URL][/TD]
+[/TR]
+[TR]
+[TD][COLOR=rgb(243, 121, 52)][B]Clang version:[/B] 14.0.7[/COLOR][/TD]
+[/TR]
+[TR]
+[TD][B][COLOR=rgb(41, 105, 176)]ROM Developer[/COLOR]:[/B] [URL='https://xdaforums.com/member.php?u=4936496']Joey Huab[/URL][/TD]
+[/TR]
+[TR]
+[TD][B][COLOR=rgb(97, 189, 109)]Source code[/COLOR]:[/B] [URL]https://github.com/Evolution-X[/URL][/TD]
+[/TR]
+[/TABLE]
+[CENTER][/CENTER]
