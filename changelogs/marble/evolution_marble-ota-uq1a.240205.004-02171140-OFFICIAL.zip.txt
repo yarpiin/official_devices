@@ -1,0 +1,66 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- Update to HyperOS firmware first then flash the ROM after. CN users may use Global fw until CN fw is available.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 02/17/2024).
+- Uses Evenstar kernel
+- Includes Dolby Atmos, Dolby Vision, Viper4AndroidFX, Leica camera.
+- Credits to YukongA, AkaneTan, Saikiran, GR.
+
+Device changes:
+==============================
+Add default affinity bootarg for Waipio
+Change GPS NFW client to Google Carrier Location
+Enable Pelt8 during boot
+Enable allow_file_spec_access on waipio
+Fix maintainer name
+Import oriole cpuctl tuning
+Switch to 64-bit only builds
+init: Tuning UFS clkgate and ah8 during boot time
+overlay: Don't force disable Now Playing
+overlay: Enable config_hasTurboPowerCharger
+parts/keyhandler: Guard debug logging
+props: Clean up useless log spams
+props: silence OpenGLRenderer log spam
+sepolicy: qti: Address qcom perf hal denials
+update to hyper os 1.0.2.0.UMRMIXM
+
+Notable ROM changes:
+==============================
+Add 5G Ultra Wideband icon carrier config keys
+Avoid deadlock caused by android.bg and RollbackManagerServiceHandler
+Avoid duplicate map lookups in RemoteConnectionManager.
+Disable freeze_exempt_inst_pkg by default
+Don't apply UI width limitation to an external display
+Fix drawable-state cache expired issue
+Fix multiuser freeze-kills
+Fix screen flickering when using one handed mode
+Fixing typo
+Frameworks/base: Fix potential IllegalStateException in RescueParty.
+Gesture nav: Add back menu action
+Gesture nav: Add go forward action
+Gestures nav: Add back show recents action
+Gestures nav: Make it cancellable
+Init some time Process stats with very negative numbers
+LockPatternView: Fix showing pattern error
+NetworkTraffic: Handle flooding network requests
+Normalize wakelock blocker
+PPU: Spoof Gemini to P8P
+PhoneWindowManager: Pass correct assistInvocationType for KEYCODE_ASSIST
+PixelPropUtils: Spoof velvet search process and gms
+PixelPropsUtils: Improve tablet spoofing
+PixelPropsUtils: Refactor and cleanup spoofing (enables Circle to Search and other Pixel 8 Pro features)
+Prevent duplicate release same transaction from TransactionPool
+Remove unnecessary HashMap instantiation
+Revert "SystemUI: Update udfps animation position on sensor props change"
+SettingsProvider: Allow overriding volume panel default location
+SystemUI: Allow ignoring IWlan status in the mobile icon pipeline
+SystemUI: BackPanel: Always add second arrow in front on long swipe
+SystemUI: Fix double unlock sound issue
+SystemUI: Introduce wifi standard icon feature [1/2]
+UI: Follow Monet and light/dark theme in user 1 icon
+fixup! core: Workaround for ASI crash
+telephony: Add ICCID into CarrierIdentifier
