@@ -1,0 +1,40 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Kernel is already pre-rooted with KSU. Just install KSU apk file.
+- Play Integrity passes by default (As of 02/24/2024).
+- Uses Bool-X kernel
+- Includes Viper4AndroidFX, Leica camera.
+- Credits to kondors1995, pwnrazr and onettboots.
+
+Device changes:
+==============================
+Switch to Bool-X kernel
+Update kernel flags
+powerhint: Update max freq for clusters
+rootdir: set thermal config to dynamic
+qdcm: Rework calibration profiles
+
+Notable ROM changes:
+==============================
+Always allow overriding the number of work profiles
+Boost process priority during fork.
+CEC: correct frameworks physicalAddress parsing
+EvolutionUtils: Refactor isPackageInstalled method
+Fix judgment logic of DisplayDeviceConfig#loadSdrHdrRatioMap.
+Fix race condition in process observer
+KeyStore: Update local attestation spoofing
+LocalImageResolver: Stop the spam
+Make sure we'll always kill process group
+PixelPropsUtils: Clean up and minor fixups
+Reduce some redundant steps
+ScreenOffAnimation: Fix system animation disable check
+Settings: Deviceinfo: Extend Battery info page
+Settings: Phone ringtone setting for Multi SIM device
+SystemUI: Forward port 'HD & wifi calling statusbar icons'
+UserDataPreparer: be more careful about auto-deleting data on error
+core: BatteryManager: Add few more Battery broadcast intents
+core: Enable force disable nav bar config by default
+restore Android 13 "pause work profile" behavior
