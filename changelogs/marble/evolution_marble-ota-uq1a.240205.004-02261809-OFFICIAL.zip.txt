@@ -1,0 +1,30 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- CAUTION!!! Make sure to update to HyperOS firmware first then flash the ROM after.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Install KSU zip or Magisk for root.
+- Play Integrity passes by default (As of 02/27/2024).
+- Uses Silvercore kernel
+- Includes Dolby Atmos, Dolby Vision, Leica camera.
+- Credits to YukongA, AkaneTan, Saikiran, GR, Chaitanya.
+
+Device changes:
+==============================
+Remove Dirac audio
+Remove OnePlus Dolby app and revert to XiaomiParts Dolby
+Remove Viper4AndroidFX
+Revert Leica version to Mod_GLNRALR_5.0.230706.0_12
+props: Remove Force triple frame buffers
+
+Notable ROM changes:
+==============================
+Evolver: Allow force enabling tensor feature XMLs on non-Pixels
+GamesPropsUtils: Update packages list
+PixelPropsUtils: Clean up and updates
+Settings: WifiTetherApBand: Fix NPE at updateDisplay
+Update translations
+config: Include AudioPackage14.mk
+overlay: Force re-enable Pokemon Pixel live wallpaper
+overlay: Launcher: Update Find my device themed icon from Husky QPR1
