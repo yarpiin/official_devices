@@ -1,0 +1,37 @@
+This is Android 14 with February 2024 QPR1 (r25) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Kernel is already pre-rooted with KSU. Just install KSU apk file.
+- Play Integrity passes by default (As of 02/24/2024).
+- Uses Bool-X kernel
+- Includes Viper4AndroidFX, Leica camera.
+- Credits to kondors1995, pwnrazr and onettboots.
+
+Device changes:
+==============================
+None
+
+Notable ROM changes:
+==============================
+Check for Location Feature and GNSS HAL Support
+Don't skip process group creation for system_server
+Evolver: Allow force enabling tensor feature XMLs on non-Pixels
+FingerprintSettings: Add proximity check awareness if supported
+Fix unknown sources app install confirmation
+GamesPropsUtils: Update packages list
+OverlayManagerService: add a new thread to handle user receiver
+PixelPropsUtils: Various changes
+PlayerSettingsManager: Add null checks to avoid crash for MediaPlayerWrapper or session token
+SF: Re-enable expensive rendering for blurs
+Settings: deviceinfo: Extend Battery info page
+Settings: Phone ringtone setting for Multi SIM device
+Settings: WifiTetherApBand: Fix NPE at updateDisplay
+Update translations
+config: Include AudioPackage14.mk
+core: Enable force disable nav bar config by default
+fixup! base: Add support for app lock
+overlay: Force re-enable Pokemon Pixel live wallpaper
+overlay: Launcher: Update Find my device themed icon from Husky QPR1
+statsd: Disable native stats collection service
