@@ -1,0 +1,34 @@
+Fix online SUW on pixels
+Add toggle to spoof pixel devices as pixel 8 pro
+NetworkTraffic: Handle flooding network requests
+Settings: Introduce new refresh rate selector page
+Settings: Add userRestriction for auto brightness
+LockPatternView: Fix showing pattern error
+BondStateMachine: Allow skipping confirm for some remotes
+Evolver: Bring back Netflix spoof
+Normalize wakelock blocker
+fixup Workaround for ASI crash
+PixelPropsUtils: Improve tablet spoofing
+PixelPropsUtils: Refactor and cleanup spoofing
+Gestures nav: Make it cancellable
+Gesture nav: Add go forward action
+Gesture nav: Add back menu action
+Enable Cloud Media provider
+SystemUI: BackPanel: Always add second arrow in front on long swipe
+Gestures nav: Add back show recents action
+Revert "SystemUI: Update udfps animation position on sensor props change"
+UI: Follow Monet and light/dark theme in user 1 icon
+SystemUI: Fix double unlock sound issue
+Fix screen flickering when using one handed mode
+Introduce wifi standard icon feature
+PixelPropUtils: Spoof velvet search process and gms
+PPU: Spoof Gemini to P8P
+Add 5G Ultra Wideband icon carrier config keys
+Telephony: Adapt to S style
+telephony: Add ICCID into CarrierIdentifier
+Remove unnecessary HashMap instantiation
+Avoid duplicate map lookups in RemoteConnectionManager.
+Fix potential IllegalStateException in RescueParty.
+Spoof current storage encryption status
+fuelgauge: Hide screen time since last full charge if not valid
+DataProcessor: Do not skip and replace screen on component with screen on time
