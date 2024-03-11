@@ -391,51 +391,6 @@
    },
    {
       "brand": "OnePlus",
-      "codename": "lemonade",
-      "name": "OnePlus 9",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXOnePlus9",
-            "maintainer_name": "Imminent",
-            "maintainer_url": "https://forum.xda-developers.com/m/imminented_.12658643/",
-            "version_code": "fourteen",
-            "version_name": "Fourteen",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "lemonadep",
-      "name": "OnePlus 9 Pro",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXOnePlus9",
-            "maintainer_name": "Imminent",
-            "maintainer_url": "https://forum.xda-developers.com/m/imminented_.12658643/",
-            "version_code": "fourteen",
-            "version_name": "Fourteen",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
-      "codename": "martini",
-      "name": "OnePlus 9RT",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXOnePlus9",
-            "maintainer_name": "Mrick343",
-            "maintainer_url": "https://forum.xda-developers.com/m/mrick343.12517809/",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": "https://forum.xda-developers.com/t/rom-13-0_r63-martini-official-evolution-x-07-17-23.4606415/"
-         }
-      ]
-   },
-   {
-      "brand": "OnePlus",
       "codename": "denniz",
       "name": "OnePlus Nord 2 5G",
       "supported_versions": [

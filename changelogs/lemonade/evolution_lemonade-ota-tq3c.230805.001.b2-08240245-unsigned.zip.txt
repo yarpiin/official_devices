@@ -1,2 +1,0 @@
--Fixed the night mode crashing sometimes
--Switch to libperfmgr & mimalloc
