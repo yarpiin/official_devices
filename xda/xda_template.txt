@@ -1,6 +1,6 @@
 [CENTER]
-[SIZE=6][COLOR=rgb(0, 96, 255)][B][COLOR=rgb(0, 96, 255)][B]G[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]o[/B][/COLOR][COLOR=rgb(250, 197, 28)][B]o[/B][/COLOR][COLOR=rgb(0, 96, 255)][B]g[/B][/COLOR][COLOR=rgb(97, 189, 109)][B]l[/B][/COLOR][COLOR=rgb(184, 49, 47)][B]e[/B][/COLOR] Pixel 7, 7 Pro & 7a[/B][/COLOR]
-[COLOR=rgb(0, 96, 255)][B][panther][cheetah][lynx][/B][/COLOR][/SIZE]
+[SIZE=6][B][COLOR=rgb(0, 96, 255)]G[/COLOR][COLOR=rgb(184, 49, 47)]o[/COLOR][COLOR=rgb(250, 197, 28)]o[/COLOR][COLOR=rgb(0, 96, 255)]g[/COLOR][COLOR=rgb(97, 189, 109)]l[/COLOR][COLOR=rgb(184, 49, 47)]e[/COLOR][/B][/SIZE] [COLOR=rgb(0, 96, 255)][B][SIZE=6]Pixel 7, 7 Pro & 7a[/SIZE][/B][/COLOR]
+[COLOR=rgb(0, 96, 255)][B][SIZE=6][panther][cheetah][lynx][/SIZE][/B][/COLOR]
 
 [IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/banner_style_1.png[/IMG]
 
@@ -26,7 +26,7 @@ Check out our [URL='https://evolution-x.org/']website[/URL]!
 [SPOILER]
 [SIZE=5][B][COLOR=rgb(0, 96, 255)][SIZE=5][B]First Time Install[/B][/SIZE][/COLOR][/B][/SIZE]
 [COLOR=rgb(251, 160, 38)](Note: These releases include firmware)[/COLOR]
-1. Download boot, dtbo, vendor_kernel_boot, vendor_boot & rom for your device from [URL='https://xdaforums.com/t/rom-14-0_r25-official-evolution-x-8-3-02-08-2024.4546503/post-88060315']here[/URL]
+1. Download boot, dtbo, vendor_kernel_boot, vendor_boot & rom for your device from [URL='https://xdaforums.com/t/rom-14-0_r25-official-evolution-x-8-3-03-04-2024.4546503/post-88060315']here[/URL]
 2. Reboot to bootloader
 3. fastboot flash boot boot.img
 fastboot flash dtbo dtbo.img
@@ -51,14 +51,14 @@ fastboot reboot recovery
 2. Reboot & #KeepEvolving[/SIZE]
 [/SPOILER]
 
-[URL='https://www.paypal.me/anierinb'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/donate_to_me.png[/IMG][/URL][URL='https://discord.gg/3qbSZHx'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/official_chat.png[/IMG][/URL][URL='https://discord.gg/3qbSZHx'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/device_support.png[/IMG][/URL][/CENTER]
+[URL='https://paypal.me/anierinb'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/donate_to_me.png[/IMG][/URL][URL='https://discord.gg/3qbSZHx'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/official_chat.png[/IMG][/URL][URL='https://discord.gg/3qbSZHx'][IMG width="200px" height="180px"]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/device_support.png[/IMG][/URL][/CENTER]
 
 [TABLE]
 [TR]
 [TD][IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/source.png[/IMG][/TD]
 [/TR]
 [TR]
-[TD][B][COLOR=rgb(97, 189, 109)]Android version[/COLOR]:[/B] [URL='https://github.com/Evolution-X/manifest/tree/udc-p']14.0_r25[/URL][/TD]
+[TD][B][COLOR=rgb(97, 189, 109)]Android version[/COLOR]:[/B] [URL='https://github.com/Evolution-X/manifest/tree/udc-p']14.0.0_r25[/URL][/TD]
 [/TR]
 [TR]
 [TD][B][COLOR=rgb(184, 49, 47)]Security patch level[/COLOR]:[/B] [URL='https://source.android.com/security/bulletin/2024-02-01']February 2024[/URL][/TD]
