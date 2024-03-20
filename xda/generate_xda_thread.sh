@@ -142,28 +142,37 @@ generate_thread() {
 
         # Manifest URL & Android version
         while true; do
-            read -p "Manifest URL (e.g https://github.com/Evolution-X/manifest/tree/udc/): " manifest_url
+            branches=($(curl -s "https://api.github.com/repos/Evolution-X/manifest/branches" | jq -r '.[].name'))
 
-            if [[ $manifest_url =~ ^https://github.com/Evolution-X/manifest/tree/([^/]+)/? ]]; then
-                branch_name=${BASH_REMATCH[1]}
-                raw_manifest_url="https://raw.githubusercontent.com/Evolution-X/manifest/$branch_name/default.xml"
-                xml_data=$(curl -s "$raw_manifest_url")
+            echo "Available branches:"
+            for index in "${!branches[@]}"; do
+                printf "%s) %s\n" "$((index+1))" "${branches[index]}"
+            done
 
-                if [[ ! -z "$xml_data" ]]; then
-                    android_version=$(echo "$xml_data" | grep -oP '(?<=<default revision="refs/tags/android-)[^"]+')
+            read -p "Select the manifest branch used for compilation: " branch_index
 
-                    if [[ ! -z "$android_version" ]]; then
-                        echo -e "${GREEN}Android version detected: $android_version${ENDCOLOR}"
-                        blob_manifest_url="${manifest_url//tree/blob}"
-                        break
-                    else
-                        echo -e "${RED}Android version not found in the XML.${ENDCOLOR}"
-                    fi
+            if [[ ! "$branch_index" =~ ^[0-9]+$ || $branch_index -le 0 || $branch_index -gt ${#branches[@]} ]]; then
+                echo -e "${RED}Invalid selection. Please enter a valid option (1-${#branches[@]}).${ENDCOLOR}"
+                continue
+            fi
+
+            selected_branch=${branches[$((branch_index-1))]}
+            raw_manifest_url="https://raw.githubusercontent.com/Evolution-X/manifest/$selected_branch/default.xml"
+            xml_data=$(curl -s "$raw_manifest_url")
+            tree_url="https://github.com/Evolution-X/manifest/tree/$selected_branch"
+
+            if [[ ! -z "$xml_data" ]]; then
+                android_version=$(echo "$xml_data" | grep -oP '(?<=<default revision="refs/tags/android-)[^"]+')
+
+                if [[ ! -z "$android_version" ]]; then
+                    echo -e "${GREEN}Android version detected: $android_version${ENDCOLOR}"
+                    blob_manifest_url="https://github.com/Evolution-X/manifest/blob/$selected_branch/"
+                    break
                 else
-                    echo -e "${RED}Failed to fetch XML data from the raw URL.${ENDCOLOR}"
+                    echo -e "${RED}Android version not found in the XML.${ENDCOLOR}"
                 fi
             else
-                echo -e "${RED}Invalid URL format. Please make sure the URL starts with 'https://github.com/Evolution-X/manifest/tree/'.${ENDCOLOR}"
+                echo -e "${RED}Failed to fetch XML data from $raw_manifest_url.${ENDCOLOR}"
             fi
         done
 
@@ -291,7 +300,7 @@ fastboot reboot recovery
 [TD][IMG]https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/xda/xda_assets/source.png[/IMG][/TD]
 [/TR]
 [TR]
-[TD][B][COLOR=rgb(97, 189, 109)]Android version[/COLOR]:[/B] [URL='$manifest_url']$android_version[/URL][/TD]
+[TD][B][COLOR=rgb(97, 189, 109)]Android version[/COLOR]:[/B] [URL='$tree_url']$android_version[/URL][/TD]
 [/TR]
 [TR]
 [TD][B][COLOR=rgb(184, 49, 47)]Security patch level[/COLOR]:[/B] [URL='$security_patch_url']$security_patch_level_date[/URL][/TD]
