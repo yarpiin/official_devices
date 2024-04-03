@@ -1,0 +1,13 @@
+Changelog:
+================
+• Initial Android 14 QPR2 Release
+• Fixed hefty battery drain and heating on normal usage
+• Fixed battery graph not being reset after full charge
+• Fixed inconsistent/unresponsive volume & power button while taking screenshot
+• Increase maximum screen brightness threshold
+• Add gaming profile touch sensitivity settings (https://t.me/EvolutionXVayu/287447)
+• Fixed no ringtone sound for some users
+
+Notes:
+• Due to Initial QPR2 Rebase plenty of features from previous releases are omitted out (and will be added soon / fixed by next release)
+• Clean Flash Highly Recommended due QPR2 Release
