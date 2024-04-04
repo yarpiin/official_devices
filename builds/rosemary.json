@@ -1,15 +1,15 @@
 {
-   "datetime": 1710294633,
+   "datetime": 1712061302,
    "donate_url": "https://buymeacoffee.com/stelbl",
    "error": false,
-   "filehash": "bc6c910f9e892a84694fd445b1bf6e60",
-   "filename": "evolution_rosemary-ota-uq1a.240205.004-03130310-OFFICIAL.zip",
+   "filehash": "0c99aabf86aca7357ad744b735a52c72",
+   "filename": "evolution_rosemary-ota-ap1a.240305.019.a1-04021719-OFFICIAL.zip",
    "forum_url": "https://xdaforums.com/t/rom-14-0_r25-official-evolution-x-8-3-03-13-2024.4660704/",
-   "id": "3b2c4b96d3517ac06c850b99ef066767ab380c43ae3df3783ef7b993da654ef4",
+   "id": "6972f0715e1c741019fe9de21359af02d38d2b09d800a937a7e843457c7545cf",
    "maintainer": "Stella Bloom (stelbl/windowz414)",
    "maintainer_url": "https://forum.xda-developers.com/m/windowz414.9468504",
-   "size": 1975375300,
+   "size": 1949628832,
    "telegram_username": "stelbl",
-   "url": "https://sourceforge.net/projects/evolution-x/files/rosemary/14/evolution_rosemary-ota-uq1a.240205.004-03130310-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/rosemary/14/evolution_rosemary-ota-ap1a.240305.019.a1-04021719-OFFICIAL.zip/download",
    "version": "Fourteen"
 }
