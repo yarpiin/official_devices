@@ -1,21 +1,6 @@
 [
    {
       "brand": "Asus",
-      "codename": "X01BD",
-      "name": "Zenfone Max Pro M2",
-      "supported_versions": [
-         {
-            "device_group": "",
-            "maintainer_name": "Sonal Singh",
-            "maintainer_url": "https://forum.xda-developers.com/m/sonalsingh18.8425394",
-            "version_code": "thirteen",
-            "version_name": "Thirteen",
-            "xda_thread": ""
-         }
-      ]
-   },
-   {
-      "brand": "Asus",
       "codename": "Z01R",
       "name": "Zenfone 5Z",
       "supported_versions": [
@@ -1076,21 +1061,6 @@
             "version_code": "thirteen",
             "version_name": "Thirteen",
             "xda_thread": "https://forum.xda-developers.com/t/rom-13-0-cupid-official-evolution-x-05-29-23.4591391/"
-         }
-      ]
-   },
-   {
-      "brand": "Xiaomi",
-      "codename": "miatoll",
-      "name": "Redmi Note 9S, 9 Pro, 9 Pro Max, POCO M2 Pro",
-      "supported_versions": [
-         {
-            "device_group": "EvolutionXMiatoll",
-            "maintainer_name": "Sonal Singh",
-            "maintainer_url": "https://xdaforums.com/m/sonalsingh18.8425394",
-            "version_code": "fourteen",
-            "version_name": "Fourteen",
-            "xda_thread": ""
          }
       ]
    },
