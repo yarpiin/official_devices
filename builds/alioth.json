@@ -1,15 +1,15 @@
 {
-   "datetime": 1704273308,
+   "datetime": 1712352004,
    "donate_url": "https://www.paypal.me/asavvo01",
    "error": false,
-   "filehash": "4d20e13157976b82e3f741997f978d7e",
-   "filename": "evolution_alioth-ota-uq1a.231205.015-01030925-OFFICIAL.zip",
+   "filehash": "80358e6a48eca6700c5e0b24aa2c4a79",
+   "filename": "evolution_alioth-ota-ap1a.240405.002-04052121-OFFICIAL.zip",
    "forum_url": "https://xdaforums.com/t/official-a14-evolution-x-v8-x-for-poco-f3-redmi-k40-xiaomi-mi11x-alioth-aliothin.4648935/",
-   "id": "07f92bb9aa249e5925f311bc45c678f74e3932c9cde1e2c76459ebb4fb640067",
+   "id": "baf53abcc96c5cabb8152e4e49f3ab060dfbf285da980662b8e53d3d193e9d76",
    "maintainer": "Aggelos Savvopoulos (DarkAngelGR)",
    "maintainer_url": "https://forum.xda-developers.com/m/darkangelgr.8065843",
-   "size": 2322074668,
+   "size": 2376632928,
    "telegram_username": "DarkAngelGR",
-   "url": "https://sourceforge.net/projects/evolution-x/files/alioth/14/evolution_alioth-ota-uq1a.231205.015-01030925-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/alioth/14/evolution_alioth-ota-ap1a.240405.002-04052121-OFFICIAL.zip/download",
    "version": "Fourteen"
 }
