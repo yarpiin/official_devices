@@ -187,11 +187,7 @@ size=$(jq -r '.size' "$input_json")
 split_name=(${filename//-/ })
 first_char=${split_name[2]:0:1}
 
-if [ "$first_char" = "u" ]; then
-    version="14"
-else
-    version="13"
-fi
+version="14"
 
 url="https://sourceforge.net/projects/evolution-x/files/${codename}/${version}/${filename}/download/"
 
