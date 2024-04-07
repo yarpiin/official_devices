@@ -1,0 +1,14 @@
+CLEAN FLASH IS REQUIRED!!!
+
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with April 2024 security patches
+Device changes:
+=======================
+Switch back to 4.4.302 kernel
+Many performance and stability tunnings
+
+Rom changes:
+=======================
+A lot!
