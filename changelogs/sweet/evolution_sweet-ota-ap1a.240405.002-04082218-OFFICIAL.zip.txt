@@ -1,0 +1,30 @@
+This is Android 14 with April 2024 (r30) security patches
+
+Notes:
+==============================
+Clean flash Recommended
+Use latest MIUI 14.x firmware
+Use latest recovery (https://sourceforge.net/projects/zaid-sweet-build/files/Recovery/PBRP-Android14/PBRP-sweet-4.0-20231013-1949-UNOFFICIAL.zip/download)
+Device changes:
+==============================
+- April SPL (Qpr2)
+- Update common blobs from sweet_k6a OS1.0.2.0.THGMIXM
+- Enable SVELTE memory configuration
+- Update CarrierConfigOverlay from sweet V14.0.9.0.TKFMIXM
+- Decommonize ADSP modules
+- Switch to Leica Camera 5.0 (HolyBear)
+- Merge tag 'LA.UM.9.1.r1-15500-SMxxx0.QSSI14.0' in kernel
+- Merge tag 'ASB-2024-01-05_4.14-stable' in kernel
+- Changes for Unsinged build
+- fixed known bugs 
+- Other Misc. fixes and changes
+Credit :-
+               Arian, Adarsh for the device sources
+               Aryannn999 for sources and help
+               Thanks To all beta testers
+------------------------------
+ROM changes:
+==============================
+April security patches (r30)
+Qpr2 changes 
+else find yourself....
