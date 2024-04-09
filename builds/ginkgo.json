@@ -1,15 +1,15 @@
 {
-   "datetime": 1710336977,
+   "datetime": 1712658674,
    "donate_url": "https://paypal.me/tejas101k",
    "error": false,
-   "filehash": "cd38f9dcc5c1655bb13bf9c6fa7eebd2",
-   "filename": "evolution_ginkgo-ota-uq1a.240205.004-03131907-OFFICIAL.zip",
-   "forum_url": "https://xdaforums.com/t/rom-14-official-unified-evolution-x-for-redmi-note-8-8t.4639684/",
-   "id": "4860a2248827c5375f1288aa8d858ff254db1b742b640a7369eb1685d2dd05e9",
+   "filehash": "5e0eeed55c074f07682d4673565ae552",
+   "filename": "evolution_ginkgo-ota-ap1a.240405.002-04091035-OFFICIAL.zip",
+   "forum_url": "",
+   "id": "bf0142c779d3c75fd727efbbbbca46f621c04dd8ae2f69fc6275669a46aaf4b6",
    "maintainer": "Tejas Singh",
    "maintainer_url": "https://github.com/tejas101k",
-   "size": 1783083543,
+   "size": 1804573377,
    "telegram_username": "tejas101k",
-   "url": "https://sourceforge.net/projects/evolution-x/files/ginkgo/14/evolution_ginkgo-ota-uq1a.240205.004-03131907-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/ginkgo/14/evolution_ginkgo-ota-ap1a.240405.002-04091035-OFFICIAL.zip/download",
    "version": "Fourteen"
 }
