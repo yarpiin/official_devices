@@ -1,0 +1,41 @@
+This is Android 14 with April 2024 QPR2 (r30) security patches
+
+Notes:
+==============================
+- Make sure to be on last firmware.
+- Clean flash is recommended but not required.
+- Play Integrity passes by default (As of 04/10/2024).
+- Credits to Lafactorial.
+
+Device changes:
+==============================
+Switch to new LOS-based trees and kernel
+
+Notable ROM changes:
+==============================
+AndroidBlackTheme: Make the QS footer transparent for black theme
+AndroidBlackTheme: Move color resources to night
+AndroidBlackTheme: Update colors
+Disable Navbar radius customization if hint disabled
+Evolver: Clean up
+Fix gap in P2P connection changed broadcast
+Fix SMS and Calls preference summary displays empty.
+Fix-up starting style&wallpaper from search
+GameSpace: Switch to FPS sysfs node
+Initial Android 14 QPR2 release
+Merge April security patches
+Refactor AppPicker page to adopt Settings main theme
+Remove non existent snapuserd.recovery package
+Settings: Add icon for emergency broadcasts
+Settings: Import missing Face Unlock animation
+Settings: Remove dividers in Network & Internet
+SystemUI: Add default path for FPS info service
+SystemUI: Align the QS carrier text to its gravity bias
+SystemUI: Clean up for Tile layout
+SystemUI: Follow monet theme on privacy indicators
+SystemUI: Tune QS Panel bottom padding
+SystemUI: Use proper tint for face unlock icon
+clocks: update from husky-ap1a.240405.002
+sepolicy: qcom: Allow system app read fps node
+vendor: Disable phantom process monitoring as workaround
+vendor: Inherit Microsoft prebuilts
