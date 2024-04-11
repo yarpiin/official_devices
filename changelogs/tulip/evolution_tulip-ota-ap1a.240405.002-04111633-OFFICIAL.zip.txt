@@ -1,0 +1,15 @@
+CLEAN FLASH IS REQUIRED IF YOU ARE FROM 8.3 OR LOWER!!!
+
+Recovery: https://sourceforge.net/projects/evolution-x/files/tulip/14/recovery.img/download
+super_empty.img: https://sourceforge.net/projects/evolution-x/files/tulip/14/super_empty.img/download
+
+This is Android 14 with April 2024 security patches
+Device changes:
+=======================
+Dropped support for 32bit apps
+Some minor performance improvements
+Fast charging fixed
+
+ROM changes:
+=======================
+Integrated Samsung's "Link to Windows" feature
