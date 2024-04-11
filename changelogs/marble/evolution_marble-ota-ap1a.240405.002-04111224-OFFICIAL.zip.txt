@@ -1,0 +1,48 @@
+This is Android 14 with April 2024 QPR2 (r30) security patches
+
+Notes:
+==============================
+- Make sure to be on HyperOS firmware.
+- Clean flash is required if coming from March build.
+- Install LosKsu.zip for root.
+- Play Integrity passes by default (As of 04/11/2024).
+- Includes Dolby Atmos, Leica camera 5.0.
+- Credits to GR, Chaitanya, Adrianyyyy.
+
+Device changes:
+==============================
+Address sepolicy denial for per-app thermal profile parts
+Enable VoNR Calls support
+Switch to Leica-5.0 camera mod by @ItzDFPlayer
+dolby: Override HDR types for dolby vision
+dolby: Start services as early as possible on bootup
+parts: Import from xiaomi_sdm845-common
+
+Notable ROM changes:
+==============================
+ActiveServices: Add delayed service restart (DSR) due to app launch
+ActivityThread: Resolve runtime exception when pausing an activity
+CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed
+CachedAppOptimizer: Fix persistent compact skipped
+CachedAppOptimizer: Set thread group to background
+Catch IllegalArgumentException as it might indicate corrupted packages.xml
+ConfigurationController: Prevent app crash caused by null configuration
+DSR: Fix broken DSR
+DSR: Fix DSR when we have toast window
+Mass revert of BT breaking changes
+OomAdjuster: B-service aging propagation on memory pressure
+Revert "Remove strip.keep_symbols from libart defaults" (fixes Apps crash on startup)
+SoundPool: Enable multithreaded track start
+SoundPool: Separate thread priority for SoundDecoder and StreamManager
+SystemUI: Add null check for wakelock in KeyguardViewMediator
+SystemUI: Fix RecodingController NPE with GameSpace
+Unregister broadcast receiver when user removed
+Use getPackagesForOps instead of iterating packages by checkOperation
+WindowManagerService: Fix IndexOutOfBoundsException when traversing AppFreezeListener
+audiopolicy: support extended feature in audiopolicymanager
+core: Allow vendor odm symlink in framework overlays paths
+libhwui: compile for performance
+libhwui: enable O3 when compiling for perf
+libhwui: remove deprecated perf flags
+themes: Rectify padding for QQS bottom brightness slider
+vendor: Disable phantom process monitoring as workaround
