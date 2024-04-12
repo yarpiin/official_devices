@@ -1,0 +1,41 @@
+This is Android 14 with April 2024 QPR2 (r30) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- This build includes Leica camera.
+- ROM is already pre-rooted with KSU.
+- Play Integrity passes by default (As of 04/09/2024).
+
+Device changes:
+==============================
+Switch to latest Leica-5.0
+
+Notable ROM changes:
+==============================
+ActiveServices: Add delayed service restart (DSR) due to app launch
+ActivityThread: Resolve runtime exception when pausing an activity
+CUR_MAX_CACHED_PROCESSES is not greater than the maximum value allowed
+CachedAppOptimizer: Fix persistent compact skipped
+CachedAppOptimizer: Set thread group to background
+Catch IllegalArgumentException as it might indicate corrupted packages.xml
+ConfigurationController: Prevent app crash caused by null configuration
+DSR: Fix broken DSR
+DSR: Fix DSR when we have toast window
+Mass revert of BT breaking changes
+OomAdjuster: B-service aging propagation on memory pressure
+Revert "Remove strip.keep_symbols from libart defaults" (fixes Apps crash on startup)
+SoundPool: Enable multithreaded track start
+SoundPool: Separate thread priority for SoundDecoder and StreamManager
+SystemUI: Add null check for wakelock in KeyguardViewMediator
+SystemUI: Fix RecodingController NPE with GameSpace
+Unregister broadcast receiver when user removed
+Use getPackagesForOps instead of iterating packages by checkOperation
+WindowManagerService: Fix IndexOutOfBoundsException when traversing AppFreezeListener
+audiopolicy: support extended feature in audiopolicymanager
+core: Allow vendor odm symlink in framework overlays paths
+libhwui: compile for performance
+libhwui: enable O3 when compiling for perf
+libhwui: remove deprecated perf flags
+themes: Rectify padding for QQS bottom brightness slider
+vendor: Disable phantom process monitoring as workaround
