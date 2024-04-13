@@ -1,16 +1,16 @@
 {
-   "datetime": 1710631383,
+   "datetime": 1712987874,
    "donate_url": "https://www.paypal.me/yarpiin",
    "error": false,
-   "filehash": "a22e801eab55486be939ef0542e48bdf",
-   "filename": "evolution_cupid-ota-uq1a.240205.004-03162328-OFFICIAL.zip",
+   "filehash": "3d5672bb2a8c6a94f39c68eb08507248",
+   "filename": "evolution_cupid-ota-ap1a.240405.002-04130702-OFFICIAL.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-13-0-cupid-official-evolution-x-05-29-23.4591391",
-   "id": "4f6ac369b7dc41fc94a3959f74b616ba1e0895302f4607835da77824ec72af98",
+   "id": "b1c47e603b60d7da20fcf9d5c97bad01dc21cb5e1561447088bed93f29e7af0a",
    "maintainer": "Slaw Handzlik (yarpiin)",
    "maintainer_url": "https://github.com/yarpiin",
-   "size": 2917115663,
+   "size": 2921147905,
    "telegram_username": "yarpiin",
-   "url": "https://sourceforge.net/projects/evolution-x/files/cupid/14/evolution_cupid-ota-uq1a.240205.004-03162328-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/cupid/14/evolution_cupid-ota-ap1a.240405.002-04130702-OFFICIAL.zip/download",
    "version": "Fourteen",
    "website_url": "https://evolution-x.org"
 }
