@@ -1,0 +1,131 @@
+2024-04-16
+
+
+To use this release you need:
+   
+   CLEAN FLASH !!
+
+   HYPEROS Global OS1.0.2.0.ULCMIXM_14.0
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * cupid: update Evolution build flags
+  * Revert "cupid: better RAM management"
+  * configs: audio: update from HyperOS OS1.0.2.0.ULCMIXM_14.0 Global
+  * configs: wlan: update from HyperOS OS1.0.2.0.ULCMIXM_14.0 Global
+  * cupid: Drop unused qti-telephony-common.jar
+  * cupid: Automatically add apk/jar/vintf fragments to PRODUCT_PACKAGES
+  * cupid: rootdir: Fix the battery drain due to statsd...?
+  * cupid: Update QtiTelephony and ims from unicorn V816.0.3.0.ULECNXM
+
+KERNEL:
+
+  * Merge tag 'KERNEL.PLATFORM.1.0.r1-17500-kernel.0' of https://git.codelinaro.org/clo/la/kernel/msm-5.10 into udc
+  * Merge branch 'lineage-21' of https://github.com/cupid-development/android_kernel_xiaomi_sm8450 into udc
+  * fw-api: merge tag LA.VENDOR.1.0.r1-25100-WAIPIO.QSSI14.0 of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api
+  * qca-wifi-host-cmn: merge tag LA.VENDOR.1.0.r1-25100-WAIPIO.QSSI14.0 of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn
+  * qcacld-3.0: merge tag LA.VENDOR.1.0.r1-25100-WAIPIO.QSSI14.0 of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0
+  * cvp-kernel: merge tag LA.VENDOR.1.0.r1-25100-WAIPIO.QSSI14.0 of https://git.codelinaro.org/clo/la/platform/vendor/opensource/cvp-kernel
+  * eva-kernel: merge tag LA.VENDOR.1.0.r1-25100-WAIPIO.QSSI14.0 of https://git.codelinaro.org/clo/la/platform/vendor/opensource/eva-kernel
+  * video-driver: merge tag VIDEO.LA.2.0.r1-10000-WAIPIO.0 of https://git.codelinaro.org/clo/la/platform/vendor/opensource/video-driver
+  * display-drivers: merge tag DISPLAY.LA.2.0.r1-12700-WAIPIO.0 of https://git.codelinaro.org/clo/la/platform/vendor/opensource/display-drivers
+  * dataipa: merge tag LA.VENDOR.1.0.r1-25100-WAIPIO.QSSI14.0 of https://git.codelinaro.org/clo/la/platform/vendor/opensource/dataipa
+  * audio-kernel: merge tag LA.VENDOR.1.0.r1-25100-WAIPIO.QSSI14.0 of https://git.codelinaro.org/clo/la/platform/vendor/qcom/opensource/audio-kernel-ar
+  * camera-kernel: merge tag CAMERA.LA.2.0.r1-11700-WAIPIO.0 of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel
+  * Merge branch 'lineage-21' of https://github.com/cupid-development/android_kernel_xiaomi_sm8450-modules into udc
+
+=======================
+     2024/04/16
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+b5f97aef22da base: ViewConfiguration: synchronize access to sConfigurations array
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+b010882 New translations evolution_strings.xml (Russian)
+33a242e New translations evolution_strings.xml (Hungarian)
+49a42f6 New Crowdin updates (#514-#637)
+e9022aa Evolver: Adapt to A14 QPR2
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+19325773a95 Settings: Add preference for KEY_MIN_REFRESH_RATE
+1d25169b02e Settings: Add peak refresh rate list preference
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+08df9fd Update SettingsGoogle resources
+2fd4825 Clean up and update for A14 QPR2
+
+
+=======================
+     2024/04/15
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+229e906dd8 releasetools: Make recovery patch use bsdiff exclusively
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+f51ca5cd096c Integrate Pixel framework hooks and wrappers
+5bac47c9d9c2 [SQUASH] SystemUI: Move to SystemUIGoogle Smartspace impl
+60a4b4d3dc2e SystemUI: AntiFlickerTile: Catch NullPointerException
+d9739392271b SystemUI: Add anti flicker tile
+5bd2859b4020 SystemUI: screenshot: Also post a notification with a preview
+6f1affb2c934 SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+d5fd2ea9f9c7 SystemUI: Fix secondary label alignment on A11 QS UI Style
+4c11fb0463e0 Add required priv-app permissions for SystemUIGoogle
+8768d47ffea7 SystemUI: biometrics: Follow user setting to confirm face unlock
+b4468e396fbd AppLock: Make kotlin libs available only within this module
+b194240ac089 AppLock: Update for kotlin errors
+c0b4c7ea5fe7 AppLock: Allow using face unlock for biometric authentication
+0358a79c1a2d AppLock: Move services to new package
+bd37bc25067f AppLock: Allow locking all apps visible in launcher
+4e700dd8fcf7 AppLock: Update API to hide unprotected apps
+99f95646f5fe base: Introduce app lock [1/4]
+ef76b23c4d48 SystemUI: Fix NPE in VolumeDialogImpl causing system crash
+9c1232f2850b SystemUI: AODTile: This should be a BooleanState tile
+9d8a5cba5e3c PackageInstaller: Remove side padding from the dialog
+998d700c24ab PackageInstaller: show current/new version on sideload
+9e77d92ab052 appwidget: Catch IllegalStateException when retrieving providers profiles
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/u
+
+d1d55909fb Fix sync issue with handling display state changes
+a76f95c51d Fix the problem of internal segfault in addQueue function
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+40eac7a Automatic translation import
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+16f2590115d Settings: Import settings from pixel-fw
+ca6c07327f8 Settings: Define android manifest
+c2fd2c6c56d Settings: Replace android:name for SettingsGoogle
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+b9a0f8b3 Revert "[TMP] config: Disable Pixel-fw"
+
+
+=======================
+     2024/04/14
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/u
+
+1d4db0ed73 Revert "Clear up the obsoleted cascading signal strength polling logic"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/u
+
+697c134 manifest: Initial A14 manifest
+
