@@ -4,13 +4,24 @@ Notes:
 ==============================
 - Make sure to be on HyperOS firmware.
 - Clean flash is required if coming from March build.
-- Install LosKsu.zip for root.
-- Play Integrity passes by default (As of 04/16/2024).
+- Install LosKsu.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu.zip/download) for root.
+- Play Integrity passes by default (As of 04/18/2024).
 - Includes Dolby Atmos, POCO Camera.
 - Credits to GR, Chaitanya, Adrianyyyy.
 
 Device changes:
 ==============================
+4/18
+Disable Smart Pixels (toggle will show but feature won't work)
+Import libmisight for vpp
+Update blobs from V816.0.4.0.ULLMIXM
+Upstream kernel to 5.10.209
+audio: Don't advertise unsupported BT A2DP formats in audio policy config
+audio: Move bluetooth A2DP back to primary audio module
+media: Update from V816.0.4.0.ULLMIXM
+wlan: Get rid of xiaomi changes to WCNSS config
+
+4/16
 Do not balance msm_drm and kgsl_3d0 IRQs
 Dynamically set IRQ affinity for KGSL and MSM_DRM
 Switch back to POCO camera (due to minor issues)
@@ -22,9 +33,7 @@ Add required priv-app permissions for SystemUIGoogle
 Bring back app lock support
 DozeTriggers: Skip proximity check on notification pulse if edge light face down enabled
 Evolver: Bring back ambient pulse notification
-Fix sync issue with handling display state changes
 Fix the issue of not sending p2p connection change broadcast to app with PERMISSION_MAINLINE_NETWORK_STACK
-Fix the problem of internal segfault in addQueue function
 PackageInstaller: Remove side padding from the dialog
 PackageInstaller: show current/new version on sideload
 Pixel-fw: Clean up and update for A14 QPR2
@@ -42,8 +51,10 @@ SystemUI: Fix NPE in VolumeDialogImpl causing system crash
 SystemUI: Fix secondary label alignment on A11 QS UI Style
 SystemUI: VolumeDialogImpl: Add content observer for panel timeout
 SystemUI: screenshot: Also post a notification with a preview
+Update translations
 appwidget: Catch IllegalStateException when retrieving providers profiles
 cameraserver: Allow google camera to access multiple cameras
 cameraserver: Let multiple cameras opened by stock camera application
 clocks: update from lynx-ap1a.240405.002
+core: Enable freeform/multiple windows feature by default
 releasetools: Make recovery patch use bsdiff exclusively
