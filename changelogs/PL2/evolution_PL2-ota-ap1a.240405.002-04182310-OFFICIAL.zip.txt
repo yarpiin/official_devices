@@ -1,0 +1,43 @@
+This is Android 14 with April 2024 QPR2 (r30) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk.
+- Play Integrity passes by default (As of 04/18/2024).
+
+Device changes:
+==============================
+Latest Source Synced
+Dropped Gcam as of now
+
+Notable ROM changes:
+==============================
+Add required priv-app permissions for SystemUIGoogle
+Bring back app lock support
+DozeTriggers: Skip proximity check on notification pulse if edge light face down enabled
+Evolver: Bring back ambient pulse notification
+Fix the issue of not sending p2p connection change broadcast to app with PERMISSION_MAINLINE_NETWORK_STACK
+PackageInstaller: Remove side padding from the dialog
+PackageInstaller: show current/new version on sideload
+Pixel-fw: Clean up and update for A14 QPR2
+Pixel-fw: Update SettingsGoogle resources
+PulseLightView: Cancel the animation on pulse end
+Re-integrate Pixel framework hooks and wrappers
+Revert "Clear up the obsoleted cascading signal strength polling logic"
+Settings: Add preference for KEY_MIN_REFRESH_RATE
+Settings: Bring back Volume Long Press Skip Tracks
+Settings: Define android manifest
+Settings: Import settings from pixel-fw
+Settings: Replace android:name for SettingsGoogle
+SystemUI: AODTile: This should be a BooleanState tile
+SystemUI: Fix NPE in VolumeDialogImpl causing system crash
+SystemUI: Fix secondary label alignment on A11 QS UI Style
+SystemUI: VolumeDialogImpl: Add content observer for panel timeout
+SystemUI: screenshot: Also post a notification with a preview
+Update translations
+appwidget: Catch IllegalStateException when retrieving providers profiles
+cameraserver: Allow google camera to access multiple cameras
+cameraserver: Let multiple cameras opened by stock camera application
+clocks: update from lynx-ap1a.240405.002
+core: Enable freeform/multiple windows feature by default
+releasetools: Make recovery patch use bsdiff exclusively

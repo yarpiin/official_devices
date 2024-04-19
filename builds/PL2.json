@@ -1,15 +1,16 @@
 {
-   "datetime": 1709572817,
+   "datetime": 1713481681,
    "donate_url": "https://bmc.link/leopubglover",
    "error": false,
-   "filehash": "c3094f45ef57f0e1dd79fff05a100924",
-   "filename": "evolution_PL2-ota-uq1a.240205.004-03041827-OFFICIAL.zip",
-   "forum_url": "https://xdaforums.com/t/rom-14-0_r25-pl2-official-evolution-x-02-27-24.4658982/",
-   "id": "be8794795730a08e1c483c00cec1591d087cc1fa8b1bccea77b6501df84538f6",
+   "filehash": "21a4854753923250a9cbde84ebe5dd54",
+   "filename": "evolution_PL2-ota-ap1a.240405.002-04182310-OFFICIAL.zip",
+   "forum_url": "https://xdaforums.com/t/rom-14-0_r30-pl2-official-evolution-x-04-18-24.4658982/",
+   "id": "a90b677f1506533c48ca0825c685882caab10fc2f1f1966ad9e8afbad547a705",
    "maintainer": "Akshat Singh",
    "maintainer_url": "https://github.com/Legendleo90",
-   "size": 1350974491,
+   "size": 1322623696,
    "telegram_username": "Legendleo90",
-   "url": "https://sourceforge.net/projects/evolution-x/files/PL2/14/evolution_PL2-ota-uq1a.240205.004-03041827-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/PL2/14/evolution_PL2-ota-ap1a.240405.002-04182310-OFFICIAL.zip/download",
    "version": "Fourteen"
 }
+
