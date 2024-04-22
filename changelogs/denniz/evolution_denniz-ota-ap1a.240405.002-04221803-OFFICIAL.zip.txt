@@ -1,0 +1,213 @@
+Update 20240422
+- April 2024 security patches
+- KernelSU are integrated to source
+- Switch to Linux 4.19.198 kernel
+- Enabled call recording
+- Removed OnePlus File manager
+- Fix video codec crashes & device heats on some situations
+- Fix UDFPS enroll radius
+- Reduced device heats while using some apps
+- Don't rewrite recovery image when updates
+
+* Dirty flash it should works, but clean flash always recommended.
+
+* Special thanks for X7 Max dev team, thanks @Zatvio for give some fixes.
+
+=======================
+     2024/04/22
+=======================
+
+* Repository: https://github.com/oplus-ossi-development/android_device_oplus_mt6893-common/commits/lineage-21
+
+13fa20c ossi: overlay: Enable call recording
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+f11e7811bbee SystemUI: screenrecord: Add a medium quality option
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_net_wifi/commits/refs/heads/u
+
+3151000 libwifi-hal: Disable libwifi-hal-mediatek
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+6b6648f New Crowdin updates (#403-#404)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+b884f92 config: BoardConfigReservedSize: Prevent overlayfs on remount
+
+
+=======================
+     2024/04/21
+=======================
+
+
+=======================
+     2024/04/20
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/u
+
+f5ffec7 Revert "IPCThreadState: Workaround to improve robustness"
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+2440e7c New Crowdin updates (#514-#642)
+
+
+=======================
+     2024/04/19
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+c9d50d1 Aperture: Hide camera mode highlight button in single capture mode too
+
+* Repository: https://bitbucket.org/evo-x/packages_modules_Connectivity/commits/refs/heads/uqpr2
+
+b76fb25 DnsUtils: Use Cloudflare DNS instead of Google DNS
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/u
+
+0a7e1d4 Hide "Use precise location" for unsupported apps
+
+
+=======================
+     2024/04/18
+=======================
+
+* Repository: https://gitlab.com/nattolecats/android_device_oplus_camera/commits/lineage-21
+
+531d039 apps-framework: Update OplusCamera.apk
+
+* Repository: https://github.com/oplus-ossi-development/android_device_oplus_mt6893-common/commits/lineage-21
+
+5176e0d ossi: overlay: Use AOSP overlay for volume panel location
+
+
+=======================
+     2024/04/17
+=======================
+
+* Repository: https://github.com/oplus-ossi-development/android_device_oplus_mt6893-common/commits/lineage-21
+
+cccadc9 ossi: overlay: Move UDFPS enroll radius to settings
+bbcceff ossi: powerhint: reduce frequencies
+1dfc8d8 ossi: Set BUILD_BROKEN_INCORRECT_PARTITION_IMAGES to true
+
+
+=======================
+     2024/04/16
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+229e906 releasetools: Make recovery patch use bsdiff exclusively
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+08df9fd Update SettingsGoogle resources
+
+
+=======================
+     2024/04/15
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/u
+
+1d4db0e Revert "Clear up the obsoleted cascading signal strength polling logic"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/u
+
+697c134 manifest: Initial A14 manifest
+
+
+=======================
+     2024/04/14
+=======================
+
+* Repository: https://github.com/oplus-ossi-development/android_device_oplus_mt6893-common/commits/lineage-21
+
+9a14048 ossi: Drop prebuilt-apps
+
+
+=======================
+     2024/04/13
+=======================
+
+* Repository: https://github.com/oplus-ossi-development/android_device_oplus_mt6893-common/commits/lineage-21
+
+4b98983 Revert "ossi: Cleanup dead targets" * Don't use Lineage common MTK HALs
+
+* Repository: https://github.com/Evolution-X/packages_modules_Wifi/commits/refs/heads/u
+
+5c67ddf Fix the issue of not sending p2p connection change broadcast to app with PERMISSION_MAINLINE_NETWORK_STACK
+
+
+=======================
+     2024/04/12
+=======================
+
+* Repository: https://github.com/oplus-ossi-development/android_device_oplus_mt6893-common/commits/lineage-21
+
+7c51b18 ossi: releasetools: Don't flash recovery when apply update
+74093e7 ossi: Don't inherit oplus camera at here
+a360211 ossi: vendorsetup: Add KSU * Always delete then re-clone it latest one.
+be860c7 ossi: media: Specify rank 1000 for `c2.mtk.avc.decoder`
+9a2a587 ossi: patches: check_boot_jars: add OnePlus packages to whitelist * Required for oplus camera
+3b9c301 ossi: Set stagefright codec props *Setting this fixes the video playback issues
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/u
+
+95635f8 cameraserver: Allow google camera to access multiple cameras
+
+
+=======================
+     2024/04/11
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/u
+
+ffc5c4a Revert "Remove strip.keep_symbols from libart defaults"
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/u
+
+f43a00e check_boot_jars: add Nothing package to whitelist
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/u
+
+99a3660 DNM: Mass revert of BT breaking changes
+
+
+=======================
+     2024/04/10
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/u
+
+4fe9fbb sepolicy: qcom: Allow system app read fps node
+
+* Repository: https://github.com/oplus-ossi-development/android_device_oplus_mt6893-common/commits/lineage-21
+
+51a48f3 ossi: proprietary-files: Drop oplus-framework from bootjars * Now oplus camera working without this
+e8aca22 Revert "ossi: Drop oplus camera for now"
+
+* Repository: https://github.com/Evolution-X/device_qcom_sepolicy-legacy-um/commits/refs/heads/udc
+
+7fb954a legacy: add app_data_file_type to imshelper_app_data_file
+
+* Repository: https://github.com/Evolution-X/packages_apps_GameSpace/commits/refs/heads/udc
+
+008a1fa GameSpace: Switch to FPS sysfs node
+
+* Repository: https://github.com/oplus-ossi-development/proprietary_vendor_oplus_mt6893-common/commits/lineage-21
+
+1876288 mt6893-common: Drop oplus-framework
+
+
+=======================
+     2024/04/09
+=======================
+
+
