@@ -1,0 +1,33 @@
+This is Android 14 with April 2024 QPR2 (r30) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Install ksu-boot.img or Magisk for root.
+- Play Integrity passes by default (As of 04/29/2024).
+- Uses crdroid kernel.
+- Includes Dirac audio, Dolby Vision, Leica camera.
+- Credits to FlowerSea, kamikonashi, ArianK16a, AdarshGrewal.
+
+Device changes:
+==============================
+None
+
+Notable ROM changes:
+==============================
+Evolver: Clean up and refactor
+Settings: Add Evolution X fragment to Firmware version window
+apn: Add "Samantel" and "Shatelmobile" APNs
+apns-conf: Update Digi Mobil mcc="226" mnc="05"
+apns-conf: Update Vodafone RO mcc="226" mnc="01"
+apns-conf: update default APN for Vodafone IN mcc="405" mnc="66"
+build: make: use jemalloc by default and allow opt-in to scudo
+config: Adjust configs
+config: Reduce system server verbosity
+config: device_framework_matrix: Add lineage.hardware.radio.config
+evolution: Opt-in to shipping full recovery image by default
+fixup! Correct logic for obtaining the path to full recovery image
+fixup! Support generating partial OTAs from extracted target_files
+gms: Update for April 2024
+vendor: Disable debugs infos on user build only
+version: Add AOSP to naming to avoid confusion with XYZ
