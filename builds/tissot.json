@@ -1,15 +1,15 @@
 {
-   "datetime": 1713359839,
+   "datetime": 1714360348,
    "donate_url": "https://linktr.ee/joeyhuab",
    "error": false,
-   "filehash": "f1069c7e34134f1705f38be4f018fcd4",
-   "filename": "evolution_tissot-ota-ap1a.240405.002-04171417-OFFICIAL.zip",
+   "filehash": "eed6305394044586d3b5797ae2a4583b",
+   "filename": "evolution_tissot-ota-ap1a.240405.002-04290416-OFFICIAL.zip",
    "forum_url": "https://xdaforums.com/t/rom-14-0_r30-tissot-official-evolution-x-04-11-24.4666390/",
-   "id": "59bf7ca6d0f8cef398c1dfda982b00ecadf9ff9d58b327944297204ca688794a",
+   "id": "7042c3d92e626cdda2568c261b9e16daa3531116f3286aa33143e10c239215e0",
    "maintainer": "Joey Huab",
    "maintainer_url": "https://forum.xda-developers.com/m/joeyhuab.4936496",
-   "size": 1198538721,
+   "size": 1193619140,
    "telegram_username": "joey_huab",
-   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/14/evolution_tissot-ota-ap1a.240405.002-04171417-OFFICIAL.zip/download",
+   "url": "https://sourceforge.net/projects/evolution-x/files/tissot/14/evolution_tissot-ota-ap1a.240405.002-04290416-OFFICIAL.zip/download",
    "version": "Fourteen"
 }
