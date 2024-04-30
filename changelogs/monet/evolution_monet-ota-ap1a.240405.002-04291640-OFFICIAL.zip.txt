@@ -1,0 +1,191 @@
+NOTE: USING MIUI 13 FW IS MANDATORY. GET IT HERE: https://xiaomifirmwareupdater.com/firmware/monet/
+
+Highlights:
+- April security patch
+- QPR2 update
+
+=======================
+     2024/04/29
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+564a900 sepolicy_vndr: Allow qti_init_shell to set watermark boost factor
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+98b3c218b base: Add a dev option to unlimit screenrecord filesize [1/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+7c923c7 Settings: Add a dev option to unlimit screenrecord filesize [2/2]
+
+* Repository: https://github.com/mikairyuu/android_vendor_xiaomi_sm7250/commits/tiramisu
+
+2eb1fb5 set preprocessed: true for gpu drivers stub
+
+
+=======================
+     2024/04/28
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+b5106aa fixup! Correct logic for obtaining the path to full recovery image
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/u
+
+2b171d4 radio: config: 1.1-wrapper: Initial wrapper
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/u
+
+69ac952 manifest: Initial A14 manifest
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+f97a675 Evolver: Adapt and clean up for A14 QPR2
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+8c8d97e evolution: Opt-in to shipping full recovery image by default
+
+* Repository: https://git.mainlining.org/EvolutionX/vendor_gms/commits/refs/heads/udc
+
+649f727 gms: More updates
+
+
+=======================
+     2024/04/27
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/u
+
+f7c1095 sepolicy: Add rules for radio config wrapper
+
+
+=======================
+     2024/04/26
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_google_gs-common/commits/lineage-21
+
+a9d1fe5 modem: Erase /data/vendor/slog
+
+
+=======================
+     2024/04/25
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_certification/commits/refs/heads/udc
+
+aaab3de certification: Set preprocessed: true
+
+
+=======================
+     2024/04/24
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr/commits/refs/heads/lineage-21
+
+209e8c8 sepolicy: Exclude debug sepolicies on user build
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sm8150
+
+a5102d9 audio_amplifier: Change the enable amplifier function location
+
+* Repository: https://gitlab.com/someone5678/vendor_microsoft/commits/main
+
+76496d9 microsoft: Update to LA.QSSI.14.0.r1-11100-qssi.0
+
+
+=======================
+     2024/04/23
+=======================
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/u
+
+0044cf7 libc: allow selectively enabling jemalloc's zero-filling
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/u
+
+586c7d9 build: soong: use jemalloc by default and allow opt-in to scudo (2/4)
+
+* Repository: https://github.com/yaap/external_jemalloc_new/commits/fourteen
+
+6eec05c drop workflows
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/u
+
+748eba1 sensors: Do not limit aidl-multihal visibility
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/u
+
+95886bf debuggerd: use jemalloc by default and allow opt-in to scudo (4/4)
+
+* Repository: https://github.com/Evolution-X/vendor_pixel-framework/commits/refs/heads/udc
+
+e816f72 SystemUIGoogle: Adapt Battery saver QS tile
+
+
+=======================
+     2024/04/22
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-21.0-caf-sm8550
+
+1a98734 Revert "sdm: Conditionally revert "sdm: Implement ‘Null Display’ in SDM core""
+
+
+=======================
+     2024/04/21
+=======================
+
+
+=======================
+     2024/04/20
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy/commits/refs/heads/lineage-21.0
+
+7f068d5 Merge tag 'LA.QSSI.14.0.r1-14000-qssi.0' into staging/lineage-21.0_merge-LA.QSSI.14.0.r1-14000-qssi.0
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8550
+
+82710e9 Merge tag 'LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0' into staging/lineage-21.0_merge-LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_arpal-lx/commits/lineage-21.0-caf-sm8550
+
+1fbb553 Merge tag 'AUDIO.LA.8.0.r1-10200-KAILUA.0' into staging/lineage-21.0_merge-AUDIO.LA.8.0.r1-10200-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio-ar/commits/lineage-21.0-caf-sm8550
+
+1a31a71 Merge tag 'AUDIO.LA.8.0.r1-10200-KAILUA.0' into staging/lineage-21.0_merge-AUDIO.LA.8.0.r1-10200-KAILUA.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_dataipa/commits/lineage-21.0-caf-sm8550
+
+f98cbc3 Merge tag 'LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0' into staging/lineage-21.0_merge-LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_thermal/commits/refs/heads/lineage-21.0
+
+1f64870 Merge tag 'LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0' into staging/lineage-21.0_merge-LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf/commits/refs/heads/lineage-21.0
+
+03b3dd6 Merge tag 'LA.QSSI.14.0.r1-14000-qssi.0' into staging/lineage-21.0_merge-LA.QSSI.14.0.r1-14000-qssi.0
+
+
+=======================
+     2024/04/19
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+c9d50d1 Aperture: Hide camera mode highlight button in single capture mode too
+
+* Repository: https://git.mainlining.org/EvolutionX/packages_modules_Connectivity/commits/refs/heads/udc
+
+b76fb25 DnsUtils: Use Cloudflare DNS instead of Google DNS
+
+* Repository: https://github.com/Evolution-X/packages_modules_Permission/commits/refs/heads/u
+
+0a7e1d4 Hide "Use precise location" for unsupported apps
