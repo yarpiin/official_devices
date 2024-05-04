@@ -1,0 +1,19 @@
+Changelog:
+- Add Leica camera by default
+- Switch to mini gapps
+- Enable Qualcomm TrueWireless™ Stereo audio
+- Increase earpiece gain
+- Do not block binder thread on incoming calls
+- Disable camera perflock
+- Introduce Birghtness Curve
+- Drop outdated charger packages & build Build charger_res_images
+- Adjust zram size to 80%
+- Increase 5 GHz network signal tolerance
+- Play Clear Speaker Audio upto 60s
+- Increase media volume upto 25 steps
+- Fix excacive battery drain issue
+- Adjuat some tharmals tk reduce heat
+- Disable "mobile data always on"
+- Get some better signal stranth
+- Set ro.netflix.bsp_rev for L1
+- Build goodix lib from source
