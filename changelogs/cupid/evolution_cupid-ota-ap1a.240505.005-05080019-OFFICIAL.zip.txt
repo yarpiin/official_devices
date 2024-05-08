@@ -1,0 +1,645 @@
+2024-04-16
+
+
+To use this release you need:
+   
+
+   HYPEROS Global OS1.0.2.0.ULCMIXM_14.0
+
+1. Download the proper flashable ZIP for your device
+2. Reboot to Recovery
+3. Flash rom
+4. Format Data when asked
+
+DEVICE:
+
+  * Dropped dolby
+  * Fixed bluetooth ad2p
+  * Final AOSP Release
+
+=======================
+     2024/05/08
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+97407fd66e Merge tag 'android-14.0.0_r35' of https://android.googlesource.com/platform/build into u
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+fbafdca53164 PixelPropsUtils: Update fingerprints to May 2024 release
+c8e1873fd28c voiceinteraction: Exempt ASI from soundtrigger enforcement
+22d29a6432b9 Soundtrigger: Add back SoundTriggerDetector and model database
+335015b6abc2 SystemUI: Introduce Depth Wallpaper feature [1/2]
+48ed443cede0 ActivityManagerService: Exclude more packages for receiver check
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/u
+
+0f57ba0 manifest: Initial A14 manifest
+0bdaa51 Manifest for Android 14.0.0 Release 35
+0454bb8 Manifest for Android 14.0.0 Release 34
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+ef915fd Evolver: Introduce Depth Wallpaper feature [2/2]
+b691e84 Evolver: Adapt and clean up for A14 QPR2
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+0a5cb0582dc Merge tag 'android-14.0.0_r35' of https://android.googlesource.com/platform/packages/apps/Settings into u
+
+* Repository: https://github.com/Evolution-X/packages_modules_Bluetooth/commits/refs/heads/u
+
+3e5660a3ed Merge tag 'android-14.0.0_r35' of https://android.googlesource.com/platform/packages/modules/Bluetooth into u
+a2dff48c99 DNM: Mass revert of BT breaking changes
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+988b5ca3 version: Uprev to 8.6
+
+
+=======================
+     2024/05/07
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+59cd4d951411 SystemUI: Proper background for brightness slider
+0d398d702979 SystemUI: Add vibration when long pressing QS footer settings button
+d1950b72c584 CameraServiceProxy: fix exception
+ad2fb54ec41a fwb: silence more spam
+9b53124423b4 Fix "Manage App & Content access" for profiles
+d7f062f77735 SystemUI: Default to true for HeadsUp notifications
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-21.0
+
+543ade5 compat: interfaces: backend: radio: config: Use a macro to declare the libs
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+1c4ce7d3895 Settings: display: Sort display refresh rates in descending order
+
+* Repository: https://github.com/TheParasiteProject/packages_modules_Bluetooth_android_BtHelper/commits/main
+
+d4969dd BtHelper: Run google-java-format as AOSP format
+c008d35 BtHelper: Bring back vendor-specific event
+
+
+=======================
+     2024/05/06
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_media/commits/lineage-21.0-caf-sdm845
+
+3d4652c67 mm-video-v4l2: Disable OMX_BUFFERFLAG_DECODEONLY support
+
+* Repository: https://git.mainlining.org/EvolutionX/packages_modules_Connectivity/commits/refs/heads/udc
+
+d3891530e3 Tethering: Fix allow clients to use VPN toggle post QPR2
+
+
+=======================
+     2024/05/05
+=======================
+
+* Repository: https://github.com/LineageOS/android_hardware_lineage_compat/commits/refs/heads/lineage-21.0
+
+00551f4 compat: Add camera provider shim
+
+* Repository: /commits/refs/heads/udc
+
+05d62e57 Revert "Revert "display: Remove dependencies of display specific kernel headers""
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+97a2fd895f0 Settings: Fix regulatory info availability check
+
+
+=======================
+     2024/05/04
+=======================
+
+* Repository: https://git.mainlining.org/EvolutionX/vendor_gms/commits/refs/heads/udc
+
+aa2af32 gms: More updates
+
+
+=======================
+     2024/05/03
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+99bfc2a39 Merge tag 'LA.VENDOR.1.0.r1-25300-WAIPIO.QSSI15.0' into staging/lineage-21.0_merge-LA.VENDOR.1.0.r1-25300-WAIPIO.QSSI15.0
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/u
+
+fe4a1fbbb9 libaudiohal: only call getAudioPort if it is supported.
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+b6140a8673c5 Island: Fix some album-art not showing
+62d596aa504c Island: Use status bar height as top margin
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sm8150
+
+7b7df66d8 audio_amplifier: pass amplifier_device pointer to calibrate as well
+89af2302c audio_amplifier: Call calibration after module open
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+262ef2e Aperture: Update CameraX to 1.4.0-alpha05
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/u
+
+187e3db New Crowdin updates (#514-#644)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+2de11cade9d Settings: Move back Smart Pixels to Evolver
+65b08678d3c Settings: Add a dev option to unlimit screenrecord filesize [2/2]
+adef446462e Settings: Add preference for KEY_MIN_REFRESH_RATE
+4b6880c945f Settings: Add peak refresh rate list preference
+7aaa3740af5 Settings: Import settings from pixel-fw
+153ca6ad158 Settings: Define android manifest
+11ca888d6e7 Settings: Replace android:name for SettingsGoogle
+6029d60c240 Settings: fix app lock allow biometric toggle ignored (always on)
+d890f11f328 Settings: AppLock: Update for kotlin errors
+1189543e759 Settings: Don't make app lock settings searchable
+facc67c6a7f Settings: Let app lock use face unlock
+02fb68003e4 Settings: Add app lock settings for alternate security settings provider
+0b0a29b3510 Settings: Add app lock summary for 0 protected apps
+b52f2b544aa AppLock: Slightly bigger icon size
+1bd3750a9af Settings: Update AppLock API
+b8af8e575d7 Settings: Allow locking all apps visible in launcher
+2fa37a05c0f Settings: Introduce App Lock [3/4]
+bef81b9cc75 Settings: VolumeMusicControl: Use new material-you illustration preference
+e79483d24d2 Settings: Forward Port Volume Long Press Skip Tracks [2/2]
+b89467217f7 Settings: Move adb root toggle and make it independent
+943ec203e2b Settings: Disable adb root if developer options are disabled
+af3a1571a1f Settings: Migrate to SwitchPreferenceCompat
+5ba3b254d69 Fix SMS and Calls preference summary displays empty.
+32a0c412db1 Update PhoneLink 14-3 Settings change
+93d779f3cf1 Settings: Remove dividers in Network & Internet
+a5e7ea75670 Settings: Add icon for emergency broadcasts
+4ce7c57948e Disable Navbar radius customization if hint disabled
+8f99f8c9c79 Refactor AppPicker page to adopt Settings main theme
+9e0c016048f Settings: Import missing Face Unlock animation
+ab9532e1069 Fix-up starting style&wallpaper from search
+6f1da972a5f Settings: Add Game Space support
+e37417f07f9 Bluetooth timeout feature
+2add8d96bce Settings: Extend Fastcharge implementation [2/3]
+e4db1ed9e9f Settings: LineageFastCharge: Guard it via overlay
+367bd926a7a Settings: Add FastCharge preference into Battery settings
+26dd35bbe3a Settings: Use marketname for App Aspect Ratio summary
+d6a31fb8f29 Remove Terminal from settings
+d8102e4978e Hide unavailable battery info
+69ccaf8743d Make battery cycle count configurable and disable it by default
+1bdcc0ddf72 Settings: Allow user to select low power refresh rate [2/2]
+94c3e60fb01 Settings: Fix dependency key for scroll_fling_haptic_feedback
+ccdf5c79fc9 fixup! Settings: Hide ADB and developer setting enable status [2/2]
+e04e14fdc9a fixup! Settings: Improve force fullscreen settings fragment
+5efc4c36502 Settings: Introduce new refresh rate selector page
+7d2af56abd4 Make battery info configurable and enable it by default
+2d3c470a745 BatteryStateDatabase: Set exportSchema to false
+7f2f260a31b Also disable switch for "Allow background usage"
+6df9aef7821 Settings: Remove partial screenshot related code
+d4516292278 add option to always randomize MAC
+5e275f186f1 use 2021-01-01 as minimum battery date
+1aaa8f0e4d1 enable "About phone -> Battery information" screen
+437cf980bab Handle mobile data on internet page during setup
+684d37fb33c Settings: Restart SystemUI on resolution change
+99c0f56f4a2 Settings: Fix total RAM calculation
+e4ff2be0f23 FingerprintSettings: Add proximity check awareness if supported
+65f569f8a61 Settings: Phone ringtone setting for Multi SIM device [2/3]
+78c6f55bda4 Settings: deviceinfo: Extend Battery info page
+f37c7b0f7e1 Settings: Always restore keyChordPowerVolumeUp to mute...
+66c67fb665a Settings: Add userRestriction for auto brightness
+9db82dfeec9 Settings: Gesture nav: Add back launch menu action
+a9c31a60b50 Settings: Gesture nav: Add go forward action
+b6078932e05 Settings: Gesture nav: Correctly disable left/right option when long swipe setting is disabled
+b39b7c8e55f Settings: Gestures nav: Add back show recents action
+f62ed1a091e Settings: Gesture nav: Remove timeout setting
+a7882d653d6 Settings: ScreenResolutionFragment: Restart SystemUI on res change
+98d8d392332 fuelgauge: Hide screen time since last full charge if not valid
+6ea5380b05a DataProcessor: Do not skip and replace screen on component with screen on time
+61ffd5f674a Settings: Add back battery and notification lights settings
+012aecd07ee Settings: Battery light: 100% charged level (2/2)
+4fd48d5eb4b Implement notification light settings
+7aaccb8420c ChooseLockPassword: Don't uncheck auto confirm above minimum length
+e33a361cbb2 ChooseLockPassword: Decrease minimum pin length for auto confirm
+da2346f23b7 Settings: Adapt Evolver fragment paths
+73b24ef53cd Settings: Allow extended/"L" back swipe to trigger actions/app/activities [2/2]
+719520dfbf7 Settings: Add optional haptic feedback on scrolling with fling gesture [2/2]
+74eb0fdfafd QuickSettings: Add Haptic Feedback to tiles [2/2]
+376316829f2 Settings: Add optional haptic feedback to volume panel [2/2]
+d4d9ac67f4b Settings: Guard brightness slider haptic by setting [2/2]
+8120d162eca Settings: Incall vibration option [3/3]
+222c6ce4e41 Settings: Add misc haptics category
+2027f6940e7 Settings: Allow customizing volume stream steps [2/3]
+6818d3ed221 Settings: Add a toggle for High touch polling rate
+6d4a843f350 Settings: Hide Flashlight
+b8c2e38fe88 Settings: Add lockscreen rotation as an optional rotation setting
+315487318c7 Add toggle to enable ADB root
+a4942d84356 Hide fingerprint settings help if URL is empty
+847dd4868d6 Settings: Improve protected sensitive info in about phone
+ec1dcc08e39 Settings: Import CustomHapticPreferenceController
+e0d0239cb21 Settings: Extend showing Ambient instead of fully waking to single tap gesture [2/2]
+bafa2a06fa5 Settings: Allow showing Ambient instead of fully waking [2/2]
+6b40cfa03ad Settings: Introduce AutoDimService [2/2]
+b8e403b2748 Settings: Allow to quickly open Running Services from meminfo view
+eff4b72db9b Add Face Unlock with ParanoidSense
+779cb82da06 Settings: Add setup UI for minimum delay between an app's notification sounds
+5cfdb55edee Settings: Configurable 0, 90, 180 and 270 degree rotation [2/2]
+cbc0d743209 SystemNavigationPreferenceController: Only show gestures if navbar visible
+eb035e92954 Settings: Declare an activity for WirelessDebuggingFragment
+b44cb7d2420 Settings: Extend protect sensitive info to MAC [2/2]
+aac62a40f83 Settings: Allow toggling floating rotation button [2/2]
+740681a64d9 Settings: Allow toggling NFC sounds [3/3]
+e2f84f56986 Settings: Allow disabling color inversion support [2/2]
+7c684d4a7ee Settings: disable all bugreport settings
+2656e1a0966 Settings: Import ic_settings_backup_restore.xml removed from main Settings
+0061c88e916 Settings: CustomScreenResolution: Update RESOLUTION_METRIC_SETTING_KEY
+4818928418e display: Add custom screen resolution setting
+9a5ef0e8137 Settings: Introduce automated DC Dimming [2/3]
+8699c25b18d Settings: Add proximity check on wake preference
+0027672e315 Settings: Battery charge warning [2/2]
+8e2c88d2f47 Settings: Add icon for 'WiFi cellular data fallback'
+4847fd72260 Settings: Add icon for 'WiFi direct'
+d0e50534080 Settings: Add icon for WiFi -> Install certificates
+a34a11728aa Settings: Add icon for 'WiFi timeout'
+f00dfabb40b PreventRingingParentPreferenceController: Refactor summary generation
+4cf49c2a315 Settings: Choose which ringer modes to cycle with the gesture [2/2]
+fb2bbd87915 Settings: Gestures: Add option to cycle through ringer modes [2/2]
+606641e7db3 Settings: Introduce automated Sleep Mode [2/2]
+9214d3a5cc5 Settings: Allow disabling clipboard overlay [2/2]
+3d1a2cca20d Settings: add option to enable AOD on charging only [2/2]
+76a5bc81158 Settings: Change back gesture height intervals
+38ae799f74b display: Import screen resolution from cheetah stock
+5f003c1cf3a Settings: Fix potential NPE in WifiTetherSecurityPreferenceController
+d79e0b3c41c Global VPN feature [2/2]
+6a95131f5ce Settings: add a disclaimer for our imp for per-app volume
+427944cc474 Settings: buttons text should no longer be allCaps
+69bf00b1330 Settings: Show me more than 4 items in the menus!
+8029225c5ed Notification log improvements
+8196a1877b4 Settings: Add preference for one shot auto-brightness
+d3f3133c95d Settings: Show single-touch wakeup setting on rear & front fps devices
+c3e9517e669 Hide SFPS wakeup setting when it's not supported
+5c5010821e4 ChargingControl: Don't index settings if it is not supported
+d7e4e97bca8 Settings: Add charging control preferences
+925607200ec Settings: Remove dividers in Network & Internet
+46fec7cc234 Wi-Fi timeout feature
+45f8f4d1324 Settings: Let clone apps preference always be available
+7ee1b5c134a Settings: DoubleTapGesture: Use new material-you illustration preference
+0d7ac5f4cdf Settings: Double tap to trigger doze [2/2]
+b7000bbd81c Settings: Add missing icon for media output
+f8e39a87ed6 Settings: Remove IME space under keyboard feature [2/2]
+5b1906a7fc1 Settings: Add developer setting to set the default GPU renderer.
+1fdc15e8df0 Fix long click intent for Smart Pixels tile [2/2]
+954ccf8a6e2 Settings: Allow Configuring Navbar Radius [2/2]
+d1ee91a256b Optional haptic feedback on back gesture [2/2]
+a17ca3e26e1 Allow to hide arrow for back gesture [2/2]
+12c6bab5169 Allow changing back gesture height [2/2]
+77359959ed0 Allow changing the length of gesture navbar [2/2]
+dd90d28d1be Settings: Implement hide gestural navigation hint bar
+f996780409b Settings: Add hotspot setting to allow VPN upstreams [2/3]
+6e01adb68f3 Settings: Long press power button to toggle flashlight [2/2]
+24a2bcd1a6d AppVolumeSlice: Allow querying icon of apps installed by any user
+bd5106798d4 Settings: support per-app volume [3/3]
+ba654a2dd45 Settings: Introduce Smart Pause [2/2]
+e7d83722f35 Settings: Custom vibration pattern per notification channel [2/3]
+e5e71100ca9 Settings: Move custom vib pattern to its own preference
+13bb062564b Settings: Follow new ringtone vibration patterns
+8c6ac2dbbcf Settings: Preview ringtone vibration pattern
+83e70321969 Settings: Allow choosing a custom vibration pattern [3/3]
+11306fbe2cb Settings: Add vibration patterns from OOS [3/4]
+26c989be30d Settings: Add a toggle to force LTE_CA
+8d9a0dd3842 Settings: Add back increasing ring feature (2/2).
+e6e7fa3f0f9 Add deep sleep preference controller [2/2]
+0a8b24773c3 Settings: Add three-fingers-swipe to screenshot [2/2]
+c7f70ef7375 Settings: allow disable of screenshot shutter sound [2/2]
+397a6c2eeb9 Settings: Add more DNS providers
+d8c45161124 Settings: Add AdGuard DNS as a private DNS Provider
+7ca30d7e8c1 Settings: Add Cloudflare DNS as a private DNS provider
+27a56f7dadc Settings: Disable automatic system server heap dumps by default
+33d64ceec65 Settings: Add a preference to battery optimization page
+a6ce6bdc9af Settings: res: Import screen_resolution_* drawables from SettingsGoogle
+852eac6cb16 Settings: Fix up panel theme and layout
+a6d64a3dbab Settings: Follow navbar color in base
+5b08e71c4ef Settings: Use font configs instead fonts directly
+07bed2c041c Settings: make sure Wifi exists before adding controllers
+ba3d6499742 Settings: display: Add wake on plug switch
+943dfd9fb67 Settings: Network setup UI changes for SUW
+1da52f429cd Settings: Forward port pattern visibility settings (2/2)
+21f6efd86e9 Settings: Forward port lock pattern grid size (2/2)
+3663b7312d4 Settings: Add option to scramble pin layout when unlocking (1/2).
+cbe1da54a41 Settings: Fix the failing strings
+1f8123a9b16 Don't reset A2DP offload when disabling developer settings
+869457bb2f4 Settings: Display: Add High Touch Polling Rate Support
+e6f7dcb3998 Settings: Add high touch sensitivity and touchscreen hovering toggles
+c72b7e89e79 Settings: Changes for LiveDisplay
+905275810c2 Settings: Match contextual card dimensions with search bar
+6aa3b7fb97f Settings: Fix restore default apn dialog sometimes not dismissed.
+becd846c93c Settings: Desktop backup password: Tint buttons to match system theme
+6dc4f84cb73 Settings: Update configs for SettingsIntelligenceGoogle
+4c7befbbf26 Settings: fix typo in settings namespace for qr scanner on ls
+8e938b8818f Settings: refactor hardcoded radius of ActionPrimaryButton to resource
+0707471755e Settings: Adjust gesture navigation settings title
+e89326fb290 Settings: Add missing summary for Display size and text
+c013ab5f856 Settings: use mIsBatteryPresent for visibility of top level battery setting
+05b4b268fa5 Settings: dont disable ls device controls based on secure lock
+e95c8b8bb67 Settings: Update all classes which inherit from TogglePreferenceController (12.1.0_r1)
+cdaf2f8595e Settings: Use font configs instead fonts directly
+f2b064fdd56 Settings: check wifi direct feature for showing preferences
+61a04b800e1 NightDisplay Settings: Use List Preference for NightLight settings
+f592162655c Hide the "Show the vibrate icon in the Status Bar" setting
+4a0b85bbaf8 Settings: Move blur toggle to Display options.
+75d3354bcdc Settings: move Extra Dim feature to display
+5c5d16f5f01 Settings: Make overlays persistent across reboots
+6bd0aebb4eb Settings: Improve OverlayCategoryPreferenceController for icon packs
+52ef36b840c Settings: fix rest of the edit menu icon tint
+0d46453539b Settings: Fix loading iconpack-based Wellbeing icon
+e7b5d546468 Settings: Fix NPE on isUdfps
+17b7c5b7c0c Remove empty Security status header
+fae657e685a Settings: Update some lottie animations
+9f15a561099 Settings: Update settings animations
+d5e864b4f7b Settings: import missing lottie animations
+6a86cbea3e6 Settings: Disable Storage Manager.
+d60d3a7be17 Settings: Add missing android title for top_level_settings
+1d3de2d0965 Drawables: Dark mode support for app installation restriction icon
+0f26e8be7ee WifiDisplaySettings: Fix some NPE
+fe4ed433490 Settings: Hardcode moduleProvider to com.google.android.modulemetadata.
+604ffab7ba9 Settings: stop logspill from ProcessStats
+fbce174035d Settings: Whitelist WRITE_DEVICE_CONFIG permission
+22897d72fda Settings: Drop custom preferenceFragmentCompatStyle
+11bc7be9c01 Settings: OverlayCategoryPreferenceController: Sort overlays by name
+9cdb95b8734 Settings: Fix invalid private DNS help text if URI is missing
+4ed2d757bd0 Settings: Use MD2 icon for Playstore
+e09a3735b9b Settings: disable FLAG_WINDOW_IS_OBSCURED check in accessibility
+186c641e8af Disable notification channel warnings by default
+85e94530daf Expose the notification log
+4aaa412f42c Add back arrow to Desktop backup password
+ee793cc8976 Settings: Fix tint on newly added private VPN and mobile plan icons
+603197c55f1 Settings: Update mobile plan and private dns icons
+39b70d28ad0 Settings: use Glif themed button bar
+f18465dd8dd Settings: default to GlifV3Theme
+d12b3e75fc2 Settings: Import SettingsGoogle animations from UP1A.231005.007.A1
+61cbf849c89 Settings: Allow toggling screen off fod [2/2]
+7799c782a56 Settings: Make google's battery widget work
+8cb06e72e56 BatteryPercentagePreferenceController: Force hide for all devices
+6afe27bc8bf development: Enable force resizable activities by default
+c0707efc377 development: Enable freeform windows by default
+f08fd925276 Settings: Add location indicators toggle to privacy control settings
+936b1678452 Link location indicators toggle in privacy settings
+3493e5c8569 Settings: Allow editing all APNs and APN types
+46295d58e14 Settings: Avoid enforcing weird backgrounds
+9131d83f5dd Settings: Move Vo5G toggle right below VoLTE
+c95a3f64a5d Port "Battery Usage Alerts" feature from factory images
+43f97541678 FingerprintEnroll: Add config for dedicated side mounted fps
+7b45e31479a Settings: Add a preference to battery optimization page
+6f606d4ab8f Settings: Improve code for time spent in app
+8a690cfed94 AppInfo: Add time spent in app from Wellbeing
+1c1e19595f1 NetworkProviderSettings: Fixup uninitialized mWifiManager
+0f0004b30b2 Settings: Make all user apps cloneable
+7013837b7ed Settings: CutoutForceFullscreen: Query all apps installed by any user [2/2]
+eff5ab412d8 Settings: Hide ADB and developer setting enable status [2/2]
+7e0f433843f Settings: CutoutForceFullscreen: Add "Show system" menu
+44094be7526 Settings: Improve force fullscreen settings fragment
+7bb725ee8c2 Settings: Implement cutout force full screen [2/2]
+a25afcc8a10 InstalledApp: Hide GooglePlay icon for webapps
+fca841fb9fa Settings: Link smallest width options in display settings
+48fe9c8b011 Settings: Long press to copy wifi password
+1cd46b9b21b Settings: Remove divider from Battery Manager
+9c27191a876 InstalledApp: show link to Google Play
+08947ff6b88 InstalledAppDetails: fix refreshing storage summary after force stop
+99976d982f5 Settings: Observe auto brightness mode changes
+ff468985e79 Change fingerprint strings to be more generic
+aba38c3e837 SoftAp: add client manager
+191d9469c1a Settings: add TextView for summary into SeekBarDialogPreference
+03489d620f6 SoftAp: add Hidden SSID preference
+0f293e29d16 Settings: Update package details to match S style
+98dc507e1d9 Settings: Add package name to installed app details
+2316384b885 Settings: add sim status listener in about phone
+9f4d86f8f0c Settings: Good news, `encryptable=footer` is broken
+f5910da54f9 Settings: Make NetworkScanHelper max search time customizable
+30ffba80c1a Settings: Use ListPreference instead of DropDownPreference
+58370248578 settings: drop divider in dark mode screen
+1013cb64089 Settings: add animation to dark mode preference
+e655d9a6741 Settings: Use List Preference for Dark mode
+84fd5fec5dd Settings: Allow changing system themes [2/2]
+98c81b0ec3c Settings: Show/hide TouchGestures preference via res boolean
+699e80d189b Settings: Add preference for TouchGestures
+8434a144aec Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+710989d95fc Settings: AnimationScale: Fix force close when not using english
+6c9975765d1 Settings: Use seekbar to allow setting arbitrary animation values
+8602d59555c Settings: Add missing icons network and internet menu
+a0c3399203c Settings: Show SoC Model rather than value of ro.board.platform if available
+d827fea6896 Settings: Align TotalRAMPreferenceController with MemoryUsagePreferenceController from dev settings
+e18a5f12959 Settings: Expose saved devices fragment via intent
+a28652f89db FingerprintEnrollEnrolling: Set proper dialog message when user touches fp icon
+2301b1ca719 Settings: Use AOSP string for side fps enrollment
+3a75b236096 fingerprint: Rework enrollment screen
+ff13b2bf08a fingerprint: hide link icon when there's no link
+32a7db0fb30 Revert "[Wi-Fi] Remove 'Do not validate' option in CA certificate spinner"
+d8d3490d638 Settings: Allow using legacy VPN types
+53870b3cedf get outer NFC preference to listen for changes
+efe9e29dfe6 Settings: Force disable top level support preference
+a2b89f0c57e Settings: Check if we have any color modes declared in overlay
+4733b3ac993 Remove useless USB page header
+9ffe8fc603a Settings: Hide unsupported USB modes automatically
+1541b47b368 QS dev tiles: Don't set them to active area
+3737f2f4656 Remove feedback and bug report stuff
+e46b83699bf Settings: Remove DSU Loader if unsupported
+21d0ae86ae0 Settings: Expose Heads Up settings page
+2c519f982b2 Settings: DevicePicker: Adapt to S style
+969bdea65e8 Settings: Update Glide library to 4.16.0
+86cc3615988 Settings: Add Glide library
+ca4808b840b Settings: Import RenderingJitter test from FWB [1/2]
+b9b04068b2d Settings: Integrate The Evolver into Settings
+88838f67770 Settings: bring back all changes from Build.FINGERPRINT to Build.TIME [4/4]
+bc3619ad4be Settings: Add custom pref for devices with custom doze packages
+fe4dbcf9500 Settings: Don't show module version if isn't a date
+3909a9157be Settings: Bluetooth: Don't check persistable uri permission for BtHelper
+2eaa67cea6c Settings: Hide radio info if device don't support voice
+0a17d713038 Settings: Expose radio info (*#*#4636#*#*)
+5ccebdc5a68 Remove the Automatic ota check option but be sure it's disabled
+b16df2c54bb Settings: Set device name from marketname if available
+751072c146a Settings: Add Device codename to Firmware version window
+326cb6db95f Settings: Add Build date entry to Firmware version window
+7c1e4d5252f Settings: Add Evolution X fragment to Firmware version window
+ffa05cf0c00 Expand abbreviation in average memory usage string
+602fc0b240e Settings: Add platform and RAM to Model & Hardware
+6156203a438 Settings: Allow sorting Applications by size
+a8484c8b070 Show user's Google avatar on the homepage
+46c57cee208 DevelopmentSettings: Remove system update and other prefs
+017e1977275 Open app when clicking on icon in App Info
+65d24b3201a Settings: Toast insulter: Add new insults
+a2c50a2e513 Developer options toast insulter
+e496d8125ac Make kernel version clickable
+c255b824016 Settings: Import crowdin translations from A13
+
+
+=======================
+     2024/05/02
+=======================
+
+* Repository: https://github.com/LineageOS/android_packages_apps_Aperture/commits/refs/heads/lineage-21.0
+
+cf3e6b1 Automatic translation import
+
+
+=======================
+     2024/05/01
+=======================
+
+
+=======================
+     2024/04/30
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr/commits/refs/heads/lineage-21
+
+9db6f1e basic: non_plat: Allow mtk_hal_usb to create file and directory in configfs
+
+
+=======================
+     2024/04/29
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/u
+
+b5106aa0c5 fixup! Correct logic for obtaining the path to full recovery image
+
+* Repository: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/commits/lineage-21.0-caf-sm8450
+
+564a90000 sepolicy_vndr: Allow qti_init_shell to set watermark boost factor
+6d758c353 sepolicy_vndr: allow init_shell to access proc_watermark_scale_factor.
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+98b3c218b8fe base: Add a dev option to unlimit screenrecord filesize [1/2]
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+8c8d97e2 evolution: Opt-in to shipping full recovery image by default
+
+
+=======================
+     2024/04/28
+=======================
+
+* Repository: https://github.com/Evolution-X/device_evolution_sepolicy/commits/refs/heads/u
+
+f7c1095 sepolicy: Add rules for radio config wrapper
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+c3eea6e76f79 screen off animation: Fix ColorFade animation cleanup
+f8ab56b2a782 Save AutomaticBrightnessStrategy state before applying changes
+32e46bdd5542 Obey AutoBrightnessStrategy's sensor decision in Controller
+8a068f557def Revert "SystemUI: Align the QS carrier text to its gravity bias"
+b21350688b72 [WORKAROUND] Disable volume slider progress animation
+
+* Repository: https://github.com/Evolution-X/hardware_evolution_interfaces/commits/refs/heads/u
+
+2b171d4 radio: config: 1.1-wrapper: Initial wrapper
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+45b6e717 config: Adjust configs
+92da6145 version: Add AOSP to naming to avoid confusion with XYZ
+65f54cfc vars: Update to AP1A.240405.002.A2/B1
+41d7753c config: device_framework_matrix: Add lineage.hardware.radio.config
+
+
+=======================
+     2024/04/27
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+423c4eee6fbd fwb: silence fs-verity exceptions
+
+
+=======================
+     2024/04/26
+=======================
+
+* Repository: https://github.com/LineageOS/android_device_google_gs-common/commits/lineage-21
+
+a9d1fe5 modem: Erase /data/vendor/slog
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/u
+
+773b035987bc SystemUI: Disable dagger.fastInit option
+2aaf9a179e50 Fix NPE in SystemUI
+fc80b8a48443 SystemUI: RecordingService: Toast for filesize limit
+12f08395e443 SystemUI: screenrecord: Add a medium quality option
+1dc0359dc681 SystemUI: screenrecord: Also remember share mode selection
+028142d8daa8 Fix unbind service error for MusicFxHelper
+ab93a8ff9e38 Use encoder capabilities for determining screen recording size
+ee23c8f08db5 Fix incorrect text shown at PUK lock screen
+fefc3446f7a5 SystemUI: Handle the SIM_STATE_NOT_READY state
+ca2b59c1e6be Make empty modem activity info as valid
+47e2d30810ec Textutils: Optimize writeToParcel performance
+06c15a9fd0c7 SettingsLib: Fix crash when checking emergency gesture state
+50ba6f39986e BiometricService: put the mthod of resetLockoutFor into handler when binder called and keep thread-safe in RingBuffer.
+e691640cd2ce Enable reuse of LinearBlock for during secure playback
+c7335043bde3 SystemUI: Fix NPEs when posting notifications
+3518722063a3 Add DeskClock to hiddenapi whitelist
+a59c06c171f8 Cache MemoryIntArray size
+077306d657e0 Don't update OverScroller fling state if improper time passed
+8b7bdb0141ce SystemUI: Introduce wifi standard icon feature [1/2]
+e93faa5249ad Fingerprint authentication vibration [1/2]
+1555a2ac9a67 Revert "SystemUI: Add left padding for keyguard slices"
+7a54d6356a4c SystemUI: fix SliceView layout
+7bc9cc851d2f base: Add a toggle for secure tiles on keyguard [1/2]
+70efc14873d7 fixup! SystemUI: Require unlocking to use sensitive QS tiles
+0aad5c178f95 SystemUI: Require unlocking to use sensitive QS tiles
+632eed5c4019 base: Allow turning on WiFi/Bluetooth when pressing the tiles [1/2]
+58eb3c4229d9 Island: Resolve notification contents
+f4e9ce7b4f27 SystemUI: Add RESTRICTED_ASSIST_GESTURE_PROVIDER permission
+eabbbe5f43fa SystemUI: allow non privilaged plugins
+a231d564c24f Revert "Add AppOps listening to STService"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/u
+
+b0a37c5d evolution: Add required configs for Pixels
+33984e56 common: Automatically set `TARGET_IS_PIXEL` for supported all Pixels
+
+
+=======================
+     2024/04/25
+=======================
+
+* Repository: https://android.googlesource.com/platform/build/release/commits/refs/tags/android-14.0.0_r35
+
+06564df Update Security String to 2024-05-05
+
+* Repository: https://github.com/LineageOS/android_device_google_gs-common/commits/lineage-21
+
+682713d fixup! Disable userdebug diagnostics
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sdm845
+
+90fb8d615 audio_amplifier: pass amplifier_device pointer to calibrate as well
+982a707ff audio_amplifier: Call calibration after module open
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_audio/commits/lineage-21.0-caf-sm8150
+
+a5102d942 audio_amplifier: Change the enable amplifier function location
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/u
+
+23d7dd64161 Settings: Change kernel preference behavior
+9a01bd6f013 Settings: Show full proc/version information
+c63bd9b07e0 Fix inconsistent USB preference screen title
+c57b55a0190 Enable FeatureFlags on "user" builds too
+ea9f397fe79 Settings: Fix duplicated baseband string on all devices.
+ff08342b27b BasebandVersionPreferenceController: Trim baseband if needed
+
+* Repository: https://github.com/Evolution-X/vendor_certification/commits/refs/heads/udc
+
+aaab3de certification: Set preprocessed: true
+
+
