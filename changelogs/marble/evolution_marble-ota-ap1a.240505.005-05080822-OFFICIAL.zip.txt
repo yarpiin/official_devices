@@ -1,0 +1,36 @@
+This is Android 14 with May 2024 QPR2 (r35) security patches
+
+Notes:
+==============================
+- AOSP-based source.
+- Make sure to be on HyperOS firmware first.
+- Clean flash is required if coming from March or older builds.
+- Install LosKsu.zip (https://sourceforge.net/projects/evolution-x/files/marble/14/LosKsu.zip/download) for root.
+- Play Integrity passes by default (As of 05/08/2024).
+- Includes Dolby Atmos, POCO Camera.
+- Credits to Arian16k, GR, Chaitanya, Adrianyyyy.
+
+Device changes:
+==============================
+Upstream kernel changes from cupid-development
+
+Notable ROM changes:
+==============================
+ActivityManagerService: Exclude more packages for receiver check
+CameraServiceProxy: fix exception
+Evolver: Introduce Depth Wallpaper feature
+Fix "Manage App & Content access" for profiles
+Island: Fix some album-art not showing
+Island: Use status bar height as top margin
+Merge May 2024 security patches
+PixelPropsUtils: Update fingerprints to May 2024 release
+Settings: Add a dev option to unlimit screenrecord filesize
+Soundtrigger: Add back SoundTriggerDetector and model database
+SystemUI: Add vibration when long pressing QS footer settings button
+SystemUI: Default to true for HeadsUp notifications
+SystemUI: Proper background for brightness slider
+SystemUI: Use correct back drawable for 2-button nav
+fwb: silence more spam
+libaudiohal: only call getAudioPort if it is supported
+version: Uprev to 8.6 (Isaw)
+voiceinteraction: Exempt ASI from soundtrigger enforcement
